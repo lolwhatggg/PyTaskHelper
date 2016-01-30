@@ -1,261 +1,190 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="google-site-verification" content="Geuum9VxKRLy4E8sA7pyEq3f7GosbM7WvON4LfS6VAQ" />
-<meta name='yandex-verification' content='5be26d819c22b393' />
-<title>Anytask</title>
-
-
-  <script src="/static/jquery-1.7.2.min.js"></script>
-  <script src="/static/jquery.form.js"></script>
-  <script src="/static/jquery.tablesorter/jquery.tablesorter.min.js"></script>
-  <script src="/static/jquery-metadata/jquery.metadata.js"></script>
-
-  <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google-site-verification" content="Geuum9VxKRLy4E8sA7pyEq3f7GosbM7WvON4LfS6VAQ" />
+    <meta name='yandex-verification' content='5be26d819c22b393' />
+    <title>Anytask</title>
+    <script src="/static/jquery-1.7.2.min.js"></script>
+    <script src="/static/jquery.form.js"></script>
+    <script src="/static/jquery.tablesorter/jquery.tablesorter.min.js"></script>
+    <script src="/static/jquery-metadata/jquery.metadata.js"></script>
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
-      body {
+    body {
         padding-top: 60px;
         padding-bottom: 40px;
-      }
-
-      .table .no-font-weight {
+    }
+    
+    .table .no-font-weight {
         font-weight: normal;
         white-space: nowrap;
         background-color: white;
-      }
-
-      .sidebar-nav {
+    }
+    
+    .sidebar-nav {
         padding: 9px 0;
-      }
-
-      table {
+    }
+    
+    table {
         //table-layout: fixed;
-      }
-
-      .fixedsticky { top: 120px; }
-
+    }
+    
+    .fixedsticky {
+        top: 120px;
+    }
     </style>
-	<link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-
-
+    <link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
-<body data-spy="scroll">
 
+<body data-spy="scroll">
     <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/">Anytask</a>
-          <!--
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="/">Anytask</a>
+                <!--
           <ul class="nav">
                 <li><a href="/about">About</a></li>
           </ul>
           -->
-
-
-          
-			
-				<div class="btn-group pull-right">
-					<a href="/accounts/login/">Войдите</a> или
-					<a href="/accounts/register/">зарегистрируйтесь</a>
-				</div>
-
-			
-
-	      
-
-
-          <div class="nav-collapse">
-            <ul class="nav">
-              <!-- <li class="active"><a href="/">Главная</a></li>
+                <div class="btn-group pull-right">
+                    <a href="/accounts/login/">Войдите</a> или
+                    <a href="/accounts/register/">зарегистрируйтесь</a>
+                </div>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <!-- <li class="active"><a href="/">Главная</a></li>
               <li><a href=""></a></li>
               <li><a href="#contact">Contact</a></li> -->
-            </ul>
-          </div><!--/.nav-collapse -->
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
         </div>
-      </div>
     </div>
-
-
-<div class="container">
-
-
-
-  <div class="hero-unit">
-    <h1>Anytask</h1>
-    <p>
-    	&beta;-версия
-    </p>
-    <p>
-    	AnyTask &#151; сервис для учета выполнения студентами программы по учебным курсам. <a href="/about">>></a>
-	  </p>
-    <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
-  </div>
-  
-  <div class="row">
-        <div class="span6">
-          <h2>Активные курсы</h2>
-          <ul>
-          
-          	<li>
-          		<a href="/course/42">OS</a>
-          		|
-          		2015-2016
-          	</li>
-          
-          	<li>
-          		<a href="/course/34">python.task</a>
-          		|
-          		2014-2015
-          	</li>
-          
-          	<li>
-          		<a href="/course/41">Web и DHTML</a>
-          		|
-          		2015-2016
-          	</li>
-          
-          	<li>
-          		<a href="/course/44">Параллельные и распределенные вычисления (матмех)</a>
-          		|
-          		2015-2016
-          	</li>
-          
-          	<li>
-          		<a href="/course/43">Скрипты</a>
-          		|
-          		2015-2016
-          	</li>
-          
-          </ul>
-           
-       </div>
-        <div class="span5">
-          <h2>Архив</h2>
-          <ul>
-          
-          	<li><a href="/course/4">OS</a> | 2011-2012</li>
-          
-          	<li><a href="/course/1">Perltask</a> | 2011-2012</li>
-          
-          	<li><a href="/course/2">Perltask</a> | 2010-2011</li>
-          
-          	<li><a href="/course/3">Perltask</a> | 2009-2010</li>
-          
-          	<li><a href="/course/5">OS</a> | 2012-2013</li>
-          
-          	<li><a href="/course/10">Perltask</a> | 2012-2013</li>
-          
-          	<li><a href="/course/12">python.hw</a> | 2012-2013</li>
-          
-          	<li><a href="/course/11">python.task</a> | 2012-2013</li>
-          
-          	<li><a href="/course/8">Алгоритмический анализ - 1</a> | 2012-2013</li>
-          
-          	<li><a href="/course/9">Алгоритмический анализ - 2</a> | 2012-2013</li>
-          
-          	<li><a href="/course/7">Скрипты</a> | 2012-2013</li>
-          
-          	<li><a href="/course/23">C++ (Шад)</a> | 2013-2014</li>
-          
-          	<li><a href="/course/14">OS</a> | 2013-2014</li>
-          
-          	<li><a href="/course/22">python.hw</a> | 2013-2014</li>
-          
-          	<li><a href="/course/21">python.task</a> | 2013-2014</li>
-          
-          	<li><a href="/course/13">Test</a> | 2013-2014</li>
-          
-          	<li><a href="/course/16">Test2</a> | 2013-2014</li>
-          
-          	<li><a href="/course/19">Компьютерные науки - 1</a> | 2013-2014</li>
-          
-          	<li><a href="/course/26">Компьютерные науки - 2</a> | 2013-2014</li>
-          
-          	<li><a href="/course/17">Компьютерные науки - 3</a> | 2013-2014</li>
-          
-          	<li><a href="/course/24">Основы программирования</a> | 2013-2014</li>
-          
-          	<li><a href="/course/20">Параллельные и распределенные вычисления (ШАД + матмех)</a> | 2013-2014</li>
-          
-          	<li><a href="/course/18">Практикум по созданию языков и компиляторов</a> | 2013-2014</li>
-          
-          	<li><a href="/course/25">Сети-2</a> | 2013-2014</li>
-          
-          	<li><a href="/course/15">Скрипты</a> | 2013-2014</li>
-          
-          	<li><a href="/course/28">OS</a> | 2014-2015</li>
-          
-          	<li><a href="/course/37">python.hw</a> | 2014-2015</li>
-          
-          	<li><a href="/course/27">Web и DHTML</a> | 2014-2015</li>
-          
-          	<li><a href="/course/33">Алгоритмический анализ - 1</a> | 2014-2015</li>
-          
-          	<li><a href="/course/35">Алгоритмический анализ - 2</a> | 2014-2015</li>
-          
-          	<li><a href="/course/30">Алгоритмы и структуры данных, часть 1 (ШАД)</a> | 2014-2015</li>
-          
-          	<li><a href="/course/36">Алгоритмы и структуры данных, часть 2 (ШАД)</a> | 2014-2015</li>
-          
-          	<li><a href="/course/32">Базы данных (ШАД)</a> | 2014-2015</li>
-          
-          	<li><a href="/course/40">Параллельные и распределенные вычисления (ШАД) </a> | 2014-2015</li>
-          
-          	<li><a href="/course/38">Сети-2</a> | 2014-2015</li>
-          
-          	<li><a href="/course/29">Скрипты</a> | 2014-2015</li>
-          
-          	<li><a href="/course/31">Технологический семинар (ШАД)</a> | 2014-2015</li>
-          
-          	<li><a href="/course/39">ФИЛП</a> | 2014-2015</li>
-          
-          </ul>
+    <div class="container">
+        <div class="hero-unit">
+            <h1>Anytask</h1>
+            <p>
+                &beta;-версия
+            </p>
+            <p>
+                AnyTask &#151; сервис для учета выполнения студентами программы по учебным курсам. <a href="/about">>></a>
+            </p>
+            <!-- <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
         </div>
-        
+        <div class="row">
+            <div class="span6">
+                <h2>Активные курсы</h2>
+                <ul>
+                    <li>
+                        <a href="/course/42">OS</a> | 2015-2016
+                    </li>
+                    <li>
+                        <a href="/course/34">python.task</a> | 2014-2015
+                    </li>
+                    <li>
+                        <a href="/course/41">Web и DHTML</a> | 2015-2016
+                    </li>
+                    <li>
+                        <a href="/course/44">Параллельные и распределенные вычисления (матмех)</a> | 2015-2016
+                    </li>
+                    <li>
+                        <a href="/course/43">Скрипты</a> | 2015-2016
+                    </li>
+                </ul>
+            </div>
+            <div class="span5">
+                <h2>Архив</h2>
+                <ul>
+                    <li><a href="/course/4">OS</a> | 2011-2012</li>
+                    <li><a href="/course/1">Perltask</a> | 2011-2012</li>
+                    <li><a href="/course/2">Perltask</a> | 2010-2011</li>
+                    <li><a href="/course/3">Perltask</a> | 2009-2010</li>
+                    <li><a href="/course/5">OS</a> | 2012-2013</li>
+                    <li><a href="/course/10">Perltask</a> | 2012-2013</li>
+                    <li><a href="/course/12">python.hw</a> | 2012-2013</li>
+                    <li><a href="/course/11">python.task</a> | 2012-2013</li>
+                    <li><a href="/course/8">Алгоритмический анализ - 1</a> | 2012-2013</li>
+                    <li><a href="/course/9">Алгоритмический анализ - 2</a> | 2012-2013</li>
+                    <li><a href="/course/7">Скрипты</a> | 2012-2013</li>
+                    <li><a href="/course/23">C++ (Шад)</a> | 2013-2014</li>
+                    <li><a href="/course/14">OS</a> | 2013-2014</li>
+                    <li><a href="/course/22">python.hw</a> | 2013-2014</li>
+                    <li><a href="/course/21">python.task</a> | 2013-2014</li>
+                    <li><a href="/course/13">Test</a> | 2013-2014</li>
+                    <li><a href="/course/16">Test2</a> | 2013-2014</li>
+                    <li><a href="/course/19">Компьютерные науки - 1</a> | 2013-2014</li>
+                    <li><a href="/course/26">Компьютерные науки - 2</a> | 2013-2014</li>
+                    <li><a href="/course/17">Компьютерные науки - 3</a> | 2013-2014</li>
+                    <li><a href="/course/24">Основы программирования</a> | 2013-2014</li>
+                    <li><a href="/course/20">Параллельные и распределенные вычисления (ШАД + матмех)</a> | 2013-2014</li>
+                    <li><a href="/course/18">Практикум по созданию языков и компиляторов</a> | 2013-2014</li>
+                    <li><a href="/course/25">Сети-2</a> | 2013-2014</li>
+                    <li><a href="/course/15">Скрипты</a> | 2013-2014</li>
+                    <li><a href="/course/28">OS</a> | 2014-2015</li>
+                    <li><a href="/course/37">python.hw</a> | 2014-2015</li>
+                    <li><a href="/course/27">Web и DHTML</a> | 2014-2015</li>
+                    <li><a href="/course/33">Алгоритмический анализ - 1</a> | 2014-2015</li>
+                    <li><a href="/course/35">Алгоритмический анализ - 2</a> | 2014-2015</li>
+                    <li><a href="/course/30">Алгоритмы и структуры данных, часть 1 (ШАД)</a> | 2014-2015</li>
+                    <li><a href="/course/36">Алгоритмы и структуры данных, часть 2 (ШАД)</a> | 2014-2015</li>
+                    <li><a href="/course/32">Базы данных (ШАД)</a> | 2014-2015</li>
+                    <li><a href="/course/40">Параллельные и распределенные вычисления (ШАД) </a> | 2014-2015</li>
+                    <li><a href="/course/38">Сети-2</a> | 2014-2015</li>
+                    <li><a href="/course/29">Скрипты</a> | 2014-2015</li>
+                    <li><a href="/course/31">Технологический семинар (ШАД)</a> | 2014-2015</li>
+                    <li><a href="/course/39">ФИЛП</a> | 2014-2015</li>
+                </ul>
+            </div>
+        </div>
+        <div style="padding:0 0 0 2%; text-align: right;">
+            <footer>
+                <p><small>Пишите нам на <a href="mailto:anytask@urgu.org">anytask@urgu.org</a></small></p>
+            </footer>
+        </div>
+    </div>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static//bootbox.min.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function(d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter16465726 = new Ya.Metrika({
+                    id: 16465726,
+                    enableAll: true,
+                    webvisor: true
+                });
+            } catch (e) {}
+        });
 
-  </div>
-  <div style="padding:0 0 0 2%; text-align: right;">
-  	  <footer>
-        	<p><small>Пишите нам на <a href="mailto:anytask@urgu.org">anytask@urgu.org</a></small></p>
-      </footer>
-  </div>
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function() {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-
-</div>
-
-<script src="/static/bootstrap/js/bootstrap.min.js"></script>
-<script src="/static//bootbox.min.js"></script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter16465726 = new Ya.Metrika({id:16465726, enableAll: true, webvisor:true});
-        } catch(e) { }
-    });
-
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/16465726" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="//mc.yandex.ru/watch/16465726" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
+
 </html>
