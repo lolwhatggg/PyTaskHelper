@@ -1,7 +1,7 @@
 import html.parser
-from urllib.request import urlopen
-from contextlib import closing
 import re
+from contextlib import closing
+from urllib.request import urlopen
 
 URL = 'http://anytask.urgu.org'
 
@@ -33,12 +33,11 @@ class CoursesHTMLParser(html.parser.HTMLParser):
             if data:
                 self.name.append(data)
 
-
     def find_perl_or_py_courses(self):
         courses = {}
         for course in self.links:
             if 'python.task' in course[0] or 'Perltask' in course[0]:
-                courses[course[0]]=course[1]
+                courses[course[0]] = course[1]
         return courses
 
 
