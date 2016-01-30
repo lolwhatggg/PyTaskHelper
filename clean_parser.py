@@ -25,6 +25,7 @@ class CoursesHTMLParser(html.parser.HTMLParser):
             self.links.append((' '.join(self.name), self.href))
             self.li = False
             self.name = []
+            self.href = ''
 
     def handle_data(self, data):
         if self.li:
