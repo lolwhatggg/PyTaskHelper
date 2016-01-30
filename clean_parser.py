@@ -34,9 +34,17 @@ class CoursesHTMLParser(html.parser.HTMLParser):
                 self.name.append(data)
 
 
+    def find_perl_or_py_courses(self):
+        courses = {}
+        for course in self.links:
+            if 'python.task' in course[0] or 'Perltask' in course[0]:
+                courses[course[0]]=course[1]
+        return courses
+
+
 if __name__ == '__main__':
     with closing(urlopen(URL)) as page:
         raw_html = page.read().decode()
     parser = CoursesHTMLParser()
     parser.feed(raw_html)
-    print(parser.links)
+    print(parser.find_perl_or_py_courses())
