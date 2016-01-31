@@ -61,6 +61,8 @@ def write_course(link):
             db.append({'name': name, 'max': maximum, 'students': results})
         else:
             for st in task.findAll('font'):
+                if st.previous.name != 'div':
+                    continue
                 name = '%s: %s' % (base_name, st.text)
                 maximum = st.findNext('span').text
                 results = parse_results(st.findNext('table'))
