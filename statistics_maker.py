@@ -5,6 +5,7 @@ KNOWN_ALIASES = {
 
 }
 
+
 def get_jsons():
     files = []
     for file in os.listdir('courses'):
@@ -38,10 +39,7 @@ def build_task_database(files, save_full_info=False):
         data = json.loads(raw.read(), encoding='utf-8')
         for task in data:
             name = task['name']
-            if 'students' in task:
-                points = [int(i['points']) for i in task['students']]
-            else:
-                points = []
+            points = [i['points'] for i in task['students']]
             if name in database:
                 database[name]['max'].add(task['max'])
                 database[name]['points'] += points
