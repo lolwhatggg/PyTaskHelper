@@ -25,8 +25,8 @@ def parse_results(table):
 def get_points(field):
     points = field.text.strip()
     if '.' in points:
-        points = '0'
-    return points
+        points = 0
+    return int(points)
 
 
 def get_comment(field):
@@ -43,7 +43,7 @@ def write_course(link):
     with urlopen(link['href']) as page:
         raw_html = page.read().decode()
 
-    soup = bs4.BeautifulSoup(raw_html)
+    soup = bs4.BeautifulSoup(raw_html, "html.parser")
     tasks = soup.find('tbody').findChildren(recursive=False)
 
     db = []
@@ -69,9 +69,10 @@ def write_course(link):
                 db.append({'name': name, 'max': maximum, 'students': results})
 
     directory = os.path.join('courses', link['name'] + '.json')
-    with open(directory, 'w') as file:
+    with open(directory, 'w', encoding='utf-8') as file:
         file.write(json.dumps(db, ensure_ascii=False,
                               indent=4, sort_keys=True))
+
 
 if __name__ == '__main__':
     anytask = linksparser.AnyTask()
