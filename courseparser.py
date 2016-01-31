@@ -3,6 +3,7 @@ import re
 import bs4
 import json
 import linksparser
+import html
 from urllib.request import urlopen
 
 
@@ -33,6 +34,7 @@ def get_comment(field):
         return ''
     js = field.a['href']
     comment = js[js.index('\'') + 1:-2]
+    comment = html.unescape(comment)
     comment = re.sub(r'<br/>\s?', '\n', comment)
     return comment.strip()
 
