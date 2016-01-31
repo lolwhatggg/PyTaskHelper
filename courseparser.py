@@ -52,19 +52,19 @@ def write_course(link):
             continue
         task = task.td
 
-        base_name = task.strong.text
+        base_name = task.strong.text.strip()
         next_tag = task.strong.next_sibling.next_sibling.name
         if next_tag == 'span':
             name = base_name
-            maximum = task.span.text
+            maximum = task.span.text.strip()
             results = parse_results(task.table)
             db.append({'name': name, 'max': maximum, 'students': results})
         else:
             for st in task.findAll('font'):
                 if st.previous.name != 'div':
                     continue
-                name = '%s: %s' % (base_name, st.text)
-                maximum = st.findNext('span').text
+                name = '%s: %s' % (base_name, st.text.strip())
+                maximum = st.findNext('span').text.strip()
                 results = parse_results(st.findNext('table'))
                 db.append({'name': name, 'max': maximum, 'students': results})
 
