@@ -51,3 +51,20 @@ class EntryWithoutAnnotations(Entry):
 
     def finalize(self):
         self.middle = mean(self.points or [0])
+
+
+class EntryWithPercentage(EntryWithoutAnnotations):
+    def __init__(self, data):
+        super().__init__(data)
+        print(data['max'])
+        self.percents = [(student['points'] / data['max'] * 100) for
+                         student in data['students']]
+        self.middle_percent = 0
+
+    def update_percents(self, new_data):
+        self.percents += [(student['points'] / new_data['max'] * 100) for
+                         student in new_data['students']]
+
+    def finalize(self):
+        self.middle = mean(self.points or [0])
+        self.middle_percent = mean(self.percents or [0])

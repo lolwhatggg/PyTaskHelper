@@ -57,7 +57,7 @@ def write_course(link):
             name = base_name
             maximum = task.span.text.strip()
             results = parse_results(task.table)
-            db.append({'name': name, 'max': maximum, 'students': results})
+            db.append({'name': name, 'max': int(maximum), 'students': results})
         else:
             for st in task.findAll('font'):
                 if st.previous.name != 'div':

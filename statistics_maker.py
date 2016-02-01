@@ -1,7 +1,7 @@
 import json
 import glob
 import os.path
-from db_handlers import EntryWithoutAnnotations, Database
+from db_handlers import EntryWithoutAnnotations, Database, EntryWithPercentage
 
 KNOWN_ALIASES = {}
 
@@ -19,6 +19,6 @@ def build_task_database(files, handler):
 
 if __name__ == '__main__':
     files = glob.glob(os.path.join('courses', '*.json'))
-    db = build_task_database(files, EntryWithoutAnnotations)
+    db = build_task_database(files, EntryWithPercentage)
     for task in sorted(db):
         print('{}: {}'.format(task, db[task]))
