@@ -60,7 +60,6 @@ class EntryWithoutAnnotations(Entry):
 class EntryWithPercentage(EntryWithoutAnnotations):
     def __init__(self, data):
         super().__init__(data)
-        print(data['max'])
         self.percents = [(student['points'] / data['max'] * 100) for
                          student in data['students']]
         self.middle_percent = 0
