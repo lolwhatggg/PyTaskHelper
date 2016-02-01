@@ -65,7 +65,7 @@ def write_course(link):
                 name = '%s: %s' % (base_name, st.text.strip())
                 maximum = st.findNext('span').text.strip()
                 results = parse_results(st.findNext('table'))
-                db.append({'name': name, 'max': maximum, 'students': results})
+                db.append({'name': name, 'max': int(maximum), 'students': results})
 
     directory = os.path.join('courses', '%s.%s' % (link['name'], 'json'))
     with open(directory, 'w', encoding='utf-8') as file:

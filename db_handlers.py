@@ -1,40 +1,82 @@
 from abc import ABCMeta, abstractmethod
-from copy import deepcopy
+from statistics import mean
 
 
-class DBHandler(metaclass=ABCMeta):
-    @abstractmethod
-    def parse_task(self, task):
-        pass
+class Database(dict):
+    def __init__(self, handler):
+        super().__init__()
+        self.handler = handler
 
-    @abstractmethod
-    def add_entry(self, db, task):
-        pass
+    def add_entry(self, entry):
+        name = entry['name']
+        if name in self:
+            self[name] = self.handler.update_entry(self[name], entry)
+        else:
+            self[name] = self.handler.get_new_entry(entry)
 
-    def count_middle_value(self, values):
-        if not values:
-            return 0
-        return sum(values) / len(values)
+    def finalize(self):
+        for e in self.keys():
+            self[e] = self.handler.get_finalized_value(self[e])
+
+
+class Field:
+    def __init__(self, name, update_method, default_value):
+        self.name = name
+        self.update = update_method
+        self.default_value = default_value
+
+
+class DBHandler:
+    def __init__(self):
+        self.fields = []
+
+    def update_entry(self, old_data, new_data):
+        result = {}
+        for field in self.fields:
+            if field.update is not None:
+                result[field.name] = field.update(old_data, new_data)
+            else:
+                result[field.name] = old_data[field.name]
+        return result
+
+    def get_new_entry(self, entry):
+        result = {}
+        for field in self.fields:
+            result[field.name] = field.default_value(entry)
+        return result
 
 
 class DBHandlerWithoutAnnotations(DBHandler):
-    def parse_task(self, task):
-        task_data = {}
-        task_data['name'] = task['name']
-        task_data['points'] = [student['points'] for student in task['students']]
-        task_data['max'] = task['max']
-        return task_data
+    def __init__(self):
+        super().__init__()
+        self.fields = [
+            Field('name', None, get_name),
+            Field('points', update_points, get_points),
+            Field('max', update_max, get_max)
+        ]
 
-    def add_entry(self, db, task_data):
-        name = task_data['name']
-        if name in db:
-            db[name]['max'].add(task_data['max'])
-            db[name]['points'] += task_data['points']
-        else:
-            db[name] = {'max': {task_data['max']},
-                        'points': task_data['points'],
-                        'middle': 0}
+    def get_finalized_value(self, entry):
+        result = entry
+        if result['points']:
+            result['middle'] = mean(result['points'])
+        return result
 
-    def finalize(self, db):
-        for task in db:
-            db[task]['middle'] = self.count_middle_value(db[task]['points'])
+
+def get_name(task):
+    return task['name']
+
+
+def get_points(task):
+    return [student['points'] for student in task['students']]
+
+
+def get_max(task):
+    return {task['max']}
+
+
+def update_points(old_data, new_data):
+    return old_data['points'] + get_points(new_data)
+
+
+def update_max(old_data, new_data):
+    return old_data['max'].union(get_max(new_data))

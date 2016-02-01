@@ -1,21 +1,20 @@
 import json
 import glob
 import os.path
-from db_handlers import DBHandlerWithoutAnnotations
+from db_handlers import DBHandlerWithoutAnnotations, Database
 KNOWN_ALIASES = {
 
 }
 
 
 def build_task_database(files, handler):
-    database = {}
+    database = Database(handler)
     for filename in files:
         with open(filename, 'r', encoding='utf-8') as file:
             data = json.load(file)
-        for task in data:
-            task_data = handler.parse_task(task)
-            handler.add_entry(database, task_data)
-        handler.finalize(database)
+            for task in data:
+                database.add_entry(task)
+    database.finalize()
     return database
 
 
