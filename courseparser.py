@@ -8,9 +8,8 @@ from urllib.request import urlopen
 
 
 def parse_results(table):
-    body = table.tbody
     results = []
-    for a in body.findAll('tr'):
+    for a in table.findAll('tr'):
         fields = a.findAll('td')
         data = {
             'student': fields[0].text.strip(),
@@ -43,7 +42,7 @@ def write_course(link):
     with urlopen(link['href']) as page:
         raw_html = page.read().decode()
 
-    soup = bs4.BeautifulSoup(raw_html, "html.parser")
+    soup = bs4.BeautifulSoup(raw_html, 'html.parser')
     tasks = soup.find('tbody').findChildren(recursive=False)
 
     db = []
@@ -68,7 +67,7 @@ def write_course(link):
                 results = parse_results(st.findNext('table'))
                 db.append({'name': name, 'max': maximum, 'students': results})
 
-    directory = os.path.join('courses', link['name'] + '.json')
+    directory = os.path.join('courses', '%s.%s' % (link['name'], 'json'))
     with open(directory, 'w', encoding='utf-8') as file:
         file.write(json.dumps(db, ensure_ascii=False,
                               indent=4, sort_keys=True))
