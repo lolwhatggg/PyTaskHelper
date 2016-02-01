@@ -37,6 +37,7 @@ class Entry(metaclass=ABCMeta):
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
         self.middle = 0
+        self.categories = {data['category']}
         self.name = data['name']
         self.max = {data['max']}
         self.points = [student['points'] for
@@ -51,6 +52,9 @@ class EntryWithoutAnnotations(Entry):
 
     def finalize(self):
         self.middle = mean(self.points or [0])
+
+    def update_category(self, new_data):
+        self.categories.add(new_data['category'])
 
 
 class EntryWithPercentage(EntryWithoutAnnotations):

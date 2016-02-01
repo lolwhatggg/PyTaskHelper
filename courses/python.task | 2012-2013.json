@@ -1,5 +1,6 @@
 [
     {
+        "category": null,
         "max": 14,
         "name": "Биллинг",
         "students": [
@@ -12,8 +13,9 @@
         ]
     },
     {
+        "category": "Обработка текстов программ",
         "max": 15,
-        "name": "Обработка текстов программ: форматтер",
+        "name": "форматтер",
         "students": [
             {
                 "comment": "",
@@ -24,16 +26,19 @@
         ]
     },
     {
+        "category": "Обработка текстов программ",
         "max": 8,
-        "name": "Обработка текстов программ: PEP8 валидатор",
+        "name": "PEP8 валидатор",
         "students": []
     },
     {
+        "category": "Обработка текстов программ",
         "max": 20,
-        "name": "Обработка текстов программ: транслятор",
+        "name": "транслятор",
         "students": []
     },
     {
+        "category": null,
         "max": 11,
         "name": "Пары слов",
         "students": [
@@ -94,6 +99,7 @@
         ]
     },
     {
+        "category": null,
         "max": 18,
         "name": "Взлом шифра",
         "students": [
@@ -124,28 +130,33 @@
         ]
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 12,
-        "name": "Перевод документации в другой формат: man2html",
+        "name": "man2html",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 14,
-        "name": "Перевод документации в другой формат: man2rtf",
+        "name": "man2rtf",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 20,
-        "name": "Перевод документации в другой формат: man2pdf",
+        "name": "man2pdf",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 14,
-        "name": "Перевод документации в другой формат: man2xml",
+        "name": "man2xml",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 12,
-        "name": "Перевод документации в другой формат: docstrings2html",
+        "name": "docstrings2html",
         "students": [
             {
                 "comment": "",
@@ -168,21 +179,25 @@
         ]
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 14,
-        "name": "Перевод документации в другой формат: docstrings2rtf",
+        "name": "docstrings2rtf",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 20,
-        "name": "Перевод документации в другой формат: docstrings2pdf",
+        "name": "docstrings2pdf",
         "students": []
     },
     {
+        "category": "Перевод документации в другой формат",
         "max": 14,
-        "name": "Перевод документации в другой формат: docstrings2xml",
+        "name": "docstrings2xml",
         "students": []
     },
     {
+        "category": null,
         "max": 14,
         "name": "Генератор отчетов",
         "students": [
@@ -195,6 +210,7 @@
         ]
     },
     {
+        "category": null,
         "max": 20,
         "name": "Небо",
         "students": [
@@ -207,6 +223,7 @@
         ]
     },
     {
+        "category": null,
         "max": 9,
         "name": "Лесенка",
         "students": [
@@ -267,6 +284,7 @@
         ]
     },
     {
+        "category": null,
         "max": 12,
         "name": "Многочлены",
         "students": [
@@ -315,6 +333,7 @@
         ]
     },
     {
+        "category": null,
         "max": 8,
         "name": "Палиндромы",
         "students": [
@@ -369,6 +388,7 @@
         ]
     },
     {
+        "category": null,
         "max": 15,
         "name": "Кроссворд",
         "students": [
@@ -411,18 +431,21 @@
         ]
     },
     {
+        "category": null,
         "max": 25,
         "name": "Отладчик",
         "students": []
     },
     {
+        "category": "Игра",
         "max": 17,
-        "name": "Игра: поддавки",
+        "name": "поддавки",
         "students": []
     },
     {
+        "category": "Игра",
         "max": 17,
-        "name": "Игра: реверси",
+        "name": "реверси",
         "students": [
             {
                 "comment": "27.05.2013 Оценка: 9 Александр Берсенев:\nинтерфейс\nвозможность игры человека с человеком\nтесты\nпакетный режим\n27.05.2013 Оценка: 11 Александр Берсенев:\nинтерфейс\nтесты\nпакетный режим",
@@ -457,8 +480,9 @@
         ]
     },
     {
+        "category": "Игра",
         "max": 17,
-        "name": "Игра: 100-клеточные шашки",
+        "name": "100-клеточные шашки",
         "students": [
             {
                 "comment": "",
@@ -481,8 +505,9 @@
         ]
     },
     {
+        "category": "Игра",
         "max": 21,
-        "name": "Игра: шахматы",
+        "name": "шахматы",
         "students": [
             {
                 "comment": "",
@@ -523,6 +548,7 @@
         ]
     },
     {
+        "category": null,
         "max": 10,
         "name": "Лабиринт",
         "students": [
@@ -559,11 +585,13 @@
         ]
     },
     {
+        "category": null,
         "max": 25,
         "name": "Дефрагментация",
         "students": []
     },
     {
+        "category": null,
         "max": 12,
         "name": "Сортировки",
         "students": [
@@ -618,6 +646,7 @@
         ]
     },
     {
+        "category": null,
         "max": 15,
         "name": "Жизнь",
         "students": [
@@ -672,6 +701,7 @@
         ]
     },
     {
+        "category": null,
         "max": 16,
         "name": "Раскраска карты",
         "students": [
@@ -708,8 +738,9 @@
         ]
     },
     {
+        "category": "Сетевые сервисы",
         "max": 12,
-        "name": "Сетевые сервисы: POP3",
+        "name": "POP3",
         "students": [
             {
                 "comment": "",
@@ -726,8 +757,9 @@
         ]
     },
     {
+        "category": "Сетевые сервисы",
         "max": 12,
-        "name": "Сетевые сервисы: SMTP",
+        "name": "SMTP",
         "students": [
             {
                 "comment": "",
@@ -750,8 +782,9 @@
         ]
     },
     {
+        "category": "Сетевые сервисы",
         "max": 12,
-        "name": "Сетевые сервисы: FTP",
+        "name": "FTP",
         "students": [
             {
                 "comment": "",
@@ -774,8 +807,9 @@
         ]
     },
     {
+        "category": "Сетевые сервисы",
         "max": 7,
-        "name": "Сетевые сервисы: NTP",
+        "name": "NTP",
         "students": [
             {
                 "comment": "",
@@ -786,16 +820,19 @@
         ]
     },
     {
+        "category": "Сетевые сервисы",
         "max": 14,
-        "name": "Сетевые сервисы: DNS",
+        "name": "DNS",
         "students": []
     },
     {
+        "category": "Сетевые сервисы",
         "max": 25,
-        "name": "Сетевые сервисы: BitTorrent",
+        "name": "BitTorrent",
         "students": []
     },
     {
+        "category": null,
         "max": 15,
         "name": "Чат",
         "students": [
@@ -838,8 +875,9 @@
         ]
     },
     {
+        "category": "Разбор графических файлов",
         "max": 15,
-        "name": "Разбор графических файлов: BMP",
+        "name": "BMP",
         "students": [
             {
                 "comment": "",
@@ -856,18 +894,21 @@
         ]
     },
     {
+        "category": "Разбор графических файлов",
         "max": 14,
-        "name": "Разбор графических файлов: GIF",
+        "name": "GIF",
         "students": []
     },
     {
+        "category": "Разбор графических файлов",
         "max": 17,
-        "name": "Разбор графических файлов: JPEG",
+        "name": "JPEG",
         "students": []
     },
     {
+        "category": "Разбор графических файлов",
         "max": 14,
-        "name": "Разбор графических файлов: PNG",
+        "name": "PNG",
         "students": [
             {
                 "comment": "",
@@ -878,6 +919,7 @@
         ]
     },
     {
+        "category": null,
         "max": 15,
         "name": "Словари",
         "students": [
@@ -908,6 +950,7 @@
         ]
     },
     {
+        "category": null,
         "max": 15,
         "name": "Адресная книга",
         "students": [
@@ -926,8 +969,9 @@
         ]
     },
     {
+        "category": "Интерактивные игры",
         "max": 11,
-        "name": "Интерактивные игры: pentix",
+        "name": "pentix",
         "students": [
             {
                 "comment": "",
@@ -956,8 +1000,9 @@
         ]
     },
     {
+        "category": "Интерактивные игры",
         "max": 13,
-        "name": "Интерактивные игры: arkanoid",
+        "name": "arkanoid",
         "students": [
             {
                 "comment": "",
@@ -1010,8 +1055,9 @@
         ]
     },
     {
+        "category": "Интерактивные игры",
         "max": 15,
-        "name": "Интерактивные игры: pacman",
+        "name": "pacman",
         "students": [
             {
                 "comment": "",
@@ -1040,6 +1086,7 @@
         ]
     },
     {
+        "category": null,
         "max": 11,
         "name": "Бредогенератор",
         "students": [
@@ -1076,28 +1123,33 @@
         ]
     },
     {
+        "category": "Разбор аудиоформатов",
         "max": 14,
-        "name": "Разбор аудиоформатов: mp3",
+        "name": "mp3",
         "students": []
     },
     {
+        "category": "Разбор аудиоформатов",
         "max": 14,
-        "name": "Разбор аудиоформатов: ogg",
+        "name": "ogg",
         "students": []
     },
     {
+        "category": "Разбор аудиоформатов",
         "max": 14,
-        "name": "Разбор аудиоформатов: flac",
+        "name": "flac",
         "students": []
     },
     {
+        "category": null,
         "max": 18,
         "name": "Аудиоредактор",
         "students": []
     },
     {
+        "category": "Стеганография",
         "max": 14,
-        "name": "Стеганография: bmp",
+        "name": "bmp",
         "students": [
             {
                 "comment": "",
@@ -1120,26 +1172,31 @@
         ]
     },
     {
+        "category": "Стеганография",
         "max": 14,
-        "name": "Стеганография: wav",
+        "name": "wav",
         "students": []
     },
     {
+        "category": "Работа с файловыми системами",
         "max": 17,
-        "name": "Работа с файловыми системами: FAT32",
+        "name": "FAT32",
         "students": []
     },
     {
+        "category": "Работа с файловыми системами",
         "max": 21,
-        "name": "Работа с файловыми системами: ext4",
+        "name": "ext4",
         "students": []
     },
     {
+        "category": null,
         "max": 20,
         "name": "Фотоальбом",
         "students": []
     },
     {
+        "category": null,
         "max": 20,
         "name": "Где трамвай",
         "students": []
