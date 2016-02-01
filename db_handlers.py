@@ -1,6 +1,7 @@
 from statistics import mean
 from inspect import getmembers
 from abc import ABCMeta, abstractmethod
+from pprint import pformat
 
 
 class Database(dict):
@@ -22,6 +23,9 @@ class Database(dict):
 class Entry(metaclass=ABCMeta):
     def __str__(self):
         return str(self.__dict__)
+
+    def __repr__(self):
+        return pformat(self.__dict__, depth=1)
 
     @abstractmethod
     def finalize(self):
