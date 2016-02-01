@@ -16,8 +16,16 @@ def build_task_database(files, handler):
     return task_db
 
 
+def jdefault(o):
+    if isinstance(o, set):
+        return list(o)
+    return o.__dict__
+
 if __name__ == '__main__':
     files = glob.glob(os.path.join('courses', '*.json'))
     task_db = build_task_database(files, database.EntryWithPercentage)
-    for task in sorted(task_db):
-        print('%s:\n%r\n' % (task, task_db[task]))
+    print(json.dumps(task_db, default=jdefault,
+                     ensure_ascii=False, indent=4,
+                     sort_keys=True))
+    # for task in sorted(task_db):
+    #     print('%s:\n%r\n' % (task, task_db[task]))
