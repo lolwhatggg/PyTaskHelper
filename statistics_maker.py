@@ -10,7 +10,7 @@ KNOWN_ALIASES = {
 def get_all_task_names(files):
     task_names = set()
     for filename in files:
-        with open(filename, 'rb') as file:
+        with open(filename, 'r') as file:
             data = json.load(file)
         for task in data:
             task_names.add(task['name'])
@@ -26,7 +26,7 @@ def count_middle_value(values):
 def build_task_database(files, save_full_info=False):
     database = {}
     for filename in files:
-        with open(filename, 'rb') as file:
+        with open(filename, 'r') as file:
             data = json.load(file)
         for task in data:
             name = task['name']
