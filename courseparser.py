@@ -34,7 +34,7 @@ def get_comment(field):
     js = field.a['href']
     comment = js[js.index('\'') + 1:-2]
     comment = html.unescape(comment)
-    comment = re.sub(r'<br/>\s?', '\n', comment)
+    comment = re.sub(r'<br/>\s*', '\n', comment)
     return comment.strip()
 
 
@@ -75,6 +75,6 @@ def write_course(link):
 
 if __name__ == '__main__':
     anytask = linksparser.AnyTask()
-    for link in anytask.get_py_and_perl():
+    for link in anytask.get_courses('python.task', 'Perltask'):
         print(link['name'])
         write_course(link)

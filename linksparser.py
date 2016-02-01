@@ -5,16 +5,15 @@ from urllib.request import urlopen
 
 class AnyTask:
     URL = 'http://anytask.urgu.org'
-    NAMES = 'Perltask', 'python.task'
 
     def __init__(self):
         with urlopen(AnyTask.URL) as page:
             self.html = page.read().decode()
         self._links = BeautifulSoup(self.html).find_all('li')
 
-    def get_py_and_perl(self):
+    def get_courses(self, *courses):
         return filter(lambda x:
-                      any(name in x['name'] for name in self.NAMES),
+                      any(name in x['name'] for name in courses),
                       self.get_links())
 
     def get_links(self):
