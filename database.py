@@ -13,7 +13,8 @@ class Database(dict):
         name = data['name']
         if name not in self:
             self[name] = self._entry_class(data)
-        self[name].update(data)
+        else:
+            self[name].update(data)
 
     def finalize(self):
         for name in self:
@@ -25,7 +26,7 @@ class Entry(metaclass=ABCMeta):
         return str(self.__dict__)
 
     def __repr__(self):
-        return pformat(self.__dict__, depth=1)
+        return pformat(self.__dict__)
 
     @abstractmethod
     def finalize(self):
@@ -70,8 +71,17 @@ class EntryWithPercentage(EntryWithoutAnnotations):
 
     def update_percents(self, new_data):
         self.percents += [(student['points'] / new_data['max'] * 100) for
-                         student in new_data['students']]
+                          student in new_data['students']]
 
     def finalize(self):
         self.middle = mean(self.points or [0])
         self.middle_percent = mean(self.percents or [0])
+
+
+class EntryFullInfo(EntryWithPercentage):
+    def __init__(self, data):
+        super().__init__(data)
+        self.students = data['students']
+
+    def update_students(self, new_data):
+        self.students += new_data['students']

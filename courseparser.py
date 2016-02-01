@@ -57,7 +57,8 @@ def write_course(link):
             name = base_name
             maximum = task.span.text.strip()
             results = parse_results(task.table)
-            db.append({'category': 'common','name': name, 'max': int(maximum), 'students': results})
+            db.append({'category': 'common', 'name': name,
+                       'max': int(maximum), 'students': results})
         else:
             for st in task.findAll('font'):
                 if st.previous.name != 'div':
@@ -66,7 +67,8 @@ def write_course(link):
                 category = base_name
                 maximum = st.findNext('span').text.strip()
                 results = parse_results(st.findNext('table'))
-                db.append({'category': category, 'name': name, 'max': int(maximum), 'students': results})
+                db.append({'category': category, 'name': name,
+                           'max': int(maximum), 'students': results})
 
     directory = os.path.join('courses', '%s.%s' % (link['name'], 'json'))
     with open(directory, 'w', encoding='utf-8') as file:

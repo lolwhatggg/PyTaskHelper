@@ -1,7 +1,6 @@
 import json
 import glob
 import os.path
-from pprint import pprint, pformat
 import database
 
 
@@ -23,9 +22,9 @@ def jdefault(o):
 
 if __name__ == '__main__':
     files = glob.glob(os.path.join('courses', '*.json'))
-    task_db = build_task_database(files, database.EntryWithPercentage)
-    print(json.dumps(task_db, default=jdefault,
-                     ensure_ascii=False, indent=4,
-                     sort_keys=True))
+    task_db = build_task_database(files, database.EntryFullInfo)
+    open('db.json', 'w').write(json.dumps(task_db, default=jdefault,
+                               ensure_ascii=False,
+                               sort_keys=True))
     # for task in sorted(task_db):
-    #     print('%s:\n%r\n' % (task, task_db[task]))
+    #    print('%s:\n%r\n' % (task, task_db[task]))
