@@ -1,0 +1,17 @@
+{
+  "name": "Python.task analyzer",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://anytask.urgu.org/course/34"
+      ],
+      "js": [
+        "jquery.js",
+        "main.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
