@@ -2,9 +2,8 @@ import json
 import glob
 import os.path
 from db_handlers import DBHandlerWithoutAnnotations, Database
-KNOWN_ALIASES = {
 
-}
+KNOWN_ALIASES = {}
 
 
 def build_task_database(files, handler):

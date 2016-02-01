@@ -1,4 +1,3 @@
-from abc import ABCMeta, abstractmethod
 from statistics import mean
 
 
@@ -15,14 +14,14 @@ class Database(dict):
             self[name] = self.handler.get_new_entry(entry)
 
     def finalize(self):
-        for e in self.keys():
-            self[e] = self.handler.get_finalized_value(self[e])
+        for field in self:
+            self[field] = self.handler.get_finalized(self[field])
 
 
 class Field:
     def __init__(self, name, update_method, default_value):
         self.name = name
-        self.update = update_method
+        self.update_method = update_method
         self.default_value = default_value
 
 
@@ -33,8 +32,8 @@ class DBHandler:
     def update_entry(self, old_data, new_data):
         result = {}
         for field in self.fields:
-            if field.update is not None:
-                result[field.name] = field.update(old_data, new_data)
+            if field.update_method is not None:
+                result[field.name] = field.update_method(old_data, new_data)
             else:
                 result[field.name] = old_data[field.name]
         return result
@@ -50,33 +49,36 @@ class DBHandlerWithoutAnnotations(DBHandler):
     def __init__(self):
         super().__init__()
         self.fields = [
-            Field('name', None, get_name),
-            Field('points', update_points, get_points),
-            Field('max', update_max, get_max)
+            Field('name', None, Task.get_name),
+            Field('points', Task.update_points, Task.get_points),
+            Field('max', Task.update_max, Task.get_max)
         ]
 
-    def get_finalized_value(self, entry):
-        result = entry
-        if result['points']:
-            result['middle'] = mean(result['points'])
-        return result
+    @staticmethod
+    def get_finalized(entry):
+        if entry['points']:
+            entry['middle'] = mean(entry['points'])
+        return entry
 
 
-def get_name(task):
-    return task['name']
+class Task:
+    @staticmethod
+    def get_name(task):
+        return task['name']
 
+    @staticmethod
+    def get_points(task):
+        return [student['points'] for student
+                in task['students']]
 
-def get_points(task):
-    return [student['points'] for student in task['students']]
+    @staticmethod
+    def get_max(task):
+        return {task['max']}
 
+    @staticmethod
+    def update_points(task, another_task):
+        return task['points'] + Task.get_points(another_task)
 
-def get_max(task):
-    return {task['max']}
-
-
-def update_points(old_data, new_data):
-    return old_data['points'] + get_points(new_data)
-
-
-def update_max(old_data, new_data):
-    return old_data['max'].union(get_max(new_data))
+    @staticmethod
+    def update_max(task, another_task):
+        return task['max'].union(Task.get_max(another_task))
