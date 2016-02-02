@@ -1,6 +1,6 @@
 [
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Биллинг",
         "students": [
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 7,
         "name": "Пары слов",
         "students": [
@@ -161,7 +161,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Взлом шифра",
         "students": [
@@ -298,6 +298,12 @@
                 "date": "29.12.2015",
                 "points": 9,
                 "student": "Макаров Виталий"
+            },
+            {
+                "comment": "",
+                "date": "02.02.2016",
+                "points": 0,
+                "student": "Городилова Екатерина"
             }
         ]
     },
@@ -308,7 +314,7 @@
         "students": []
     },
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Генератор отчетов",
         "students": [
@@ -333,7 +339,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Небо",
         "students": [
@@ -358,7 +364,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 8,
         "name": "Лесенка",
         "students": [
@@ -419,7 +425,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Многочлены",
         "students": [
@@ -474,7 +480,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 8,
         "name": "Палиндромы",
         "students": [
@@ -529,7 +535,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Кроссворд",
         "students": [
@@ -584,7 +590,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 25,
         "name": "Отладчик",
         "students": [
@@ -879,7 +885,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 11,
         "name": "Лабиринт",
         "students": [
@@ -973,7 +979,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Сортировки",
         "students": [
@@ -1028,7 +1034,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 13,
         "name": "Жизнь",
         "students": [
@@ -1083,7 +1089,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 16,
         "name": "Раскраска карты",
         "students": [
@@ -1314,11 +1320,17 @@
                 "date": "07.01.2016",
                 "points": 0,
                 "student": "Борзунов Александр"
+            },
+            {
+                "comment": "",
+                "date": "02.02.2016",
+                "points": 0,
+                "student": "Бондаренко Владислав"
             }
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Чат",
         "students": [
@@ -1521,7 +1533,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Словари",
         "students": [
@@ -1576,7 +1588,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Адресная книга",
         "students": [
@@ -1913,7 +1925,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 11,
         "name": "Бредогенератор",
         "students": [
@@ -2025,7 +2037,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 18,
         "name": "Аудиоредактор",
         "students": []
@@ -2218,7 +2230,7 @@
         "students": []
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Судоку",
         "students": [

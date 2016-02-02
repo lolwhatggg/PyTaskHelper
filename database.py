@@ -4,15 +4,17 @@ from inspect import getmembers
 
 
 class Database(dict):
+    def __new__(cls, entry_class):
+        if 'finalize' in dir(entry_class):
+            def _finalize(self):
+                for name in self:
+                    self[name].finalize()
+            cls.finalize = _finalize
+        return super().__new__(cls)
+
     def __init__(self, entry_class):
         super().__init__()
         self._entry_class = entry_class
-
-        if 'finalize' in getmembers(entry_class):
-            def finalize(self):
-                for name in self:
-                    self[name].finalize()
-            self.finalize = finalize
 
     def add_entry(self, data):
         name = data['name']

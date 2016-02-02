@@ -1,6 +1,6 @@
 [
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Биллинг",
         "students": [
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 11,
         "name": "Пары слов",
         "students": [
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 18,
         "name": "Взлом шифра",
         "students": [
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Генератор отчетов",
         "students": [
@@ -474,7 +474,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Небо",
         "students": [
@@ -523,7 +523,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 9,
         "name": "Лесенка",
         "students": [
@@ -578,7 +578,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Многочлены",
         "students": [
@@ -633,7 +633,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 8,
         "name": "Палиндромы",
         "students": [
@@ -688,7 +688,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Кроссворд",
         "students": [
@@ -743,7 +743,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 25,
         "name": "Отладчик",
         "students": [
@@ -982,7 +982,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 10,
         "name": "Лабиринт",
         "students": [
@@ -1037,7 +1037,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 25,
         "name": "Дефрагментация",
         "students": [
@@ -1056,7 +1056,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Сортировки",
         "students": [
@@ -1111,7 +1111,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Жизнь",
         "students": [
@@ -1166,7 +1166,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 16,
         "name": "Раскраска карты",
         "students": [
@@ -1479,7 +1479,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Чат",
         "students": [
@@ -1688,7 +1688,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Словари",
         "students": [
@@ -1743,7 +1743,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Адресная книга",
         "students": [
@@ -2196,7 +2196,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 11,
         "name": "Бредогенератор",
         "students": [
@@ -2361,7 +2361,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 18,
         "name": "Аудиоредактор",
         "students": [
@@ -2545,7 +2545,7 @@
         "students": []
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Фотоальбом",
         "students": [
@@ -2576,7 +2576,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Где трамвай",
         "students": [
@@ -2681,7 +2681,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Судоку",
         "students": [
@@ -2736,7 +2736,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Аудиоальбом",
         "students": [
@@ -2761,7 +2761,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 22,
         "name": "Flightradar",
         "students": [

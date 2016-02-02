@@ -1,6 +1,6 @@
 [
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Биллинг",
         "students": [
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 11,
         "name": "Пары слов",
         "students": [
@@ -184,7 +184,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 18,
         "name": "Взлом шифра",
         "students": [
@@ -351,7 +351,7 @@
         "students": []
     },
     {
-        "category": null,
+        "category": "common",
         "max": 14,
         "name": "Генератор отчетов",
         "students": [
@@ -376,7 +376,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 20,
         "name": "Небо",
         "students": [
@@ -395,7 +395,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 9,
         "name": "Лесенка",
         "students": [
@@ -450,7 +450,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 12,
         "name": "Многочлены",
         "students": [
@@ -487,7 +487,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 8,
         "name": "Палиндромы",
         "students": [
@@ -536,7 +536,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Кроссворд",
         "students": [
@@ -579,7 +579,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 25,
         "name": "Отладчик",
         "students": [
@@ -746,7 +746,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 10,
         "name": "Лабиринт",
         "students": [
@@ -801,7 +801,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 19,
         "name": "Дефрагментация",
         "students": [
@@ -832,7 +832,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Сортировки",
         "students": [
@@ -887,7 +887,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Жизнь",
         "students": [
@@ -942,7 +942,7 @@
         ]
     },
     {
-        "category": null,
+        "category": "common",
         "max": 16,
         "name": "Раскраска карты",
         "students": [
@@ -1188,7 +1188,7 @@
         "students": []
     },
     {
-        "category": null,
+        "category": "common",
         "max": 15,
         "name": "Чат",
         "students": [

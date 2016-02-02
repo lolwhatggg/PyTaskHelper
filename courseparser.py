@@ -2,8 +2,8 @@ import os
 import re
 import bs4
 import json
-import linksparser
 import html
+import linksparser
 from urllib.request import urlopen
 
 
@@ -42,7 +42,7 @@ def write_course(link):
     with urlopen(link['href']) as page:
         raw_html = page.read().decode()
 
-    soup = bs4.BeautifulSoup(raw_html, 'html.parser')
+    soup = bs4.BeautifulSoup(raw_html)
     tasks = soup.find('tbody').findChildren(recursive=False)
 
     db = []
@@ -70,7 +70,8 @@ def write_course(link):
                 db.append({'category': category, 'name': name,
                            'max': int(maximum), 'students': results})
 
-    directory = os.path.join('courses', '%s.%s' % (link['name'], 'json'))
+    filename = link['name'].replace('| ', '')
+    directory = os.path.join('courses', '%s.%s' % (filename, 'json'))
     with open(directory, 'w', encoding='utf-8') as file:
         file.write(json.dumps(db, ensure_ascii=False,
                               indent=4, sort_keys=True))
