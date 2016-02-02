@@ -23,8 +23,9 @@ def jdefault(o):
 if __name__ == '__main__':
     files = glob.glob(os.path.join('courses', '*.json'))
     task_db = build_task_database(files, database.EntryFullInfo)
-    open('db.json', 'w').write(json.dumps(task_db, default=jdefault,
-                               ensure_ascii=False,
-                               sort_keys=True))
+    dumped = json.dumps(task_db, ensure_ascii=False,
+                        sort_keys=True, default=jdefault)
+    with open('db.json', 'w') as file:
+        file.write(dumped)
     # for task in sorted(task_db):
     #    print('%s:\n%r\n' % (task, task_db[task]))
