@@ -20,8 +20,5 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": [
-    "http://avefablo.xyz/db.json"
-  ],
   "manifest_version": 2
 }
