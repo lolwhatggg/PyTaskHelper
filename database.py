@@ -1,13 +1,18 @@
+from pprint import pformat
 from statistics import mean
 from inspect import getmembers
-from abc import ABCMeta, abstractmethod
-from pprint import pformat
 
 
 class Database(dict):
     def __init__(self, entry_class):
         super().__init__()
         self._entry_class = entry_class
+
+        if 'finalize' in getmembers(entry_class):
+            def finalize(self):
+                for name in self:
+                    self[name].finalize()
+            self.finalize = finalize
 
     def add_entry(self, data):
         name = data['name']
@@ -16,21 +21,13 @@ class Database(dict):
         else:
             self[name].update(data)
 
-    def finalize(self):
-        for name in self:
-            self[name].finalize()
 
-
-class Entry(metaclass=ABCMeta):
+class Entry:
     def __str__(self):
         return str(self.__dict__)
 
     def __repr__(self):
-        return pformat(self.__dict__)
-
-    @abstractmethod
-    def finalize(self):
-        pass
+        return pformat(self.__dict__, depth=1)
 
     def update(self, new_data):
         updaters = filter(lambda m: m[0].startswith('update_'),
@@ -55,11 +52,11 @@ class EntryWithoutAnnotations(Entry):
     def update_max(self, new_data):
         self.max.add(new_data['max'])
 
-    def finalize(self):
-        self.middle = mean(self.points or [0])
-
     def update_category(self, new_data):
         self.categories.add(new_data['category'])
+
+    def finalize(self):
+        self.middle = mean(self.points or [0])
 
 
 class EntryWithPercentage(EntryWithoutAnnotations):
