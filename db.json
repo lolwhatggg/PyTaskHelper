@@ -3,8 +3,8 @@
     "average": 10.38,
     "average_percent": 61,
     "categories": [
-      "Пошаговые игры",
-      "Игра"
+      "Игра",
+      "Пошаговые игры"
     ],
     "max": [
       17
@@ -69,8 +69,8 @@
     "average": 17.25,
     "average_percent": 78,
     "categories": [
-      "Транспорт",
-      "common"
+      "common",
+      "Транспорт"
     ],
     "max": [
       22
@@ -498,8 +498,8 @@
     "average": 11.6,
     "average_percent": 58,
     "categories": [
-      "Медиаальбом",
-      "common"
+      "common",
+      "Медиаальбом"
     ],
     "max": [
       20
@@ -565,8 +565,8 @@
     "average": 12.78,
     "average_percent": 64,
     "categories": [
-      "Транспорт",
-      "common"
+      "common",
+      "Транспорт"
     ],
     "max": [
       20
@@ -809,8 +809,8 @@
     "average": 14.25,
     "average_percent": 71,
     "categories": [
-      "Медиаальбом",
-      "common"
+      "common",
+      "Медиаальбом"
     ],
     "max": [
       20
@@ -877,8 +877,8 @@
     "average": 12.79,
     "average_percent": 75,
     "categories": [
-      "Пошаговые игры",
-      "Игра"
+      "Игра",
+      "Пошаговые игры"
     ],
     "max": [
       17
@@ -905,8 +905,8 @@
     "average": 12.16,
     "average_percent": 73,
     "categories": [
-      "Пошаговые игры",
-      "Игра"
+      "Игра",
+      "Пошаговые игры"
     ],
     "max": [
       17,
@@ -946,8 +946,8 @@
     "average": 15.56,
     "average_percent": 74,
     "categories": [
-      "Пошаговые игры",
-      "Игра"
+      "Игра",
+      "Пошаговые игры"
     ],
     "max": [
       21

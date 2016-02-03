@@ -21,7 +21,8 @@ class Database(dict):
 
     def add_entry(self, data):
         name = data['name']
-        name = self.known_aliases.get(name, name)
+        if name in self.known_aliases:
+            name = self.known_aliases[name]
         if name not in self:
             self[name] = self._entry_class(data)
         else:
@@ -65,7 +66,7 @@ class EntryWithoutAnnotations(Entry):
         self.points = [elem for elem in self.points if elem[0]]
         self.students_amount = len(self.points)
         self.students_all_points = len([elem for elem in self.points
-                                        if elem[0] == elem[1]])
+                                         if elem[0] == elem[1]])
         self.average = self.get_average([elem[0] for elem in self.points], 2)
 
     @staticmethod
