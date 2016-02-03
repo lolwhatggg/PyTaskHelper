@@ -1,6 +1,6 @@
+from inspect import getmembers
 from pprint import pformat
 from statistics import mean
-from inspect import getmembers
 
 
 class Database(dict):
@@ -9,6 +9,7 @@ class Database(dict):
             def _finalize(self):
                 for name in self:
                     self[name].finalize()
+
             cls.finalize = _finalize
         return super().__new__(cls)
 
@@ -58,7 +59,7 @@ class EntryWithoutAnnotations(Entry):
         self.categories.add(new_data['category'])
 
     def finalize(self):
-        self.average = mean(self.points or [0])
+        self.average = mean([elem for elem in self.points if elem] or [0])
 
 
 class EntryWithPercentage(EntryWithoutAnnotations):
@@ -73,8 +74,9 @@ class EntryWithPercentage(EntryWithoutAnnotations):
                           student in new_data['students']]
 
     def finalize(self):
-        self.average = mean(self.points or [0])
-        self.average_percent = mean(self.percents or [0])
+        self.average = mean([elem for elem in self.points if elem] or [0])
+        self.average_percent = mean([elem for elem in
+                                     self.percents if elem] or [0])
 
 
 class EntryFullInfo(EntryWithPercentage):
@@ -84,3 +86,12 @@ class EntryFullInfo(EntryWithPercentage):
 
     def update_students(self, new_data):
         self.students += new_data['students']
+
+
+class EntryOnlyAverageValues(EntryWithPercentage):
+    def finalize(self):
+        self.average = mean([elem for elem in self.points if elem] or [0])
+        self.average_percent = mean([elem for elem in
+                                     self.percents if elem] or [0])
+        del self.points
+        del self.percents
