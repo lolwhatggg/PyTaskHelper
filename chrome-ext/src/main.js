@@ -1,5 +1,5 @@
 function process_json(data) {
-    $('strong, font').each(function() {
+    $('strong, font').each(function () {
 
         var name = $(this).text();
         if (!(name in data)) {
@@ -7,24 +7,25 @@ function process_json(data) {
         }
 
         var max = $(this).next('span');
-
-        var avg_percent = data[name]['average_percent'];
-        var avg_points = avg_percent * max.text() / 100;
-        var students = data[name]['students_amount'];
-        var stud_full = data[name]['students_all_points'];
-        var perc_full = Math.round(stud_full/students*100);
-        var link = 'http://pytask.info/?task_name='+encodeURIComponent(name)
+        var task_data = {
+            'avg_percent': data[name]['average_percent'],
+            'avg_points': this.avg_percent * max.text() / 100,
+            'students': data[name]['students_amount'],
+            'stud_full': data[name]['students_all_points'],
+            'perc_full': Math.round(this.stud_full / this.students * 100)
+        };
+        var link = 'http://pytask.info/?task=' + encodeURIComponent(name);
         var text =
             '<div class="task_info">' +
             '<h4>' + name + '</h4>' +
             '<p>Максимальный балл: <span>' + max.text() + '</span></p>' +
-            '<p>Средний балл за все года: <span>' + avg_points + '</span>' +
-            '<p>Средний процент: <span>' + avg_percent + '%</span></p>' +
-            '<p>Количество сдавших: <span>' + students + '</span></p>' +
-            '<p>Количество сдавших на полный балл: <span>' + stud_full + '</span></p>' +
-            '<p>Процент сдавших на полный балл: <span>' +perc_full + '%</span></p>' +
+            '<p>Средний балл за все года: <span>' + task_data.avg_points + '</span>' +
+            '<p>Средний процент: <span>' + task_data.avg_percent + '%</span></p>' +
+            '<p>Количество сдавших: <span>' + task_data.students + '</span></p>' +
+            '<p>Количество сдавших на полный балл: <span>' + task_data.stud_full + '</span></p>' +
+            '<p>Процент сдавших на полный балл: <span>' + task_data.perc_full + '%</span></p>' +
             '<hr>' +
-            '<a href="'+link+'">Подробная статистика...</a>' +
+            '<a href="' + link + '">Подробная статистика...</a>' +
             '</div>';
 
         $(this).before(text);
@@ -35,7 +36,7 @@ function process_json(data) {
 
 var xhr = new XMLHttpRequest();
 
-xhr.onload = function() {
+xhr.onload = function () {
     var json = xhr.responseText;
     process_json(JSON.parse(json));
 
