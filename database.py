@@ -47,17 +47,17 @@ class EntryWithoutAnnotations(Entry):
         self.categories = {data['category']}
         self.name = data['name']
         self.max = {data['max']}
-        self.points = [student['points'] for
+        self.points = [(student['points'], data['max']) for
                        student in data['students']]
 
     def update(self, data):
         self.max.add(data['max'])
         self.categories.add(data['category'])
-        self.points += [student['points'] for student
+        self.points += [(student['points'], data['max']) for student
                         in data['students']]
 
     def finalize(self):
-        self.average = self.get_average(self.points, 2)
+        self.average = self.get_average([elem[0] for elem in self.points], 2)
 
     @staticmethod
     def get_average(iterable, precision=0):

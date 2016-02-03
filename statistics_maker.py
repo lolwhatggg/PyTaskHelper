@@ -23,8 +23,8 @@ def jdefault(o):
 
 if __name__ == '__main__':
     files = glob.glob(os.path.join('courses', '*.json'))
-    task_db = build_task_database(files, database.EntryOnlyAverageValues)
+    task_db = build_task_database(files, database.EntryFullInfo)
     dumped = json.dumps(task_db, ensure_ascii=False,
                         sort_keys=True, default=jdefault)
-    with open('db.json', 'w', encoding='utf-8') as file:
+    with open('db_full.json', 'w', encoding='utf-8') as file:
         file.write(dumped)
