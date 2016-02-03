@@ -1,6 +1,6 @@
 from pprint import pformat
 from statistics import mean
-from inspect import getmembers
+from abc import ABCMeta, abstractmethod
 
 
 class Database(dict):
@@ -25,18 +25,20 @@ class Database(dict):
             self[name].update(data)
 
 
-class Entry:
+class Entry(metaclass=ABCMeta):
+    @abstractmethod
+    def __init__(self, data):
+        pass
+
+    @abstractmethod
+    def update(self, data):
+        pass
+
     def __str__(self):
         return str(self.__dict__)
 
     def __repr__(self):
         return pformat(self.__dict__, depth=1)
-
-    def update(self, new_data):
-        updaters = filter(lambda m: m[0].startswith('update_'),
-                          getmembers(self))
-        for name, updater in updaters:
-            updater(new_data)
 
 
 class EntryWithoutAnnotations(Entry):
@@ -48,21 +50,18 @@ class EntryWithoutAnnotations(Entry):
         self.points = [student['points'] for
                        student in data['students']]
 
-    def update_points(self, new_data):
+    def update(self, data):
+        self.max.add(data['max'])
+        self.categories.add(data['category'])
         self.points += [student['points'] for student
-                        in new_data['students']]
-
-    def update_max(self, new_data):
-        self.max.add(new_data['max'])
-
-    def update_category(self, new_data):
-        self.categories.add(new_data['category'])
+                        in data['students']]
 
     def finalize(self):
-        self.average = self.get_average(precision=2)
+        self.average = self.get_average(self.points, 2)
 
-    def get_average(self, precision=0):
-        average = mean([elem for elem in self.points if elem] or [0])
+    @staticmethod
+    def get_average(iterable, precision=0):
+        average = mean([elem for elem in iterable if elem] or [0])
         average = round(average, precision)
         if average.is_integer():
             return int(average)
@@ -76,13 +75,14 @@ class EntryWithPercentage(EntryWithoutAnnotations):
                          student in data['students']]
         self.average_percent = 0
 
-    def update_percents(self, new_data):
-        self.percents += [(student['points'] / new_data['max'] * 100) for
-                          student in new_data['students']]
+    def update(self, data):
+        super().update(data)
+        self.percents += [(student['points'] / data['max'] * 100) for
+                          student in data['students']]
 
     def finalize(self):
         super().finalize()
-        self.average_percent = self.get_average()
+        self.average_percent = self.get_average(self.percents)
 
 
 class EntryFullInfo(EntryWithPercentage):
@@ -90,8 +90,9 @@ class EntryFullInfo(EntryWithPercentage):
         super().__init__(data)
         self.students = data['students']
 
-    def update_students(self, new_data):
-        self.students += new_data['students']
+    def update(self, data):
+        super().update(data)
+        self.students += data['students']
 
 
 class EntryOnlyAverageValues(EntryWithPercentage):
