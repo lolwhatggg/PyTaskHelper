@@ -1,4 +1,4 @@
-(function () {
+$(document).ready(function () {
 
     if (document.title.indexOf('python.task') == -1 &&
         document.title.indexOf('Perltask') == -1) {
@@ -9,16 +9,16 @@
 
     xhr.onload = function () {
         var json = xhr.responseText;
-        process_json(JSON.parse(json));
+        modify_page(JSON.parse(json));
         setCSS();
     };
 
     xhr.open('GET', 'http://pytask.info/db.json');
     xhr.send();
-    
-})();
 
-function process_json(data) {
+});
+
+function modify_page(data) {
     $('strong, font').each(function () {
 
         var name = $(this).text();
