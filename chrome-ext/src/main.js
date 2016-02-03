@@ -13,12 +13,17 @@ function process_json(data) {
 
         var text =
             '<div class="task_info">' +
-            '<p>Средний балл: ' + avg_points + '</p>' +
-            '<p>Средний процент: ' + avg_percent + '%</p>' +
+            '<h4>' + name + '</h4>' +
+            '<p>Максимальный балл: <span>' + max.text() + '</span></p>' +
+            '<p>Средний балл за все года: <span>' + avg_points + '</span>' +
+            '<p>Средний процент: <span>' + avg_percent + '%</span></p>' +
+            '<hr>' +
+            '<a href="">Подробная статистика...</a>' +
             '</div>';
 
-        max.after(text);
-        $(this).addClass('show_info');
+        $(this).before(text);
+        $(this).remove();
+        max.remove();
     });
 }
 
@@ -29,23 +34,31 @@ xhr.onload = function() {
     process_json(JSON.parse(json));
 
     $('.task_info').css({
-        'display': 'none'
+        'background-color': '#eee',
+        'padding': '5px 10px',
+        'margin-bottom': '5px',
+        'border-radius': '5px'
     });
 
-    $('.show_info').css({
-        'cursor': 'pointer',
-        'text-decoration': 'underline'
+    $('.task_info hr').css({
+        'margin': '2px 0px'
     });
 
-    $('.show_info').on('click', function () {
-        var task_info = $(this).next().next('.task_info');
-        var is_visible = task_info.css('display') == 'block';
+    $('.task_info p').css({
+        'margin': '3px 0px'
+    });
 
-        if (is_visible) {
-            task_info.css('display', 'none');
-        } else {
-            task_info.css('display', 'block');
-        }
+    $('.task_info p span').css({
+        'color': 'green',
+        'font-weight': 'bold'
+    });
+
+    $('.task_info h4').css({
+        'margin-bottom': '8px'
+    });
+
+    $('.task_info a').css({
+        'font-size': '12px'
     });
 
 };
