@@ -11,7 +11,6 @@
         "http://anytask.urgu.org/course/2",
         "http://anytask.urgu.org/course/3",
         "http://anytask.urgu.org/course/10"
-
       ],
       "js": [
         "jquery.js",
@@ -19,6 +18,9 @@
       ],
       "run_at": "document_end"
     }
+  ],
+  "permissions": [
+    "http://avefablo.xyz/db.json"
   ],
   "manifest_version": 2
 }

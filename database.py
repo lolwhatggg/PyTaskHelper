@@ -1,3 +1,4 @@
+import math
 from inspect import getmembers
 from pprint import pformat
 from statistics import mean
@@ -38,6 +39,14 @@ class Entry:
         for name, updater in updaters:
             updater(new_data)
 
+    def get_average(self, data, precision):
+        average = mean([elem for elem in data if elem] or [0])
+        if precision:
+            multiplier = 10 ** precision
+            return math.ceil(average * multiplier) / multiplier
+        else:
+            return int(average)
+
 
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
@@ -59,7 +68,7 @@ class EntryWithoutAnnotations(Entry):
         self.categories.add(new_data['category'])
 
     def finalize(self):
-        self.average = mean([elem for elem in self.points if elem] or [0])
+        self.average = self.get_average(self.points, 2)
 
 
 class EntryWithPercentage(EntryWithoutAnnotations):
@@ -74,9 +83,8 @@ class EntryWithPercentage(EntryWithoutAnnotations):
                           student in new_data['students']]
 
     def finalize(self):
-        self.average = mean([elem for elem in self.points if elem] or [0])
-        self.average_percent = mean([elem for elem in
-                                     self.percents if elem] or [0])
+        self.average = self.get_average(self.points, 2)
+        self.average_percent = self.get_average(self.percents, 0)
 
 
 class EntryFullInfo(EntryWithPercentage):
@@ -90,8 +98,7 @@ class EntryFullInfo(EntryWithPercentage):
 
 class EntryOnlyAverageValues(EntryWithPercentage):
     def finalize(self):
-        self.average = mean([elem for elem in self.points if elem] or [0])
-        self.average_percent = mean([elem for elem in
-                                     self.percents if elem] or [0])
+        self.average = self.get_average(self.points, 2)
+        self.average_percent = self.get_average(self.percents, 0)
         del self.points
         del self.percents

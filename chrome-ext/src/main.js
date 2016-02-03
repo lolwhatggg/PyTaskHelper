@@ -4,13 +4,15 @@ function process_json(data) {
         if (!(name in data)) {
             return;
         }
+        var current_max_points = parseInt($(this).next('span').text());
+        var percent_average = data[name]['average_percent']*current_max_points/100;
         var text =
             '&nbsp;Средний балл:&nbsp;' +
-            '<span class="label label-success">' +
-            data[name]['average'].toFixed(1) +
-            '</span>';
+            '<span class="label label-info">' +
+           percent_average+'</span>';
+        console.log(current_max_points);
         $(this).next('*').after(text);
-        $(this).wrap('<a href="#"></a>');
+        //$(this).wrap('<a href="#"></a>');
     });
 }
 
