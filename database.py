@@ -1,6 +1,6 @@
+from abc import ABCMeta, abstractmethod
 from pprint import pformat
 from statistics import mean
-from abc import ABCMeta, abstractmethod
 
 
 class Database(dict):
@@ -15,10 +15,14 @@ class Database(dict):
 
     def __init__(self, entry_class):
         super().__init__()
+        self.known_aliases = {'FAT32': 'Разбор FAT32',
+                              'ext4': 'Разбор ext4'}
         self._entry_class = entry_class
 
     def add_entry(self, data):
         name = data['name']
+        if name in self.known_aliases:
+            name = self.known_aliases[name]
         if name not in self:
             self[name] = self._entry_class(data)
         else:
@@ -49,6 +53,8 @@ class EntryWithoutAnnotations(Entry):
         self.max = {data['max']}
         self.points = [(student['points'], data['max']) for
                        student in data['students']]
+        self.students_amount = 0
+        self.students_all_points = 0
 
     def update(self, data):
         self.max.add(data['max'])
@@ -57,6 +63,10 @@ class EntryWithoutAnnotations(Entry):
                         in data['students']]
 
     def finalize(self):
+        self.points = [elem for elem in self.points if elem[0]]
+        self.students_amount = len(self.points)
+        self.students_all_points = len([elem for elem in self.points
+                                         if elem[0] == elem[1]])
         self.average = self.get_average([elem[0] for elem in self.points], 2)
 
     @staticmethod

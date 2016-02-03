@@ -1,6 +1,6 @@
 {
-  "name": "Python.task analyzer",
-  "version": "0.0.1",
+  "name": "PyTaskHelper",
+  "version": "0.1.0",
   "content_scripts": [
     {
       "matches": [
@@ -20,7 +20,7 @@
     }
   ],
   "permissions": [
-    "http://avefablo.xyz/db.json"
+    "http://pytask.info/db.json"
   ],
   "manifest_version": 2
 }
