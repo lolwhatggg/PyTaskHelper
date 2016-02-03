@@ -1,18 +1,19 @@
 function process_json(data) {
-    $('strong, font').each(function(k, v) {
+    $('strong, font').each(function() {
+
         var name = $(this).text();
         if (!(name in data)) {
             return;
         }
-        var current_max_points = parseInt($(this).next('span').text());
-        var percent_average = data[name]['average_percent']*current_max_points/100;
+
+        var max = $(this).next('span');
+
+        var avg = data[name]['average_percent'] * max.text() / 100;
         var text =
             '&nbsp;Средний балл:&nbsp;' +
-            '<span class="label label-info">' +
-           percent_average+'</span>';
-        console.log(current_max_points);
-        $(this).next('*').after(text);
-        //$(this).wrap('<a href="#"></a>');
+            '<span class="label label-info">' + avg + '</span>';
+
+        max.after(text);
     });
 }
 

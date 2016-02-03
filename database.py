@@ -1,7 +1,6 @@
-import math
-from inspect import getmembers
 from pprint import pformat
 from statistics import mean
+from inspect import getmembers
 
 
 class Database(dict):
@@ -39,14 +38,6 @@ class Entry:
         for name, updater in updaters:
             updater(new_data)
 
-    def get_average(self, data, precision):
-        average = mean([elem for elem in data if elem] or [0])
-        if precision:
-            multiplier = 10 ** precision
-            return math.ceil(average * multiplier) / multiplier
-        else:
-            return int(average)
-
 
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
@@ -68,7 +59,14 @@ class EntryWithoutAnnotations(Entry):
         self.categories.add(new_data['category'])
 
     def finalize(self):
-        self.average = self.get_average(self.points, 2)
+        self.average = self.get_average(precision=2)
+
+    def get_average(self, precision=0):
+        average = mean([elem for elem in self.points if elem] or [0])
+        average = round(average, precision)
+        if average.is_integer():
+            return int(average)
+        return average
 
 
 class EntryWithPercentage(EntryWithoutAnnotations):
@@ -83,8 +81,8 @@ class EntryWithPercentage(EntryWithoutAnnotations):
                           student in new_data['students']]
 
     def finalize(self):
-        self.average = self.get_average(self.points, 2)
-        self.average_percent = self.get_average(self.percents, 0)
+        super().finalize()
+        self.average_percent = self.get_average()
 
 
 class EntryFullInfo(EntryWithPercentage):
@@ -98,7 +96,6 @@ class EntryFullInfo(EntryWithPercentage):
 
 class EntryOnlyAverageValues(EntryWithPercentage):
     def finalize(self):
-        self.average = self.get_average(self.points, 2)
-        self.average_percent = self.get_average(self.percents, 0)
+        super().finalize()
         del self.points
         del self.percents

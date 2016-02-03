@@ -11,7 +11,8 @@ def build_task_database(files, entry_class):
             data = json.load(file)
         for task in data:
             task_db.add_entry(task)
-    task_db.finalize()
+    if 'finalize' in dir(task_db):
+        task_db.finalize()
     return task_db
 
 
@@ -27,5 +28,3 @@ if __name__ == '__main__':
                         sort_keys=True, default=jdefault)
     with open('db.json', 'w', encoding='utf-8') as file:
         file.write(dumped)
-    # for task in sorted(task_db):
-    #    print('%s:\n%r\n' % (task, task_db[task]))
