@@ -4,13 +4,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://anytask.urgu.org/course/34",
-        "http://anytask.urgu.org/course/21",
-        "http://anytask.urgu.org/course/11",
-        "http://anytask.urgu.org/course/1",
-        "http://anytask.urgu.org/course/2",
-        "http://anytask.urgu.org/course/3",
-        "http://anytask.urgu.org/course/10"
+        "http://anytask.urgu.org/course/*"
       ],
       "js": [
         "jquery.js",

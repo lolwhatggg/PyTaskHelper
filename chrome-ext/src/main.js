@@ -33,9 +33,15 @@ function process_json(data) {
     });
 }
 
+
 var xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
+    if (document.title.indexOf('python.task') == -1 &&
+        document.title.indexOf('Perltask') == -1) {
+        return;
+    }
+
     var json = xhr.responseText;
     process_json(JSON.parse(json));
 
