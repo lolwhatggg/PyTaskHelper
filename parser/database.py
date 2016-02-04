@@ -97,11 +97,17 @@ class EntryWithPercentage(EntryWithoutAnnotations):
 class EntryFullInfo(EntryWithPercentage):
     def __init__(self, data):
         super().__init__(data)
-        self.students = data['students']
+        students = data['students']
+        for student in students:
+            student['max'] = data['max']
+        self.students = students
 
     def update(self, data):
         super().update(data)
-        self.students += data['students']
+        students = data['students']
+        for student in students:
+            student['max'] = data['max']
+        self.students += students
 
 
 class EntryOnlyAverageValues(EntryWithPercentage):
