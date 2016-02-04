@@ -1,12 +1,5 @@
 #sidebar-wrapper
   ul.sidebar-nav
     li.sidebar-brand All Tasks
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
-    li: a(href="#") Link
+    each task in data
+      li: a(href="#{task.name}") #{task.name}

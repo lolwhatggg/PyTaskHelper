@@ -10,25 +10,11 @@ html(lang="ru")
         .container
           .row
             .col-lg-12
-              h1 Hello #{name}
+              a#menu-toggle.btn.btn-default.navbar-btn All Tasks
+              each task, name in data
+                h1 #{name}
+                ul
+                each value, field in task
+                  li #{field}: #{value}
 
-              h3 Dependencies:
-              ol
-                each ver, name in dependencies
-                  li #{name} #{ver}
-                  
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dignissimos commodi porro quas. Numquam sint iste recusandae deserunt laborum provident, reprehenderit fugiat eius odio. Qui distinctio commodi modi aliquid doloribus.
-
-    include foot
+      include foot

@@ -17,7 +17,7 @@ gulp.task 'connect', ->
 gulp.task 'jade', ->
   gulp.src 'jade/*.jade'
     .pipe data (file) ->
-      require './package.json'
+      require '../database/db.json'
     .pipe do jade
     .pipe gulp.dest 'dist'
     .pipe do connect.reload
