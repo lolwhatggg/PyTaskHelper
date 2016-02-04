@@ -25,17 +25,19 @@ gulp.task 'jade', ->
     .pipe do jade
     .pipe gulp.dest dist
     .pipe do connect.reload
-
+  truth = true
   tasks = require db_dir
   for name in Object.keys tasks.data
-    task = tasks.data[name]
+
+    task = Object()
+    task['cur'] = tasks.data[name]
     task['data'] = (require db_dir)['data']
     gulp.src 'jade/task.jade'
       .pipe data (file) ->
         task
       .pipe do jade
       .pipe rename task.name + '.html'
-      .pipe gulp.dest dist + 'tasks/'
+      .pipe gulp.dest dist + '/tasks'
       .pipe do connect.reload
 
 gulp.task 'stylus', ->
@@ -69,4 +71,4 @@ gulp.task 'watch', ->
   gulp.watch 'stylus/*.styl', ['stylus']
   gulp.watch 'coffee/*.coffee', ['build']
 
-gulp.task 'default', ['jade', 'stylus', 'build', 'connect', 'watch']
+gulp.task 'default', ['jade', 'stylus', 'build']

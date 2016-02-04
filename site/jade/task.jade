@@ -1,10 +1,10 @@
 extends page
 
 block content
-  h1 #{name}
-  
+  h1 #{cur.name}
+
   ul
-    li Категории wrq: #{categories}
-    li Максимальный балл: #{max}
-    li Средний балл: #{average}
-    li Средний процент: #{average_percent}
+    li Категории wrq: #{cur.categories}
+    li Максимальный балл: #{cur.max}
+    li Средний балл: #{cur.average}
+    li Средний процент: #{cur.average_percent}
