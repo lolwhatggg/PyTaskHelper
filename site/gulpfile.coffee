@@ -30,15 +30,14 @@ gulp.task 'jade', ->
   task_names = Object.keys tasks.data
   for name in task_names
     task = tasks.data[name]
-    task['data'] = task_names
+    task['data'] = Object.keys tasks.data
     gulp.src 'jade/task.jade'
       .pipe data (file) ->
         task
-      .pipe do jade
+      .pipe jade
       .pipe rename task.name + '.html'
       .pipe gulp.dest dist + 'tasks/'
       .pipe do connect.reload
-
 
 gulp.task 'stylus', ->
   gulp.src 'stylus/*.styl'

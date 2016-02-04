@@ -33,7 +33,7 @@ function modify_page(data) {
         var students = data[name]['students_amount'];
         var stud_full = data[name]['students_all_points'];
         var perc_full = Math.round(stud_full / students * 100);
-        var link = 'http://pytask.info/tasks/' + encodeURIComponent(name)
+        var link = 'http://pytask.info/tasks/' + encodeURIComponent(name) + '.html'
         var text =
             '<div class="task_info">' +
             '<h4>' + name + '</h4>' +
