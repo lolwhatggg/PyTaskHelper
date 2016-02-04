@@ -1,20 +1,13 @@
-doctype html
-html(lang="ru")
-  include head
-  body
-    #wrapper.toggled
-      include menu
-      include navbar
-      
-      #page-content-wrapper
-        .container
-          .row
-            .col-lg-12
-              a#menu-toggle.btn.btn-default.navbar-btn All Tasks
-              each task, name in data
-                h1 #{name}
-                ul
-                each value, field in task
-                  li #{field}: #{value}
+extends page
 
-      include foot
+block content
+  each task, name in data
+    .task
+      a(href="tasks/#{name}.html"): h2 #{name}
+      ul
+        li Категории: #{task.categories}
+        li Максимальный балл: #{task.max}
+        li Средний балл: #{task.average}
+        li Средний процент: #{task.average_percent}
+      hr
+      a(href="#") Наверх...

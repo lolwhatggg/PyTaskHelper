@@ -28,3 +28,15 @@ body > .container {
   margin: 0;
   border-radius: 0;
 }
+.task {
+  padding: 10px 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #bbb;
+}
+.task h2 {
+  margin-top: 10px;
+}
+.task hr {
+  margin: 5px auto;
+}

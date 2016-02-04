@@ -7,25 +7,43 @@ uglify = require 'gulp-uglify'
 clean = require 'gulp-clean'
 rjs = require 'gulp-requirejs'
 data = require 'gulp-data'
+rename = require 'gulp-rename'
+
+dist = 'dist/'
+db_dir = '../database/db_full.json'
 
 gulp.task 'connect', ->
   connect.server
     port: 1337
     livereload: on
-    root: './dist'
+    root: './' + dist
 
 gulp.task 'jade', ->
-  gulp.src 'jade/*.jade'
+  gulp.src 'jade/index.jade'
     .pipe data (file) ->
-      require '../database/db.json'
+      require db_dir
     .pipe do jade
-    .pipe gulp.dest 'dist'
+    .pipe gulp.dest dist
     .pipe do connect.reload
+
+  tasks = require db_dir
+  task_names = Object.keys tasks.data
+  for name in task_names
+    task = tasks.data[name]
+    task['data'] = task_names
+    gulp.src 'jade/task.jade'
+      .pipe data (file) ->
+        task
+      .pipe do jade
+      .pipe rename task.name + '.html'
+      .pipe gulp.dest dist + 'tasks/'
+      .pipe do connect.reload
+
 
 gulp.task 'stylus', ->
   gulp.src 'stylus/*.styl'
     .pipe stylus set: ['compress']
-    .pipe gulp.dest 'dist/css'
+    .pipe gulp.dest dist + '/css'
     .pipe do connect.reload
 
 gulp.task 'build', ['coffee'], ->
@@ -37,7 +55,7 @@ gulp.task 'build', ['coffee'], ->
     out: 'all.js'
     wrap: on
   .pipe do uglify
-  .pipe gulp.dest 'dist/js'
+  .pipe gulp.dest dist + '/js'
   .pipe do connect.reload
   
   gulp.src 'js/', read: no

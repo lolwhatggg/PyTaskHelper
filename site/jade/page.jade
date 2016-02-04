@@ -1,0 +1,16 @@
+doctype html
+html(lang="ru")
+  include head
+  body
+    #wrapper.toggled
+      include menu
+      include navbar
+      
+      #page-content-wrapper
+        .container
+          .row
+            .col-lg-12
+              a#menu-toggle.btn.btn-default.navbar-btn Все задачи
+              block content
+
+      include foot
