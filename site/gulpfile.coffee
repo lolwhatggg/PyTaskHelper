@@ -27,14 +27,13 @@ gulp.task 'jade', ->
     .pipe do connect.reload
 
   tasks = require db_dir
-  task_names = Object.keys tasks.data
-  for name in task_names
+  for name in Object.keys tasks.data
     task = tasks.data[name]
-    task['data'] = Object.keys tasks.data
+    task['data'] = (require db_dir)['data']
     gulp.src 'jade/task.jade'
       .pipe data (file) ->
         task
-      .pipe jade
+      .pipe do jade
       .pipe rename task.name + '.html'
       .pipe gulp.dest dist + 'tasks/'
       .pipe do connect.reload
