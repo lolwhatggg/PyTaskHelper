@@ -24,8 +24,7 @@ class Database(dict):
         name = self.known_aliases.get(name, name)
         if name not in self:
             self[name] = self._entry_class(data)
-        else:
-            self[name].update(data)
+        self[name].update(data)
 
 
 class Entry(metaclass=ABCMeta):
@@ -47,11 +46,10 @@ class Entry(metaclass=ABCMeta):
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
         self.average = 0
-        self.categories = {data['category']}
+        self.categories = set()
         self.name = data['name']
-        self.max = {data['max']}
-        self.points = [(student['points'], data['max']) for
-                       student in data['students']]
+        self.max = set()
+        self.points = []
         self.students_amount = 0
         self.students_all_points = 0
 
@@ -80,8 +78,7 @@ class EntryWithoutAnnotations(Entry):
 class EntryWithPercentage(EntryWithoutAnnotations):
     def __init__(self, data):
         super().__init__(data)
-        self.percents = [(student['points'] / data['max'] * 100) for
-                         student in data['students']]
+        self.percents = []
         self.average_percent = 0
 
     def update(self, data):
@@ -97,11 +94,14 @@ class EntryWithPercentage(EntryWithoutAnnotations):
 class EntryFullInfo(EntryWithPercentage):
     def __init__(self, data):
         super().__init__(data)
-        self.students = data['students']
+        self.students = []
 
     def update(self, data):
         super().update(data)
-        self.students += data['students']
+        new__students = data['students']
+        for student in new__students:
+            student['max'] = data['max']
+        self.students += new__students
 
 
 class EntryOnlyAverageValues(EntryWithPercentage):

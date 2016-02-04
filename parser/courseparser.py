@@ -71,7 +71,7 @@ def write_course(link):
                            'max': int(maximum), 'students': results})
 
     filename = link['name'].replace('| ', '')
-    directory = os.path.join('courses', '%s.%s' % (filename, 'json'))
+    directory = os.path.join('../courses', '%s.%s' % (filename, 'json'))
     with open(directory, 'w', encoding='utf-8') as file:
         file.write(json.dumps(db, ensure_ascii=False,
                               indent=4, sort_keys=True))
