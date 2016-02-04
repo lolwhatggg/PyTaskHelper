@@ -38,8 +38,12 @@ def update_files():
                                                   database.EntryFullInfo))
     write_json(big_db, '../database/db_full.json')
 
-def make_db_for_gulp(database):
-    return {'data': database}
+
+def make_db_for_gulp(db):
+    return {
+        'data': db
+    }
+
 
 if __name__ == '__main__':
     update_files()
