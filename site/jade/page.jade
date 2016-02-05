@@ -2,15 +2,14 @@ doctype html
 html(lang="ru")
   include head
   body
-    #wrapper
+    #wrapper.toggled
       include menu
-      include navbar
       
+      include navbar
       #page-content-wrapper
         .container
           .row
             .col-lg-12
-              a#menu-toggle.btn.btn-default.navbar-btn Все задачи
               block content
-
-      include foot
+      #footer-row.row
+        include foot

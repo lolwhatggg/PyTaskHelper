@@ -1,13 +1,14 @@
 extends page
 
 block content
-  each task, name in locals
-    .task
-      a(href="tasks/#{name}.html"): h2 #{name}
+  each task in locals
+    .task.panel.panel-default.col-lg-4.col-md-6.col-sm-12
+      a(href="tasks/#{task.name}.html"): h2 #{task.name}
       ul
         li Категории: #{task.categories}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average}
         li Средний процент: #{task.average_percent}
-      hr
-      a(href="#") Наверх...
+      .to-up
+        hr
+        a(href="#") Наверх...
