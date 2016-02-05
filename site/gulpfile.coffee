@@ -72,6 +72,10 @@ gulp.task 'js', ->
     .pipe gulp.dest dist + 'js'
     .pipe do connect.reload
 
+gulp.task 'database', ->
+  gulp.src '../database/*.json'
+    .pipe gulp.dest dist
+
 gulp.task 'watch', ->
   gulp.watch 'jade/*.jade', ['jade']
   gulp.watch 'stylus/*.styl', ['stylus']
@@ -79,4 +83,4 @@ gulp.task 'watch', ->
   gulp.watch 'backup/*.css', ['css']
   gulp.watch 'backup/*.js', ['js']
 
-gulp.task 'default', ['jade', 'stylus', 'build', 'css', 'js', 'watch', 'connect']
+gulp.task 'default', ['jade', 'stylus', 'build', 'css', 'js', 'database', 'watch', 'connect']
