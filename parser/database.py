@@ -3,6 +3,7 @@ from pprint import pformat
 from statistics import mean
 from urllib.parse import quote
 
+
 class Database(dict):
     def __new__(cls, entry_class):
         if 'finalize' in dir(entry_class):
@@ -49,20 +50,16 @@ class EntryWithoutAnnotations(Entry):
         self.category = tuple()
         self.name = data['name']
         self.url_alias = self.get_filename()
-        self.max = set()
         self.points = []
         self.students_amount = 0
         self.students_all_points = 0
 
     def update(self, data):
-        self.max.add(data['max'])
         year = data['year']
         if not self.category or self.category[1] < year:
             self.category = (data['category'], year)
         self.points += [(student['points'], data['max']) for student
                         in data['students']]
-
-
 
     def finalize(self):
         self.points = [elem for elem in self.points if elem[0]]
@@ -71,6 +68,7 @@ class EntryWithoutAnnotations(Entry):
                                         if elem[0] == elem[1]])
         self.category = self.category[0]
         self.average = self.get_average([elem[0] for elem in self.points], 2)
+        del self.points
 
     def get_filename(self):
         specific_names = {'bmp': 'bmp_stegano'}
@@ -99,6 +97,7 @@ class EntryWithPercentage(EntryWithoutAnnotations):
     def finalize(self):
         super().finalize()
         self.average_percent = self.get_average(self.percents)
+        del self.percents
 
 
 class EntryFullInfo(EntryWithPercentage):
@@ -108,14 +107,43 @@ class EntryFullInfo(EntryWithPercentage):
 
     def update(self, data):
         super().update(data)
-        new__students = data['students']
-        for student in new__students:
+        new_students = data['students']
+        for student in new_students:
+            if not student['points']:
+                return
             student['max'] = data['max']
-        self.students += new__students
+            student['percent'] = int(student['points'] / data['max'] * 100)
+        self.students += new_students
 
 
-class EntryOnlyAverageValues(EntryWithPercentage):
+class EntryAnnualFullInfo(EntryFullInfo):
+    def __init__(self, data):
+        super().__init__(data)
+        self.annual_averages = {}
+
     def finalize(self):
         super().finalize()
-        del self.points
-        del self.percents
+        results = {}
+        for student in self.students:
+            year = student['year']
+            if year not in results:
+                results[year] = {'points': [],
+                                 'percents': [],
+                                 'max': student['max'],
+                                 'students_amount': 0,
+                                 'students_full_points': 0
+                                 }
+            results[year]['points'].append(student['points']),
+            results[year]['percents'].append(student['percent'])
+            results[year]['students_amount'] += 1
+            if student['points'] == student['max']:
+                results[year]['students_full_points'] += 1
+
+        for year in results:
+            results[year]['average_percent'] = \
+                self.get_average(results[year]['percents'], 2)
+            results[year]['average_points'] = \
+                self.get_average(results[year]['points'], 2)
+            del results[year]['points']
+            del results[year]['percents']
+        self.annual_averages = results
