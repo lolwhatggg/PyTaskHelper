@@ -46,9 +46,9 @@ class Entry(metaclass=ABCMeta):
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
         self.average = 0
-        self.categories = set()
+        self.category = tuple()
         self.name = data['name']
-        self.url_alias = self.get_url_alias()
+        self.url_alias = self.get_filename()
         self.max = set()
         self.points = []
         self.students_amount = 0
@@ -56,22 +56,25 @@ class EntryWithoutAnnotations(Entry):
 
     def update(self, data):
         self.max.add(data['max'])
-        self.categories.add(data['category'])
+        year = data['year']
+        if not self.category or self.category[1] < year:
+            self.category = (data['category'], year)
         self.points += [(student['points'], data['max']) for student
                         in data['students']]
+
+
 
     def finalize(self):
         self.points = [elem for elem in self.points if elem[0]]
         self.students_amount = len(self.points)
         self.students_all_points = len([elem for elem in self.points
                                         if elem[0] == elem[1]])
+        self.category = self.category[0]
         self.average = self.get_average([elem[0] for elem in self.points], 2)
 
-    def get_url_alias(self):
+    def get_filename(self):
         specific_names = {'bmp': 'bmp_stegano'}
-        if self.name in specific_names:
-            return quote(specific_names[self.name]) + '.html'
-        return quote(self.name) + '.html'
+        return quote(specific_names.get(self.name, self.name)) + '.html'
 
     @staticmethod
     def get_average(iterable, precision=0):

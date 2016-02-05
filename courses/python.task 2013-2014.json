@@ -8,51 +8,60 @@
                 "comment": "",
                 "date": "12.04.2014",
                 "points": 14,
-                "student": "Телепова Екатерина"
+                "student": "Телепова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "02.05.2014 Оценка: 8 Сергей Азовсков:\n* добавить аргументы для сохранения последнего байта\n* баг с пересчётом после изменения цены\n* возможность делать детальный отчёт по общий или по ip за произвольный период времени с гранулярностью в день.\n* возможность стоимости за факт показа или за показанные байты\n* больше тестов :)\n16.05.2014 Оценка: 12 Сергей Азовсков:\n* вывод ошибок, чуть лучших интерактивный режим\n* тесты на некорректные данные",
                 "date": "13.04.2014",
                 "points": 14,
-                "student": "Koval Polina"
+                "student": "Koval Polina",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 10 Александр Бочаров:\nНе залился дифф с исправлениями.",
                 "date": "27.04.2014",
                 "points": 14,
-                "student": "Денисов Алексей"
+                "student": "Денисов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 4 Сергей Азовсков:\n* конфиги\n* нормальные сообщения об ошибках\n* интерфейс поудобней - use curses\n* пакетный ражим\n* возможность указания масок IP и масок страниц\n* сохранение состояние - инкрементальные данные\n* устойчивость к внезапному выключению\n* тесты",
                 "date": "04.06.2014",
                 "points": 4,
-                "student": "Mironov Alexey"
+                "student": "Mironov Alexey",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 2 Сергей Азовсков:\n* не работает\n* агрегация\n* прибраться в gui\n* дублирование классов\n* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)\n22.11.2014 Оценка: 8 Сергей Азовсков:\n* pylint\n* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)\n* добавить группировки\n* добавить batch режим\n* в интерфейсе обрабатывать enter\n* тесты\n* доп файл со скидками: файл в котором написано, что в такой-то период на такой-то товар была такая-то скидка.\n\nВозможность строить отчёты:\n-- сколько каждый пользователель потратил за указанный период, всё время\n-- сколько пользователь потратил за каждый день в указанном периоде",
                 "date": "18.09.2014",
                 "points": 8,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "25.10.2014 Оценка: 8 Сергей Азовсков:\n* поправить документацию и help\n* нормальные сообщения об ошибках формата\n* работа на больших дописывающихся файлах\n* batch interface\n* тесты\n* from datetime import datetime",
                 "date": "27.09.2014",
                 "points": 8,
-                "student": "Vedernikov Max"
+                "student": "Vedernikov Max",
+                "year": "2013-2014"
             },
             {
                 "comment": "15.10.2014 Оценка: 8 Сергей Азовсков:\n* шаблоны в rules\n* REAME!\n* Тесты\n* работы с большими файлами\n* работа с инкрементальным файлом",
                 "date": "02.10.2014",
                 "points": 8,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.11.2014",
                 "points": 9,
-                "student": "Мулыгина Александра"
+                "student": "Мулыгина Александра",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Обработка текстов программ",
@@ -63,27 +72,32 @@
                 "comment": "",
                 "date": "26.06.2014",
                 "points": 12,
-                "student": "Марков Евгений"
+                "student": "Марков Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.07.2014",
                 "points": 15,
-                "student": "Мулыгина Александра"
+                "student": "Мулыгина Александра",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "19.11.2014",
                 "points": 8,
-                "student": "Гробов Сергей"
+                "student": "Гробов Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.01.2015",
                 "points": 15,
-                "student": "Владимирова Виктория"
+                "student": "Владимирова Виктория",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Обработка текстов программ",
@@ -94,45 +108,53 @@
                 "comment": "08.05.2014 Оценка: 1 Александр Берсенев:\nкод ожидает проверки",
                 "date": "11.04.2014",
                 "points": 6,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.04.2014",
                 "points": 6,
-                "student": "Ковтанюк Илья"
+                "student": "Ковтанюк Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "04.12.2014",
                 "points": 8,
-                "student": "Телепова Екатерина"
+                "student": "Телепова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.12.2014",
                 "points": 8,
-                "student": "Bushmelev Egor"
+                "student": "Bushmelev Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 8,
-                "student": "Корюков Иван"
+                "student": "Корюков Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.01.2015",
                 "points": 6,
-                "student": "Черных Артём"
+                "student": "Черных Артём",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "25.03.2015",
                 "points": 7,
-                "student": "Чиглинцев Андрей"
+                "student": "Чиглинцев Андрей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Обработка текстов программ",
@@ -143,15 +165,18 @@
                 "comment": "",
                 "date": "27.12.2014",
                 "points": 11,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.01.2015",
                 "points": 4,
-                "student": "Патрушева Галина"
+                "student": "Патрушева Галина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -162,51 +187,60 @@
                 "comment": "28.03.2014 Оценка: 1 Сергей Азовсков:\nНет документации\nНет тестов\nНет нормального интерфейса\nНет декомпозиии\nПроблемы в коде\nНе на SVN\n16.05.2014 Оценка: 8 Сергей Азовсков:\n* проблемы в коде остались\n* производительность. График скорости работы по двум параметрам: размер текста, количество не слов\n* корректность данных\n* стиль именования\n* pep8 и pylint\n23.05.2014 Оценка: 9 Сергей Азовсков:\n* график!",
                 "date": "28.02.2014",
                 "points": 11,
-                "student": "Mironov Alexey"
+                "student": "Mironov Alexey",
+                "year": "2013-2014"
             },
             {
                 "comment": "11.04.2014 Оценка: 1 Сергей Азовсков:\n* SVN\n* Тесты\n* декомпозиция\n* Help и аргументы командной строки (указать топ сколько слов мне интересен)\n* Качество кода: глобальные переменные, генераторы, кодировки\n* Скорость работы.\n02.05.2014 Оценка: 6 Сергей Азовсков:\n* аргументы командной строки можно доделывать\n* указывать имена файлов, как аргументы командной строки\n* бенчмарк скорости работы от размера текста . Нужен график, до, минимум, размера текса в 10МБ\n* больше тестов\n* можно улучшить производительностью\n23.05.2014 Оценка: 10 Сергей Азовсков:\n* больше точек на графике",
                 "date": "17.03.2014",
                 "points": 10,
-                "student": "Чикурова Полина"
+                "student": "Чикурова Полина",
+                "year": "2013-2014"
             },
             {
                 "comment": "11.04.2014 Оценка: 1 Сергей Азовсков:\n- Тесты\n* unit-test\n* работа за разумное время на больших текстах\n* возможность выводить только топ N слов\n\n- Исправить качество кода: работа с range, argparse\n- Кодировки (через ключ)\n25.04.2014 Оценка: 7 Сергей Азовсков:\n* тесты\n* большие файлы\n* избавиться от глобальных переменных",
                 "date": "18.03.2014",
                 "points": 11,
-                "student": "Свалова Анастасия"
+                "student": "Свалова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "21.03.2014",
                 "points": 11,
-                "student": "Задворных Роман"
+                "student": "Задворных Роман",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "25.03.2014",
                 "points": 10,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "15.04.2014",
                 "points": 11,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 10 Сергей Азовсков:\n* кодировки\n* больше тестов :)\n* графики времени работы от длинны текста и от количества не-слов",
                 "date": "29.05.2014",
                 "points": 10,
-                "student": "Дубиковский Саша"
+                "student": "Дубиковский Саша",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.10.2014 Оценка: 1 Павел Блинов:\n0б\n12.01.2015 Оценка: 3 Павел Блинов:\n* кодировка открываемого файла (default utf-8)\n* argparse\n* убрать ограничение в 7 пар\n* стоп слов может не быть\n* использовать re\n* использовать set\n* тесты\n* readme\n24.02.2015 Оценка: 9 Павел Блинов:\n* Графики времени работы от длины текста и количества не слов",
                 "date": "30.09.2014",
                 "points": 11,
-                "student": "Митрофанова Елена"
+                "student": "Митрофанова Елена",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -217,51 +251,60 @@
                 "comment": "",
                 "date": "14.03.2014",
                 "points": 5,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.06.2014",
                 "points": 18,
-                "student": "Мухтарова Динара"
+                "student": "Мухтарова Динара",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 1 Сергей Азовсков:\n* фигач!\n27.09.2014 Оценка: 1 Сергей Азовсков:\n** фигачь! :(\n04.10.2014 Оценка: 9 Сергей Азовсков:\n* нуууууууу. ок\n* заставить работать\n* тесты\n* шифратор(произвольный)\n* прибраться в репозитории\n* сделать одно- би- три- граммные анализы (с минимизацией суммарной функции)\n** словарь",
                 "date": "23.07.2014",
                 "points": 9,
-                "student": "Свалова Анастасия"
+                "student": "Свалова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "25.10.2014 Оценка: 4 Сергей Азовсков:\n* обсудили устно\n15.11.2014 Оценка: 11 Сергей Азовсков:\n* сделать тесты\n* документация\n* работа с неформатированным текстом\n* сделать штуку, которая строит графики \"качества\" от размера\n* сделать алфавит параметром всех функций\n* CFFI или http://numba.pydata.org/\n* маленькие тексты ИЛИ сложные шифры\n* сделать энкодикг с паролем",
                 "date": "02.10.2014",
                 "points": 11,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.12.2014",
                 "points": 18,
-                "student": "Успенская Валентина"
+                "student": "Успенская Валентина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.12.2014",
                 "points": 18,
-                "student": "Нестерова Татьяна"
+                "student": "Нестерова Татьяна",
+                "year": "2013-2014"
             },
             {
                 "comment": "02.06.2015 Оценка: 6 Павел Блинов:\n+ русский язык\n+ возможность указать файл с частотами\n+ стиль\n+ тесты",
                 "date": "07.05.2015",
                 "points": 18,
-                "student": "Макаркин Александр"
+                "student": "Макаркин Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "26.05.2015 Оценка: 14 Павел Блинов:\n+ убрать отладочную печать\n+ добавить больше опций через аргументы\n+ больше тестов",
                 "date": "23.05.2015",
                 "points": 14,
-                "student": "Зазуля Наталья"
+                "student": "Зазуля Наталья",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
@@ -272,45 +315,53 @@
                 "comment": "",
                 "date": "17.05.2014",
                 "points": 10,
-                "student": "Bushmelev Egor"
+                "student": "Bushmelev Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.10.2014",
                 "points": 7,
-                "student": "Орозбаев Алексей"
+                "student": "Орозбаев Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 2,
-                "student": "Гробов Сергей"
+                "student": "Гробов Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.12.2014 Оценка: 1 Сергей Азовсков:\n* Документация\n* декомпозиция\n* тесты\n\n* обработка всех тегов (man, gcc, grep, groff, ...)\n* обработка папок\n* интерфейс: какой css использовать\n* поддержка .gz\n10.01.2015 Оценка: 4 Сергей Азовсков:\n* всё прошло\n+ куча тегов\n+ пакетная работа",
                 "date": "27.12.2014",
                 "points": 4,
-                "student": "Mironov Alexey"
+                "student": "Mironov Alexey",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 12,
-                "student": "Татарова Дарья"
+                "student": "Татарова Дарья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.03.2015",
                 "points": 4,
-                "student": "Ефимов  Тимофей"
+                "student": "Ефимов  Тимофей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
         "max": 14,
         "name": "man2rtf",
-        "students": []
+        "students": [],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
@@ -321,15 +372,18 @@
                 "comment": "",
                 "date": "03.03.2015",
                 "points": 16,
-                "student": "Дейков  Артём"
+                "student": "Дейков  Артём",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
         "max": 14,
         "name": "man2xml",
-        "students": []
+        "students": [],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
@@ -340,57 +394,67 @@
                 "comment": "25.09.2014 Оценка: 1 Павел Блинов:\nПравки.\n\n+ Починить\n+ Проблемы с кодировками\n+ Нет тестов\n+ Примеров нету\n+ Корректная информация об ошибках\n+ Шаблон вывода??\n+ Поправить якоря (убрать пробелы)\n+ pep8, pylint\n+ имена переменных\n03.10.2014 Оценка: 5 Павел Блинов:\n+ получение сигнатуры функций и методов\n+ имена функций в библиотеке tools\n+ использовать os.path\n+ os.listdir\n+ поправить кодировки\n+ убрать двойное открытие файла\n+ закрывать файл\n+ coverage\n+ тесты кодировок\n+ тесты, тесты …\n+ # -*- coding: xxx -*-\n+ хорошие тесты (директория с тестовыми модулями)\n13.10.2014 Оценка: 7 Павел Блинов:\n+ поправить кодировки\n+ coverage\n+ тесты кодировок\n+ тесты tools\n+ # -*- coding: xxx -*-\n\n+ добавить index.html с общим содержанием.",
                 "date": "12.07.2014",
                 "points": 10,
-                "student": "Самойлов Владимир"
+                "student": "Самойлов Владимир",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.09.2014",
                 "points": 5,
-                "student": "Выростко Ольга"
+                "student": "Выростко Ольга",
+                "year": "2013-2014"
             },
             {
                 "comment": "13.01.2015 Оценка: 10 Сергей Азовсков:\n* Падают тесты\nTraceback (most recent call last)\nFile \"/usr/lib/python3.4/unittest/case.py\", line 57, in testPartExecutor\nyield\nFile \"/usr/lib/python3.4/unittest/case.py\", line 574, in run\ntestMethod()\nFile \"/home/last-g/Workspace/teaching/L0dom/trunk/doc2html/test_module2ast.py\", line 61, in test_create_links\nself.assertEqual(links, test_links)\nFile \"/usr/lib/python3.4/unittest/case.py\", line 794, in assertEqual\nassertion_func(first, second, msg=msg)\nFile \"/usr/lib/python3.4/unittest/case.py\", line 1046, in assertSetEqual\nself.fail(self._formatMessage(msg, standardMsg))\nFile \"/usr/lib/python3.4/unittest/case.py\", line 639, in fail\nraise self.failureException(msg)\nAssertionError: Items in the first set but not the second:\n'<a href=\"module2ast_help.html\">module2ast</a>'\n'<a href=\"ast2html_help.html\">ast2html</a>'\nItems in the second set but not the first:\n'ast2html'\n'module2ast'\n\n* не работает с папками\n* зачем указывать слеш обязательно?\n* имя модуля поменялось\n* опции для указания своего шаблона\n* не ловите ошибки\n* utf8\n* нормальный хелп",
                 "date": "13.11.2014",
                 "points": 10,
-                "student": "Новиков Андрей"
+                "student": "Новиков Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.12.2014",
                 "points": 5,
-                "student": "Патрушева Галина"
+                "student": "Патрушева Галина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.12.2014",
                 "points": 10,
-                "student": "Бекленищева Елена"
+                "student": "Бекленищева Елена",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.02.2015",
                 "points": 11,
-                "student": "Политов Алексей"
+                "student": "Политов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "13.03.2015 Оценка: 1 Павел Блинов:\nслучайно ...",
                 "date": "16.02.2015",
                 "points": 6,
-                "student": "Сырых Максим"
+                "student": "Сырых Максим",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.03.2015",
                 "points": 12,
-                "student": "Парфёнова Анастасия"
+                "student": "Парфёнова Анастасия",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
         "max": 14,
         "name": "docstrings2rtf",
-        "students": []
+        "students": [],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
@@ -401,9 +465,11 @@
                 "comment": "",
                 "date": "24.05.2014",
                 "points": 10,
-                "student": "Корюков Иван"
+                "student": "Корюков Иван",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Перевод документации в другой формат",
@@ -414,9 +480,11 @@
                 "comment": "",
                 "date": "11.01.2015",
                 "points": 5,
-                "student": "Рычков Егор"
+                "student": "Рычков Егор",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -427,51 +495,60 @@
                 "comment": "",
                 "date": "30.11.2014",
                 "points": 7,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.12.2014",
                 "points": 9,
-                "student": "Задворных Роман"
+                "student": "Задворных Роман",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.12.2014",
                 "points": 14,
-                "student": "Владимирова Виктория"
+                "student": "Владимирова Виктория",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.01.2015",
                 "points": 7,
-                "student": "Брагин Егор"
+                "student": "Брагин Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.01.2015",
                 "points": 6,
-                "student": "Кутишенко Владислав"
+                "student": "Кутишенко Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.02.2015",
                 "points": 7,
-                "student": "Денисов Алексей"
+                "student": "Денисов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "23.03.2015",
                 "points": 4,
-                "student": "Леденев Арсений"
+                "student": "Леденев Арсений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 9,
-                "student": "Пушмин Павел"
+                "student": "Пушмин Павел",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -482,45 +559,53 @@
                 "comment": "02.05.2014 Оценка: 9 Сергей Азовсков:\n* радиус должен зумить\n* подписи на объектах при наведении (в popup)\n* управление с клавиатуры\n* help в программе \n* пост-рок в санудтрек\n16.05.2014 Оценка: 15 Сергей Азовсков:\n* супер\n* тултипы-попапы\n* pep8 & pylint",
                 "date": "22.04.2014",
                 "points": 20,
-                "student": "Лихошерстов Валерий"
+                "student": "Лихошерстов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 16 Сергей Азовсков:\n* тесты\n* отображать имя звезды и координаты",
                 "date": "28.05.2014",
                 "points": 20,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.06.2014",
                 "points": 16,
-                "student": "Румянцев Андрей"
+                "student": "Румянцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.10.2014 Оценка: 5 Сергей Азовсков:\n* выглядит хорошо\n* координаты неправильно\n* добавить информацию о звёздах\n* тесты, документация, ридми, интерфейс\n* плюшки на ваш выбор\n18.10.2014 Оценка: 5 Сергей Азовсков:\n* стиль и pep8\n08.11.2014 Оценка: 15 Сергей Азовсков:\n* плохокод\n* переименуйте data в config и приберитесь\n* стоит брать относительные пути от не от рабочей  дирректории, а от файла с программой\n* разбить на функции, сделать читаемым",
                 "date": "27.09.2014",
                 "points": 15,
-                "student": "Попов Евгений"
+                "student": "Попов Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "27.10.2014",
                 "points": 20,
-                "student": "Нагайцев Андрей"
+                "student": "Нагайцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.11.2014",
                 "points": 15,
-                "student": "Суслова Мария"
+                "student": "Суслова Мария",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.12.2014",
                 "points": 9,
-                "student": "Кутишенко Владислав"
+                "student": "Кутишенко Владислав",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -531,51 +616,60 @@
                 "comment": "07.03.2014 Оценка: 4 Сергей Азовсков:\n* тесты + benchmark\n* скорость\n* аргументы из командной строки: слова, файл словаря (опционально)\n30.05.2014 Оценка: 8 Сергей Азовсков:\n* shebang\n* падают тесты + warnings. Нормально работайте с файлами и закрывайте их!\n\"\"\"\nlast-g@yalast:~/teaching/python/2014/borozdin/trunk/ladder$ python3 ./ladder_test.py \n.E/usr/lib/python3.4/unittest/case.py:602: ResourceWarning: unclosed file <_io.TextIOWrapper name='runouns.txt' mode='r' encoding='UTF-8'>\noutcome.errors.clear()\n.\n======================================================================\nERROR: test_original_dictionary (__main__.MyTestCase)\n----------------------------------------------------------------------\nTraceback (most recent call last):\nFile \"./ladder_test.py\", line 56, in test_original_dictionary\nlist_of_words = ladder_main.read_dictionary(open('runouns.txt'))\nFile \"/home/last-g/teaching/python/2014/borozdin/trunk/ladder/ladder_main.py\", line 77, in read_dictionary\nfor line in dictionary_file]\nFile \"/home/last-g/teaching/python/2014/borozdin/trunk/ladder/ladder_main.py\", line 76, in \nreturn [line[:-1] if line[-1] == '\\n' else line\nFile \"/usr/lib/python3.4/codecs.py\", line 313, in decode\n(result, consumed) = self._buffer_decode(data, self.errors, final)\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xe0 in position 0: invalid continuation byte\n\n----------------------------------------------------------------------\nRan 3 tests in 0.284s\n\nFAILED (errors=1)\n\"\"\"\n*",
                 "date": "21.02.2014",
                 "points": 8,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "09.05.2014 Оценка: 1 Сергей Азовсков:\r\n- стиль кода (в python принято называть функции с маленькой буквы и разделять слова подчёркиванием, то есть get_neighbours вместо GetNeighbours)\r\n- магические методы не предназначены для того, что бы их вызывали. Для вычисления длинны чего угодно есть встроенная функция len\r\n- нормальный --help и обработка параметров, используйте модуль argparse\r\n- проверять на пустоту список следует без вычисления длинны, то есть\r\nwhile way:\r\nвместо\r\nwhile way.__len__() > 0:\r\n- не находит путь(хотя он есть) и падает с ошибкой\r\n\"\"\"\r\nD:\\Workspace\\teaching\\python\\Vedernikoff\\trunk\\Stair>stair.py runouns.txt вода в\r\nино\r\nNo way! =(\r\nTraceback (most recent call last):\r\nFile \"D:\\Workspace\\teaching\\python\\Vedernikoff\\trunk\\Stair\\stair.py\", line 105\r\n, in \r\nmain()\r\nFile \"D:\\Workspace\\teaching\\python\\Vedernikoff\\trunk\\Stair\\stair.py\", line 98,\r\nin main\r\nPrintWay(way)\r\nFile \"D:\\Workspace\\teaching\\python\\Vedernikoff\\trunk\\Stair\\stair.py\", line 73,\r\nin PrintWay\r\nwhile way.__len__() > 0:\r\nAttributeError: \\'NoneType\\' object has no attribute \\'__len__\\'\r\n\"\"\"\r\n- совершенно неэффективная функция ReplaceChar . Это можно сделать в одну строчку, используйте слайсы (конструкции вида s[1:17])\n30.05.2014 Оценка: 8 Сергей Азовсков:\n* некорректная работа с кодировками и обработка ошибок\n\"\"\"\nlast-g@yalast:~/teaching/python/2014/Vedernikoff/trunk/Stair$ ls\nempty.txt  __pycache__  runouns.txt  stair.py  tests.py\nlast-g@yalast:~/teaching/python/2014/Vedernikoff/trunk/Stair$ python3 stair.py --words муха слон\nCannot read <_io.TextIOWrapper name='runouns.txt' mode='r' encoding='UTF-8'>\n\"\"\"\n*",
                 "date": "10.04.2014",
                 "points": 8,
-                "student": "Vedernikov Max"
+                "student": "Vedernikov Max",
+                "year": "2013-2014"
             },
             {
                 "comment": "02.05.2014 Оценка: 8 Сергей Азовсков:\n* поправить тесты\n* сделать визуализацию компонент связности, для слов указанной длинны, использовать graphviz\n02.05.2014 Оценка: 8 Сергей Азовсков:\n* сделать визуализацию компонент связности, для слов указанной длинны, использовать graphviz",
                 "date": "15.04.2014",
                 "points": 9,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.04.2014",
                 "points": 9,
-                "student": "Рыбалка Катя"
+                "student": "Рыбалка Катя",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.05.2014",
                 "points": 9,
-                "student": "Долгих Наташа"
+                "student": "Долгих Наташа",
+                "year": "2013-2014"
             },
             {
                 "comment": "04.10.2014 Оценка: 5 Сергей Азовсков:\n* кратчайший путь\n* обработка ошибок\n* тесты",
                 "date": "24.09.2014",
                 "points": 9,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "26.10.2014 Оценка: 1 Павел Блинов:\n0б\n28.10.2014 Оценка: 2 Павел Блинов:\n+ Кодировка (utf-8)\n+ Убрать exit()\n+ pep8 pylint!!!\n+ документация к фкнциям\n+ убрать относительные пути в функциях\n+ сообщения об ошибках\n+ argparse\n+ регистронезависимость\n17.11.2014 Оценка: 5 Павел Блинов:\n+ закрытие файлов (with open)\n+ явно указывать кодировку при открытии файла\n+ документация\n+ raise sys.exit()\n+ алгоритм\n+ argparse (работа без лишнего ключа)\n+ работа из любой директории\n+ собственный класс для ошибок\n+ check_len\n+ re.sub(\"\\n\", '', tmp_dic)",
                 "date": "30.09.2014",
                 "points": 5,
-                "student": "Зазуля Наталья"
+                "student": "Зазуля Наталья",
+                "year": "2013-2014"
             },
             {
                 "comment": "22.11.2014 Оценка: 6 Сергей Азовсков:\n* медленно\n* тесты\n* нельзя выполнять код при импорте,\n* use defaultdict\n* плохокод",
                 "date": "28.10.2014",
                 "points": 6,
-                "student": "Дубиковский Саша"
+                "student": "Дубиковский Саша",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -586,51 +680,60 @@
                 "comment": "",
                 "date": "27.03.2014",
                 "points": 10,
-                "student": "Бекленищева Елена"
+                "student": "Бекленищева Елена",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 12,
-                "student": "Долгих Наташа"
+                "student": "Долгих Наташа",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.04.2014",
                 "points": 8,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 9 Александр Бочаров:\nНе залился дифф с исправлениями.\n30.05.2014 Оценка: 10 Александр Бочаров:\nС диффом все ок.",
                 "date": "13.04.2014",
                 "points": 10,
-                "student": "Булатов Андрей"
+                "student": "Булатов Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "02.05.2014 Оценка: 1 Сергей Азовсков:\n* есть проверка корректности и разумныемысли\n* авансом, так как не сможет сдать до того как слетит задача ещё раз\n16.05.2014 Оценка: 7 Сергей Азовсков:\n* Печать канонической формы?\n* Многочлен от многих переменных\n* корректность работы\n* БООООЛЬШЕ ТЕСТОВ\n* декомпоизицию\n* pep8\n23.05.2014 Оценка: 10 Сергей Азовсков:\n* баги со степенями\n* отрицательные степени\n* --verbose ключ, для печати внутрненней кухни процесса сравнения многочленов\n* параметр для выбора сколько значений подставлять",
                 "date": "15.04.2014",
                 "points": 10,
-                "student": "Баженова Аня"
+                "student": "Баженова Аня",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "15.04.2014",
                 "points": 10,
-                "student": "Кузнецова Анна"
+                "student": "Кузнецова Анна",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "15.04.2014",
                 "points": 10,
-                "student": "Задворных Роман"
+                "student": "Задворных Роман",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 1 Сергей Азовсков:\n* красивые сообщения об ошибках\n* debug mode\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"-1\" \"-1\"\nextra characters\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"-1\" \"(-1)\"\nextra characters\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"1\" \"1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"1\" \"1-1+1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"-1\" \"1-1+1\"\nextra characters\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-1+1-1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-1+1-1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-1+1-1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-1+1-1-2\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1-2\" \"1-1+1-1-2\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2+2\" \"2+2\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2+2\" \"2+2--1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2+2\" \"-1\"\nextra characters\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2+2\" \"1-1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2+2\" \"1----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2\" \"1----1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2\" \"1-----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1-----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"1\" \"1-----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"2\" \"1-----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1-----1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-----1\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1-(-(-(-(-1))))\n\"\nextra characters\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0\" \"1-0\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"1\" \"1-0\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-0\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"1\" \"1-0\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-0\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1\" \"1-0\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0-1x\" \"1x-0\"\nSedness... Trey are different.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0x-1\" \"1x-0\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0x*1\" \"1x-0\"\nWow, good polynoms. Trere are similar.\n\nD:\\Workspace\\teaching\\python\\Nastya\\trunk\\polinoms>poly.py  \"0x-1\" \"1x*0\"\nSedness... Trey are different.\n04.10.2014 Оценка: 9 Сергей Азовсков:\n* деление на выражение\n* (x-1)(x+1)\n* красивее debug\n* возведение в степень имеет должно иметь больший приоритет, чем умножение\n08.11.2014 Оценка: 9 Сергей Азовсков:\n* тесты\n* деление\n* возведение в степень имеет должно иметь больший приоритет, чем умножение\n29.11.2014 Оценка: 11 Сергей Азовсков:\n* возведение в степень должно иметь правую ассоциативность\n* возведение константы в отрицательную степень",
                 "date": "08.05.2014",
                 "points": 12,
-                "student": "Свалова Анастасия"
+                "student": "Свалова Анастасия",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -641,51 +744,60 @@
                 "comment": "01.04.2014 Оценка: 1 Павел Блинов:\nПроверить позже.\n16.05.2014 Оценка: 5 Павел Блинов:\nдокументация, тесты\n09.03.2015 Оценка: 6 Павел Блинов:\nУлучшить алгоритм алгоритм.\nМожно использовать unittests.",
                 "date": "04.03.2014",
                 "points": 6,
-                "student": "Политов Алексей"
+                "student": "Политов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.04.2014",
                 "points": 4,
-                "student": "Ковтанюк Илья"
+                "student": "Ковтанюк Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "24.09.2014 Оценка: 4 Сергей Азовсков:\n* проблема с точками\n* сделать быстрый  алгоритм\n* сделать графики скорости работы от размера теста/количества слов/средней длинны слова\n* не закрываете файлы\n* параметры для размеров палиндромов - минимальный, максимальный\n* тесты + coverage.py > 80%",
                 "date": "12.05.2014",
                 "points": 4,
-                "student": "Чикурова Полина"
+                "student": "Чикурова Полина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.05.2014",
                 "points": 1,
-                "student": "Кузнецова Анна"
+                "student": "Кузнецова Анна",
+                "year": "2013-2014"
             },
             {
                 "comment": "26.10.2014 Оценка: 1 Павел Блинов:\n0б\n28.10.2014 Оценка: 3 Павел Блинов:\n+ тесты на каждую функцию библиотеки \n+ убрать глобальную переменную\n+ pep8 pylint!!!\n+ документация к функциям\n+ сообщения об ошибках\n+ argparse\n+ кодировки\n17.11.2014 Оценка: 6 Павел Блинов:\n+ Именование классов CamelCase\n+ явно указывать кодировку при открытии файла\n+ документация\n+ кодировки\n+ оформить вывод\n+ убрать лишний код\n+ тесты на каждую функцию библиотеки \n+ декомпозиция",
                 "date": "30.09.2014",
                 "points": 6,
-                "student": "Зазуля Наталья"
+                "student": "Зазуля Наталья",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.11.2014 Оценка: 7 Александр Берсенев:\npep8",
                 "date": "06.10.2014",
                 "points": 8,
-                "student": "Чиглинцев Андрей"
+                "student": "Чиглинцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.10.2014 Оценка: 2 Александр Берсенев:\nрешение работает за факториал",
                 "date": "15.10.2014",
                 "points": 8,
-                "student": "Колчанов Павел"
+                "student": "Колчанов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.01.2015",
                 "points": 8,
-                "student": "Корюков Иван"
+                "student": "Корюков Иван",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -696,51 +808,60 @@
                 "comment": "17.05.2014 Оценка: 12 Павел Блинов:\n* нет документации\n* убрать глобальные переменные\n* какая вычислительная сложность алгоритма? (задокументировать)\n\nВыбрать улучшение:\n- Решение частично заполненных кроссвордов\n- Выживание после hard-reset",
                 "date": "21.02.2014",
                 "points": 12,
-                "student": "Копейцев Вячеслав"
+                "student": "Копейцев Вячеслав",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 11,
-                "student": "Любимова Марина"
+                "student": "Любимова Марина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.04.2014",
                 "points": 14,
-                "student": "Черных Артём"
+                "student": "Черных Артём",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.05.2014",
                 "points": 13,
-                "student": "Мухтарова Динара"
+                "student": "Мухтарова Динара",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.05.2014",
                 "points": 10,
-                "student": "Мулыгина Александра"
+                "student": "Мулыгина Александра",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.05.2014",
                 "points": 10,
-                "student": "Авдонин Сергей"
+                "student": "Авдонин Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.06.2014",
                 "points": 13,
-                "student": "Рыбалка Катя"
+                "student": "Рыбалка Катя",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.10.2014",
                 "points": 15,
-                "student": "Нестерова Татьяна"
+                "student": "Нестерова Татьяна",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -751,15 +872,18 @@
                 "comment": "",
                 "date": "11.05.2014",
                 "points": 20,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.01.2015",
                 "points": 2,
-                "student": "Кулаков Владислав"
+                "student": "Кулаков Владислав",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Игра",
@@ -770,51 +894,60 @@
                 "comment": "",
                 "date": "17.03.2014",
                 "points": 10,
-                "student": "Козачук Дмитрий"
+                "student": "Козачук Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.05.2014",
                 "points": 17,
-                "student": "Чижов Даниил"
+                "student": "Чижов Даниил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.06.2014",
                 "points": 14,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "24.09.2014 Оценка: 9 Сергей Азовсков:\n* хотсит\n* выбор за кого играть (чёрные-белые)\n* выбор размера поля (например, от 8x8 до 16x16)\n* игра по-сети\n* избавиться от констант",
                 "date": "05.08.2014",
                 "points": 9,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.09.2014",
                 "points": 16,
-                "student": "Мылов Василий"
+                "student": "Мылов Василий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.09.2014",
                 "points": 16,
-                "student": "Самородов Алексей"
+                "student": "Самородов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.09.2014",
                 "points": 11,
-                "student": "Сапрыкина Карина"
+                "student": "Сапрыкина Карина",
+                "year": "2013-2014"
             },
             {
                 "comment": "25.10.2014 Оценка: 11 Сергей Азовсков:\n* enum\n* прибраться в коде\n* предефайнед игры\n* более умного бота\n* сетевая игра",
                 "date": "27.09.2014",
                 "points": 11,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Игра",
@@ -825,51 +958,60 @@
                 "comment": "",
                 "date": "18.03.2014",
                 "points": 17,
-                "student": "Выростко Ольга"
+                "student": "Выростко Ольга",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.04.2014",
                 "points": 12,
-                "student": "Водопьянов Степан"
+                "student": "Водопьянов Степан",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "14.05.2014",
                 "points": 16,
-                "student": "Брагин Егор"
+                "student": "Брагин Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.05.2014",
                 "points": 12,
-                "student": "Лысый Сергей"
+                "student": "Лысый Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.06.2014",
                 "points": 17,
-                "student": "Телепова Екатерина"
+                "student": "Телепова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 8 Сергей Азовсков:\n* посмотреть подробно и дать что-нить ;)\n15.11.2014 Оценка: 14 Сергей Азовсков:\n* показывать чей сейчас ход (цвет + кто в сетевой игре, вы не вы)\n* pylint\n* корректное чтение и запись из сокета\n* обрабатывать ошибки сети",
                 "date": "13.06.2014",
                 "points": 14,
-                "student": "Денисов Александр"
+                "student": "Денисов Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.10.2014 Оценка: 8 Сергей Азовсков:\n* декомпозиция\n* красивая консоль с  цветами\n* улучшить интерфейс\n* несколько уровней сложности с возможностью переключать во время игры\n* команда \"начать игру заново\"\n* копирайт\n* hotseat\n29.11.2014 Оценка: 11 Сергей Азовсков:\n* тесты\n* обработка некорретных ответов в интерфейсе\n* некорректно работает new во время hotseat\n* актуальный help\n* красивая консоль с цветами\n* переключение сложности во время игры\n* автодополнение по tab\n* копирайт\n* ТАБУЛЯЦИИ!\n13.12.2014 Оценка: 15 Сергей Азовсков:\n* не определяет случай, когда нет допустимых ходов\n* автодополнение\n* trim строк в интерфейсе",
                 "date": "02.10.2014",
                 "points": 15,
-                "student": "Чикурова Полина"
+                "student": "Чикурова Полина",
+                "year": "2013-2014"
             },
             {
                 "comment": "13.01.2015 Оценка: 15 Сергей Азовсков:\n* работа с сокетами\n* бойлерплейт\n* отделение логики ResourceManager От логики отображаения",
                 "date": "04.11.2014",
                 "points": 17,
-                "student": "Новиков Андрей"
+                "student": "Новиков Андрей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Игра",
@@ -880,51 +1022,60 @@
                 "comment": "",
                 "date": "20.05.2014",
                 "points": 10,
-                "student": "Ширинкин Александр"
+                "student": "Ширинкин Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.06.2014",
                 "points": 13,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 1 Сергей Азовсков:\n* не готово, есть надежда. Дедлайн 8 октября\n04.10.2014 Оценка: 8 Сергей Азовсков:\n* условие выигрыша \n* бага с невозможностью сходить дамкой, когда в углу кто-то есть\n* подсветка текущей шашки, возможных ходов ей\n* hotseat\n* кнопки новая игра, о игре, о авторе\n* все правила международных шашек + тесты на них\n* умный-умный интеллект и несколько уровней сложности\n* ТЕСТЫ\n* pep8 & pylint",
                 "date": "04.06.2014",
                 "points": 8,
-                "student": "Шеломов Никита"
+                "student": "Шеломов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "22.06.2014",
                 "points": 15,
-                "student": "Кулаков Владислав"
+                "student": "Кулаков Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 8 Сергей Азовсков:\n* косяк с дамкой\n* сообщение о выигрыше, а не зависание\n* интерфейс\n* тесты на логические функции\n* глабальные переменные исправить\n* сетевая игра\n* pylint\n27.09.2014 Оценка: 8 Сергей Азовсков:\n* имена модулей\n* плохие названия функций",
                 "date": "29.06.2014",
                 "points": 8,
-                "student": "Koval Polina"
+                "student": "Koval Polina",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 11 Сергей Азовсков:\n* надо явно наследоваться от object\n* правильные имена функций\n* сетевая игра\n01.10.2014 Оценка: 13 Сергей Азовсков:\n* лапша с сетью (см. комментарий к пакману)\n* наследование от object\n* имена функций\n* кажется, бага в hard алгоритме\n* нормое сообщение о победе\n* индикация того, чей сейчас ход\n* кнопка \"Новая игра\"\n25.10.2014 Оценка: 15 Сергей Азовсков:\n* проблемы с рассинхронизацией в сетевом коде\n* pylint\n22.11.2014 Оценка: 15 Сергей Азовсков:\n* сделать пинг, корректный.",
                 "date": "29.06.2014",
                 "points": 17,
-                "student": "Вострецов Павел"
+                "student": "Вострецов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "26.11.2014",
                 "points": 1,
-                "student": "Дубиковский Саша"
+                "student": "Дубиковский Саша",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.01.2015",
                 "points": 1,
-                "student": "Митрофанова Елена"
+                "student": "Митрофанова Елена",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Игра",
@@ -935,51 +1086,60 @@
                 "comment": "",
                 "date": "08.04.2014",
                 "points": 17,
-                "student": "Печенкин Степан"
+                "student": "Печенкин Степан",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.04.2014",
                 "points": 20,
-                "student": "Бравилов Николай"
+                "student": "Бравилов Николай",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "14.05.2014",
                 "points": 14,
-                "student": "Михалищев Артем"
+                "student": "Михалищев Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "28.05.2014 Оценка: 8 Сергей Азовсков:\n- допустимы некорректные ходы (перепрыгивание, рубка без остановки)\n- условия шаха и мата\n- глообальные переменные, стиль\n- треш в логике\n- разделение логики и GUI, и интеллекта и прочего :)\n- игра по сети\n- сохранения\n20.12.2014 Оценка: 12 Сергей Азовсков:\n* игра по сети\n* сохранения \n* вызов кода при импорте\n* тесты\n* магические константы\n27.12.2014 Оценка: 16 Сергей Азовсков:\n* игра по сети\n17.01.2015 Оценка: 19 Сергей Азовсков:\n* стиль кода:\n* большие фукции\n* бессмысленные имена переменных\n* бессмысленные классы\n* закрывать файлы и сокеты\n* отделить логику от сети и разобраться с декомпозицией\n07.03.2015 Оценка: 19 Сергей Азовсков:\n* закрывать сокеты",
                 "date": "23.05.2014",
                 "points": 21,
-                "student": "Смирнов Владимир"
+                "student": "Смирнов Владимир",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "23.05.2014",
                 "points": 20,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 10 Сергей Азовсков:\n* тормоза\n* надо подправить архитектуру модулей\n* тесты  падают\n* наладить на винде\n* сетевая игра",
                 "date": "24.05.2014",
                 "points": 10,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.10.2014",
                 "points": 15,
-                "student": "Стилик Сергей"
+                "student": "Стилик Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "07.03.2015 Оценка: 1 Сергей Азовсков:\n* Стиль кода\n* тесты\n* работоспособность\n* лишние модули\n* магические константы\n* игра по-сети\n21.03.2015 Оценка: 16 Сергей Азовсков:\n* pylint\n* баги в сетевой игре\n* подсвечивать последний ход\n* сообщать о шахе\n28.03.2015 Оценка: 20 Сергей Азовсков:\n* эксепшн",
                 "date": "15.02.2015",
                 "points": 20,
-                "student": "Амиров Миша"
+                "student": "Амиров Миша",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -990,51 +1150,60 @@
                 "comment": "07.03.2014 Оценка: 5 Сергей Азовсков:\n* тесты\n* файл входа и выхода, как аргументы командной строки (поддержка stdin, stdout)\n* режимы работы: минимизация пути, минимизация бомб\n30.05.2014 Оценка: 9 Сергей Азовсков:\n* тесты валятся под linux\n* нет shebang\n* некорректная работа с stdin\n\"\"\nlast-g@yalast:~/teaching/python/2014/borozdin/trunk/labyrinth$ python3 ./labyrinth.py --input-file input.txt \nDistance covered: 5 | Bombs left: 0\nSXXXXF\n......\nlast-g@yalast:~/teaching/python/2014/borozdin/trunk/labyrinth$ python3 ./labyrinth.py",
                 "date": "21.02.2014",
                 "points": 9,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "07.03.2014 Оценка: 4 Сергей Азовсков:\n* Не ищет кратчайший путь\n* Тестирование\n* имя файла\n* pep8 и избавиться от дублирования\n* обработка ошибок (работа на некорректных данных)",
                 "date": "21.02.2014",
                 "points": 4,
-                "student": "Денисов Александр"
+                "student": "Денисов Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.04.2014",
                 "points": 10,
-                "student": "Нестерова Татьяна"
+                "student": "Нестерова Татьяна",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.05.2014",
                 "points": 10,
-                "student": "Задворных Роман"
+                "student": "Задворных Роман",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.10.2014 Оценка: 6 Сергей Азовсков:\n* Документация\n* Тесты\n* Красивенько\n* Косяки с бомбами\n* Некорректные данные\n* PEP8 & pylint\n* выбор режима минимизации длинны пути или использованных бомб\n20.12.2014 Оценка: 8 Сергей Азовсков:\n* косяки с путями\n* pylint",
                 "date": "02.10.2014",
                 "points": 10,
-                "student": "Koval Polina"
+                "student": "Koval Polina",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.10.2014",
                 "points": 10,
-                "student": "Рыбаков Даниил"
+                "student": "Рыбаков Даниил",
+                "year": "2013-2014"
             },
             {
                 "comment": "06.11.2014 Оценка: 3 Александр Берсенев:\nОбщий случай, когда изначально от входа до выхода нет пути.",
                 "date": "25.10.2014",
                 "points": 4,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.01.2015",
                 "points": 10,
-                "student": "Латыпова Екатерина"
+                "student": "Латыпова Екатерина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1045,15 +1214,18 @@
                 "comment": "",
                 "date": "18.11.2014",
                 "points": 4,
-                "student": "Чиглинцев Андрей"
+                "student": "Чиглинцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "08.01.2015 Оценка: 8 Павел Блинов:\nlogging\ncode style (magic const, pep8, pylint, settings, ...)\ndocs\ntests\nwork with fat errors (+keys)\ncheck magic consts, chack names (more validations)\nkey for bead sectors (can mark as free)\n\ndefragment file entrys in dir (optional)\n12.01.2015 Оценка: 20 Павел Блинов:\nКлюч для работы с ошибками (сохранять файлы в lost and found, а не удалять)\n+ Тесты к этому\n\nОпционально: дефрагментация directory entry",
                 "date": "28.12.2014",
                 "points": 25,
-                "student": "Копейцев Вячеслав"
+                "student": "Копейцев Вячеслав",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1064,51 +1236,60 @@
                 "comment": "",
                 "date": "16.02.2014",
                 "points": 12,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.02.2014",
                 "points": 10,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.02.2014",
                 "points": 5,
-                "student": "Тихонов Никита"
+                "student": "Тихонов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.02.2014",
                 "points": 12,
-                "student": "Латыпова Екатерина"
+                "student": "Латыпова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.02.2014",
                 "points": 12,
-                "student": "Выростко Ольга"
+                "student": "Выростко Ольга",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "19.02.2014",
                 "points": 10,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "19.02.2014",
                 "points": 10,
-                "student": "Миронов Данил"
+                "student": "Миронов Данил",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 1 Сергей Азовсков:\n* гиперразбиение\n* стиль \n* PEP8\n* Сравнения нет, графиков нет, документации нет\n* Генератор тестовых данных \n* Правильное измерение времени\n04.10.2014 Оценка: 6 Сергей Азовсков:\n* pylint немного\n* подписи на графиках\n* возможность записи в формате csv\n* посчитать количество сравнений для default sort\n* реализовать tim sort, сортировку выборкой и сортировку расчёской\n* правильное измерение времени\n25.10.2014 Оценка: 10 Сергей Азовсков:\n* правильный расчёт comparation и остального\n* плохой случай для qsort",
                 "date": "07.05.2014",
                 "points": 12,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1119,51 +1300,60 @@
                 "comment": "",
                 "date": "19.04.2014",
                 "points": 7,
-                "student": "Скулкин Андрей"
+                "student": "Скулкин Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "25.04.2014 Оценка: 5 Сергей Азовсков:\n* открытие файла из GUI\n* постоянную скорость (с возможностью её менять)\n* бесконечное поле\n* большее разбиение на функции и отделение логики от ГУИ\n* сетка\n* help\n02.05.2014 Оценка: 9 Сергей Азовсков:\n* нормальный диалог открытия\n* кнопка следующего состояния\n* больше тестов разных\n* редактирование поля в самой игре\n* масштабирование\n15.11.2014 Оценка: 13 Сергей Азовсков:\n* pylint\n* больше тестотв",
                 "date": "24.04.2014",
                 "points": 13,
-                "student": "Денисов Александр"
+                "student": "Денисов Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 11 Сергей Азовсков:\n* Круто\n* Тесты\n* Разбить работую с GUI на функции, избавиться от глобальных переменных. Может завернуть в класс?\n* Отображать сетку\n* Копирайт :)\n* readme\n* сады Семирамиды",
                 "date": "24.04.2014",
                 "points": 15,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.04.2014",
                 "points": 10,
-                "student": "Суслова Мария"
+                "student": "Суслова Мария",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.05.2014",
                 "points": 15,
-                "student": "Гробов Сергей"
+                "student": "Гробов Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.05.2014",
                 "points": 15,
-                "student": "Нагайцев Андрей"
+                "student": "Нагайцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 10 Павел Блинов:\n* исправить pylint\n* написать документацию\n* добавить тесты\n* выделить class `LiveGame` c \"логикой игры\" в отдельный файл. (так, что бы можно было им воспользоваться для создания консольной версии игры)",
                 "date": "03.05.2014",
                 "points": 10,
-                "student": "Соколов Вячеслав"
+                "student": "Соколов Вячеслав",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.12.2014 Оценка: 1 Сергей Азовсков:\n* документация\n* тесты\n* рисовать\n* сохранять и загружать\n* управление скоростью и масштабом\n* проверка на наличия предыдущей позиции\n10.01.2015 Оценка: 9 Сергей Азовсков:\n* увеличить допустимые пределы размеры и скорости и масштаба\n* странные баги с отображением\n* больше тестов (покрытие)\n* безумное количество констант в коде, выделить сущность кнопки\n* проверка на предыдущее состояние\n* pylint\n28.02.2015 Оценка: 12 Сергей Азовсков:\n* доделать кнопки\n* довыделять константы\n* починить баги с отображением\n28.03.2015 Оценка: 14 Сергей Азовсков:\n* валится если жамкать отдалить",
                 "date": "02.10.2014",
                 "points": 15,
-                "student": "Ветошко Дарья"
+                "student": "Ветошко Дарья",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1174,51 +1364,60 @@
                 "comment": "",
                 "date": "01.05.2014",
                 "points": 10,
-                "student": "Рычков Егор"
+                "student": "Рычков Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 8 Сергей Азовсков:\n* гиперразбиение на модули (не стот так сильно дробить, это тяжело отслеживать)\n* несколько разных алгоритмов раскраски с возможностью выбора (в том числе полный перебор)\n* возможность выбирать из GUI файл\n* help в GUI и копирайт\n* ошибки в гуях\n* PEP8 и стиль именования всего.\n23.05.2014 Оценка: 11 Сергей Азовсков:\n* несколько алгоритмов\n* проблема с обработкой ошибок\n* неправильное обращение с ошибка (ошибки должны передваться как raise)\n* генератор графов или рисовалка\n25.10.2014 Оценка: 12 Сергей Азовсков:\n* выбор алгоритма в gui\n* баги с корректностью\n* ...",
                 "date": "08.05.2014",
                 "points": 16,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 6 Сергей Азовсков:\n* работа на некорректных данных\n* argparse\n* python3\n* PEP8 & pylint\n* тесты\n* не копипастить\n* выводить количество цветов в гуи\n* копирайт и хелп в гуи\n* кнопочка загрузки из файла\n* +1 алгоритм раскраски\n28.05.2014 Оценка: 10 Сергей Азовсков:\n- ворнинги, не закрывете фалы\n- глобальные переменные и pylint\n- значащие имена для классов\n- честный полный перебор с поиском лучшего решения (по количеству цветов)\n- цельный GUI, с сообщениями об ошибках\n- консольный интерфейс\n- осмысленные имена алгоритмов\n07.03.2015 Оценка: 11 Сергей Азовсков:\n* Генератор тестовых данных\n* стиль кода, бессмысленные имена\n* хелп\n* разбор аргументов\n* конкретные ошибки при работе с некорректными данными\n* понимание собственного кода\n* магические константы\n* AlmostEqual\n* имена классов и модулей",
                 "date": "16.05.2014",
                 "points": 11,
-                "student": "Амиров Миша"
+                "student": "Амиров Миша",
+                "year": "2013-2014"
             },
             {
                 "comment": "28.05.2014 Оценка: 7 Сергей Азовсков:\nОбязательно:\n- проверка корректности графа\n- pep8 & pylint\n- отрисовка графа\nФичи:\n- добавить алгоритм полного перебора\n- несколько алгоритмов раскраски\n- цельный интерфейс\n- возможность выбора алгоритма\n- рисование карты\n30.05.2014 Оценка: 10 Сергей Азовсков:\nАвансик",
                 "date": "23.05.2014",
                 "points": 10,
-                "student": "Ветошко Дарья"
+                "student": "Ветошко Дарья",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 8 Сергей Азовсков:\n* имена и описания функцию не соотвествуют их реализации\n* надо явно наследоваться от object\n* Декомпозировать\n* валидация данных и сообщения об ошибках\n* страны не пересекаются\n* сделать какую-то фишку для удобства рисования непересекающихся стран с общими границами\n* генератор тестов (больщих карт)",
                 "date": "26.05.2014",
                 "points": 8,
-                "student": "Вострецов Павел"
+                "student": "Вострецов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.10.2014 Оценка: 8 Сергей Азовсков:\n* генератор стран\n* обработка ошибок и некорректных данных\n* сделать полный перебор (два алгоритма для раскраски)\n18.10.2014 Оценка: 8 Сергей Азовсков:\n* документация, декомпозиция, тесты\n* GUI интерфейс\n18.12.2014 Оценка: 12 Сергей Азовсков:\n* нормальное именование модулей\n* генерация графов\n* доделать GUI, не вывалиться\n*\n20.12.2014 Оценка: 14 Сергей Азовсков:\n* вывести результат генерации в файл\n* поддержка 100500\n* не вылетать на некорректный файл\n*",
                 "date": "02.10.2014",
                 "points": 16,
-                "student": "Свалова Анастасия"
+                "student": "Свалова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.10.2014",
                 "points": 16,
-                "student": "Успенская Валентина"
+                "student": "Успенская Валентина",
+                "year": "2013-2014"
             },
             {
                 "comment": "07.03.2015 Оценка: 6 Сергей Азовсков:\n* работа на некорректных данных\n* тесты\n* стиль имён и кода\n* несколько алгоритмов поиска(реализация полного перебора)\n* генератор графов (найти контрпример)",
                 "date": "26.02.2015",
                 "points": 6,
-                "student": "Паталаха Михаил"
+                "student": "Паталаха Михаил",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1229,45 +1428,53 @@
                 "comment": "23.05.2014 Оценка: 7 Сергей Азовсков:\n* падает\n* письма на русском\n* имена аттачментов в интерфейсе\n* заголовки писем в интерфейсе\n* кнопка обновить\n* возможность посмотреть / сохранить письмо в сыром виде (.eml)\n* help & copyright\n* pylint и стиль именования\n30.05.2014 Оценка: 10 Сергей Азовсков:\n* разные типы вложений\n* баг при разрые соединения\n* удаление писем\n* help & copyright\n* поправить eml",
                 "date": "07.05.2014",
                 "points": 10,
-                "student": "Мухинский Антон"
+                "student": "Мухинский Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.10.2014 Оценка: 1 Сергей Азовсков:\n* обработка ошибок\n* интерфейс\n* документация\n* тесты\n* не использовать email\n* декомпозиция\n08.11.2014 Оценка: 6 Сергей Азовсков:\n* обработка ошибок :(\n* пакетный режим (указание всего через аргументы)\n* сохранение вложение и вообще возможность сохранять письма\n* тесты\n* нормальный парсинг хедеров\n06.12.2014 Оценка: 7 Сергей Азовсков:\n* автоконнект\n* не поддержка работы без ssl\n* help\n* pylint\n* что б работало\n* ключики с --\n* поддержка конфигураций\n20.12.2014 Оценка: 9 Сергей Азовсков:\n* странное с e1\n* обработка ошибок\n* не падать на чушь\n* работать с вложениями с помощью команд\n* список вложений при листинге писем\n27.12.2014 Оценка: 10 Сергей Азовсков:\n* проблемы с некоторыми письмами. Нужен дебаг.\n* transfer-encoding\n* команда для сохранения письма в raw формате в папку + всех вложений\n27.12.2014 Оценка: 10 Сергей Азовсков:\n* проблемы с некоторыми письмами. Нужен дебаг.\n* transfer-encoding\n* команда для сохранения письма в raw формате в папку + всех вложений\n* разделитель путей - /",
                 "date": "24.09.2014",
                 "points": 12,
-                "student": "Mironov Alexey"
+                "student": "Mironov Alexey",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "27.09.2014",
                 "points": 10,
-                "student": "Мелекесцев Дмитрий"
+                "student": "Мелекесцев Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.11.2014",
                 "points": 8,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "17.12.2014",
                 "points": 6,
-                "student": "Телепова Екатерина"
+                "student": "Телепова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.02.2015",
                 "points": 9,
-                "student": "Денисов Алексей"
+                "student": "Денисов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.03.2015",
                 "points": 3,
-                "student": "Новиков Андрей"
+                "student": "Новиков Андрей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1278,51 +1485,60 @@
                 "comment": "11.04.2014 Оценка: 7 Сергей Азовсков:\n* вложения\n* вынесение логики работы с SMTP от логики отображения\n* своя реализация MIME\n\n* хелп\n* документация\n* SVN\n* декомпозиция\n25.04.2014 Оценка: 9 Сергей Азовсков:\n* зависает\n* не добавляет файл (Python 3.3?)\n* документац\n* тесты на составление писем\n16.05.2014 Оценка: 11 Сергей Азовсков:\n* разбить на регионы в GUI\n* тесты в unittest",
                 "date": "29.03.2014",
                 "points": 11,
-                "student": "Шеломов Никита"
+                "student": "Шеломов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.04.2014",
                 "points": 6,
-                "student": "Гробов Сергей"
+                "student": "Гробов Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.05.2014 Оценка: 5 Сергей Азовсков:\n* возможность указать указывать все параметры как ключи\n* аттачменты \n* pylint\n* Свой MIME",
                 "date": "02.05.2014",
                 "points": 5,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "17.10.2014 Оценка: 1 Александр Берсенев:\nчтоб не слетела",
                 "date": "18.09.2014",
                 "points": 7,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "04.10.2014 Оценка: 6 Сергей Азовсков:\n* красивый интерфейс, лейблы\n* тесты\n* корректные письма (кодировка)\n* отправка писем с вложениями\n* обработка ошибок\n* валидация\n* дополнительные заголовки СС и т.д.\n* возможность добавить свои заголовки\n* возможность запуска с консили",
                 "date": "27.09.2014",
                 "points": 6,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.10.2014 Оценка: 1 Сергей Азовсков:\n* документация, декомпозиция, тесты\n* интерфейс консольный и файловый\n* вложения\n08.11.2014 Оценка: 7 Сергей Азовсков:\n* тесты\n* указание произвольных заголовков\n* возможность делать массовые рассылки\n* делать массовые рассылки с шаблонами\n08.11.2014 Оценка: 7 Сергей Азовсков:\n* debug-режим\n29.11.2014 Оценка: 9 Сергей Азовсков:\n* debug-режим печатать ответы от сервера\n* корректный  парсинг конфигурационных файлов\n* обрабатывать дирректории в вложениях (норм сообщение об ошибке)\n* отправлять хедеры\n* обрабатывать ошибки от сервера\n* многострочные хедеры\n* pylint\n*\n06.12.2014 Оценка: 10 Сергей Азовсков:\n* выключаемы debug c большим количеством информации об ошибке\n* корректная отправка хедеров\n* нормальные сообщения об ошибках, хотя бы базовые. \n* pylint",
                 "date": "02.10.2014",
                 "points": 12,
-                "student": "Свалова Анастасия"
+                "student": "Свалова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.10.2014",
                 "points": 1,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.11.2014 Оценка: 1 Сергей Азовсков:\n* документация\n* декомпозиция\n* тесты\n* Уметь отправлять обычные письма\n* возможность указывать все параметры отправки (кому, от кого, тему)\n* возможность указывать произвольные заголовки\n* возможность отправки многим адресатам  + CC и BCC\n* письма с вложениями\n20.12.2014 Оценка: 6 Сергей Азовсков:\n* обрататывать некорректные конфиги\n* многострочные хедеры\n* CC и BCC\n* работает моя почта (на гугле)\n* включение/выключение дебаг режима\n* нормальный парсер SMTP\n* работа с сокетыми\n* таймауты\n* поддержка и с ssl и без ssl\n* разделить логику и интерфейс",
                 "date": "31.10.2014",
                 "points": 6,
-                "student": "Баженова Аня"
+                "student": "Баженова Аня",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1333,45 +1549,53 @@
                 "comment": "20.12.2014 Оценка: 6 Сергей Азовсков:\n* все сервера\n* download folders\n* upload files and folders\n* help\n* документация \n* тесты\n* опции: переключение между пассивным и активным\n27.12.2014 Оценка: 7 Сергей Азовсков:\n* download folders\n* upload files and folders\n* help\n* документация \n* тесты\n* опции: переключение между пассивным и активным\n* ftp://cs.usu.edu.ru/last_g/\n10.01.2015 Оценка: 9 Сергей Азовсков:\n* папки глючат, всё же хочется получить \n* иногда отваливается tree view\n* работа с cs.usu.edu.ru\n* вход в скрытые папки\n* тесты\n* пассивный активный\n* upload \n* ftp://cs.usu.edu.ru/last_g/",
                 "date": "13.10.2014",
                 "points": 9,
-                "student": "Бикташев Галлям"
+                "student": "Бикташев Галлям",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.12.2014",
                 "points": 5,
-                "student": "Коврижных Алексей"
+                "student": "Коврижных Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 9,
-                "student": "Чижов Даниил"
+                "student": "Чижов Даниил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.01.2015",
                 "points": 8,
-                "student": "Котов Игорь"
+                "student": "Котов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.01.2015",
                 "points": 1,
-                "student": "Мулыгина Александра"
+                "student": "Мулыгина Александра",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "26.02.2015",
                 "points": 2,
-                "student": "Самородов Алексей"
+                "student": "Самородов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 11,
-                "student": "Латыпова Екатерина"
+                "student": "Латыпова Екатерина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1382,39 +1606,46 @@
                 "comment": "",
                 "date": "12.11.2014",
                 "points": 6,
-                "student": "Брагин Егор"
+                "student": "Брагин Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.01.2015",
                 "points": 6,
-                "student": "Zasorin Egor"
+                "student": "Zasorin Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "22.03.2015",
                 "points": 7,
-                "student": "Чиглинцев Андрей"
+                "student": "Чиглинцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.03.2015",
                 "points": 4,
-                "student": "Смирнов Владимир"
+                "student": "Смирнов Владимир",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.03.2015",
                 "points": 7,
-                "student": "Галочкин Валерий"
+                "student": "Галочкин Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.03.2015",
                 "points": 4,
-                "student": "Сырых Максим"
+                "student": "Сырых Максим",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1425,27 +1656,32 @@
                 "comment": "",
                 "date": "06.10.2014",
                 "points": 14,
-                "student": "Bushmelev Egor"
+                "student": "Bushmelev Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 14,
-                "student": "Корюков Иван"
+                "student": "Корюков Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "03.04.2015 Оценка: 10 Павел Блинов:\nБольше опций. \n+ --timeout\n+ самому рекурсивно бегать по серверам",
                 "date": "23.03.2015",
                 "points": 14,
-                "student": "Леденев Арсений"
+                "student": "Леденев Арсений",
+                "year": "2013-2014"
             },
             {
                 "comment": "28.06.2015 Оценка: 10 Павел Блинов:\n+ Поправить стиль\n+ добавить возможность самостоятельного обращения к корневым серверам",
                 "date": "25.06.2015",
                 "points": 10,
-                "student": "Макаркин Александр"
+                "student": "Макаркин Александр",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Сетевые сервисы",
@@ -1456,27 +1692,32 @@
                 "comment": "",
                 "date": "30.05.2014",
                 "points": 25,
-                "student": "Андрюшкин Аркадий"
+                "student": "Андрюшкин Аркадий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.05.2014",
                 "points": 12,
-                "student": "Румянцев Андрей"
+                "student": "Румянцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.06.2014",
                 "points": 1,
-                "student": "Орозбаев Алексей"
+                "student": "Орозбаев Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.11.2014",
                 "points": 24,
-                "student": "Дейков  Артём"
+                "student": "Дейков  Артём",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1487,51 +1728,60 @@
                 "comment": "",
                 "date": "19.02.2014",
                 "points": 15,
-                "student": "Андрюшкин Аркадий"
+                "student": "Андрюшкин Аркадий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "20.02.2014",
                 "points": 10,
-                "student": "Гробов Сергей"
+                "student": "Гробов Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "21.02.2014",
                 "points": 10,
-                "student": "Колчанов Павел"
+                "student": "Колчанов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 14 Александр Бочаров:\nНе залился дифф с исправлениями.\n30.05.2014 Оценка: 14 Александр Бочаров:\nКоммент случайно добавился - с диффом все ок)",
                 "date": "10.04.2014",
                 "points": 15,
-                "student": "Чикунов Антон"
+                "student": "Чикунов Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.05.2014",
                 "points": 13,
-                "student": "Петров Евгений"
+                "student": "Петров Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.10.2014 Оценка: 8 Сергей Азовсков:\n* UDP?\n* команды чата /list, /ban, передача фала?\n* приватные комнаты или приват\n* обработка ошибок\n* чуть красивее интерфейс",
                 "date": "02.10.2014",
                 "points": 8,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "18.10.2014 Оценка: 6 Сергей Азовсков:\n* документация\n* тесты\n* help\n* интерфейс\n* команды в чате, приваты или приватные комнаты, отображение своих сообщений, бан\n* UDP?\n22.11.2014 Оценка: 10 Сергей Азовсков:\n* отправка по этеру\n* неполная обработка команд\n* подсветка своего ника и своих сообщений\n* бан\n* падает с эксепшнами\n* UDP\n* обновление списка подключённых\n* Help в самой программе\n* pylint\n* Тесты\n\n---------\nTraceback (most recent call last):\nFile \"/home/last-g/Workspace/teaching/fakefeik/trunk/chat/graphics.py\", line 161, in connect\nself.chat_window.chat.connect(address)\nFile \"/home/last-g/Workspace/teaching/fakefeik/trunk/chat/client.py\", line 75, in connect\nsock = socket.create_connection((client.ip, client.port_for_connection))\nFile \"/usr/lib/python3.4/socket.py\", line 491, in create_connection\nfor res in getaddrinfo(host, port, 0, SOCK_STREAM):\nFile \"/usr/lib/python3.4/socket.py\", line 530, in getaddrinfo\nfor res in _socket.getaddrinfo(host, port, family, type, proto, flags):\nsocket.gaierror: [Errno -2] Имя или служба не известны\n06.12.2014 Оценка: 12 Сергей Азовсков:\n* disconnect\n* Обработка невозможности коннекта\n* тесты на сеть",
                 "date": "02.10.2014",
                 "points": 12,
-                "student": "Вострецов Павел"
+                "student": "Вострецов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "20.12.2014 Оценка: 8 Сергей Азовсков:\n* обрабатывать эксепшены\n* не терять клиентов\n* документация/тесты\n* отправка по энтеру\n* очистка по энтеру\n* сообщения должны доходить всегда \n\n* приват\n* список пользователей\n* отправка файлов\n27.12.2014 Оценка: 9 Сергей Азовсков:\n* документация/тесты\n* корректно отрабатывать выход\n\n* приват\n* список пользователей\n* отправка файлов\n10.01.2015 Оценка: 12 Сергей Азовсков:\n* не отлавливает выход (внезапный)\n* иногда случается рассинхрон и сообщения перестают ходить\n* не использовать %\n* kwargs\n* обработка некорректных данных\n* тесты",
                 "date": "09.12.2014",
                 "points": 15,
-                "student": "Бикташев Галлям"
+                "student": "Бикташев Галлям",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор графических файлов",
@@ -1542,51 +1792,60 @@
                 "comment": "",
                 "date": "10.04.2014",
                 "points": 15,
-                "student": "Коврижных Алексей"
+                "student": "Коврижных Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 9 Сергей Азовсков:\n* вообще все поля + тексовые расшифровки\n* набор тестов\n* вообще все поля + смещение \n* текстовое описание поля\n* открытие файла из интерфейса\n* pep8\n* копирайт\n23.05.2014 Оценка: 10 Сергей Азовсков:\nПоправил только Pep8, остального нет.",
                 "date": "13.05.2014",
                 "points": 10,
-                "student": "Попов Евгений"
+                "student": "Попов Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 10 Сергей Азовсков:\n* выкидывает ошибки\n* нет обрабтки ошибок\n* не все все форматы\n* выводить матаинформацию в GUI + тестовое пояснение\n* кнопочки next и prev\n* добить недостающие парсеры\n18.10.2014 Оценка: 12 Сергей Азовсков:\n* Пока не все парсеры\n* next-prev\n* палитра",
                 "date": "04.06.2014",
                 "points": 15,
-                "student": "Шеломов Никита"
+                "student": "Шеломов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.10.2014 Оценка: 7 Сергей Азовсков:\n* БАГИ\n* тесты\n* OS/2 и провернка остальных форматов\n* подписи со значением полей\n* hex-представление",
                 "date": "27.10.2014",
                 "points": 7,
-                "student": "Лихошерстов Валерий"
+                "student": "Лихошерстов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.11.2014",
                 "points": 11,
-                "student": "Колчанов Павел"
+                "student": "Колчанов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "10.01.2015 Оценка: 7 Сергей Азовсков:\n* нормальный внешний вид на линуксе\n* поддержка всех форматов, включая, os/2\n* подписи к тому, что значат поля\n* отрисовка (максимум с RLE, + палитра, без JPEG и хардкора)\n* эксепшены\n\n* pylint\n* использование магических методов\n* много дублирования \n* не писать b' в GUI\n* как вариант, декларативно парсить (например, struct)",
                 "date": "02.01.2015",
                 "points": 7,
-                "student": "Мухинский Антон"
+                "student": "Мухинский Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "01.02.2015 Оценка: 1 Павел Блинов:\nAnytask problems ...\n15.02.2015 Оценка: 3 Павел Блинов:\nХ. Документация!\nХ. Тесты тесты тесты!\n\nX. Обработка ошибок\nX. Опция «показать изображение» (если не указана и не установлены нужные для отрисовки модули, программа не должна падать)\nХ. Корректно обрабатывать слишком маленькие (1×1) и слишком большие (10000×10000) изображения при просмотре\nX. Попиксельная отрисовка изображения (не использовать готовое)\n13.03.2015 Оценка: 4 Павел Блинов:\nВ блоках BitmapInfo добавить возможность видеть абсолютное смещение от начала файла.\n\nПоддержка всех версий структуры информационных полей в BITMAPINFO. (указывать версию)\n\nДобавит оригинальные названия структур и полей (BITMAPFILEHEADER, BITMAPINFO, bcSize, bcWidth ..) указывать в соответствии с версией.\n\nДобавить возможность передать имя файла через параметр командной строки в GUI (main.py gui filename).\n\nХ. Тесты тесты тесты!\nX. Обработка ошибок\nX. Опция «показать изображение» (если не указана и не установлены нужные для отрисовки модули, программа не должна падать)\nХ. Корректно обрабатывать слишком маленькие (1×1) и слишком большие (10000×10000) изображения при просмотре\nX. Попиксельная отрисовка изображения (не использовать готовое)\n\nДобавить информацию о том как запускать программу.\n03.04.2015 Оценка: 10 Павел Блинов:\n+ RLE\n+ 8 bit",
                 "date": "03.01.2015",
                 "points": 13,
-                "student": "Политов Алексей"
+                "student": "Политов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.02.2015",
                 "points": 8,
-                "student": "Мелекесцев Дмитрий"
+                "student": "Мелекесцев Дмитрий",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор графических файлов",
@@ -1597,21 +1856,25 @@
                 "comment": "",
                 "date": "06.06.2014",
                 "points": 1,
-                "student": "Скулкин Андрей"
+                "student": "Скулкин Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.12.2014",
                 "points": 7,
-                "student": "Румянцев Андрей"
+                "student": "Румянцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.01.2015",
                 "points": 10,
-                "student": "Нагайцев Андрей"
+                "student": "Нагайцев Андрей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор графических файлов",
@@ -1622,27 +1885,32 @@
                 "comment": "",
                 "date": "26.05.2014",
                 "points": 17,
-                "student": "Кутишенко Владислав"
+                "student": "Кутишенко Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.11.2014",
                 "points": 16,
-                "student": "Рычков Егор"
+                "student": "Рычков Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "27.03.2015",
                 "points": 1,
-                "student": "Юнусов Валерий"
+                "student": "Юнусов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "03.04.2015 Оценка: 3 Павел Блинов:\nНу тесты есть ...",
                 "date": "02.04.2015",
                 "points": 3,
-                "student": "Копейцев Вячеслав"
+                "student": "Копейцев Вячеслав",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор графических файлов",
@@ -1653,39 +1921,46 @@
                 "comment": "23.05.2014 Оценка: 4 Сергей Азовсков:\n* выбор файла через диалог\n* хелп и копирайт в GUI\n* надо парсить всё, самому и полностью\n* масштабирование\n* тесты\n* декомпозиция\n17.01.2015 Оценка: 8 Сергей Азовсков:\n* стиль кода\n* парсинг кастомных чанков, отображение только тех чанков, что есть и в правильном порядке\n* возможность листать файлики в папке\n...\n21.03.2015 Оценка: 9 Сергей Азовсков:\n* эксепшены на линуксе на показе хелпа\n* проблемы с бекграундом\n* норм собщения о некорректности\n21.03.2015 Оценка: 9 Сергей Азовсков:\n* на моих скриншотах подает",
                 "date": "23.05.2014",
                 "points": 9,
-                "student": "Смирнов Владимир"
+                "student": "Смирнов Владимир",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.06.2014",
                 "points": 10,
-                "student": "Черных Артём"
+                "student": "Черных Артём",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.01.2015",
                 "points": 8,
-                "student": "Пушмин Павел"
+                "student": "Пушмин Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "04.03.2015",
                 "points": 14,
-                "student": "Чижов Даниил"
+                "student": "Чижов Даниил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "25.03.2015",
                 "points": 8,
-                "student": "Котов Игорь"
+                "student": "Котов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.03.2015",
                 "points": 12,
-                "student": "Самородов Алексей"
+                "student": "Самородов Алексей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1696,51 +1971,60 @@
                 "comment": "",
                 "date": "27.04.2014",
                 "points": 15,
-                "student": "Телепова Екатерина"
+                "student": "Телепова Екатерина",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.09.2014 Оценка: 1 Александр Бочаров:\nДобавить сбалансированные деревья.\nПравки по коду.",
                 "date": "07.05.2014",
                 "points": 10,
-                "student": "Парфёнова Анастасия"
+                "student": "Парфёнова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "15.09.2014",
                 "points": 12,
-                "student": "Бекленищева Елена"
+                "student": "Бекленищева Елена",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.10.2014",
                 "points": 10,
-                "student": "Петухов Николай"
+                "student": "Петухов Николай",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.10.2014 Оценка: 6 Сергей Азовсков:\n* тесты\n* документация \n* графики, сравнение, угадывание сложности в терминах о по количеству операций и по памяти\n* несколько хешей",
                 "date": "16.10.2014",
                 "points": 6,
-                "student": "Бикташев Галлям"
+                "student": "Бикташев Галлям",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.11.2014 Оценка: 1 Сергей Азовсков:\n* dict + 5 способов\n* строгое следование мануалу  по тестированию времени\n* графики\n* тесты для \"плохих случаев\"\n* несколько хеш-функций (как минимум 3)\n* нужно оценить:\n* сложность получения элемента\n* сложность вставки\n13.12.2014 Оценка: 8 Сергей Азовсков:\n* построение графиков по логарифмической сетке и по по сетке с постоянным шагом\n* добавить параметры для выбора алгоритмов\n* график общий (со всеми алгоритмами)\n* Сделать бинарные алгоритмы бинарнее :)\n* хеши доделать",
                 "date": "01.11.2014",
                 "points": 8,
-                "student": "Vedernikov Max"
+                "student": "Vedernikov Max",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.02.2015",
                 "points": 10,
-                "student": "Денисов Алексей"
+                "student": "Денисов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.03.2015",
                 "points": 15,
-                "student": "Зазуля Наталья"
+                "student": "Зазуля Наталья",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -1751,51 +2035,60 @@
                 "comment": "",
                 "date": "28.04.2014",
                 "points": 13,
-                "student": "Орозбаев Алексей"
+                "student": "Орозбаев Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 1 Сергей Азовсков:\n* есть ВК и всё\n27.12.2014 Оценка: 1 Сергей Азовсков:\n* документация\n* тесты\n* хелп\n* интерфейс\n* конфигурационных файл\n* экспорт всех возможных данных \n* 2 другие соцсети\n* отдельный конфиг, что бы форсить склейку\n10.01.2015 Оценка: 6 Сергей Азовсков:\n* у меня не работает тви :(\n* сделать возможным запуск только на некоторых соцсетях\n* тесты\n* не выполнять код при импорте\n* выборочный запуск соцсетей\n* сделать склейку\n* маппинг всех форматов один\n* +1 соцсеть\n12.03.2015 Оценка: 6 Сергей Азовсков:\n* твиттер не работает\n* lastfm прибит гвоздями \n* тесты\n* не выполнять код при импорте\n* мёртвый код (twitter_auth.py, csv_twitter.py, csv_lastfm.py)\n* SRSLY?\nif item == 99:\ntime.sleep(1)\n* плохое именование функций (было бы хорошо, что бы функции описывали действие \"twitter_csv\" не очень понятное действие)\n* плохая декомпозиция: get_twitter_data, наверное. не имеет отношение к авторизации\n* pylast не указан в requirements\n* обработка ошибок, постоянно используется \"except:\", что ловит все эксепешны, так писать не стоит. Как минимум указывать \"except Exception:\". Неверно интерпретируются ошибки. При возникновении любой ошибки, например, в LastFM мне скажут, что я неправильно ввёл пароль, реальная же проблема будет скрыта.\n* Не имеет смысла if:\n\"\"\"\nif list_of_dicts == []:\nreturn list_of_dicts\nelse:\nresult = []\nfor line in list_of_dicts:\n...\nreturn result\n\"\"\"\n* Не самое понятное название для модуля get_data в вашем контексте\n* Вся реализация функции get_list_of_dicts делается с помощью map\n* Безумная лапша if как в функции create_csv. Это можно заменить на один константный dict в котором записано, какой внутреннего формата в какой ключ гуглового формата отображается. + пара исключений. как с типом.\n* Функция merge. Вас не пугает, что может потребоваться добавить 4ю соцсеть?\n\n\nВ большинстве случаев, я привёл только один пример проблемы, но надеюсь, что вы исправите все аналогичные проблемы. DRY.",
                 "date": "07.05.2014",
                 "points": 7,
-                "student": "Ветошко Дарья"
+                "student": "Ветошко Дарья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.05.2014",
                 "points": 14,
-                "student": "Марков Евгений"
+                "student": "Марков Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.05.2014 Оценка: 7 Сергей Азовсков:\n* мержинг контактов, модуль и функициональность\n* pep8 & pylint\n* отделить логику отдельных соц сетей",
                 "date": "15.05.2014",
                 "points": 7,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "30.05.2014",
                 "points": 15,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "04.06.2014",
                 "points": 9,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.10.2014",
                 "points": 10,
-                "student": "Румянцев Андрей"
+                "student": "Румянцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "28.11.2014",
                 "points": 12,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -1806,51 +2099,60 @@
                 "comment": "",
                 "date": "14.04.2014",
                 "points": 10,
-                "student": "Несмиянов Артем"
+                "student": "Несмиянов Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.05.2014",
                 "points": 10,
-                "student": "Борисихин Никита"
+                "student": "Борисихин Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.05.2014 Оценка: 9 Александр Берсенев:\n- сохранение\n- отправьте задачу в anytask",
                 "date": "07.05.2014",
                 "points": 11,
-                "student": "Владимирова Виктория"
+                "student": "Владимирова Виктория",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.05.2014",
                 "points": 1,
-                "student": "Лабазников Евгений"
+                "student": "Лабазников Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.10.2014",
                 "points": 8,
-                "student": "Бекленищева Елена"
+                "student": "Бекленищева Елена",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "25.11.2014",
                 "points": 11,
-                "student": "Брагин Егор"
+                "student": "Брагин Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.12.2014",
                 "points": 10,
-                "student": "Бравилов Николай"
+                "student": "Бравилов Николай",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.12.2014",
                 "points": 1,
-                "student": "Рыбаков Даниил"
+                "student": "Рыбаков Даниил",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -1861,51 +2163,60 @@
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 12,
-                "student": "Мелекесцев Дмитрий"
+                "student": "Мелекесцев Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.04.2014",
                 "points": 11,
-                "student": "Стилик Сергей"
+                "student": "Стилик Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.04.2014",
                 "points": 12,
-                "student": "Скулкин Андрей"
+                "student": "Скулкин Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 8 Сергей Азовсков:\n* pep8\n* pylint\n* стиль именования\n* отделение отрисовки и GUI от логики игры\n* управление с клавиатуры\n* кнопка паузы\n* копка показать хелп + копирайт\n* вылет шарика при вылете за экран\n* Плюшка: объёмная рокетка\n28.05.2014 Оценка: 10 Сергей Азовсков:\n- pylint\n- стиль именования модулей\n- новая игра без перезапуска программы\n- больше бонусов (с разбитием на подклассы)\n- изменение скорости шарика",
                 "date": "02.05.2014",
                 "points": 10,
-                "student": "Паталаха Михаил"
+                "student": "Паталаха Михаил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.05.2014",
                 "points": 10,
-                "student": "Самородов Алексей"
+                "student": "Самородов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "19.05.2014",
                 "points": 13,
-                "student": "Коврижных Алексей"
+                "student": "Коврижных Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "04.11.2014",
                 "points": 9,
-                "student": "Галочкин Валерий"
+                "student": "Галочкин Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 11,
-                "student": "Черных Артём"
+                "student": "Черных Артём",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -1916,51 +2227,60 @@
                 "comment": "04.04.2014 Оценка: 8 Сергей Азовсков:\n- Тороидальные уровни\n- вака-вака!\n- help\n- таймаут вишенки\nКлёвая фича:\n(- сохранения\nи\n( - множество уровней и секретные коды\nили\n- сетевая игра\n))\n11.04.2014 Оценка: 10 Сергей Азовсков:\nЖдём клёвые фичи\nНе многовенно исчезающие призраки\nЖизни\n01.10.2014 Оценка: 12 Сергей Азовсков:\n* баги в сетевом режиме, не отлажено\n* невозможно выбрать сервер и как следствие играть с 2х компов\n* звук сломался\n* невозможно выйти меню\n* жизни, исчезание призраков\n* реализация сетевая игра - не айс и неполная (не решены проблемы рассинхронизации)",
                 "date": "16.03.2014",
                 "points": 12,
-                "student": "Вострецов Павел"
+                "student": "Вострецов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.03.2014",
                 "points": 15,
-                "student": "Румянцев Андрей"
+                "student": "Румянцев Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.04.2014",
                 "points": 8,
-                "student": "Zasorin Egor"
+                "student": "Zasorin Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 1,
-                "student": "Любимова Марина"
+                "student": "Любимова Марина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 6,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.04.2014",
                 "points": 14,
-                "student": "Мылов Василий"
+                "student": "Мылов Василий",
+                "year": "2013-2014"
             },
             {
                 "comment": "08.05.2014 Оценка: 1 Александр Берсенев:\nожидает проверки",
                 "date": "08.04.2014",
                 "points": 15,
-                "student": "Кулаков Владислав"
+                "student": "Кулаков Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.05.2014",
                 "points": 15,
-                "student": "Нагайцев Андрей"
+                "student": "Нагайцев Андрей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -1971,51 +2291,60 @@
                 "comment": "24.09.2014 Оценка: 5 Сергей Азовсков:\n* относительные импорты\n* тесты\n* покрытие\n* недоразделена логика приложения и интерфейса\n* режим дальтоника\n* анимацию\n* читы\n* скорборд\n08.11.2014 Оценка: 11 Сергей Азовсков:\n* Починить скорборд",
                 "date": "05.08.2014",
                 "points": 12,
-                "student": "Mironov Alexey"
+                "student": "Mironov Alexey",
+                "year": "2013-2014"
             },
             {
                 "comment": "24.09.2014 Оценка: 6 Сергей Азовсков:\n* копипаст\n* выбор размера поля\n* механизм сохранений\n* анимация\n* отображение того, где появятся фигуры\n* настройки: сколько фигур на ход, количество цветов, скорборд\n* статистика в сети (через pastebin, vk, github)",
                 "date": "05.08.2014",
                 "points": 6,
-                "student": "Загнойко Александр"
+                "student": "Загнойко Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.08.2014",
                 "points": 10,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.09.2014",
                 "points": 10,
-                "student": "Успенская Валентина"
+                "student": "Успенская Валентина",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 8 Сергей Азовсков:\n* подсвечивать выбранное\n* возможность отмены выбора\n* возможность прозвольного отката ходов\n* нормальный выбор количества цветов\n* режим игры с возможность свопа соседних фишек\n* GAMEOVER\n27.09.2014 Оценка: 8 Сергей Азовсков:\n* тесты",
                 "date": "11.09.2014",
                 "points": 12,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "18.09.2014",
                 "points": 7,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "19.09.2014",
                 "points": 10,
-                "student": "Юнусов Валерий"
+                "student": "Юнусов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "06.12.2014 Оценка: 7 Сергей Азовсков:\n* выбирать количество цветов\n* размер поля\n* не спамить окнами\n* hotseat мультиплеер\n* пару читов",
                 "date": "29.10.2014",
                 "points": 12,
-                "student": "Баженова Аня"
+                "student": "Баженова Аня",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -2026,51 +2355,60 @@
                 "comment": "18.10.2014 Оценка: 5 Сергей Азовсков:\n* документаци\n* декомпозиция \n* тесты\n* таблица  рекордов\n* игра вдвоём\n* настройки (размер поля, количество цветов, ...)\n11.11.2014 Оценка: 8 Сергей Азовсков:\ndone",
                 "date": "27.09.2014",
                 "points": 8,
-                "student": "Шеломов Никита"
+                "student": "Шеломов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "05.11.2014 Оценка: 4 Сергей Азовсков:\n* документация\n* декомпозиция\n* тесты\n* интерфейс - новая игра, и бла-бла\n* выбор количества цветов\n* размера поля\n11.11.2014 Оценка: 4 Сергей Азовсков:\nмимо\n13.12.2014 Оценка: 6 Сергей Азовсков:\n* выделить в логике класс\n* отделить поведение от интерфейса\n* убрать дублирование и магические константы\n17.01.2015 Оценка: 7 Сергей Азовсков:\n* Стиль кода\n* функции - глаголы\n* бессмысленные классы",
                 "date": "08.10.2014",
                 "points": 8,
-                "student": "Смирнов Владимир"
+                "student": "Смирнов Владимир",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.10.2014",
                 "points": 6,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "08.11.2014 Оценка: 4 Сергей Азовсков:\n* баги: исчезает не тот цвет, не схлпываются столбики\n* осмысленные имена переменных\n* избавиться от глобальных переменных\n* PEP8 (pep8 & pylint)\n06.12.2014 Оценка: 6 Сергей Азовсков:\n* валится с непонятными сообщениями\n* pylint\n* имя файла\n* разбить на две части - игровая логика и отрисовка\n13.12.2014 Оценка: 7 Сергей Азовсков:\n* сообщение об окончании\n* Pylint\n* эксепшены\n* магические константы",
                 "date": "11.10.2014",
                 "points": 7,
-                "student": "Хмелёв Дмитрий"
+                "student": "Хмелёв Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "15.11.2014 Оценка: 4 Сергей Азовсков:\n* схлапывание влево\n* выигрыш\n* скорборд\n* придумать 2 режима игры\n* копирайт\n* расширить тесты",
                 "date": "25.10.2014",
                 "points": 4,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.11.2014 Оценка: 4 Сергей Азовсков:\n* нет условий выйгрыша\n* кубики не должны падать вправо, должны лишь схлапываться пустые колонки\n* не отображать кубику там, где их нет\n* pylint\n* тесты\n* интерфейс\n* загрузка-сохранение",
                 "date": "29.10.2014",
                 "points": 8,
-                "student": "Koval Polina"
+                "student": "Koval Polina",
+                "year": "2013-2014"
             },
             {
                 "comment": "22.12.2014 Оценка: 1 Сергей Азовсков:\n* что-то работает\n* документация, тесты, pylint\n* ряды не всегда схлапываются\n* выбор размеров поля в интерфейсе\n* Не исполнять код при импорте, только в функциях\n* сделать скорборд\n22.12.2014 Оценка: 2 Сергей Азовсков:\n* что-то работает\n* документация, тесты, pylint\n* ряды не всегда схлапываются\n* выбор размеров поля в интерфейсе\n* выбор количества цветов в интерфейсе\n* Не исполнять код при импорте, только в функциях\n* условия победы и проигрыша\n* сделать скорборд\n10.01.2015 Оценка: 6 Сергей Азовсков:\n* скорборд: открыть для себя циклы\n* эксепшены при клике и при скорборде\n* pylint",
                 "date": "24.11.2014",
                 "points": 8,
-                "student": "Ветошко Дарья"
+                "student": "Ветошко Дарья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "14.02.2015",
                 "points": 7,
-                "student": "Латыпова Екатерина"
+                "student": "Латыпова Екатерина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -2081,51 +2419,60 @@
                 "comment": "",
                 "date": "01.10.2014",
                 "points": 18,
-                "student": "Рыбалка Катя"
+                "student": "Рыбалка Катя",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "04.10.2014",
                 "points": 1,
-                "student": "Трофимов Игорь"
+                "student": "Трофимов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.10.2014",
                 "points": 19,
-                "student": "Долгих Наташа"
+                "student": "Долгих Наташа",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.10.2014 Оценка: 6 Сергей Азовсков:\n* условие проигрыша\n* survival mode\n* тесты\n* pylint\n* документация\n* игровые механики\n07.03.2015 Оценка: 10 Сергей Азовсков:\n* разделить игровую логику от логики отрисовки\n* тесты\n* разные башни и врагов вынести их в конфиг\n* документация\n* Survive\n* разноцветность",
                 "date": "16.10.2014",
                 "points": 10,
-                "student": "Мухинский Антон"
+                "student": "Мухинский Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "20.10.2014",
                 "points": 16,
-                "student": "Петров Евгений"
+                "student": "Петров Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "20.10.2014",
                 "points": 19,
-                "student": "Кузнецова Анна"
+                "student": "Кузнецова Анна",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.11.2014",
                 "points": 19,
-                "student": "Орозбаев Алексей"
+                "student": "Орозбаев Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.11.2014",
                 "points": 20,
-                "student": "Лысый Сергей"
+                "student": "Лысый Сергей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -2136,51 +2483,60 @@
                 "comment": "",
                 "date": "02.10.2014",
                 "points": 16,
-                "student": "Кутишенко Владислав"
+                "student": "Кутишенко Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.10.2014",
                 "points": 13,
-                "student": "Пушмин Павел"
+                "student": "Пушмин Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "10.01.2015 Оценка: 9 Сергей Азовсков:\n* документация\n* тесты\n* избавиться от дублирования, вспомнить ООП\n* hotseat\n* поверапы\n* три уровня с возможностью выбирать\n* починить рандом, что бы не делал заведомо мёртвые\n* настройки: выбирать количество врагов, размер, заполненность в блоках и поверапах",
                 "date": "09.11.2014",
                 "points": 9,
-                "student": "Амиров Миша"
+                "student": "Амиров Миша",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.11.2014",
                 "points": 13,
-                "student": "Змеев Степан"
+                "student": "Змеев Степан",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.01.2015",
                 "points": 1,
-                "student": "Булатов Андрей"
+                "student": "Булатов Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "10.01.2015 Оценка: 8 Сергей Азовсков:\n* интерфейс - новая игра, загрузить уровень, выход, about\n* настройки: количество жизней, размер взрыва\n* управление, что бы автодоведение\n* документация\n* тесты\n* рефакторинг\n\n* случайные уровни или поверапы\n* сетевая игра",
                 "date": "06.01.2015",
                 "points": 8,
-                "student": "Ефимов  Тимофей"
+                "student": "Ефимов  Тимофей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.02.2015",
                 "points": 12,
-                "student": "Печенкин Степан"
+                "student": "Печенкин Степан",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 17,
-                "student": "Татарова Дарья"
+                "student": "Татарова Дарья",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Интерактивные игры",
@@ -2191,9 +2547,11 @@
                 "comment": "27.12.2014 Оценка: 1 Сергей Азовсков:\n* всё\n* избавить от глобальных переменны\n* и от плохо-кода",
                 "date": "04.12.2014",
                 "points": 1,
-                "student": "Попов Евгений"
+                "student": "Попов Евгений",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2204,51 +2562,60 @@
                 "comment": "13.01.2015 Оценка: 10 Сергей Азовсков:\n* K-gramm\n* склейка предложений.Как-то помечать границы сгенерированных ВАМИ предложений\n* запуск без параметров",
                 "date": "25.05.2014",
                 "points": 10,
-                "student": "Новиков Андрей"
+                "student": "Новиков Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 6 Сергей Азовсков:\n* параметр истории (от 0 до N)\n* параметр для управления разрывами\n* строить предложения - параметр: средняя длина предложения, либо количество предложений, либо длина текста\n* тесты",
                 "date": "04.06.2014",
                 "points": 6,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 6 Сергей Азовсков:\nвсё говорил устно\n15.11.2014 Оценка: 9 Сергей Азовсков:\n* добавить запятые\n* тесты падают\n* сделать запятую как слово и конец предложения\n\n\nFAIL: test_build_dict0 (test.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 58, in testPartExecutor\nyield\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 577, in run\ntestMethod()\nFile \"D:\\Workspace\\teaching\\python\\sdp\\branches\\bredogen\\test.py\", line 33, i\ntest_build_dict0\nself.assertEqual(actual, expected)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 797, in assertEqual\nassertion_func(first, second, msg=msg)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 790, in _baseAssertEqual\nraise self.failureException(msg)\nAssertionError: defaultdict(, {(): ['р', 'р[181 chars]р']}) != {(\n: ['1', '2', '3', 'a', 'a', 'abacab', [81 chars]'в']}\n\nno stdout\nno stderr\n======================================================================\nFAIL: test_build_dict1 (test.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 58, in testPartExecutor\nyield\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 577, in run\ntestMethod()\nFile \"D:\\Workspace\\teaching\\python\\sdp\\branches\\bredogen\\test.py\", line 40, i\ntest_build_dict1\nself.assertEqual(actual, expected)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 797, in assertEqual\nassertion_func(first, second, msg=msg)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 790, in _baseAssertEqual\nraise self.failureException(msg)\nAssertionError: defaultdict(, {('р\\xb5',): ['р[215 chars]\\u0455']\n) != {('б',): ['в'], ('y',): ['z'], ('а',): ['[135 chars]'c']}\n\nno stdout\nno stderr\n======================================================================\nFAIL: test_parsing_files (test.Test)\n----------------------------------------------------------------------\nTraceback (most recent call last)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 58, in testPartExecutor\nyield\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 577, in run\ntestMethod()\nFile \"D:\\Workspace\\teaching\\python\\sdp\\branches\\bredogen\\test.py\", line 26, i\ntest_parsing_files\nself.assertEqual(actual, expected)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 797, in assertEqual\nassertion_func(first, second, msg=msg)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 995, in assertListEqual\nself.assertSequenceEqual(list1, list2, msg, seq_type=list)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 977, in assertSequenceEqual\nself.fail(msg)\nFile \"C:\\Python34\\lib\\unittest\\case.py\", line 642, in fail\nraise self.failureException(msg)\nAssertionError: Lists differ: [['р', 'р', 'р\\u0456'], ['р\\xb5', 'р\\u0455', 'р']\n['р', [161 chars]р\\u0455']] != [['1', '2', '3'], ['a', 'b', 'c'], ['а', 'б'[90\nchars]jn']]\n\nFirst differing element 0:\n['р', 'р', 'р\\u0456']\n['1', '2', '3']\n\n- [['р', 'р', 'р\\u0456'],\n?    ^    ^    ^^\n\n+ [['1', '2', '3'],\n?    ^    ^    ^\n\n-  ['р\\xb5', 'р\\u0455', 'р'],\n-  ['р', 'р', 'р\\u0456'],\n?    ^    ^    ^^\n\n+  ['a', 'b', 'c'],\n?    ^    ^    ^\n\n-  ['р\\u0456', 'р\\u0456', 'р\\u0456'],\n-  ['р', 'р\\u0456', 'с'],\n?    ^    ^^    ^\n\n+  ['а', 'б', 'в'],\n?    ^    ^    ^\n\n-  ['с\\u0453р', 'р\\u0456'],\n-  ['р', 'р', 'р\\u0456р', 'р', 'р\\u0456', 'р', 'р', 'р\\u0456', 'р', 'р', 'р\\u04\n6'],\n-  ['с', 'р\\u0455с', 'р\\u0455'],\n?    ^    ^^^    ^^\n\n+  ['x', 'y', 'z'],\n?    ^    ^    ^\n\n-  ['с', 'р\\u0455с', 'р\\u0455']]\n+  ['a', 's', 'd'],\n+  ['efd'],\n+  ['abacab', 'bac', 'bac'],\n+  ['edf'],\n+  ['jnjn']]\n\nno stdout\nno stderr\n*******************************************************************************\nRan 4 test cases in 0.05s (0.05s CPU), 3 failures",
                 "date": "18.08.2014",
                 "points": 9,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.10.2014",
                 "points": 11,
-                "student": "Гринь Надежда"
+                "student": "Гринь Надежда",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.10.2014",
                 "points": 11,
-                "student": "Колчанов Павел"
+                "student": "Колчанов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "24.11.2014 Оценка: 10 Александр Берсенев:\n- иногда косячит с регистром:\nУпаковала куклу Да ты смыслишь в этих делах Роберт.\nРаз там живет секретарь канцелярии Это конечно.\nНемного вздремнула Да но при этом почти не изменилось только посветлело озарилось изнутри.\n\n\nВместо:\ntemp_str = temp_str.lstrip()\ntemp_str = temp_str.rstrip()\n\nМожно\ntemp_str = temp_str.strip()\n\nВместо:\nznaki = [\":\", \";\", \",\", '\"', \"'\", \"(\", \")\", \"\\n\", \"[\", \"]\", \"–\", \"…\", \"*\", \"«\", \"»\"]\nМожно\nznaki = list(\":;, ...\")\n\nКод:\nphrase.lstrip()\nphrase.rstrip()\nНичего не делает, эти функции не меняют объект.\n\nКод:\nif after - now >= 1:\nbreak\n\nЗависит от быстродействия машины, т.е. если я запущу его на очень медленной машине(например, она ушла в своп), то мне ничего не выдадут.",
                 "date": "11.11.2014",
                 "points": 11,
-                "student": "Savichev Igor"
+                "student": "Savichev Igor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.11.2014",
                 "points": 11,
-                "student": "Исаков Федор"
+                "student": "Исаков Федор",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.12.2014",
                 "points": 11,
-                "student": "Мухтарова Динара"
+                "student": "Мухтарова Динара",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор аудиоформатов",
@@ -2259,51 +2626,60 @@
                 "comment": "08.11.2014 Оценка: 7 Сергей Азовсков:\n* сделать работающий плеер\n* падает на некоторых файлах https://yadi.sk/d/M10g9826cZxRB\n* определять кодировку\n* не терять папку, в которой был открыт последний файл\n* показывать hexdump и когда тыкаешь на поле, подсвечиваются байты в hexdump\n10.01.2015 Оценка: 11 Сергей Азовсков:\n* плеер и парсер всё ещё падают\n* хексдамп, показывать все данные, их смещения. Показывать все данные из MP3.",
                 "date": "16.10.2014",
                 "points": 11,
-                "student": "Паталаха Михаил"
+                "student": "Паталаха Михаил",
+                "year": "2013-2014"
             },
             {
                 "comment": "17.11.2014 Оценка: 6 Сергей Азовсков:\n* падает на некоторых файлах\n* падает, если файл не указан\n* парсить Mp3, а не ID3\n* запоминать выбранную папку\n* правильно отображать Meds\n* угадывать кодировку для русских песен\n* работа плеера\n* документация\n* тесты\n* закрывать файлы\n* pylint\n* работа на некорректных файлах\n19.11.2014 Оценка: 10 Сергей Азовсков:\n* показывать длинну дорожки\n* плеер не работает\n* кодировки не корретно\n* теги показывает не всегда (свежая АлоеВера падает)\n* тесты - Nope\n* закрывать файлы ХОРОШО",
                 "date": "16.10.2014",
                 "points": 10,
-                "student": "Репин Александр"
+                "student": "Репин Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "15.11.2014 Оценка: 5 Сергей Азовсков:\n* тесты\n* документация\n* pylint\n* стиль именования модулей\n* работающий плеер\n* ошибки кодировки\n* ошибки парсинга\n* корректный парсинг\n* лишние None\n* вменяемый интерфейс (+ CLI интерфейс)\n* разбор MP3, а не ID3\n19.11.2014 Оценка: 10 Сергей Азовсков:\n* больше из MP3 \n* pylint\n* работающий плеер\n* проблемы с некоторыми файлами\n\n* клёвую фичу",
                 "date": "22.10.2014",
                 "points": 10,
-                "student": "Белогрудов Григорий"
+                "student": "Белогрудов Григорий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "20.11.2014",
                 "points": 11,
-                "student": "Мелекесцев Дмитрий"
+                "student": "Мелекесцев Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.11.2014 Оценка: 7 Сергей Азовсков:\n* не отображает метаинформацию на некоторых файлов\n* не правильно считает длинну\n* сохранять папку выбора\n* копирайт\n* больше информации о MP3\n* pylint\n*  выводить хексдамп и когда кликаю на поле, подсвечивать его там.\n* отображать картинку альбома",
                 "date": "23.11.2014",
                 "points": 7,
-                "student": "Лихошерстов Валерий"
+                "student": "Лихошерстов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "23.11.2014",
                 "points": 9,
-                "student": "Рычков Егор"
+                "student": "Рычков Егор",
+                "year": "2013-2014"
             },
             {
                 "comment": "17.01.2015 Оценка: 7 Сергей Азовсков:\n* недостающие данные\n* работа с отсутствующим idv1\n* тесты падают\n* длинна в секундах и ещё какие-то данные не из IDv3?\n28.03.2015 Оценка: 10 Сергей Азовсков:\n* кодировки \n* длинна\n* сделать ровное отображение тегов\n* вывести что-то про фреймы(по кнопке)\n* хексдамп (по кнопке)\n02.04.2015 Оценка: 12 Сергей Азовсков:\nхексдамп\nкодировки",
                 "date": "19.12.2014",
                 "points": 12,
-                "student": "Ефимов  Тимофей"
+                "student": "Ефимов  Тимофей",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор аудиоформатов",
         "max": 14,
         "name": "ogg",
-        "students": []
+        "students": [],
+        "year": "2013-2014"
     },
     {
         "category": "Разбор аудиоформатов",
@@ -2314,51 +2690,60 @@
                 "comment": "",
                 "date": "15.05.2014",
                 "points": 1,
-                "student": "Патрушева Галина"
+                "student": "Патрушева Галина",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.10.2014",
                 "points": 13,
-                "student": "Кулаков Владислав"
+                "student": "Кулаков Владислав",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.12.2014 Оценка: 1 Сергей Азовсков:\n* начало положено\n10.01.2015 Оценка: 5 Сергей Азовсков:\n* больше данных\n* отображать общую структуру файла\n* ctypes вместо struct можно попробовать",
                 "date": "30.11.2014",
                 "points": 5,
-                "student": "Хмелёв Дмитрий"
+                "student": "Хмелёв Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.12.2014",
                 "points": 8,
-                "student": "Bushmelev Egor"
+                "student": "Bushmelev Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "08.01.2015",
                 "points": 13,
-                "student": "Михалищев Артем"
+                "student": "Михалищев Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.01.2015",
                 "points": 11,
-                "student": "Петров Евгений"
+                "student": "Петров Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.01.2015",
                 "points": 14,
-                "student": "Котов Игорь"
+                "student": "Котов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 12,
-                "student": "Печенкин Степан"
+                "student": "Печенкин Степан",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2369,39 +2754,46 @@
                 "comment": "27.09.2014 Оценка: 10 Сергей Азовсков:\n* argparse содержит баги\n* сделать через subparsers\n* прогресс выполнения\n* batch-режим, а-ля скрипт\n* Дополнительные команды: reverse, воспроизведении\n* выведение метаинформации о файле\n* проверка входных параметров на корректность\n30.10.2014 Оценка: 15 Сергей Азовсков:\n* выправить баги с pitch, merge и разбором аргментов",
                 "date": "20.06.2014",
                 "points": 15,
-                "student": "Лихошерстов Валерий"
+                "student": "Лихошерстов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "11.09.2014",
                 "points": 2,
-                "student": "Несмиянов Артем"
+                "student": "Несмиянов Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "14.09.2014",
                 "points": 14,
-                "student": "Михалищев Артем"
+                "student": "Михалищев Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "15.11.2014 Оценка: 7 Сергей Азовсков:\n* noise и compress делают что-то не то\n* не package, а batch\n* stretch не работает\n* выводить длинну и что-то нибудь ещё\n* валиться с понятными ошибками\n* сплит в секундах\n* всё глючит\n* сплит даёт странные  разрывы\n\n* сделать наложение \n* примеры batch файлы\n19.11.2014 Оценка: 11 Сергей Азовсков:\n* наложение не работет\n* тестов нет\n* примеров батчей нет\n* под линуксом не играет плеер\n* питг\n20.12.2014 Оценка: 16 Сергей Азовсков:\n* чуть больше тестов\n* проигрывание на linux\n*",
                 "date": "10.11.2014",
                 "points": 16,
-                "student": "Ефимов  Тимофей"
+                "student": "Ефимов  Тимофей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "03.12.2014",
                 "points": 10,
-                "student": "Бравилов Николай"
+                "student": "Бравилов Николай",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "22.12.2014",
                 "points": 10,
-                "student": "Мылов Василий"
+                "student": "Мылов Василий",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Стеганография",
@@ -2412,51 +2804,60 @@
                 "comment": "",
                 "date": "06.04.2014",
                 "points": 11,
-                "student": "Выростко Ольга"
+                "student": "Выростко Ольга",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 8 Сергей Азовсков:\n* парсинг аргументов\n* скорость работы\n* больше разных тесты\n* корректная работа переменной битности\n* поиск стеганографии и автоопределение битности\n16.05.2014 Оценка: 8 Сергей Азовсков:\n* декпозиция (модуль работы с bmp, модуль стеганографии, модуль интерфейса)\n01.10.2014 Оценка: 11 Сергей Азовсков:\n* сделать аргументы необязательными\n* автоопределение битности\n* сделать search поумней? (посчитать энтропию?)\n* тесты",
                 "date": "01.05.2014",
                 "points": 11,
-                "student": "Вострецов Павел"
+                "student": "Вострецов Павел",
+                "year": "2013-2014"
             },
             {
                 "comment": "16.05.2014 Оценка: 5 Сергей Азовсков:\n- нормальный хелп\n- нормальный парсинг аргументов (arparse)\n- выбор количества бит\n- тесты\n- определение наличие стеганографии\n13.12.2014 Оценка: 9 Сергей Азовсков:\n* yield\n* определение наличия стеганографии (в том числе чужой)\n* корректная работа с BMP",
                 "date": "06.05.2014",
                 "points": 9,
-                "student": "Сорокин Иван"
+                "student": "Сорокин Иван",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.05.2014 Оценка: 5 Павел Блинов:\nНе использовать PIL.\nСамому разбирать формат\n25.03.2015 Оценка: 10 Павел Блинов:\nЕсть проблемы с некоторыми bmp.",
                 "date": "09.05.2014",
                 "points": 10,
-                "student": "Политов Алексей"
+                "student": "Политов Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.05.2014 Оценка: 7 Сергей Азовсков:\n* привести в порядок аргументы командной строки\n* возможность вывода результата декодинга в консоль\n* возможность ввода текста как параметра в консоли\n* проверка корректности (что я вообще могу записать текста, он влезет и так далее)\n* пофиксить тесты и закрытие файлов\n* имена переменных\n* убрать дублирование кода\n* возможность работы с бинарными данными\n* определение стеганографии в файле",
                 "date": "11.05.2014",
                 "points": 7,
-                "student": "Vedernikov Max"
+                "student": "Vedernikov Max",
+                "year": "2013-2014"
             },
             {
                 "comment": "23.05.2014 Оценка: 7 Сергей Азовсков:\n* тесты\n* корректность\n* уметь определять стеганографию типа lsb\n* pep8 & pylint и стиль\n* ...\n28.05.2014 Оценка: 10 Сергей Азовсков:\n- прочитать (мне) ещё на раз и поверить\n- уметь определять стеганографию типа lsb",
                 "date": "16.05.2014",
                 "points": 10,
-                "student": "Бикташев Галлям"
+                "student": "Бикташев Галлям",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "17.05.2014",
                 "points": 7,
-                "student": "Zasorin Egor"
+                "student": "Zasorin Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "29.11.2014 Оценка: 7 Сергей Азовсков:\n* нормальный консольный интерфейс\n* адекватно упаковывать /dev/null\n* не вешаться с /dev/zero\n* бинарный файл\n* декодировать то же, что и кодировать\n* падает с эксепшанми\n* больше тестов богу тестов\n* Закрывать за собой файлы и как и почему это правильно делать?\n* сделать красиво через argparse\n* выбирать битность для кодирования\n* поиск стеганографии в чужих файлах",
                 "date": "02.11.2014",
                 "points": 7,
-                "student": "Чикурова Полина"
+                "student": "Чикурова Полина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Стеганография",
@@ -2467,51 +2868,60 @@
                 "comment": "29.05.2014 Оценка: 3 Павел Блинов:\n* исправить pylint ...\n* добавить тестов \n* CLI возможность зашивать файлы\n* исправить ошибки с кодировками\n* убрать/разобраться с бинарной \"магией\"\n* самому разбирать формат\n* добавить другие методы стеганографии (сейчас LSB)\n** нормальный README, help\n* обработку аргументов\n* обработку ошибок\n* check sum (+можно сжатие)\n11.01.2015 Оценка: 7 Павел Блинов:\n* обработку аргументов\n* обработку ошибок\n* check sum (+можно сжатие)\n* добавить другие методы стеганографии (сейчас LSB)\n* поправить README\n* больше тестов!\n12.01.2015 Оценка: 8 Павел Блинов:\n* обработку аргументов\n* обработку ошибок\n* check sum (+можно сжатие)\n* починить ГУЙ\n* поправить README\n* больше тестов!\n01.04.2015 Оценка: 10 Павел Блинов:\n* check sum (+можно сжатие)\n* обработать большие файлы!\n* недетектируемость через частотные методы",
                 "date": "29.05.2014",
                 "points": 11,
-                "student": "Сырых Максим"
+                "student": "Сырых Максим",
+                "year": "2013-2014"
             },
             {
                 "comment": "30.10.2014 Оценка: 1 Виктор Самунь:\nПроверить вечером",
                 "date": "30.09.2014",
                 "points": 14,
-                "student": "Стилик Сергей"
+                "student": "Стилик Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.10.2014",
                 "points": 11,
-                "student": "Скулкин Андрей"
+                "student": "Скулкин Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.10.2014",
                 "points": 9,
-                "student": "Несмиянов Артем"
+                "student": "Несмиянов Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "20.11.2014 Оценка: 10 Павел Блинов:\nТестов.\nДокументация.\nУбрать Лишний код. И лишнюю функциональность.\npep8, pylint.\nСтиль.\n\n+ Сравнение wave форм.\n+ LSB (использовать больше 1 бита)\n+ стегано без ключа\n+ проверка корректности расшифрованных данных",
                 "date": "12.11.2014",
                 "points": 10,
-                "student": "Фёдоров Дмитрий"
+                "student": "Фёдоров Дмитрий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "27.11.2014",
                 "points": 11,
-                "student": "Парфёнова Анастасия"
+                "student": "Парфёнова Анастасия",
+                "year": "2013-2014"
             },
             {
                 "comment": "03.12.2014 Оценка: 7 Сергей Азовсков:\n* работа с большими файлами \n* не всегда пишет\n* работа с некорректными файлами\n* больше тестов\n* параметр для управления битностью\n* определение стеганографии в чужих файлах (по методу LSB)\n* определение стеганографии в своих файлах\n18.12.2014 Оценка: 12 Сергей Азовсков:\n* некорректные файлы\n* добавим энтропию\n* добавим юнит тестов на математику, сделать существующие unit\n* определение стеганографии в чужих файлах (по методу LSB)\n* поправить help",
                 "date": "29.11.2014",
                 "points": 12,
-                "student": "Лихошерстов Валерий"
+                "student": "Лихошерстов Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "16.12.2014",
                 "points": 12,
-                "student": "Миронов Данил"
+                "student": "Миронов Данил",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Работа с файловыми системами",
@@ -2522,27 +2932,32 @@
                 "comment": "22.11.2014 Оценка: 9 Сергей Азовсков:\n* не падать с эксепшнами\n* раба кнопки вверх\n* переход по сложным путям\n* команда ls\n* русские имена файлов\n* команда help\n* тесты\n* копирование папок\n* pylint\n13.12.2014 Оценка: 13 Сергей Азовсков:\n* больше тестов\n* норм перенос строки\n* хождение по истории команд стрелками\n* проблема с путями\n* пакетных режим\n* выбор таблицы с которой работать \n* абсолютные пути",
                 "date": "13.11.2014",
                 "points": 13,
-                "student": "Шеломов Никита"
+                "student": "Шеломов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.12.2014",
                 "points": 9,
-                "student": "Скулкин Андрей"
+                "student": "Скулкин Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "07.04.2015",
                 "points": 16,
-                "student": "Любимова Марина"
+                "student": "Любимова Марина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Работа с файловыми системами",
         "max": 21,
         "name": "ext4",
-        "students": []
+        "students": [],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2553,21 +2968,25 @@
                 "comment": "06.12.2014 Оценка: 11 Сергей Азовсков:\n* не открывает папку в линуксе\n* падает на моём workspace\n* тесты\n* pylint\n* не писать class X()\n* не переопределять встроенные имена\n* уменьшить магию\n* тесты на сравнение алгоритмов",
                 "date": "13.06.2014",
                 "points": 11,
-                "student": "Денисов Александр"
+                "student": "Денисов Александр",
+                "year": "2013-2014"
             },
             {
                 "comment": "28.08.2014 Оценка: 1 Александр Берсенев:\nпадает при запуске",
                 "date": "16.08.2014",
                 "points": 18,
-                "student": "Выростко Ольга"
+                "student": "Выростко Ольга",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "22.02.2015",
                 "points": 8,
-                "student": "Сырых Максим"
+                "student": "Сырых Максим",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2578,51 +2997,60 @@
                 "comment": "10.05.2014 Оценка: 8 Павел Блинов:\nДоделать документацию.",
                 "date": "24.02.2014",
                 "points": 12,
-                "student": "Сырых Максим"
+                "student": "Сырых Максим",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.06.2014",
                 "points": 12,
-                "student": "Пестов Никита"
+                "student": "Пестов Никита",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.10.2014",
                 "points": 20,
-                "student": "Zasorin Egor"
+                "student": "Zasorin Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "13.10.2014",
                 "points": 10,
-                "student": "Чикунов Антон"
+                "student": "Чикунов Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "05.11.2014",
                 "points": 18,
-                "student": "Миронов Данил"
+                "student": "Миронов Данил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "06.11.2014",
                 "points": 19,
-                "student": "Несмиянов Артем"
+                "student": "Несмиянов Артем",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "09.11.2014",
                 "points": 1,
-                "student": "Булатов Андрей"
+                "student": "Булатов Андрей",
+                "year": "2013-2014"
             },
             {
                 "comment": "08.04.2015 Оценка: 15 Сергей Азовсков:\n* дублирование кода\n* стиль \n* pylint\n* Тестов нет\n*",
                 "date": "10.12.2014",
                 "points": 15,
-                "student": "Суслова Мария"
+                "student": "Суслова Мария",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Графический редактор",
@@ -2633,27 +3061,32 @@
                 "comment": "",
                 "date": "04.11.2014",
                 "points": 1,
-                "student": "Галочкин Валерий"
+                "student": "Галочкин Валерий",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "29.11.2014",
                 "points": 10,
-                "student": "Котов Игорь"
+                "student": "Котов Игорь",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "10.01.2015",
                 "points": 9,
-                "student": "Лысый Сергей"
+                "student": "Лысый Сергей",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "24.03.2015",
                 "points": 10,
-                "student": "Пушмин Павел"
+                "student": "Пушмин Павел",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "Графический редактор",
@@ -2664,15 +3097,18 @@
                 "comment": "",
                 "date": "13.10.2014",
                 "points": 11,
-                "student": "Татарова Дарья"
+                "student": "Татарова Дарья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "12.12.2014",
                 "points": 1,
-                "student": "Змеев Степан"
+                "student": "Змеев Степан",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2683,51 +3119,60 @@
                 "comment": "",
                 "date": "05.08.2014",
                 "points": 9,
-                "student": "Коврижных Алексей"
+                "student": "Коврижных Алексей",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 1 Сергей Азовсков:\n* формат ввода\n* нормальные сообщения об ошибках\n* выводить все решения (если передан ключ)\n29.11.2014 Оценка: 7 Сергей Азовсков:\n* нормально обрабатывать ключи\n* обрабатывать человекопонятные входы\n* pylint\n* декомпозиция\n* глобальные переменный\n* закрывать файлы\n* Возможность использовать доп правила:\n* диагонали\n* в центрах квадратов\n13.12.2014 Оценка: 11 Сергей Азовсков:\n* тесты",
                 "date": "05.08.2014",
                 "points": 11,
-                "student": "Vedernikov Max"
+                "student": "Vedernikov Max",
+                "year": "2013-2014"
             },
             {
                 "comment": "24.09.2014 Оценка: 4 Сергей Азовсков:\n* игнорировать пробелы в файле\n* что-то сделать с читаемостью кода из-за обращений к таплам\n* сделать функцию search_possible_answers\n* стиль именования функций\n* скорость \n* проверка корректности\n* визуализация\n* параметр для выходного файла",
                 "date": "05.08.2014",
                 "points": 4,
-                "student": "Чикурова Полина"
+                "student": "Чикурова Полина",
+                "year": "2013-2014"
             },
             {
                 "comment": "27.09.2014 Оценка: 7 Сергей Азовсков:\n* сообщения об ошибках(корректность ввода)\n* argparse \n* проверка корректности данных\n* отсутствие решения != некорректный вход\n* находить решение в любом случае\n\n** Ключ на нахождение всех решений\n22.11.2014 Оценка: 9 Сергей Азовсков:\n* допобедить argparse\n* выводить решения по мере нахождения\n* pylint\n* ключик для включения допправила: в центрах 9 маленьких блоков должны быть неповторяющиеся числа",
                 "date": "05.08.2014",
                 "points": 12,
-                "student": "Баженова Аня"
+                "student": "Баженова Аня",
+                "year": "2013-2014"
             },
             {
                 "comment": "15.10.2014 Оценка: 9 Сергей Азовсков:\n* игнорировать пробелы\n* подсвечивать изначальные цифры в GUI\n* проверка корректности\n* доп правила про диагонали",
                 "date": "28.09.2014",
                 "points": 12,
-                "student": "Кучумов Илья"
+                "student": "Кучумов Илья",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "02.10.2014",
                 "points": 10,
-                "student": "Кузнецова Анна"
+                "student": "Кузнецова Анна",
+                "year": "2013-2014"
             },
             {
                 "comment": "25.10.2014 Оценка: 9 Сергей Азовсков:\n* доп правила для судоку\n* больше тестов http://s.pikabu.ru/images/big_size_comm/2014-01_3/13897965247967.jpg",
                 "date": "02.10.2014",
                 "points": 9,
-                "student": "Бороздин Кирилл"
+                "student": "Бороздин Кирилл",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.10.2014",
                 "points": 12,
-                "student": "Любимова Марина"
+                "student": "Любимова Марина",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2738,21 +3183,25 @@
                 "comment": "",
                 "date": "05.08.2014",
                 "points": 18,
-                "student": "Марков Евгений"
+                "student": "Марков Евгений",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "01.10.2014",
                 "points": 15,
-                "student": "Чикунов Антон"
+                "student": "Чикунов Антон",
+                "year": "2013-2014"
             },
             {
                 "comment": "06.12.2014 Оценка: 10 Сергей Азовсков:\n* длинные операции делать в отдельном треде\n* прогресс бар и кнопка отмены\n* не работает и падает\n* хочется видеть похожие файлы, дорожки почти совпадают, но разные теги\n* второе: совпадают по тегам, а по дорожкам разные\n* уметь раскладывать по папкам\n* уметь определять что-то из названия\n10.01.2015 Оценка: 14 Сергей Азовсков:\n* падает\n* стиль кода\n* проблема с моей музыкой\n* не раскладывает по папкам",
                 "date": "22.11.2014",
                 "points": 14,
-                "student": "Паталаха Михаил"
+                "student": "Паталаха Михаил",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     },
     {
         "category": "common",
@@ -2763,20 +3212,24 @@
                 "comment": "",
                 "date": "06.12.2014",
                 "points": 21,
-                "student": "Миронов Данил"
+                "student": "Миронов Данил",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "15.12.2014",
                 "points": 19,
-                "student": "Zasorin Egor"
+                "student": "Zasorin Egor",
+                "year": "2013-2014"
             },
             {
                 "comment": "",
                 "date": "31.03.2015",
                 "points": 15,
-                "student": "Парфёнова Анастасия"
+                "student": "Парфёнова Анастасия",
+                "year": "2013-2014"
             }
-        ]
+        ],
+        "year": "2013-2014"
     }
 ]

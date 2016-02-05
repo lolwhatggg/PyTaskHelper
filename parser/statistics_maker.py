@@ -7,6 +7,7 @@ import database
 def build_task_database(files, entry_class):
     task_db = database.Database(entry_class)
     for filename in files:
+        year = filename[filename.find(' ') + 1:]
         with open(filename, encoding='utf-8') as file:
             data = json.load(file)
         for task in data:
