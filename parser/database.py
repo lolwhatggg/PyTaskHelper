@@ -49,10 +49,10 @@ class EntryWithoutAnnotations(Entry):
         self.max = tuple()
         self.category = tuple()
         self.name = data['name']
-        self.url_alias = self.get_filename()
+        self.filename = self.get_filename()
         self.points = []
         self.students_amount = 0
-        self.students_all_points = 0
+        self.students_full_points = 0
 
     def update(self, data):
         year = data['year']
@@ -66,7 +66,7 @@ class EntryWithoutAnnotations(Entry):
     def finalize(self):
         self.points = [elem for elem in self.points if elem[0]]
         self.students_amount = len(self.points)
-        self.students_all_points = len([elem for elem in self.points
+        self.students_full_points = len([elem for elem in self.points
                                         if elem[0] == elem[1]])
         self.category = self.category[0]
         self.max = self.max[0]
@@ -90,7 +90,7 @@ class EntryWithPercentage(EntryWithoutAnnotations):
         super().__init__(data)
         self.percents = []
         self.average_percent = 0
-        self.average = 0
+        self.average_points = 0
 
     def update(self, data):
         super().update(data)
@@ -100,7 +100,7 @@ class EntryWithPercentage(EntryWithoutAnnotations):
     def finalize(self):
         super().finalize()
         self.average_percent = self.get_average(self.percents)
-        self.average = self.average_percent * self.max / 100
+        self.average_points = self.average_percent * self.max / 100
         del self.percents
 
 

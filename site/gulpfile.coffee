@@ -11,6 +11,7 @@ rename = require 'gulp-rename'
 dist = 'dist/'
 db_dir = '../database/db.json'
 full_db_dir = '../database/db_full.json'
+update_time = '../database/date.json'
 gulp.task 'connect', ->
   connect.server
     port: 1337
@@ -24,14 +25,18 @@ gulp.task 'jade', ->
     .pipe gulp.dest dist
     .pipe do connect.reload
 
-  tasks = require db_dir
+  tasks = require full_db_dir
   task_names = Object.keys tasks
   for name in task_names
+
     gulp.src 'jade/task.jade'
       .pipe jade
         locals:
           task: tasks[name]
           tasks: task_names
+          date: require update_time
+          annual: tasks[name]['annual_averages']
+          students: tasks[name]['students']
       .pipe rename name + '.html'
       .pipe gulp.dest dist + 'tasks'
       .pipe do connect.reload

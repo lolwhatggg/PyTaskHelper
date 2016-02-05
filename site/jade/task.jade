@@ -2,9 +2,38 @@ extends page
 
 block content
   h1 #{task.name}
+  p.text-right Время обновления базы #{date}
+  div.thumbnail
+    ul
+    li Категория: #{task.category}
+    li Максимальный балл: #{task.max}
+    li Средний балл: #{task.average_points}
+    li Средний процент: #{task.average_percent}
+    li Количество сдавших: #{task.students_amount}
+    li Количество сдавших на полный балл: #{task.students_full_points}
 
-  ul
-  li Категории: #{task.categories}
-  li Максимальный балл: #{task.max}
-  li Средний балл: #{task.average}
-  li Средний процент: #{task.average_percent}
+  each year_data, year in annual
+    div.thumbnail.col-md-4
+      ul
+      h6 #{year}
+      li Максимальный балл: #{year_data.max}
+      li Средний балл: #{year_data.average_points}
+      li Средний процент: #{year_data.average_percent}
+      li Количество сдавших: #{year_data.students_amount}
+      li Количество сдавших на полный балл: #{year_data.students_full_points}
+  table.table.table-stripped.table-condensed
+    thead
+      tr
+        th Балл
+        th Максимальный балл
+        th Процент выполнения
+        th Аннотация
+        th Уч.год
+    tbody
+      each student in students
+        tr
+          td: span.label.label-warning #{student.points}
+          td: span.label.label-success #{student.max}
+          td: span.label.label-danger #{student.percent}
+          td #{student.comment}
+          td #{student.year}

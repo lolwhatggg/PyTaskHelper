@@ -31,7 +31,7 @@ function modify_page(data) {
         var avg_percent = data[name]['average_percent'];
         var avg_points = avg_percent * max.text() / 100;
         var students = data[name]['students_amount'];
-        var stud_full = data[name]['students_all_points'];
+        var stud_full = data[name]['students_full_points'];
         var perc_full = Math.round(stud_full / students * 100);
         var link = 'http://pytask.info/tasks/' + data[name]['url_alias'];
         var text =

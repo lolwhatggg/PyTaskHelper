@@ -6,9 +6,9 @@ block content
     .task.panel.panel-default
       a(href="tasks/#{task.name}.html"): h2 #{task.name}
       ul
-        li Категории: #{task.categories}
+        li Категория: #{task.category}
         li Максимальный балл: #{task.max}
-        li Средний балл: #{task.average}
+        li Средний балл: #{task.average_points}
         li Средний процент: #{task.average_percent}
       hr
       a(href="#") Наверх...

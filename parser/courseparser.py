@@ -42,10 +42,9 @@ def get_comment(field):
 def write_course(link):
     with urlopen(link['href']) as page:
         raw_html = page.read().decode()
-
     soup = bs4.BeautifulSoup(raw_html)
     tasks = soup.find('tbody').findChildren(recursive=False)
-    year = link['name'][link['name'].find('|') + 2:]
+    year = link['name'].split('|')[-1].strip()
     db = []
     for task in tasks:
         if not isinstance(task, bs4.Tag):
@@ -59,7 +58,8 @@ def write_course(link):
             maximum = task.span.text.strip()
             results = parse_results(task.table, year)
             db.append({'category': 'common', 'name': name,
-                       'max': int(maximum), 'students': results, 'year': year})
+                       'max': int(maximum), 'students': results,
+                       'year': year})
         else:
             for st in task.findAll('font'):
                 if st.previous.name != 'div':
