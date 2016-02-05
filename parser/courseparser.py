@@ -7,7 +7,7 @@ import linksparser
 from urllib.request import urlopen
 
 
-def parse_results(table):
+def parse_results(table, year):
     results = []
     for a in table.findAll('tr'):
         fields = a.findAll('td')
@@ -15,7 +15,8 @@ def parse_results(table):
             'student': fields[0].text.strip(),
             'points': get_points(fields[2]),
             'comment': get_comment(fields[2]),
-            'date': fields[1].text.strip()
+            'date': fields[1].text.strip(),
+            'year': year
         }
         results.append(data)
     return results
@@ -44,7 +45,7 @@ def write_course(link):
 
     soup = bs4.BeautifulSoup(raw_html)
     tasks = soup.find('tbody').findChildren(recursive=False)
-
+    year = link['name'][link['name'].find('|')+2:]
     db = []
     for task in tasks:
         if not isinstance(task, bs4.Tag):
@@ -56,9 +57,9 @@ def write_course(link):
         if next_tag == 'span':
             name = base_name
             maximum = task.span.text.strip()
-            results = parse_results(task.table)
+            results = parse_results(task.table, year)
             db.append({'category': 'common', 'name': name,
-                       'max': int(maximum), 'students': results})
+                             'max': int(maximum), 'students': results, 'year':year})
         else:
             for st in task.findAll('font'):
                 if st.previous.name != 'div':
@@ -66,10 +67,9 @@ def write_course(link):
                 name = st.text.strip()
                 category = base_name
                 maximum = st.findNext('span').text.strip()
-                results = parse_results(st.findNext('table'))
+                results = parse_results(st.findNext('table'), year)
                 db.append({'category': category, 'name': name,
-                           'max': int(maximum), 'students': results})
-
+                                 'max': int(maximum), 'students': results, 'year':year})
     filename = link['name'].replace('| ', '')
     directory = os.path.join('../courses', '%s.%s' % (filename, 'json'))
     with open(directory, 'w', encoding='utf-8') as file:
