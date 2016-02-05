@@ -7,7 +7,6 @@ import database
 def build_task_database(files, entry_class):
     task_db = database.Database(entry_class)
     for filename in files:
-        year = filename[filename.find(' ') + 1:]
         with open(filename, encoding='utf-8') as file:
             data = json.load(file)
         for task in data:
@@ -33,10 +32,10 @@ def write_json(db, filename):
 def update_files():
     files = glob.glob(os.path.join('../courses', '*.json'))
 
-    small_db = build_task_database(files, database.EntryOnlyAverageValues)
+    small_db = build_task_database(files, database.EntryWithPercentage)
     write_json(small_db, '../database/db.json')
 
-    big_db = build_task_database(files, database.EntryFullInfo)
+    big_db = build_task_database(files, database.EntryAnnualFullInfo)
     write_json(big_db, '../database/db_full.json')
 
 
