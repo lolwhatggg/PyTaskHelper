@@ -1,0 +1,28 @@
+extends page
+
+
+block content
+  script(src="/js/sortable.min.js")
+  link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
+  table(data-sortable="" data-sortable-initialized="false").table.table-stripped.sortable-theme-bootstrap
+    thead
+      tr
+        th #
+        th(data-sorted="false") Название задачи
+        th(data-sorted="false") Максимальный балл
+        th(data-sorted="false") Средний балл за все года
+        th(data-sorted="false") Средний процент
+        th(data-sorted="false") Количество сдавших
+        th(data-sorted="false") Количество сдавших на полный балл
+    tbody
+      - var number = 1
+      each task in locals
+        tr
+          th(scope='row') #{number}
+          td #{task.name}
+          td #{task.max}
+          td #{task.average}
+          td #{task.average_percent}
+          td #{task.students_amount}
+          td #{task.students_all_points}
+          - number += 1

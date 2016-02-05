@@ -9,8 +9,8 @@ rjs = require 'gulp-requirejs'
 rename = require 'gulp-rename'
 
 dist = 'dist/'
-db_dir = '../database/db_full.json'
-
+db_dir = '../database/db.json'
+full_db_dir = '../database/db_full.json'
 gulp.task 'connect', ->
   connect.server
     port: 1337
@@ -18,7 +18,7 @@ gulp.task 'connect', ->
     root: './' + dist
 
 gulp.task 'jade', ->
-  gulp.src 'jade/index.jade'
+  gulp.src ['jade/index.jade', 'jade/table.jade']
     .pipe jade
       locals: require db_dir
     .pipe gulp.dest dist

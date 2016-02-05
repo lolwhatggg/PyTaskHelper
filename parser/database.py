@@ -47,6 +47,7 @@ class Entry(metaclass=ABCMeta):
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
         self.average = 0
+        self.max = tuple()
         self.category = tuple()
         self.name = data['name']
         self.url_alias = self.get_filename()
@@ -58,6 +59,8 @@ class EntryWithoutAnnotations(Entry):
         year = data['year']
         if not self.category or self.category[1] < year:
             self.category = (data['category'], year)
+        if not self.max or self.max[1] < year:
+            self.max = (data['max'], year)
         self.points += [(student['points'], data['max']) for student
                         in data['students']]
 
@@ -67,6 +70,7 @@ class EntryWithoutAnnotations(Entry):
         self.students_all_points = len([elem for elem in self.points
                                         if elem[0] == elem[1]])
         self.category = self.category[0]
+        self.max = self.max[0]
         self.average = self.get_average([elem[0] for elem in self.points], 2)
         del self.points
 
