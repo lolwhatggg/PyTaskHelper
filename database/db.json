@@ -1,1 +1,1030 @@
-{"100-клеточные шашки": {"average": 10.38, "average_percent": 61, "categories": ["Игра", "Пошаговые игры"], "max": [17], "name": "100-клеточные шашки", "students_all_points": 4, "students_amount": 45}, "BMP": {"average": 11.04, "average_percent": 74, "categories": ["Разбор графических файлов"], "max": [15], "name": "BMP", "students_all_points": 19, "students_amount": 50}, "BitTorrent": {"average": 21.18, "average_percent": 85, "categories": ["Сетевые сервисы"], "max": [25], "name": "BitTorrent", "students_all_points": 7, "students_amount": 11}, "DNS": {"average": 12.64, "average_percent": 90, "categories": ["Сетевые сервисы"], "max": [14], "name": "DNS", "students_all_points": 19, "students_amount": 25}, "FTP": {"average": 8.11, "average_percent": 68, "categories": ["Сетевые сервисы"], "max": [12], "name": "FTP", "students_all_points": 6, "students_amount": 36}, "Flightradar": {"average": 17.25, "average_percent": 78, "categories": ["Транспорт", "common"], "max": [22], "name": "Flightradar", "students_all_points": 0, "students_amount": 4}, "GIF": {"average": 9.5, "average_percent": 66, "categories": ["Разбор графических файлов"], "max": [16, 14], "name": "GIF", "students_all_points": 2, "students_amount": 14}, "JPEG": {"average": 8.33, "average_percent": 49, "categories": ["Разбор графических файлов"], "max": [17], "name": "JPEG", "students_all_points": 1, "students_amount": 6}, "NTP": {"average": 5.84, "average_percent": 83, "categories": ["Сетевые сервисы"], "max": [8, 7], "name": "NTP", "students_all_points": 17, "students_amount": 32}, "PEP8 валидатор": {"average": 7, "average_percent": 88, "categories": ["Обработка текстов программ"], "max": [8, 9], "name": "PEP8 валидатор", "students_all_points": 3, "students_amount": 7}, "PNG": {"average": 9.38, "average_percent": 65, "categories": ["Разбор графических файлов"], "max": [16, 14], "name": "PNG", "students_all_points": 7, "students_amount": 29}, "POP3": {"average": 8.44, "average_percent": 70, "categories": ["Сетевые сервисы"], "max": [12], "name": "POP3", "students_all_points": 9, "students_amount": 48}, "SMTP": {"average": 8.95, "average_percent": 75, "categories": ["Сетевые сервисы"], "max": [12], "name": "SMTP", "students_all_points": 14, "students_amount": 44}, "arkanoid": {"average": 9.96, "average_percent": 77, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [13], "name": "arkanoid", "students_all_points": 7, "students_amount": 23}, "bmp": {"average": 9.68, "average_percent": 69, "categories": ["Стеганография"], "max": [14], "name": "bmp", "students_all_points": 3, "students_amount": 19}, "docstrings2html": {"average": 8.56, "average_percent": 71, "categories": ["Перевод документации в другой формат"], "max": [12], "name": "docstrings2html", "students_all_points": 4, "students_amount": 18}, "docstrings2pdf": {"average": 10, "average_percent": 50, "categories": ["Перевод документации в другой формат"], "max": [20], "name": "docstrings2pdf", "students_all_points": 0, "students_amount": 1}, "docstrings2rtf": {"average": 0, "average_percent": 0, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "docstrings2rtf", "students_all_points": 0, "students_amount": 0}, "docstrings2xml": {"average": 5, "average_percent": 36, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "docstrings2xml", "students_all_points": 0, "students_amount": 1}, "flac": {"average": 9.44, "average_percent": 67, "categories": ["Разбор аудиоформатов"], "max": [16, 14], "name": "flac", "students_all_points": 1, "students_amount": 9}, "lines": {"average": 9.56, "average_percent": 80, "categories": ["Интерактивные игры", "Пошаговые игры"], "max": [12], "name": "lines", "students_all_points": 5, "students_amount": 16}, "man2html": {"average": 9.12, "average_percent": 76, "categories": ["Перевод документации в другой формат"], "max": [12], "name": "man2html", "students_all_points": 11, "students_amount": 26}, "man2pdf": {"average": 12, "average_percent": 60, "categories": ["Перевод документации в другой формат"], "max": [20], "name": "man2pdf", "students_all_points": 0, "students_amount": 2}, "man2rtf": {"average": 6.5, "average_percent": 46, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "man2rtf", "students_all_points": 0, "students_amount": 2}, "man2xml": {"average": 0, "average_percent": 0, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "man2xml", "students_all_points": 0, "students_amount": 0}, "mp3": {"average": 10, "average_percent": 71, "categories": ["Разбор аудиоформатов"], "max": [14], "name": "mp3", "students_all_points": 1, "students_amount": 10}, "ogg": {"average": 4.5, "average_percent": 32, "categories": ["Разбор аудиоформатов"], "max": [14], "name": "ogg", "students_all_points": 0, "students_amount": 2}, "pacman": {"average": 12.25, "average_percent": 82, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [15], "name": "pacman", "students_all_points": 9, "students_amount": 20}, "pentix": {"average": 8.75, "average_percent": 80, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [11], "name": "pentix", "students_all_points": 9, "students_amount": 20}, "pod2html": {"average": 9.13, "average_percent": 76, "categories": ["Перевод документации в другой формат"], "max": [12], "name": "pod2html", "students_all_points": 7, "students_amount": 23}, "pod2pdf": {"average": 15, "average_percent": 75, "categories": ["Перевод документации в другой формат"], "max": [20], "name": "pod2pdf", "students_all_points": 0, "students_amount": 1}, "pod2rtf": {"average": 9.38, "average_percent": 67, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "pod2rtf", "students_all_points": 3, "students_amount": 8}, "pod2xml": {"average": 14, "average_percent": 100, "categories": ["Перевод документации в другой формат"], "max": [14], "name": "pod2xml", "students_all_points": 3, "students_amount": 3}, "teeworlds": {"average": 13, "average_percent": 52, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [25], "name": "teeworlds", "students_all_points": 1, "students_amount": 2}, "tower defense": {"average": 16.69, "average_percent": 78, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [20, 23], "name": "tower defense", "students_all_points": 6, "students_amount": 16}, "wav": {"average": 10, "average_percent": 71, "categories": ["Стеганография"], "max": [14], "name": "wav", "students_all_points": 3, "students_amount": 14}, "Адресная книга": {"average": 8.47, "average_percent": 56, "categories": ["common"], "max": [15], "name": "Адресная книга", "students_all_points": 1, "students_amount": 17}, "Аудиоальбом": {"average": 11.6, "average_percent": 58, "categories": ["Медиаальбом", "common"], "max": [20], "name": "Аудиоальбом", "students_all_points": 0, "students_amount": 5}, "Аудиоредактор": {"average": 11.17, "average_percent": 62, "categories": ["common"], "max": [18], "name": "Аудиоредактор", "students_all_points": 0, "students_amount": 6}, "Биллинг": {"average": 10.66, "average_percent": 76, "categories": ["common"], "max": [14], "name": "Биллинг", "students_all_points": 16, "students_amount": 50}, "Бредогенератор": {"average": 8.67, "average_percent": 79, "categories": ["common"], "max": [11], "name": "Бредогенератор", "students_all_points": 11, "students_amount": 21}, "Взлом шифра": {"average": 11.71, "average_percent": 64, "categories": ["common"], "max": [18, 20], "name": "Взлом шифра", "students_all_points": 13, "students_amount": 48}, "Где трамвай": {"average": 12.78, "average_percent": 64, "categories": ["Транспорт", "common"], "max": [20], "name": "Где трамвай", "students_all_points": 1, "students_amount": 9}, "Генератор отчетов": {"average": 10.05, "average_percent": 72, "categories": ["common"], "max": [14], "name": "Генератор отчетов", "students_all_points": 13, "students_amount": 40}, "Дефрагментация": {"average": 14.55, "average_percent": 73, "categories": ["Файловые системы", "common"], "max": [25, 19], "name": "Дефрагментация", "students_all_points": 5, "students_amount": 11}, "Жизнь": {"average": 12.39, "average_percent": 84, "categories": ["common"], "max": [13, 15], "name": "Жизнь", "students_all_points": 31, "students_amount": 56}, "Кроссворд": {"average": 11.5, "average_percent": 77, "categories": ["common"], "max": [15], "name": "Кроссворд", "students_all_points": 18, "students_amount": 54}, "Лабиринт": {"average": 8.49, "average_percent": 84, "categories": ["common"], "max": [10, 11], "name": "Лабиринт", "students_all_points": 32, "students_amount": 53}, "Лесенка": {"average": 7.87, "average_percent": 89, "categories": ["common"], "max": [8, 9], "name": "Лесенка", "students_all_points": 39, "students_amount": 60}, "Многочлены": {"average": 9.24, "average_percent": 77, "categories": ["common"], "max": [12], "name": "Многочлены", "students_all_points": 19, "students_amount": 54}, "Небо": {"average": 15.3, "average_percent": 76, "categories": ["common"], "max": [20], "name": "Небо", "students_all_points": 10, "students_amount": 27}, "Отладчик": {"average": 14.88, "average_percent": 60, "categories": ["common"], "max": [25], "name": "Отладчик", "students_all_points": 2, "students_amount": 8}, "Палиндромы": {"average": 6.47, "average_percent": 81, "categories": ["common"], "max": [8], "name": "Палиндромы", "students_all_points": 28, "students_amount": 58}, "Пары слов": {"average": 9.75, "average_percent": 93, "categories": ["common"], "max": [11, 7], "name": "Пары слов", "students_all_points": 43, "students_amount": 60}, "Разбор FAT32": {"average": 13.75, "average_percent": 81, "categories": ["Файловые системы", "Работа с файловыми системами"], "max": [17], "name": "FAT32", "students_all_points": 1, "students_amount": 4}, "Разбор ext4": {"average": 21, "average_percent": 100, "categories": ["Файловые системы", "Работа с файловыми системами"], "max": [21], "name": "ext4", "students_all_points": 1, "students_amount": 1}, "Раскраска карты": {"average": 11.98, "average_percent": 75, "categories": ["common"], "max": [16], "name": "Раскраска карты", "students_all_points": 16, "students_amount": 46}, "Словари": {"average": 10, "average_percent": 67, "categories": ["common"], "max": [15], "name": "Словари", "students_all_points": 6, "students_amount": 20}, "Сортировки": {"average": 10.05, "average_percent": 73, "categories": ["common"], "max": [12, 15], "name": "Сортировки", "students_all_points": 20, "students_amount": 58}, "Судоку": {"average": 9.88, "average_percent": 82, "categories": ["common"], "max": [12], "name": "Судоку", "students_all_points": 6, "students_amount": 16}, "Фотоальбом": {"average": 14.25, "average_percent": 71, "categories": ["Медиаальбом", "common"], "max": [20], "name": "Фотоальбом", "students_all_points": 1, "students_amount": 4}, "Чат": {"average": 11.39, "average_percent": 76, "categories": ["common"], "max": [15], "name": "Чат", "students_all_points": 18, "students_amount": 54}, "бомбермен": {"average": 9.94, "average_percent": 58, "categories": ["Интерактивные игры", "Realtime-игры"], "max": [17], "name": "бомбермен", "students_all_points": 3, "students_amount": 16}, "векторный": {"average": 6, "average_percent": 40, "categories": ["Графический редактор"], "max": [15], "name": "векторный", "students_all_points": 0, "students_amount": 2}, "кубики": {"average": 7.12, "average_percent": 89, "categories": ["Интерактивные игры", "Пошаговые игры"], "max": [8], "name": "кубики", "students_all_points": 9, "students_amount": 16}, "поддавки": {"average": 12.79, "average_percent": 75, "categories": ["Игра", "Пошаговые игры"], "max": [17], "name": "поддавки", "students_all_points": 6, "students_amount": 24}, "растровый": {"average": 7, "average_percent": 57, "categories": ["Графический редактор"], "max": [12, 13], "name": "растровый", "students_all_points": 0, "students_amount": 7}, "реверси": {"average": 12.16, "average_percent": 73, "categories": ["Игра", "Пошаговые игры"], "max": [17, 15], "name": "реверси", "students_all_points": 12, "students_amount": 51}, "транслятор": {"average": 14.48, "average_percent": 72, "categories": ["Обработка текстов программ"], "max": [20], "name": "транслятор", "students_all_points": 13, "students_amount": 27}, "форматтер": {"average": 9.8, "average_percent": 65, "categories": ["Обработка текстов программ"], "max": [15], "name": "форматтер", "students_all_points": 6, "students_amount": 25}, "шахматы": {"average": 15.56, "average_percent": 74, "categories": ["Игра", "Пошаговые игры"], "max": [21], "name": "шахматы", "students_all_points": 11, "students_amount": 48}}
+{
+  "100-клеточные шашки": {
+    "average": 10.38,
+    "average_percent": 61,
+    "categories": [
+      "Игра",
+      "Пошаговые игры"
+    ],
+    "max": [
+      17
+    ],
+    "name": "100-клеточные шашки",
+    "students_all_points": 4,
+    "students_amount": 45,
+    "url_alias": "100-%D0%BA%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B5%20%D1%88%D0%B0%D1%88%D0%BA%D0%B8.html"
+  },
+  "BMP": {
+    "average": 11.04,
+    "average_percent": 74,
+    "categories": [
+      "Разбор графических файлов"
+    ],
+    "max": [
+      15
+    ],
+    "name": "BMP",
+    "students_all_points": 19,
+    "students_amount": 50,
+    "url_alias": "BMP.html"
+  },
+  "BitTorrent": {
+    "average": 21.18,
+    "average_percent": 85,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      25
+    ],
+    "name": "BitTorrent",
+    "students_all_points": 7,
+    "students_amount": 11,
+    "url_alias": "BitTorrent.html"
+  },
+  "DNS": {
+    "average": 12.64,
+    "average_percent": 90,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      14
+    ],
+    "name": "DNS",
+    "students_all_points": 19,
+    "students_amount": 25,
+    "url_alias": "DNS.html"
+  },
+  "FTP": {
+    "average": 8.11,
+    "average_percent": 68,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      12
+    ],
+    "name": "FTP",
+    "students_all_points": 6,
+    "students_amount": 36,
+    "url_alias": "FTP.html"
+  },
+  "Flightradar": {
+    "average": 17.25,
+    "average_percent": 78,
+    "categories": [
+      "common",
+      "Транспорт"
+    ],
+    "max": [
+      22
+    ],
+    "name": "Flightradar",
+    "students_all_points": 0,
+    "students_amount": 4,
+    "url_alias": "Flightradar.html"
+  },
+  "GIF": {
+    "average": 9.5,
+    "average_percent": 66,
+    "categories": [
+      "Разбор графических файлов"
+    ],
+    "max": [
+      16,
+      14
+    ],
+    "name": "GIF",
+    "students_all_points": 2,
+    "students_amount": 14,
+    "url_alias": "GIF.html"
+  },
+  "JPEG": {
+    "average": 8.33,
+    "average_percent": 49,
+    "categories": [
+      "Разбор графических файлов"
+    ],
+    "max": [
+      17
+    ],
+    "name": "JPEG",
+    "students_all_points": 1,
+    "students_amount": 6,
+    "url_alias": "JPEG.html"
+  },
+  "NTP": {
+    "average": 5.84,
+    "average_percent": 83,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      8,
+      7
+    ],
+    "name": "NTP",
+    "students_all_points": 17,
+    "students_amount": 32,
+    "url_alias": "NTP.html"
+  },
+  "PEP8 валидатор": {
+    "average": 7,
+    "average_percent": 88,
+    "categories": [
+      "Обработка текстов программ"
+    ],
+    "max": [
+      8,
+      9
+    ],
+    "name": "PEP8 валидатор",
+    "students_all_points": 3,
+    "students_amount": 7,
+    "url_alias": "PEP8%20%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80.html"
+  },
+  "PNG": {
+    "average": 9.38,
+    "average_percent": 65,
+    "categories": [
+      "Разбор графических файлов"
+    ],
+    "max": [
+      16,
+      14
+    ],
+    "name": "PNG",
+    "students_all_points": 7,
+    "students_amount": 29,
+    "url_alias": "PNG.html"
+  },
+  "POP3": {
+    "average": 8.44,
+    "average_percent": 70,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      12
+    ],
+    "name": "POP3",
+    "students_all_points": 9,
+    "students_amount": 48,
+    "url_alias": "POP3.html"
+  },
+  "SMTP": {
+    "average": 8.95,
+    "average_percent": 75,
+    "categories": [
+      "Сетевые сервисы"
+    ],
+    "max": [
+      12
+    ],
+    "name": "SMTP",
+    "students_all_points": 14,
+    "students_amount": 44,
+    "url_alias": "SMTP.html"
+  },
+  "arkanoid": {
+    "average": 9.96,
+    "average_percent": 77,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      13
+    ],
+    "name": "arkanoid",
+    "students_all_points": 7,
+    "students_amount": 23,
+    "url_alias": "arkanoid.html"
+  },
+  "bmp": {
+    "average": 9.68,
+    "average_percent": 69,
+    "categories": [
+      "Стеганография"
+    ],
+    "max": [
+      14
+    ],
+    "name": "bmp",
+    "students_all_points": 3,
+    "students_amount": 19,
+    "url_alias": "bmp_stegano.html"
+  },
+  "docstrings2html": {
+    "average": 8.56,
+    "average_percent": 71,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      12
+    ],
+    "name": "docstrings2html",
+    "students_all_points": 4,
+    "students_amount": 18,
+    "url_alias": "docstrings2html.html"
+  },
+  "docstrings2pdf": {
+    "average": 10,
+    "average_percent": 50,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      20
+    ],
+    "name": "docstrings2pdf",
+    "students_all_points": 0,
+    "students_amount": 1,
+    "url_alias": "docstrings2pdf.html"
+  },
+  "docstrings2rtf": {
+    "average": 0,
+    "average_percent": 0,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "docstrings2rtf",
+    "students_all_points": 0,
+    "students_amount": 0,
+    "url_alias": "docstrings2rtf.html"
+  },
+  "docstrings2xml": {
+    "average": 5,
+    "average_percent": 36,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "docstrings2xml",
+    "students_all_points": 0,
+    "students_amount": 1,
+    "url_alias": "docstrings2xml.html"
+  },
+  "flac": {
+    "average": 9.44,
+    "average_percent": 67,
+    "categories": [
+      "Разбор аудиоформатов"
+    ],
+    "max": [
+      16,
+      14
+    ],
+    "name": "flac",
+    "students_all_points": 1,
+    "students_amount": 9,
+    "url_alias": "flac.html"
+  },
+  "lines": {
+    "average": 9.56,
+    "average_percent": 80,
+    "categories": [
+      "Пошаговые игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      12
+    ],
+    "name": "lines",
+    "students_all_points": 5,
+    "students_amount": 16,
+    "url_alias": "lines.html"
+  },
+  "man2html": {
+    "average": 9.12,
+    "average_percent": 76,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      12
+    ],
+    "name": "man2html",
+    "students_all_points": 11,
+    "students_amount": 26,
+    "url_alias": "man2html.html"
+  },
+  "man2pdf": {
+    "average": 12,
+    "average_percent": 60,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      20
+    ],
+    "name": "man2pdf",
+    "students_all_points": 0,
+    "students_amount": 2,
+    "url_alias": "man2pdf.html"
+  },
+  "man2rtf": {
+    "average": 6.5,
+    "average_percent": 46,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "man2rtf",
+    "students_all_points": 0,
+    "students_amount": 2,
+    "url_alias": "man2rtf.html"
+  },
+  "man2xml": {
+    "average": 0,
+    "average_percent": 0,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "man2xml",
+    "students_all_points": 0,
+    "students_amount": 0,
+    "url_alias": "man2xml.html"
+  },
+  "mp3": {
+    "average": 10,
+    "average_percent": 71,
+    "categories": [
+      "Разбор аудиоформатов"
+    ],
+    "max": [
+      14
+    ],
+    "name": "mp3",
+    "students_all_points": 1,
+    "students_amount": 10,
+    "url_alias": "mp3.html"
+  },
+  "ogg": {
+    "average": 4.5,
+    "average_percent": 32,
+    "categories": [
+      "Разбор аудиоформатов"
+    ],
+    "max": [
+      14
+    ],
+    "name": "ogg",
+    "students_all_points": 0,
+    "students_amount": 2,
+    "url_alias": "ogg.html"
+  },
+  "pacman": {
+    "average": 12.25,
+    "average_percent": 82,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      15
+    ],
+    "name": "pacman",
+    "students_all_points": 9,
+    "students_amount": 20,
+    "url_alias": "pacman.html"
+  },
+  "pentix": {
+    "average": 8.75,
+    "average_percent": 80,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      11
+    ],
+    "name": "pentix",
+    "students_all_points": 9,
+    "students_amount": 20,
+    "url_alias": "pentix.html"
+  },
+  "pod2html": {
+    "average": 9.13,
+    "average_percent": 76,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      12
+    ],
+    "name": "pod2html",
+    "students_all_points": 7,
+    "students_amount": 23,
+    "url_alias": "pod2html.html"
+  },
+  "pod2pdf": {
+    "average": 15,
+    "average_percent": 75,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      20
+    ],
+    "name": "pod2pdf",
+    "students_all_points": 0,
+    "students_amount": 1,
+    "url_alias": "pod2pdf.html"
+  },
+  "pod2rtf": {
+    "average": 9.38,
+    "average_percent": 67,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "pod2rtf",
+    "students_all_points": 3,
+    "students_amount": 8,
+    "url_alias": "pod2rtf.html"
+  },
+  "pod2xml": {
+    "average": 14,
+    "average_percent": 100,
+    "categories": [
+      "Перевод документации в другой формат"
+    ],
+    "max": [
+      14
+    ],
+    "name": "pod2xml",
+    "students_all_points": 3,
+    "students_amount": 3,
+    "url_alias": "pod2xml.html"
+  },
+  "teeworlds": {
+    "average": 13,
+    "average_percent": 52,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      25
+    ],
+    "name": "teeworlds",
+    "students_all_points": 1,
+    "students_amount": 2,
+    "url_alias": "teeworlds.html"
+  },
+  "tower defense": {
+    "average": 16.69,
+    "average_percent": 78,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      20,
+      23
+    ],
+    "name": "tower defense",
+    "students_all_points": 6,
+    "students_amount": 16,
+    "url_alias": "tower%20defense.html"
+  },
+  "wav": {
+    "average": 10,
+    "average_percent": 71,
+    "categories": [
+      "Стеганография"
+    ],
+    "max": [
+      14
+    ],
+    "name": "wav",
+    "students_all_points": 3,
+    "students_amount": 14,
+    "url_alias": "wav.html"
+  },
+  "Адресная книга": {
+    "average": 8.47,
+    "average_percent": 56,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      15
+    ],
+    "name": "Адресная книга",
+    "students_all_points": 1,
+    "students_amount": 17,
+    "url_alias": "%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0.html"
+  },
+  "Аудиоальбом": {
+    "average": 11.6,
+    "average_percent": 58,
+    "categories": [
+      "common",
+      "Медиаальбом"
+    ],
+    "max": [
+      20
+    ],
+    "name": "Аудиоальбом",
+    "students_all_points": 0,
+    "students_amount": 5,
+    "url_alias": "%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC.html"
+  },
+  "Аудиоредактор": {
+    "average": 11.17,
+    "average_percent": 62,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      18
+    ],
+    "name": "Аудиоредактор",
+    "students_all_points": 0,
+    "students_amount": 6,
+    "url_alias": "%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80.html"
+  },
+  "Биллинг": {
+    "average": 10.66,
+    "average_percent": 76,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      14
+    ],
+    "name": "Биллинг",
+    "students_all_points": 16,
+    "students_amount": 50,
+    "url_alias": "%D0%91%D0%B8%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3.html"
+  },
+  "Бредогенератор": {
+    "average": 8.67,
+    "average_percent": 79,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      11
+    ],
+    "name": "Бредогенератор",
+    "students_all_points": 11,
+    "students_amount": 21,
+    "url_alias": "%D0%91%D1%80%D0%B5%D0%B4%D0%BE%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80.html"
+  },
+  "Взлом шифра": {
+    "average": 11.71,
+    "average_percent": 64,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      18,
+      20
+    ],
+    "name": "Взлом шифра",
+    "students_all_points": 13,
+    "students_amount": 48,
+    "url_alias": "%D0%92%D0%B7%D0%BB%D0%BE%D0%BC%20%D1%88%D0%B8%D1%84%D1%80%D0%B0.html"
+  },
+  "Где трамвай": {
+    "average": 12.78,
+    "average_percent": 64,
+    "categories": [
+      "common",
+      "Транспорт"
+    ],
+    "max": [
+      20
+    ],
+    "name": "Где трамвай",
+    "students_all_points": 1,
+    "students_amount": 9,
+    "url_alias": "%D0%93%D0%B4%D0%B5%20%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D0%B9.html"
+  },
+  "Генератор отчетов": {
+    "average": 10.05,
+    "average_percent": 72,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      14
+    ],
+    "name": "Генератор отчетов",
+    "students_all_points": 13,
+    "students_amount": 40,
+    "url_alias": "%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%20%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BE%D0%B2.html"
+  },
+  "Дефрагментация": {
+    "average": 14.55,
+    "average_percent": 73,
+    "categories": [
+      "Файловые системы",
+      "common"
+    ],
+    "max": [
+      25,
+      19
+    ],
+    "name": "Дефрагментация",
+    "students_all_points": 5,
+    "students_amount": 11,
+    "url_alias": "%D0%94%D0%B5%D1%84%D1%80%D0%B0%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.html"
+  },
+  "Жизнь": {
+    "average": 12.39,
+    "average_percent": 84,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      13,
+      15
+    ],
+    "name": "Жизнь",
+    "students_all_points": 31,
+    "students_amount": 56,
+    "url_alias": "%D0%96%D0%B8%D0%B7%D0%BD%D1%8C.html"
+  },
+  "Кроссворд": {
+    "average": 11.5,
+    "average_percent": 77,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      15
+    ],
+    "name": "Кроссворд",
+    "students_all_points": 18,
+    "students_amount": 54,
+    "url_alias": "%D0%9A%D1%80%D0%BE%D1%81%D1%81%D0%B2%D0%BE%D1%80%D0%B4.html"
+  },
+  "Лабиринт": {
+    "average": 8.49,
+    "average_percent": 84,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      10,
+      11
+    ],
+    "name": "Лабиринт",
+    "students_all_points": 32,
+    "students_amount": 53,
+    "url_alias": "%D0%9B%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82.html"
+  },
+  "Лесенка": {
+    "average": 7.87,
+    "average_percent": 89,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      8,
+      9
+    ],
+    "name": "Лесенка",
+    "students_all_points": 39,
+    "students_amount": 60,
+    "url_alias": "%D0%9B%D0%B5%D1%81%D0%B5%D0%BD%D0%BA%D0%B0.html"
+  },
+  "Многочлены": {
+    "average": 9.24,
+    "average_percent": 77,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      12
+    ],
+    "name": "Многочлены",
+    "students_all_points": 19,
+    "students_amount": 54,
+    "url_alias": "%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%87%D0%BB%D0%B5%D0%BD%D1%8B.html"
+  },
+  "Небо": {
+    "average": 15.3,
+    "average_percent": 76,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      20
+    ],
+    "name": "Небо",
+    "students_all_points": 10,
+    "students_amount": 27,
+    "url_alias": "%D0%9D%D0%B5%D0%B1%D0%BE.html"
+  },
+  "Отладчик": {
+    "average": 14.88,
+    "average_percent": 60,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      25
+    ],
+    "name": "Отладчик",
+    "students_all_points": 2,
+    "students_amount": 8,
+    "url_alias": "%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D1%87%D0%B8%D0%BA.html"
+  },
+  "Палиндромы": {
+    "average": 6.47,
+    "average_percent": 81,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      8
+    ],
+    "name": "Палиндромы",
+    "students_all_points": 28,
+    "students_amount": 58,
+    "url_alias": "%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B.html"
+  },
+  "Пары слов": {
+    "average": 9.75,
+    "average_percent": 93,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      11,
+      7
+    ],
+    "name": "Пары слов",
+    "students_all_points": 43,
+    "students_amount": 60,
+    "url_alias": "%D0%9F%D0%B0%D1%80%D1%8B%20%D1%81%D0%BB%D0%BE%D0%B2.html"
+  },
+  "Разбор FAT32": {
+    "average": 13.75,
+    "average_percent": 81,
+    "categories": [
+      "Файловые системы",
+      "Работа с файловыми системами"
+    ],
+    "max": [
+      17
+    ],
+    "name": "FAT32",
+    "students_all_points": 1,
+    "students_amount": 4,
+    "url_alias": "FAT32.html"
+  },
+  "Разбор ext4": {
+    "average": 21,
+    "average_percent": 100,
+    "categories": [
+      "Файловые системы",
+      "Работа с файловыми системами"
+    ],
+    "max": [
+      21
+    ],
+    "name": "ext4",
+    "students_all_points": 1,
+    "students_amount": 1,
+    "url_alias": "ext4.html"
+  },
+  "Раскраска карты": {
+    "average": 11.98,
+    "average_percent": 75,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      16
+    ],
+    "name": "Раскраска карты",
+    "students_all_points": 16,
+    "students_amount": 46,
+    "url_alias": "%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BA%D0%B0%D1%80%D1%82%D1%8B.html"
+  },
+  "Словари": {
+    "average": 10,
+    "average_percent": 67,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      15
+    ],
+    "name": "Словари",
+    "students_all_points": 6,
+    "students_amount": 20,
+    "url_alias": "%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B8.html"
+  },
+  "Сортировки": {
+    "average": 10.05,
+    "average_percent": 73,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      12,
+      15
+    ],
+    "name": "Сортировки",
+    "students_all_points": 20,
+    "students_amount": 58,
+    "url_alias": "%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8.html"
+  },
+  "Судоку": {
+    "average": 9.88,
+    "average_percent": 82,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      12
+    ],
+    "name": "Судоку",
+    "students_all_points": 6,
+    "students_amount": 16,
+    "url_alias": "%D0%A1%D1%83%D0%B4%D0%BE%D0%BA%D1%83.html"
+  },
+  "Фотоальбом": {
+    "average": 14.25,
+    "average_percent": 71,
+    "categories": [
+      "common",
+      "Медиаальбом"
+    ],
+    "max": [
+      20
+    ],
+    "name": "Фотоальбом",
+    "students_all_points": 1,
+    "students_amount": 4,
+    "url_alias": "%D0%A4%D0%BE%D1%82%D0%BE%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC.html"
+  },
+  "Чат": {
+    "average": 11.39,
+    "average_percent": 76,
+    "categories": [
+      "common"
+    ],
+    "max": [
+      15
+    ],
+    "name": "Чат",
+    "students_all_points": 18,
+    "students_amount": 54,
+    "url_alias": "%D0%A7%D0%B0%D1%82.html"
+  },
+  "бомбермен": {
+    "average": 9.94,
+    "average_percent": 58,
+    "categories": [
+      "Realtime-игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      17
+    ],
+    "name": "бомбермен",
+    "students_all_points": 3,
+    "students_amount": 16,
+    "url_alias": "%D0%B1%D0%BE%D0%BC%D0%B1%D0%B5%D1%80%D0%BC%D0%B5%D0%BD.html"
+  },
+  "векторный": {
+    "average": 6,
+    "average_percent": 40,
+    "categories": [
+      "Графический редактор"
+    ],
+    "max": [
+      15
+    ],
+    "name": "векторный",
+    "students_all_points": 0,
+    "students_amount": 2,
+    "url_alias": "%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9.html"
+  },
+  "кубики": {
+    "average": 7.12,
+    "average_percent": 89,
+    "categories": [
+      "Пошаговые игры",
+      "Интерактивные игры"
+    ],
+    "max": [
+      8
+    ],
+    "name": "кубики",
+    "students_all_points": 9,
+    "students_amount": 16,
+    "url_alias": "%D0%BA%D1%83%D0%B1%D0%B8%D0%BA%D0%B8.html"
+  },
+  "поддавки": {
+    "average": 12.79,
+    "average_percent": 75,
+    "categories": [
+      "Игра",
+      "Пошаговые игры"
+    ],
+    "max": [
+      17
+    ],
+    "name": "поддавки",
+    "students_all_points": 6,
+    "students_amount": 24,
+    "url_alias": "%D0%BF%D0%BE%D0%B4%D0%B4%D0%B0%D0%B2%D0%BA%D0%B8.html"
+  },
+  "растровый": {
+    "average": 7,
+    "average_percent": 57,
+    "categories": [
+      "Графический редактор"
+    ],
+    "max": [
+      12,
+      13
+    ],
+    "name": "растровый",
+    "students_all_points": 0,
+    "students_amount": 7,
+    "url_alias": "%D1%80%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B2%D1%8B%D0%B9.html"
+  },
+  "реверси": {
+    "average": 12.16,
+    "average_percent": 73,
+    "categories": [
+      "Игра",
+      "Пошаговые игры"
+    ],
+    "max": [
+      17,
+      15
+    ],
+    "name": "реверси",
+    "students_all_points": 12,
+    "students_amount": 51,
+    "url_alias": "%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D0%B8.html"
+  },
+  "транслятор": {
+    "average": 14.48,
+    "average_percent": 72,
+    "categories": [
+      "Обработка текстов программ"
+    ],
+    "max": [
+      20
+    ],
+    "name": "транслятор",
+    "students_all_points": 13,
+    "students_amount": 27,
+    "url_alias": "%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80.html"
+  },
+  "форматтер": {
+    "average": 9.8,
+    "average_percent": 65,
+    "categories": [
+      "Обработка текстов программ"
+    ],
+    "max": [
+      15
+    ],
+    "name": "форматтер",
+    "students_all_points": 6,
+    "students_amount": 25,
+    "url_alias": "%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D1%82%D0%B5%D1%80.html"
+  },
+  "шахматы": {
+    "average": 15.56,
+    "average_percent": 74,
+    "categories": [
+      "Игра",
+      "Пошаговые игры"
+    ],
+    "max": [
+      21
+    ],
+    "name": "шахматы",
+    "students_all_points": 11,
+    "students_amount": 48,
+    "url_alias": "%D1%88%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B.html"
+  }
+}

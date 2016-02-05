@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 from pprint import pformat
 from statistics import mean
-
+from urllib.parse import quote
 
 class Database(dict):
     def __new__(cls, entry_class):
@@ -48,6 +48,7 @@ class EntryWithoutAnnotations(Entry):
         self.average = 0
         self.categories = set()
         self.name = data['name']
+        self.url_alias = self.get_url_alias()
         self.max = set()
         self.points = []
         self.students_amount = 0
@@ -65,6 +66,12 @@ class EntryWithoutAnnotations(Entry):
         self.students_all_points = len([elem for elem in self.points
                                         if elem[0] == elem[1]])
         self.average = self.get_average([elem[0] for elem in self.points], 2)
+
+    def get_url_alias(self):
+        specific_names = {'bmp': 'bmp_stegano'}
+        if self.name in specific_names:
+            return quote(specific_names[self.name]) + '.html'
+        return quote(self.name) + '.html'
 
     @staticmethod
     def get_average(iterable, precision=0):
