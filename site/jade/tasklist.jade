@@ -3,4 +3,4 @@ if tasks
     li: a(href="/tasks/#{task}.html") #{task}
 else
   each task in locals
-    li: a(href="/tasks/#{task.name}.html") #{task.name}
+    li: a(href="/tasks/#{task.filename}") #{task.name}

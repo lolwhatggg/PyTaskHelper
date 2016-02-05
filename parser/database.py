@@ -1,7 +1,9 @@
 from abc import ABCMeta, abstractmethod
 from pprint import pformat
 from statistics import mean
-from urllib.parse import quote
+
+KNOWN_NAME_ALIASES = {'FAT32': 'Разбор FAT32',
+                      'ext4': 'Разбор ext4'}
 
 
 class Database(dict):
@@ -16,13 +18,12 @@ class Database(dict):
 
     def __init__(self, entry_class):
         super().__init__()
-        self.known_aliases = {'FAT32': 'Разбор FAT32',
-                              'ext4': 'Разбор ext4'}
+
         self._entry_class = entry_class
 
     def add_entry(self, data):
         name = data['name']
-        name = self.known_aliases.get(name, name)
+        name = KNOWN_NAME_ALIASES.get(name, name)
         if name not in self:
             self[name] = self._entry_class(data)
         self[name].update(data)
@@ -48,7 +49,8 @@ class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
         self.max = tuple()
         self.category = tuple()
-        self.name = data['name']
+        self.name = KNOWN_NAME_ALIASES.get(data['name'],
+                                           data['name'])
         self.filename = self.get_filename()
         self.points = []
         self.students_amount = 0
@@ -67,14 +69,14 @@ class EntryWithoutAnnotations(Entry):
         self.points = [elem for elem in self.points if elem[0]]
         self.students_amount = len(self.points)
         self.students_full_points = len([elem for elem in self.points
-                                        if elem[0] == elem[1]])
+                                         if elem[0] == elem[1]])
         self.category = self.category[0]
         self.max = self.max[0]
         del self.points
 
     def get_filename(self):
         specific_names = {'bmp': 'bmp_stegano'}
-        return quote(specific_names.get(self.name, self.name)) + '.html'
+        return specific_names.get(self.name, self.name) + '.html'
 
     @staticmethod
     def get_average(iterable, precision=0):

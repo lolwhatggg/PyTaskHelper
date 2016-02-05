@@ -37,7 +37,7 @@ gulp.task 'jade', ->
           date: require update_time
           annual: tasks[name]['annual_averages']
           students: tasks[name]['students']
-      .pipe rename name + '.html'
+      .pipe rename tasks[name]['filename']
       .pipe gulp.dest dist + 'tasks'
       .pipe do connect.reload
 

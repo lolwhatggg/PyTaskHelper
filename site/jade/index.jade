@@ -4,7 +4,7 @@ block content
   h1.index-header Py.task Helper
   each task in locals
     .task.panel.panel-default
-      a(href="tasks/#{task.name}.html"): h2 #{task.name}
+      a(href="tasks/#{task.filename}"): h2 #{task.name}
       ul
         li Категория: #{task.category}
         li Максимальный балл: #{task.max}
