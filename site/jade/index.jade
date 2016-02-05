@@ -1,7 +1,7 @@
 extends page
 
 block content
-  each task, name in data
+  each task, name in locals
     .task
       a(href="tasks/#{name}.html"): h2 #{name}
       ul

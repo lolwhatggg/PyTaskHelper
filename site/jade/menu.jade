@@ -1,5 +1,9 @@
 #sidebar-wrapper
   ul.sidebar-nav
     li.sidebar-brand All Tasks
-    each task in data
-      li: a(href="http://pytask.info/tasks/#{task.name}.html") #{task.name}
+    if tasks
+        each task in tasks
+          li: a(href="http://pytask.info/tasks/#{task}.html") #{task}
+    else
+        each task in locals
+          li: a(href="http://pytask.info/tasks/#{task.name}.html") #{task.name}

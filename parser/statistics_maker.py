@@ -31,18 +31,12 @@ def write_json(db, filename):
 
 def update_files():
     files = glob.glob(os.path.join('../courses', '*.json'))
+
     small_db = build_task_database(files, database.EntryOnlyAverageValues)
     write_json(small_db, '../database/db.json')
 
-    big_db = make_db_for_gulp(build_task_database(files,
-                                                  database.EntryFullInfo))
+    big_db = build_task_database(files, database.EntryFullInfo)
     write_json(big_db, '../database/db_full.json')
-
-
-def make_db_for_gulp(db):
-    return {
-        'data': db
-    }
 
 
 if __name__ == '__main__':
