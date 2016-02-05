@@ -1,30 +1,10 @@
-html {
-  position: relative;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-body {
-  margin: 50px auto;
-}
-body > .container {
-  padding: 0 15px 60px;
-}
-.navbar {
+.index-header {
+  margin: 0px auto 30px;
   width: 100%;
-  border-radius: 0;
-  margin: 0;
-}
-.navbar #menu-toggle {
-  float: left;
-  margin-left: 10px;
-  margin-right: 20px;
-}
-.panel {
-  border-radius: 0;
+  text-align: center;
 }
 .task {
   padding: 10px 20px;
-  height: 250px;
 }
 .task h2 {
   margin-top: 10px;
@@ -32,25 +12,11 @@ body > .container {
 .task hr {
   margin: 5px auto;
 }
-.to-up {
+.copyright {
   position: absolute;
-  bottom: 6px;
-}
-#footer-row {
-  margin-left: 0;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  height: 60px;
-  background-color: #f5f5f5;
-}
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  display: flex;
-}
-.footer > .container .text-muted {
-  margin: 20px 5px;
+  display: inline-block;
+  bottom: 0;
+  margin: 10px;
+  color: #a3a3a3;
 }

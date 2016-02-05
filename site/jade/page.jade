@@ -2,14 +2,12 @@ doctype html
 html(lang="ru")
   include head
   body
-    #wrapper.toggled
+    #wrapper
       include menu
-      
-      include navbar
+      include button
       #page-content-wrapper
         .container
           .row
-            .col-lg-12
+            .col-lg-8.col-lg-offset-2
               block content
-      #footer-row.row
-        include foot
+    include scripts

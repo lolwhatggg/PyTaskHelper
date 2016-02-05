@@ -1,9 +1,14 @@
-#sidebar-wrapper
-  ul.sidebar-nav
-    li.sidebar-brand All Tasks
-    if tasks
-        each task in tasks
-          li: a(href="/tasks/#{task}.html") #{task}
-    else
-        each task in locals
-          li: a(href="/tasks/#{task.name}.html") #{task.name}
+.overlay
+#sidebar-wrapper.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+  ul.nav.sidebar-nav
+    li.sidebar-brand: a(href="/") Py.task Helper
+    li.dropdown
+      a.dropdown-toggle(href="#", data-toggle="dropdown")
+        | All Tasks
+        span.caret
+      ul.dropdown-menu(role="menu")
+        include tasklist
+    li: a(href="/about.html") About
+    li: a(href="http://anytask.urgu.org") AnyTask
+  p.copyright
+    | &copy; Py.task 2016

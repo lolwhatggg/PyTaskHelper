@@ -1,14 +1,14 @@
 extends page
 
 block content
+  h1.index-header Py.task Helper
   each task in locals
-    .task.panel.panel-default.col-lg-4.col-md-6.col-sm-12
+    .task.panel.panel-default
       a(href="tasks/#{task.name}.html"): h2 #{task.name}
       ul
         li Категории: #{task.categories}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average}
         li Средний процент: #{task.average_percent}
-      .to-up
-        hr
-        a(href="#") Наверх...
+      hr
+      a(href="#") Наверх...
