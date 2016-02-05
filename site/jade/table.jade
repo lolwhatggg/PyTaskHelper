@@ -2,12 +2,14 @@ extends page
 
 
 block content
-  script(src="/js/sortable.min.js")
+  script(src='/js/sortable.min.js')
   link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
-  table(data-sortable="" data-sortable-initialized="false").table.table-stripped.sortable-theme-bootstrap
+  h1 "Таблица задач"
+
+  table(data-sortable data-sortable-initialized="false").table.table-stripped.sortable-theme-bootstrap
     thead
       tr
-        th #
+        th(data-sorted="true" data-sorted-direction="ascending") #
         th(data-sorted="false") Название задачи
         th(data-sorted="false") Максимальный балл
         th(data-sorted="false") Средний балл за все года
@@ -19,7 +21,7 @@ block content
       each task in locals
         tr
           th(scope='row') #{number}
-          td #{task.name}
+          td: a(href="/tasks/#{task.name}.html") #{task.name}
           td #{task.max}
           td #{task.average}
           td #{task.average_percent}

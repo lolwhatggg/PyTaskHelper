@@ -46,7 +46,6 @@ class Entry(metaclass=ABCMeta):
 
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
-        self.average = 0
         self.max = tuple()
         self.category = tuple()
         self.name = data['name']
@@ -71,7 +70,6 @@ class EntryWithoutAnnotations(Entry):
                                         if elem[0] == elem[1]])
         self.category = self.category[0]
         self.max = self.max[0]
-        self.average = self.get_average([elem[0] for elem in self.points], 2)
         del self.points
 
     def get_filename(self):
@@ -92,6 +90,7 @@ class EntryWithPercentage(EntryWithoutAnnotations):
         super().__init__(data)
         self.percents = []
         self.average_percent = 0
+        self.average = 0
 
     def update(self, data):
         super().update(data)
@@ -101,6 +100,7 @@ class EntryWithPercentage(EntryWithoutAnnotations):
     def finalize(self):
         super().finalize()
         self.average_percent = self.get_average(self.percents)
+        self.average = self.average_percent * self.max / 100
         del self.percents
 
 
