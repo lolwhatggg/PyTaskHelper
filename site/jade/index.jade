@@ -2,9 +2,12 @@ extends page
 
 block content
   h1.index-header Py.task Helper
+  form(id="live-search" action="" method="post").styled
+    fieldset
+      input(type="text" id="filter" placeholder="search" value="").form-control
   each task in locals
-    .task.panel.panel-default
-      a(href="tasks/#{task.filename}"): h2 #{task.name}
+    .task.panel.panel-default.searchable
+      a(href="tasks/#{task.filename}"): h2.name #{task.name}
       ul
         li Категория: #{task.category}
         li Максимальный балл: #{task.max}
