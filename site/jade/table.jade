@@ -1,16 +1,16 @@
 extends page
 
+block add_links
+  link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
 
 block content
-  script(src='/js/sortable.min.js')
-  link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
   h1 Таблица задач
 
   table(data-sortable data-sortable-initialized="false").table.table-stripped.sortable-theme-bootstrap
     thead
       tr
-        th(data-sorted="true" data-sorted-direction="ascending") #
-        th(data-sorted="false") Название задачи
+        th #
+        th(data-sorted="true" data-sorted-direction="ascending") Название задачи
         th(data-sorted="false") Максимальный балл
         th(data-sorted="false") Средний балл за все года
         th(data-sorted="false") Средний процент
@@ -31,3 +31,6 @@ block content
   p: i Дисклеймер
   p Так как максимальный балл может меняться в зависимости от года, в данной таблице средний балл рассчитан как средний процент выполнения задачи, умноженный на максимальный балл текущего года
   p Средний процент рассчитывается как балл студента разделенный на максимальный балл года сдачи
+
+block add_scripts
+  script(src='/js/sortable.min.js')

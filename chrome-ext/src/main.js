@@ -13,7 +13,7 @@ $(document).ready(function () {
         setCSS();
     };
 
-    xhr.open('GET', 'http://pytask.info/db.json');
+    xhr.open('GET', 'http://pytask.info/db/db.json');
     xhr.send();
 
 });

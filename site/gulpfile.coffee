@@ -12,6 +12,7 @@ dist = 'dist/'
 db_dir = '../database/db.json'
 full_db_dir = '../database/db_full.json'
 update_time = '../database/date.json'
+
 gulp.task 'connect', ->
   connect.server
     port: 1337
@@ -37,6 +38,7 @@ gulp.task 'jade', ->
           date: require update_time
           annual: tasks[name]['annual_averages']
           students: tasks[name]['students']
+        pretty: true
       .pipe rename tasks[name]['filename']
       .pipe gulp.dest dist + 'tasks'
       .pipe do connect.reload
@@ -67,25 +69,23 @@ gulp.task 'coffee', ->
     .pipe do coffee
     .pipe gulp.dest 'js'
 
-gulp.task 'css', ->
-  gulp.src 'backup/*.css'
-    .pipe gulp.dest dist + 'css'
-    .pipe do connect.reload
-
-gulp.task 'js', ->
+gulp.task 'ext', ->
   gulp.src 'backup/*.js'
     .pipe gulp.dest dist + 'js'
     .pipe do connect.reload
-
-gulp.task 'database', ->
+  gulp.src 'backup/*.css'
+    .pipe gulp.dest dist + 'css'
+    .pipe do connect.reload
+  gulp.src '../icons/*'
+    .pipe gulp.dest dist + 'icons'
   gulp.src '../database/*.json'
-    .pipe gulp.dest dist
+    .pipe gulp.dest dist + 'db'
 
 gulp.task 'watch', ->
   gulp.watch 'jade/*.jade', ['jade']
   gulp.watch 'stylus/*.styl', ['stylus']
   gulp.watch 'coffee/*.coffee', ['build']
-  gulp.watch 'backup/*.css', ['css']
-  gulp.watch 'backup/*.js', ['js']
+  gulp.watch 'backup/*.css', ['ext']
+  gulp.watch 'backup/*.js', ['ext']
 
-gulp.task 'default', ['jade', 'stylus', 'build', 'css', 'js', 'database', 'watch', 'connect']
+gulp.task 'default', ['jade', 'stylus', 'build', 'ext', 'watch', 'connect']
