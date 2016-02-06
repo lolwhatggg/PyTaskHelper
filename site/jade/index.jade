@@ -2,9 +2,7 @@ extends page
 
 block content
   h1.index-header Py.task Helper
-  form(id="live-search" action="" method="post").styled
-    fieldset
-      input(type="text" id="filter" placeholder="search" value="").form-control
+  include search
   each task in locals
     .task.panel.panel-default.searchable
       a(href="tasks/#{task.filename}"): h2.name #{task.name}
@@ -15,6 +13,3 @@ block content
         li Средний процент: #{task.average_percent}
       hr
       a(href="#") Наверх...
-
-block add_scripts
-  script(src="/js/task_search.js")

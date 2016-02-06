@@ -23,6 +23,7 @@ gulp.task 'jade', ->
   gulp.src ['jade/index.jade', 'jade/table.jade']
     .pipe jade
       locals: require db_dir
+      pretty: true
     .pipe gulp.dest dist
     .pipe do connect.reload
 
@@ -70,10 +71,10 @@ gulp.task 'coffee', ->
     .pipe gulp.dest 'js'
 
 gulp.task 'ext', ->
-  gulp.src 'backup/*.js'
+  gulp.src 'external/*.js'
     .pipe gulp.dest dist + 'js'
     .pipe do connect.reload
-  gulp.src 'backup/*.css'
+  gulp.src 'external/*.css'
     .pipe gulp.dest dist + 'css'
     .pipe do connect.reload
   gulp.src '../icons/*'
@@ -85,7 +86,7 @@ gulp.task 'watch', ->
   gulp.watch 'jade/*.jade', ['jade']
   gulp.watch 'stylus/*.styl', ['stylus']
   gulp.watch 'coffee/*.coffee', ['build']
-  gulp.watch 'backup/*.css', ['ext']
-  gulp.watch 'backup/*.js', ['ext']
+  gulp.watch 'external/*.css', ['ext']
+  gulp.watch 'external/*.js', ['ext']
 
 gulp.task 'default', ['jade', 'stylus', 'build', 'ext', 'watch', 'connect']

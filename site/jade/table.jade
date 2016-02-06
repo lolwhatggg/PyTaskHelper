@@ -6,7 +6,7 @@ block add_links
 block content
   h1 Таблица задач
 
-  table(data-sortable data-sortable-initialized="false").table.table-stripped.sortable-theme-bootstrap
+  table.table.table-stripped.sortable-theme-bootstrap(data-sortable data-sortable-initialized="false")
     thead
       tr
         th #
@@ -23,10 +23,10 @@ block content
           th(scope='row') #{number}
           td: a(href="/tasks/#{task.name}.html") #{task.name}
           td #{task.max}
-          td #{task.average}
+          td #{task.average_points}
           td #{task.average_percent}
           td #{task.students_amount}
-          td #{task.students_all_points}
+          td #{task.students_full_points} 
           - number += 1
   p: i Дисклеймер
   p Так как максимальный балл может меняться в зависимости от года, в данной таблице средний балл рассчитан как средний процент выполнения задачи, умноженный на максимальный балл текущего года
