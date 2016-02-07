@@ -4,6 +4,7 @@
             "2009-2010": {
                 "average_percent": 69.38,
                 "average_points": 11.88,
+                "full_points_percent": 12,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -11,6 +12,7 @@
             "2010-2011": {
                 "average_percent": 76,
                 "average_points": 13,
+                "full_points_percent": 14,
                 "max": 17,
                 "students_amount": 7,
                 "students_full_points": 1
@@ -18,6 +20,7 @@
             "2011-2012": {
                 "average_percent": 60.17,
                 "average_points": 10.33,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 6,
                 "students_full_points": 0
@@ -25,6 +28,7 @@
             "2012-2013": {
                 "average_percent": 50.88,
                 "average_points": 8.75,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 0
@@ -32,6 +36,7 @@
             "2013-2014": {
                 "average_percent": 53.25,
                 "average_points": 9.12,
+                "full_points_percent": 12,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -39,6 +44,7 @@
             "2014-2015": {
                 "average_percent": 55.38,
                 "average_points": 9.5,
+                "full_points_percent": 12,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -564,6 +570,7 @@
             "2009-2010": {
                 "average_percent": 66.25,
                 "average_points": 10,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -571,6 +578,7 @@
             "2010-2011": {
                 "average_percent": 68.56,
                 "average_points": 10.33,
+                "full_points_percent": 22,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 2
@@ -578,6 +586,7 @@
             "2011-2012": {
                 "average_percent": 68.75,
                 "average_points": 10.38,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -585,6 +594,7 @@
             "2012-2013": {
                 "average_percent": 86.56,
                 "average_points": 13,
+                "full_points_percent": 66,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 6
@@ -592,6 +602,7 @@
             "2013-2014": {
                 "average_percent": 71.25,
                 "average_points": 10.75,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -599,6 +610,7 @@
             "2014-2015": {
                 "average_percent": 77.25,
                 "average_points": 11.62,
+                "full_points_percent": 50,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -1179,6 +1191,7 @@
             "2009-2010": {
                 "average_percent": 100,
                 "average_points": 25,
+                "full_points_percent": 100,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -1186,6 +1199,7 @@
             "2010-2011": {
                 "average_percent": 100,
                 "average_points": 25,
+                "full_points_percent": 100,
                 "max": 25,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -1193,6 +1207,7 @@
             "2012-2013": {
                 "average_percent": 100,
                 "average_points": 25,
+                "full_points_percent": 100,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -1200,9 +1215,18 @@
             "2013-2014": {
                 "average_percent": 62,
                 "average_points": 15.5,
+                "full_points_percent": 25,
                 "max": 25,
                 "students_amount": 4,
                 "students_full_points": 1
+            },
+            "2014-2015": {
+                "average_percent": 72,
+                "average_points": 18,
+                "full_points_percent": 50,
+                "max": 25,
+                "students_amount": 4,
+                "students_full_points": 2
             }
         },
         "average_percent": 78,
@@ -1308,6 +1332,50 @@
                 "second_date": "13.03.2015",
                 "student": "Дейков  Артём",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "21.03.2015 Оценка: 10 Сергей Азовсков:\n* Зависает\n* вынести константы в опции\n* вынести отдельно парсер пактор + тесты\n* тесты на разбор пакетов\n* тесты на некорретные торрент файлы\n* вывод ошибок пользователю\n\n* Раздавать файло \n* Интерфейс для выбора файлов для скачки\n* поддержка ограничений на скорость закачки и скачки\n25.04.2015 Оценка: 16 Сергей Азовсков:\n* тесты на торрент файлы\n* не работает\n* отдельный модуль для конфигов\n* мелкие проблемы с именами функций\n* ставить на раздачу \n* несколько торрентов\n* корректное определение торрентовости файлов\n16.05.2015 Оценка: 22 Сергей Азовсков:\n* падает при запуске второй копии\n* всё ещё падает на торренте с rutor\n* мешанина типов в anounce_udp",
+                "days": 226,
+                "first_date": "12.03.2015",
+                "max": 25,
+                "percent": 100,
+                "points": 25,
+                "second_date": "24.10.2015",
+                "student": "Кошара Павел",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 66,
+                "first_date": "05.11.2015",
+                "max": 25,
+                "percent": 100,
+                "points": 25,
+                "second_date": "10.01.2016",
+                "student": "Пивко Максим",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "11.01.2016 Оценка: 20 Павел Блинов:\n+ больше тестов\n+\n13.01.2016 Оценка: 21 Павел Блинов:\n+ больше тестов",
+                "days": 27,
+                "first_date": "17.12.2015",
+                "max": 25,
+                "percent": 84,
+                "points": 21,
+                "second_date": "13.01.2016",
+                "student": "Аристов Константин",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 29,
+                "first_date": "07.01.2016",
+                "max": 25,
+                "percent": 4,
+                "points": 1,
+                "second_date": "05.02.2016",
+                "student": "Борзунов Александр",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 12,
@@ -1318,6 +1386,7 @@
             "2009-2010": {
                 "average_percent": 76.5,
                 "average_points": 10.75,
+                "full_points_percent": 50,
                 "max": 14,
                 "students_amount": 4,
                 "students_full_points": 2
@@ -1325,6 +1394,7 @@
             "2010-2011": {
                 "average_percent": 95.22,
                 "average_points": 13.33,
+                "full_points_percent": 88,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 8
@@ -1332,6 +1402,7 @@
             "2011-2012": {
                 "average_percent": 100,
                 "average_points": 14,
+                "full_points_percent": 100,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -1339,6 +1410,7 @@
             "2012-2013": {
                 "average_percent": 100,
                 "average_points": 14,
+                "full_points_percent": 100,
                 "max": 14,
                 "students_amount": 4,
                 "students_full_points": 4
@@ -1346,6 +1418,7 @@
             "2013-2014": {
                 "average_percent": 92.75,
                 "average_points": 13,
+                "full_points_percent": 75,
                 "max": 14,
                 "students_amount": 4,
                 "students_full_points": 3
@@ -1353,6 +1426,7 @@
             "2014-2015": {
                 "average_percent": 73.67,
                 "average_points": 10.33,
+                "full_points_percent": 33,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -1658,6 +1732,7 @@
             "2009-2010": {
                 "average_percent": 86.57,
                 "average_points": 10.43,
+                "full_points_percent": 28,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 2
@@ -1665,6 +1740,7 @@
             "2010-2011": {
                 "average_percent": 80.33,
                 "average_points": 9.67,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -1672,6 +1748,7 @@
             "2011-2012": {
                 "average_percent": 77.14,
                 "average_points": 9.29,
+                "full_points_percent": 14,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 1
@@ -1679,6 +1756,7 @@
             "2012-2013": {
                 "average_percent": 51.17,
                 "average_points": 6.17,
+                "full_points_percent": 16,
                 "max": 12,
                 "students_amount": 6,
                 "students_full_points": 1
@@ -1686,6 +1764,7 @@
             "2013-2014": {
                 "average_percent": 53.14,
                 "average_points": 6.43,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -1693,6 +1772,7 @@
             "2014-2015": {
                 "average_percent": 38.67,
                 "average_points": 4.67,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -2119,6 +2199,7 @@
             "2013-2014": {
                 "average_percent": 83,
                 "average_points": 18.33,
+                "full_points_percent": 0,
                 "max": 22,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -2126,6 +2207,7 @@
             "2014-2015": {
                 "average_percent": 63,
                 "average_points": 14,
+                "full_points_percent": 0,
                 "max": 22,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -2196,6 +2278,7 @@
             "2009-2010": {
                 "average_percent": 78,
                 "average_points": 11,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -2203,6 +2286,7 @@
             "2010-2011": {
                 "average_percent": 71,
                 "average_points": 10,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -2210,6 +2294,7 @@
             "2011-2012": {
                 "average_percent": 67.5,
                 "average_points": 9.5,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -2217,6 +2302,7 @@
             "2012-2013": {
                 "average_percent": 82,
                 "average_points": 11.5,
+                "full_points_percent": 50,
                 "max": 14,
                 "students_amount": 4,
                 "students_full_points": 2
@@ -2224,6 +2310,7 @@
             "2013-2014": {
                 "average_percent": 42.67,
                 "average_points": 6,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -2231,6 +2318,7 @@
             "2014-2015": {
                 "average_percent": 60,
                 "average_points": 9.67,
+                "full_points_percent": 0,
                 "max": 16,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -2415,6 +2503,7 @@
             "2011-2012": {
                 "average_percent": 58,
                 "average_points": 10,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -2422,6 +2511,7 @@
             "2013-2014": {
                 "average_percent": 54,
                 "average_points": 9.25,
+                "full_points_percent": 25,
                 "max": 17,
                 "students_amount": 4,
                 "students_full_points": 1
@@ -2429,6 +2519,7 @@
             "2014-2015": {
                 "average_percent": 17,
                 "average_points": 3,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -2525,6 +2616,7 @@
             "2009-2010": {
                 "average_percent": 80.67,
                 "average_points": 5.67,
+                "full_points_percent": 50,
                 "max": 7,
                 "students_amount": 6,
                 "students_full_points": 3
@@ -2532,6 +2624,7 @@
             "2010-2011": {
                 "average_percent": 100,
                 "average_points": 7,
+                "full_points_percent": 100,
                 "max": 7,
                 "students_amount": 3,
                 "students_full_points": 3
@@ -2539,6 +2632,7 @@
             "2011-2012": {
                 "average_percent": 75.29,
                 "average_points": 5.29,
+                "full_points_percent": 42,
                 "max": 7,
                 "students_amount": 7,
                 "students_full_points": 3
@@ -2546,6 +2640,7 @@
             "2012-2013": {
                 "average_percent": 91.71,
                 "average_points": 6.43,
+                "full_points_percent": 71,
                 "max": 7,
                 "students_amount": 7,
                 "students_full_points": 5
@@ -2553,6 +2648,7 @@
             "2013-2014": {
                 "average_percent": 80.67,
                 "average_points": 5.67,
+                "full_points_percent": 33,
                 "max": 7,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -2560,6 +2656,7 @@
             "2014-2015": {
                 "average_percent": 66.67,
                 "average_points": 5.33,
+                "full_points_percent": 33,
                 "max": 8,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -2942,6 +3039,7 @@
             "2013-2014": {
                 "average_percent": 87.43,
                 "average_points": 7,
+                "full_points_percent": 42,
                 "max": 8,
                 "students_amount": 7,
                 "students_full_points": 3
@@ -2949,6 +3047,7 @@
             "2014-2015": {
                 "average_percent": 11,
                 "average_points": 1,
+                "full_points_percent": 0,
                 "max": 9,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -3064,6 +3163,7 @@
             "2009-2010": {
                 "average_percent": 73,
                 "average_points": 10.25,
+                "full_points_percent": 25,
                 "max": 14,
                 "students_amount": 4,
                 "students_full_points": 1
@@ -3071,6 +3171,7 @@
             "2010-2011": {
                 "average_percent": 90.33,
                 "average_points": 12.67,
+                "full_points_percent": 66,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 2
@@ -3078,6 +3179,7 @@
             "2011-2012": {
                 "average_percent": 66.33,
                 "average_points": 9.33,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -3085,6 +3187,7 @@
             "2012-2013": {
                 "average_percent": 76.8,
                 "average_points": 10.8,
+                "full_points_percent": 60,
                 "max": 14,
                 "students_amount": 5,
                 "students_full_points": 3
@@ -3092,6 +3195,7 @@
             "2013-2014": {
                 "average_percent": 72.33,
                 "average_points": 10.17,
+                "full_points_percent": 16,
                 "max": 14,
                 "students_amount": 6,
                 "students_full_points": 1
@@ -3099,6 +3203,7 @@
             "2014-2015": {
                 "average_percent": 38.75,
                 "average_points": 6.25,
+                "full_points_percent": 0,
                 "max": 16,
                 "students_amount": 8,
                 "students_full_points": 0
@@ -3448,6 +3553,7 @@
             "2009-2010": {
                 "average_percent": 80.22,
                 "average_points": 9.67,
+                "full_points_percent": 11,
                 "max": 12,
                 "students_amount": 9,
                 "students_full_points": 1
@@ -3455,6 +3561,7 @@
             "2010-2011": {
                 "average_percent": 74.75,
                 "average_points": 9,
+                "full_points_percent": 25,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -3462,6 +3569,7 @@
             "2011-2012": {
                 "average_percent": 67.71,
                 "average_points": 8.14,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -3469,6 +3577,7 @@
             "2012-2013": {
                 "average_percent": 64.8,
                 "average_points": 7.8,
+                "full_points_percent": 30,
                 "max": 12,
                 "students_amount": 10,
                 "students_full_points": 3
@@ -3476,6 +3585,7 @@
             "2013-2014": {
                 "average_percent": 68.86,
                 "average_points": 8.29,
+                "full_points_percent": 14,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 1
@@ -3483,6 +3593,7 @@
             "2014-2015": {
                 "average_percent": 62.71,
                 "average_points": 7.57,
+                "full_points_percent": 28,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 2
@@ -4041,6 +4152,7 @@
             "2009-2010": {
                 "average_percent": 81.22,
                 "average_points": 9.78,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 9,
                 "students_full_points": 3
@@ -4048,6 +4160,7 @@
             "2010-2011": {
                 "average_percent": 88.3,
                 "average_points": 10.6,
+                "full_points_percent": 70,
                 "max": 12,
                 "students_amount": 10,
                 "students_full_points": 7
@@ -4055,6 +4168,7 @@
             "2011-2012": {
                 "average_percent": 68.57,
                 "average_points": 8.29,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -4062,6 +4176,7 @@
             "2012-2013": {
                 "average_percent": 75.67,
                 "average_points": 9.11,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 9,
                 "students_full_points": 3
@@ -4069,6 +4184,7 @@
             "2013-2014": {
                 "average_percent": 56,
                 "average_points": 6.75,
+                "full_points_percent": 12,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -4076,6 +4192,7 @@
             "2014-2015": {
                 "average_percent": 50,
                 "average_points": 6,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -4590,6 +4707,7 @@
             "2012-2013": {
                 "average_percent": 73.75,
                 "average_points": 9.62,
+                "full_points_percent": 50,
                 "max": 13,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -4597,6 +4715,7 @@
             "2013-2014": {
                 "average_percent": 84.12,
                 "average_points": 11,
+                "full_points_percent": 12,
                 "max": 13,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -4604,6 +4723,7 @@
             "2014-2015": {
                 "average_percent": 69.86,
                 "average_points": 9.14,
+                "full_points_percent": 28,
                 "max": 13,
                 "students_amount": 7,
                 "students_full_points": 2
@@ -4884,6 +5004,7 @@
             "2012-2013": {
                 "average_percent": 85.33,
                 "average_points": 12,
+                "full_points_percent": 33,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -4891,6 +5012,7 @@
             "2013-2014": {
                 "average_percent": 64,
                 "average_points": 9,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 0
@@ -4898,6 +5020,7 @@
             "2014-2015": {
                 "average_percent": 67.5,
                 "average_points": 9.5,
+                "full_points_percent": 25,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -5134,6 +5257,7 @@
             "2012-2013": {
                 "average_percent": 66.67,
                 "average_points": 8,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -5141,9 +5265,18 @@
             "2013-2014": {
                 "average_percent": 71.5,
                 "average_points": 8.62,
+                "full_points_percent": 12,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 1
+            },
+            "2014-2015": {
+                "average_percent": 72.57,
+                "average_points": 8.71,
+                "full_points_percent": 28,
+                "max": 12,
+                "students_amount": 7,
+                "students_full_points": 2
             }
         },
         "average_percent": 71,
@@ -5279,6 +5412,83 @@
                 "second_date": "31.03.2015",
                 "student": "Парфёнова Анастасия",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "21.03.2015 Оценка: 8 Сергей Азовсков:\n* экранирование кода в html\n* баги в rst\n* добавить index.html для sep mode\n* копирайт\n* работа с пакетами\n* указывать выходную папку\n* дефолтные значения в сигнатурах\n* поддержка стандартных договорённостей для python (например, >>>)\n\n-- \nПоддержка параметров вида\n:param|type|...\n\nи\n\n.. class:: Lala\n28.03.2015 Оценка: 8 Сергей Азовсков:\n* тесты\n* rst\n11.04.2015 Оценка: 9 Сергей Азовсков:\n* косяки с подсветкой\n* не строятся ссылки\n* не всегда подсвечивается None\n* raises со ссылками в соседний файл\n* теряются функции\n* отдельный модуль парсинга rst + тесты\n* Документация к пропертям\n* и к полям?",
+                "days": 30,
+                "first_date": "12.03.2015",
+                "max": 12,
+                "percent": 75,
+                "points": 9,
+                "second_date": "11.04.2015",
+                "student": "Кошара Павел",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "23.05.2015 Оценка: 4 Сергей Азовсков:\n- сигнатуры функций\n- парсить rst\n- парсить типы и строить cross-ref\n- выходной файл + опциональное разбиение на подфайлы\n- подсвечивать код\n- тесты\n- декомпозиця\n30.05.2015 Оценка: 5 Сергей Азовсков:\n* подсветка и парсинг rst\n* аргументы функций\n* ссылки между файлами\n* кроссрефы, типы, котики\n* тесты\n06.06.2015 Оценка: 7 Сергей Азовсков:\n* падает на куче примеров\n* кроссрефы\n* не падать \n* парсить рефы\n\n\nавансом.",
+                "days": 14,
+                "first_date": "23.05.2015",
+                "max": 12,
+                "percent": 58,
+                "points": 7,
+                "second_date": "06.06.2015",
+                "student": "Каменев Никита",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 32,
+                "first_date": "11.11.2015",
+                "max": 12,
+                "percent": 100,
+                "points": 12,
+                "second_date": "13.12.2015",
+                "student": "Нартов Никита",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 38,
+                "first_date": "04.12.2015",
+                "max": 12,
+                "percent": 100,
+                "points": 12,
+                "second_date": "11.01.2016",
+                "student": "Кобяков Сергей",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 35,
+                "first_date": "07.12.2015",
+                "max": 12,
+                "percent": 50,
+                "points": 6,
+                "second_date": "11.01.2016",
+                "student": "Бабушкина Анастасия",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 18,
+                "first_date": "23.12.2015",
+                "max": 12,
+                "percent": 50,
+                "points": 6,
+                "second_date": "10.01.2016",
+                "student": "Грехов Кирилл",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 10,
+                "first_date": "29.12.2015",
+                "max": 12,
+                "percent": 75,
+                "points": 9,
+                "second_date": "08.01.2016",
+                "student": "Макаров Виталий",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 18,
@@ -5289,6 +5499,7 @@
             "2013-2014": {
                 "average_percent": 50,
                 "average_points": 10,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -5344,6 +5555,7 @@
             "2013-2014": {
                 "average_percent": 35,
                 "average_points": 5,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -5381,6 +5593,7 @@
             "2013-2014": {
                 "average_percent": 68.25,
                 "average_points": 9.62,
+                "full_points_percent": 12,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -5388,6 +5601,7 @@
             "2014-2015": {
                 "average_percent": 50,
                 "average_points": 8,
+                "full_points_percent": 0,
                 "max": 16,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -5514,6 +5728,7 @@
             "2013-2014": {
                 "average_percent": 82.12,
                 "average_points": 9.88,
+                "full_points_percent": 37,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -5521,6 +5736,7 @@
             "2014-2015": {
                 "average_percent": 76.75,
                 "average_points": 9.25,
+                "full_points_percent": 25,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -5723,6 +5939,7 @@
             "2009-2010": {
                 "average_percent": 100,
                 "average_points": 12,
+                "full_points_percent": 100,
                 "max": 12,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -5730,6 +5947,7 @@
             "2010-2011": {
                 "average_percent": 77.67,
                 "average_points": 9.33,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -5737,6 +5955,7 @@
             "2011-2012": {
                 "average_percent": 68.86,
                 "average_points": 8.29,
+                "full_points_percent": 14,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 1
@@ -5744,6 +5963,7 @@
             "2012-2013": {
                 "average_percent": 100,
                 "average_points": 12,
+                "full_points_percent": 100,
                 "max": 12,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -5751,6 +5971,7 @@
             "2013-2014": {
                 "average_percent": 53.83,
                 "average_points": 6.5,
+                "full_points_percent": 16,
                 "max": 12,
                 "students_amount": 6,
                 "students_full_points": 1
@@ -5758,6 +5979,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 12,
+                "full_points_percent": 100,
                 "max": 12,
                 "students_amount": 4,
                 "students_full_points": 4
@@ -6074,6 +6296,7 @@
             "2010-2011": {
                 "average_percent": 40,
                 "average_points": 8,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -6081,6 +6304,7 @@
             "2013-2014": {
                 "average_percent": 80,
                 "average_points": 16,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -6133,6 +6357,7 @@
             "2010-2011": {
                 "average_percent": 35,
                 "average_points": 5,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -6140,6 +6365,7 @@
             "2011-2012": {
                 "average_percent": 57,
                 "average_points": 8,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -6211,6 +6437,7 @@
             "2013-2014": {
                 "average_percent": 71,
                 "average_points": 10,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -6218,6 +6445,7 @@
             "2014-2015": {
                 "average_percent": 71,
                 "average_points": 10,
+                "full_points_percent": 33,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -6355,6 +6583,7 @@
             "2014-2015": {
                 "average_percent": 31.5,
                 "average_points": 4.5,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -6404,6 +6633,7 @@
             "2012-2013": {
                 "average_percent": 89.75,
                 "average_points": 13.5,
+                "full_points_percent": 50,
                 "max": 15,
                 "students_amount": 4,
                 "students_full_points": 2
@@ -6411,6 +6641,7 @@
             "2013-2014": {
                 "average_percent": 71.5,
                 "average_points": 10.75,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -6418,6 +6649,7 @@
             "2014-2015": {
                 "average_percent": 87.25,
                 "average_points": 13.12,
+                "full_points_percent": 50,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -6665,6 +6897,7 @@
             "2012-2013": {
                 "average_percent": 97.5,
                 "average_points": 10.75,
+                "full_points_percent": 75,
                 "max": 11,
                 "students_amount": 4,
                 "students_full_points": 3
@@ -6672,6 +6905,7 @@
             "2013-2014": {
                 "average_percent": 70,
                 "average_points": 7.75,
+                "full_points_percent": 25,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -6679,6 +6913,7 @@
             "2014-2015": {
                 "average_percent": 79.25,
                 "average_points": 8.75,
+                "full_points_percent": 50,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -6926,6 +7161,7 @@
             "2009-2010": {
                 "average_percent": 80.86,
                 "average_points": 9.71,
+                "full_points_percent": 42,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 3
@@ -6933,6 +7169,7 @@
             "2010-2011": {
                 "average_percent": 87.86,
                 "average_points": 10.57,
+                "full_points_percent": 28,
                 "max": 12,
                 "students_amount": 7,
                 "students_full_points": 2
@@ -6940,6 +7177,7 @@
             "2011-2012": {
                 "average_percent": 58,
                 "average_points": 7,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -6947,6 +7185,7 @@
             "2012-2013": {
                 "average_percent": 65,
                 "average_points": 7.83,
+                "full_points_percent": 33,
                 "max": 12,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -7228,6 +7467,7 @@
             "2009-2010": {
                 "average_percent": 75,
                 "average_points": 15,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -7267,6 +7507,7 @@
             "2009-2010": {
                 "average_percent": 67.5,
                 "average_points": 9.5,
+                "full_points_percent": 50,
                 "max": 14,
                 "students_amount": 2,
                 "students_full_points": 1
@@ -7274,6 +7515,7 @@
             "2010-2011": {
                 "average_percent": 83.33,
                 "average_points": 11.67,
+                "full_points_percent": 66,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 2
@@ -7281,6 +7523,7 @@
             "2011-2012": {
                 "average_percent": 49.5,
                 "average_points": 7,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -7288,6 +7531,7 @@
             "2012-2013": {
                 "average_percent": 50,
                 "average_points": 7,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -7404,6 +7648,7 @@
             "2009-2010": {
                 "average_percent": 100,
                 "average_points": 14,
+                "full_points_percent": 100,
                 "max": 14,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -7411,6 +7656,7 @@
             "2010-2011": {
                 "average_percent": 100,
                 "average_points": 14,
+                "full_points_percent": 100,
                 "max": 14,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -7472,9 +7718,18 @@
             "2013-2014": {
                 "average_percent": 4,
                 "average_points": 1,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 0
+            },
+            "2014-2015": {
+                "average_percent": 100,
+                "average_points": 25,
+                "full_points_percent": 100,
+                "max": 25,
+                "students_amount": 1,
+                "students_full_points": 1
             }
         },
         "average_percent": 52,
@@ -7499,6 +7754,17 @@
                 "second_date": "27.12.2014",
                 "student": "Попов Евгений",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "29.10.2015 Оценка: 20 Павел Блинов:\n+ лагокомпрессия\n+ убрать хак с импортами",
+                "days": 198,
+                "first_date": "02.06.2015",
+                "max": 25,
+                "percent": 100,
+                "points": 25,
+                "second_date": "17.12.2015",
+                "student": "Останин Игорь",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 2,
@@ -7509,6 +7775,7 @@
             "2013-2014": {
                 "average_percent": 76.25,
                 "average_points": 15.25,
+                "full_points_percent": 12,
                 "max": 20,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -7516,6 +7783,7 @@
             "2014-2015": {
                 "average_percent": 78.62,
                 "average_points": 18.12,
+                "full_points_percent": 62,
                 "max": 23,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -7718,6 +7986,7 @@
             "2013-2014": {
                 "average_percent": 79.88,
                 "average_points": 11.25,
+                "full_points_percent": 12,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -7725,6 +7994,7 @@
             "2014-2015": {
                 "average_percent": 59.33,
                 "average_points": 8.33,
+                "full_points_percent": 33,
                 "max": 14,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -7906,6 +8176,7 @@
             "2012-2013": {
                 "average_percent": 39.5,
                 "average_points": 6,
+                "full_points_percent": 0,
                 "max": 15,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -7913,6 +8184,7 @@
             "2013-2014": {
                 "average_percent": 72.12,
                 "average_points": 10.88,
+                "full_points_percent": 12,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -7920,6 +8192,7 @@
             "2014-2015": {
                 "average_percent": 42.43,
                 "average_points": 6.43,
+                "full_points_percent": 0,
                 "max": 15,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -8134,6 +8407,7 @@
             "2013-2014": {
                 "average_percent": 78.33,
                 "average_points": 15.67,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -8141,6 +8415,7 @@
             "2014-2015": {
                 "average_percent": 27.5,
                 "average_points": 5.5,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -8222,6 +8497,7 @@
             "2013-2014": {
                 "average_percent": 61.5,
                 "average_points": 11.17,
+                "full_points_percent": 0,
                 "max": 18,
                 "students_amount": 6,
                 "students_full_points": 0
@@ -8315,6 +8591,7 @@
             "2009-2010": {
                 "average_percent": 78.44,
                 "average_points": 11,
+                "full_points_percent": 44,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 4
@@ -8322,6 +8599,7 @@
             "2010-2011": {
                 "average_percent": 87.89,
                 "average_points": 12.33,
+                "full_points_percent": 55,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -8329,6 +8607,7 @@
             "2011-2012": {
                 "average_percent": 81.75,
                 "average_points": 11.5,
+                "full_points_percent": 25,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -8336,6 +8615,7 @@
             "2012-2013": {
                 "average_percent": 74.33,
                 "average_points": 10.44,
+                "full_points_percent": 22,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 2
@@ -8343,6 +8623,7 @@
             "2013-2014": {
                 "average_percent": 70.38,
                 "average_points": 9.88,
+                "full_points_percent": 37,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -8350,6 +8631,7 @@
             "2014-2015": {
                 "average_percent": 58.86,
                 "average_points": 8.29,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -8930,6 +9212,7 @@
             "2012-2013": {
                 "average_percent": 81.6,
                 "average_points": 9,
+                "full_points_percent": 60,
                 "max": 11,
                 "students_amount": 5,
                 "students_full_points": 3
@@ -8937,6 +9220,7 @@
             "2013-2014": {
                 "average_percent": 90.62,
                 "average_points": 10,
+                "full_points_percent": 62,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -8944,6 +9228,7 @@
             "2014-2015": {
                 "average_percent": 64.5,
                 "average_points": 7.12,
+                "full_points_percent": 37,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -9202,6 +9487,7 @@
             "2009-2010": {
                 "average_percent": 55.78,
                 "average_points": 10.11,
+                "full_points_percent": 22,
                 "max": 18,
                 "students_amount": 9,
                 "students_full_points": 2
@@ -9209,6 +9495,7 @@
             "2010-2011": {
                 "average_percent": 70.67,
                 "average_points": 12.78,
+                "full_points_percent": 33,
                 "max": 18,
                 "students_amount": 9,
                 "students_full_points": 3
@@ -9216,6 +9503,7 @@
             "2011-2012": {
                 "average_percent": 51.8,
                 "average_points": 9.4,
+                "full_points_percent": 0,
                 "max": 18,
                 "students_amount": 5,
                 "students_full_points": 0
@@ -9223,6 +9511,7 @@
             "2012-2013": {
                 "average_percent": 65.6,
                 "average_points": 11.9,
+                "full_points_percent": 20,
                 "max": 18,
                 "students_amount": 10,
                 "students_full_points": 2
@@ -9230,9 +9519,18 @@
             "2013-2014": {
                 "average_percent": 76.88,
                 "average_points": 13.88,
+                "full_points_percent": 50,
                 "max": 18,
                 "students_amount": 8,
                 "students_full_points": 4
+            },
+            "2014-2015": {
+                "average_percent": 56.43,
+                "average_points": 11.29,
+                "full_points_percent": 28,
+                "max": 20,
+                "students_amount": 7,
+                "students_full_points": 2
             }
         },
         "average_percent": 64,
@@ -9701,6 +9999,83 @@
                 "second_date": "26.05.2015",
                 "student": "Зазуля Наталья",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "",
+                "days": 272,
+                "first_date": "16.04.2015",
+                "max": 20,
+                "percent": 100,
+                "points": 20,
+                "second_date": "13.01.2016",
+                "student": "Речкалов Алексей",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "19.05.2015 Оценка: 5 Павел Блинов:\n+ argparge\n+ выводить таблицу преобразований\n+ работать с бинарными данными\n+ больше настроек в аргументах\n+ тесты",
+                "days": 23,
+                "first_date": "26.04.2015",
+                "max": 20,
+                "percent": 25,
+                "points": 5,
+                "second_date": "19.05.2015",
+                "student": "Бердышев Михаил",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "20.05.2015 Оценка: 5 Сергей Азовсков:\n* скрипт для расчёта частотности\n* скрипты для тестирования  (принимает на вход текст и опционально частотности и словарь русских слов)\n* шифратор\n* интерфейс\n\n* n-грамный анализ\n* словарный анализ\n30.05.2015 Оценка: 10 Сергей Азовсков:\n* добить \n* вынести частоты в конфиги\n* сделать опциональными алгоритмы\n* алгоритмы должны уметь частично расшифровывать текст\n* тесты (больше)\n*",
+                "days": 28,
+                "first_date": "02.05.2015",
+                "max": 20,
+                "percent": 50,
+                "points": 10,
+                "second_date": "30.05.2015",
+                "student": "Малышева Алёна",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 12,
+                "first_date": "07.05.2015",
+                "max": 20,
+                "percent": 30,
+                "points": 6,
+                "second_date": "19.05.2015",
+                "student": "Аверкиева Алена",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 116,
+                "first_date": "14.09.2015",
+                "max": 20,
+                "percent": 100,
+                "points": 20,
+                "second_date": "08.01.2016",
+                "student": "Пермяков Николай",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "26.09.2015 Оценка: 5 Сергей Азовсков:\n* набор для тестирования\n* шифровальщик\n* подсчёт частотности\n* метрика качества\n* русский\n* стабильная распифровка больших текстов (1000 знаков) (90%)\n* приемлимая работа на небольших текстах",
+                "days": 10,
+                "first_date": "16.09.2015",
+                "max": 20,
+                "percent": 25,
+                "points": 5,
+                "second_date": "26.09.2015",
+                "student": "Махаев Семен",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 83,
+                "first_date": "20.10.2015",
+                "max": 20,
+                "percent": 65,
+                "points": 13,
+                "second_date": "11.01.2016",
+                "student": "Данилюк Алексей",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 48,
@@ -9711,6 +10086,7 @@
             "2013-2014": {
                 "average_percent": 66.88,
                 "average_points": 13.38,
+                "full_points_percent": 12,
                 "max": 20,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -9718,6 +10094,7 @@
             "2014-2015": {
                 "average_percent": 40,
                 "average_points": 8,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -9844,6 +10221,7 @@
             "2009-2010": {
                 "average_percent": 48.75,
                 "average_points": 6.88,
+                "full_points_percent": 12,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -9851,6 +10229,7 @@
             "2010-2011": {
                 "average_percent": 86.33,
                 "average_points": 12.11,
+                "full_points_percent": 55,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -9858,6 +10237,7 @@
             "2011-2012": {
                 "average_percent": 85.33,
                 "average_points": 12,
+                "full_points_percent": 33,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -9865,6 +10245,7 @@
             "2012-2013": {
                 "average_percent": 90.22,
                 "average_points": 12.67,
+                "full_points_percent": 55,
                 "max": 14,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -9872,6 +10253,7 @@
             "2013-2014": {
                 "average_percent": 56,
                 "average_points": 7.88,
+                "full_points_percent": 12,
                 "max": 14,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -9879,6 +10261,7 @@
             "2014-2015": {
                 "average_percent": 59,
                 "average_points": 8.33,
+                "full_points_percent": 0,
                 "max": 14,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -10349,6 +10732,7 @@
             "2009-2010": {
                 "average_percent": 73,
                 "average_points": 14,
+                "full_points_percent": 0,
                 "max": 19,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -10356,6 +10740,7 @@
             "2010-2011": {
                 "average_percent": 100,
                 "average_points": 19,
+                "full_points_percent": 100,
                 "max": 19,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -10363,6 +10748,7 @@
             "2011-2012": {
                 "average_percent": 71,
                 "average_points": 13.5,
+                "full_points_percent": 50,
                 "max": 19,
                 "students_amount": 4,
                 "students_full_points": 2
@@ -10370,6 +10756,7 @@
             "2012-2013": {
                 "average_percent": 65,
                 "average_points": 12.5,
+                "full_points_percent": 0,
                 "max": 19,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -10377,6 +10764,7 @@
             "2013-2014": {
                 "average_percent": 58,
                 "average_points": 14.5,
+                "full_points_percent": 50,
                 "max": 25,
                 "students_amount": 2,
                 "students_full_points": 1
@@ -10384,6 +10772,7 @@
             "2014-2015": {
                 "average_percent": 4,
                 "average_points": 1,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -10546,6 +10935,7 @@
             "2009-2010": {
                 "average_percent": 78.33,
                 "average_points": 11.78,
+                "full_points_percent": 66,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 6
@@ -10553,6 +10943,7 @@
             "2010-2011": {
                 "average_percent": 81.38,
                 "average_points": 12.25,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -10560,6 +10951,7 @@
             "2011-2012": {
                 "average_percent": 90.75,
                 "average_points": 13.62,
+                "full_points_percent": 62,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -10567,6 +10959,7 @@
             "2012-2013": {
                 "average_percent": 91,
                 "average_points": 13.67,
+                "full_points_percent": 66,
                 "max": 15,
                 "students_amount": 15,
                 "students_full_points": 10
@@ -10574,6 +10967,7 @@
             "2013-2014": {
                 "average_percent": 83,
                 "average_points": 12.5,
+                "full_points_percent": 50,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -10581,6 +10975,7 @@
             "2014-2015": {
                 "average_percent": 72.75,
                 "average_points": 9.5,
+                "full_points_percent": 37,
                 "max": 13,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -11227,6 +11622,7 @@
             "2009-2010": {
                 "average_percent": 77.1,
                 "average_points": 11.6,
+                "full_points_percent": 30,
                 "max": 15,
                 "students_amount": 10,
                 "students_full_points": 3
@@ -11234,6 +11630,7 @@
             "2010-2011": {
                 "average_percent": 65.67,
                 "average_points": 9.89,
+                "full_points_percent": 11,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 1
@@ -11241,6 +11638,7 @@
             "2011-2012": {
                 "average_percent": 83.17,
                 "average_points": 12.5,
+                "full_points_percent": 66,
                 "max": 15,
                 "students_amount": 6,
                 "students_full_points": 4
@@ -11248,6 +11646,7 @@
             "2012-2013": {
                 "average_percent": 89,
                 "average_points": 13.38,
+                "full_points_percent": 61,
                 "max": 15,
                 "students_amount": 13,
                 "students_full_points": 8
@@ -11255,6 +11654,7 @@
             "2013-2014": {
                 "average_percent": 81.25,
                 "average_points": 12.25,
+                "full_points_percent": 12,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -11262,6 +11662,7 @@
             "2014-2015": {
                 "average_percent": 57.12,
                 "average_points": 8.62,
+                "full_points_percent": 12,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -11886,6 +12287,7 @@
             "2009-2010": {
                 "average_percent": 90,
                 "average_points": 9,
+                "full_points_percent": 77,
                 "max": 10,
                 "students_amount": 9,
                 "students_full_points": 7
@@ -11893,6 +12295,7 @@
             "2010-2011": {
                 "average_percent": 87.78,
                 "average_points": 8.78,
+                "full_points_percent": 66,
                 "max": 10,
                 "students_amount": 9,
                 "students_full_points": 6
@@ -11900,6 +12303,7 @@
             "2011-2012": {
                 "average_percent": 73.75,
                 "average_points": 7.38,
+                "full_points_percent": 50,
                 "max": 10,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -11907,6 +12311,7 @@
             "2012-2013": {
                 "average_percent": 89.09,
                 "average_points": 8.91,
+                "full_points_percent": 63,
                 "max": 10,
                 "students_amount": 11,
                 "students_full_points": 7
@@ -11914,6 +12319,7 @@
             "2013-2014": {
                 "average_percent": 83.75,
                 "average_points": 8.38,
+                "full_points_percent": 62,
                 "max": 10,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -11921,6 +12327,7 @@
             "2014-2015": {
                 "average_percent": 74.62,
                 "average_points": 8.25,
+                "full_points_percent": 37,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -12534,6 +12941,7 @@
             "2009-2010": {
                 "average_percent": 80,
                 "average_points": 7.22,
+                "full_points_percent": 55,
                 "max": 9,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -12541,6 +12949,7 @@
             "2010-2011": {
                 "average_percent": 100,
                 "average_points": 9,
+                "full_points_percent": 100,
                 "max": 9,
                 "students_amount": 9,
                 "students_full_points": 9
@@ -12548,6 +12957,7 @@
             "2011-2012": {
                 "average_percent": 83.12,
                 "average_points": 7.5,
+                "full_points_percent": 62,
                 "max": 9,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -12555,6 +12965,7 @@
             "2012-2013": {
                 "average_percent": 91.88,
                 "average_points": 8.29,
+                "full_points_percent": 64,
                 "max": 9,
                 "students_amount": 17,
                 "students_full_points": 11
@@ -12562,6 +12973,7 @@
             "2013-2014": {
                 "average_percent": 87.12,
                 "average_points": 7.88,
+                "full_points_percent": 50,
                 "max": 9,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -12569,6 +12981,7 @@
             "2014-2015": {
                 "average_percent": 86,
                 "average_points": 6.89,
+                "full_points_percent": 55,
                 "max": 8,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -13259,6 +13672,7 @@
             "2009-2010": {
                 "average_percent": 65.33,
                 "average_points": 7.89,
+                "full_points_percent": 11,
                 "max": 12,
                 "students_amount": 9,
                 "students_full_points": 1
@@ -13266,6 +13680,7 @@
             "2010-2011": {
                 "average_percent": 75.89,
                 "average_points": 9.11,
+                "full_points_percent": 44,
                 "max": 12,
                 "students_amount": 9,
                 "students_full_points": 4
@@ -13273,6 +13688,7 @@
             "2011-2012": {
                 "average_percent": 88.2,
                 "average_points": 10.6,
+                "full_points_percent": 40,
                 "max": 12,
                 "students_amount": 5,
                 "students_full_points": 2
@@ -13280,6 +13696,7 @@
             "2012-2013": {
                 "average_percent": 78.07,
                 "average_points": 9.4,
+                "full_points_percent": 40,
                 "max": 12,
                 "students_amount": 15,
                 "students_full_points": 6
@@ -13287,6 +13704,7 @@
             "2013-2014": {
                 "average_percent": 85.12,
                 "average_points": 10.25,
+                "full_points_percent": 25,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -13294,6 +13712,7 @@
             "2014-2015": {
                 "average_percent": 72.75,
                 "average_points": 8.75,
+                "full_points_percent": 50,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -13918,6 +14337,7 @@
             "2009-2010": {
                 "average_percent": 55,
                 "average_points": 11,
+                "full_points_percent": 16,
                 "max": 20,
                 "students_amount": 6,
                 "students_full_points": 1
@@ -13925,6 +14345,7 @@
             "2010-2011": {
                 "average_percent": 83.75,
                 "average_points": 16.75,
+                "full_points_percent": 50,
                 "max": 20,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -13932,6 +14353,7 @@
             "2011-2012": {
                 "average_percent": 75,
                 "average_points": 15,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -13939,6 +14361,7 @@
             "2012-2013": {
                 "average_percent": 100,
                 "average_points": 20,
+                "full_points_percent": 100,
                 "max": 20,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -13946,9 +14369,18 @@
             "2013-2014": {
                 "average_percent": 82.14,
                 "average_points": 16.43,
+                "full_points_percent": 42,
                 "max": 20,
                 "students_amount": 7,
                 "students_full_points": 3
+            },
+            "2014-2015": {
+                "average_percent": 70,
+                "average_points": 14,
+                "full_points_percent": 0,
+                "max": 20,
+                "students_amount": 2,
+                "students_full_points": 0
             }
         },
         "average_percent": 76,
@@ -14241,6 +14673,28 @@
                 "second_date": "13.01.2015",
                 "student": "Кутишенко Владислав",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "24.03.2015 Оценка: 1 Павел Блинов:\nПосмотреть подробнее.",
+                "days": 54,
+                "first_date": "12.03.2015",
+                "max": 20,
+                "percent": 80,
+                "points": 16,
+                "second_date": "05.05.2015",
+                "student": "Порошин Иван",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 4,
+                "first_date": "07.01.2016",
+                "max": 20,
+                "percent": 60,
+                "points": 12,
+                "second_date": "11.01.2016",
+                "student": "Роговой Арсений",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 27,
@@ -14251,6 +14705,7 @@
             "2009-2010": {
                 "average_percent": 52,
                 "average_points": 13,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -14258,6 +14713,7 @@
             "2011-2012": {
                 "average_percent": 100,
                 "average_points": 25,
+                "full_points_percent": 100,
                 "max": 25,
                 "students_amount": 2,
                 "students_full_points": 2
@@ -14265,6 +14721,7 @@
             "2012-2013": {
                 "average_percent": 38,
                 "average_points": 9.5,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -14272,6 +14729,7 @@
             "2013-2014": {
                 "average_percent": 44,
                 "average_points": 11,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -14279,6 +14737,7 @@
             "2014-2015": {
                 "average_percent": 60,
                 "average_points": 15,
+                "full_points_percent": 0,
                 "max": 25,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -14397,6 +14856,7 @@
             "2009-2010": {
                 "average_percent": 89.9,
                 "average_points": 7.2,
+                "full_points_percent": 70,
                 "max": 8,
                 "students_amount": 10,
                 "students_full_points": 7
@@ -14404,6 +14864,7 @@
             "2010-2011": {
                 "average_percent": 95.67,
                 "average_points": 7.67,
+                "full_points_percent": 66,
                 "max": 8,
                 "students_amount": 9,
                 "students_full_points": 6
@@ -14411,6 +14872,7 @@
             "2011-2012": {
                 "average_percent": 66,
                 "average_points": 5.29,
+                "full_points_percent": 28,
                 "max": 8,
                 "students_amount": 7,
                 "students_full_points": 2
@@ -14418,6 +14880,7 @@
             "2012-2013": {
                 "average_percent": 84.25,
                 "average_points": 6.75,
+                "full_points_percent": 43,
                 "max": 8,
                 "students_amount": 16,
                 "students_full_points": 7
@@ -14425,6 +14888,7 @@
             "2013-2014": {
                 "average_percent": 70.25,
                 "average_points": 5.62,
+                "full_points_percent": 37,
                 "max": 8,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -14432,6 +14896,7 @@
             "2014-2015": {
                 "average_percent": 68.62,
                 "average_points": 5.5,
+                "full_points_percent": 37,
                 "max": 8,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -15100,6 +15565,7 @@
             "2009-2010": {
                 "average_percent": 84.56,
                 "average_points": 9.33,
+                "full_points_percent": 55,
                 "max": 11,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -15107,6 +15573,7 @@
             "2010-2011": {
                 "average_percent": 94.4,
                 "average_points": 10.4,
+                "full_points_percent": 80,
                 "max": 11,
                 "students_amount": 10,
                 "students_full_points": 8
@@ -15114,6 +15581,7 @@
             "2011-2012": {
                 "average_percent": 94,
                 "average_points": 10.38,
+                "full_points_percent": 62,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -15121,6 +15589,7 @@
             "2012-2013": {
                 "average_percent": 92.29,
                 "average_points": 10.18,
+                "full_points_percent": 70,
                 "max": 11,
                 "students_amount": 17,
                 "students_full_points": 12
@@ -15128,6 +15597,7 @@
             "2013-2014": {
                 "average_percent": 96.25,
                 "average_points": 10.62,
+                "full_points_percent": 62,
                 "max": 11,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -15135,6 +15605,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 7,
+                "full_points_percent": 100,
                 "max": 7,
                 "students_amount": 8,
                 "students_full_points": 8
@@ -15825,6 +16296,7 @@
             "2013-2014": {
                 "average_percent": 74,
                 "average_points": 12.67,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -15832,6 +16304,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 17,
+                "full_points_percent": 100,
                 "max": 17,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -15903,6 +16376,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 21,
+                "full_points_percent": 100,
                 "max": 21,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -15941,6 +16415,7 @@
             "2009-2010": {
                 "average_percent": 75.56,
                 "average_points": 12.11,
+                "full_points_percent": 44,
                 "max": 16,
                 "students_amount": 9,
                 "students_full_points": 4
@@ -15948,6 +16423,7 @@
             "2010-2011": {
                 "average_percent": 83.17,
                 "average_points": 13.33,
+                "full_points_percent": 33,
                 "max": 16,
                 "students_amount": 6,
                 "students_full_points": 2
@@ -15955,6 +16431,7 @@
             "2011-2012": {
                 "average_percent": 63.5,
                 "average_points": 10.25,
+                "full_points_percent": 0,
                 "max": 16,
                 "students_amount": 4,
                 "students_full_points": 0
@@ -15962,6 +16439,7 @@
             "2012-2013": {
                 "average_percent": 85.64,
                 "average_points": 13.73,
+                "full_points_percent": 54,
                 "max": 16,
                 "students_amount": 11,
                 "students_full_points": 6
@@ -15969,6 +16447,7 @@
             "2013-2014": {
                 "average_percent": 72.38,
                 "average_points": 11.62,
+                "full_points_percent": 37,
                 "max": 16,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -15976,6 +16455,7 @@
             "2014-2015": {
                 "average_percent": 59.62,
                 "average_points": 9.62,
+                "full_points_percent": 12,
                 "max": 16,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -16512,6 +16992,7 @@
             "2012-2013": {
                 "average_percent": 56.25,
                 "average_points": 8.5,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 4,
                 "students_full_points": 1
@@ -16519,6 +17000,7 @@
             "2013-2014": {
                 "average_percent": 71.38,
                 "average_points": 10.75,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -16526,6 +17008,7 @@
             "2014-2015": {
                 "average_percent": 66.38,
                 "average_points": 10,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -16773,6 +17256,7 @@
             "2009-2010": {
                 "average_percent": 62.4,
                 "average_points": 9.4,
+                "full_points_percent": 10,
                 "max": 15,
                 "students_amount": 10,
                 "students_full_points": 1
@@ -16780,6 +17264,7 @@
             "2010-2011": {
                 "average_percent": 86.5,
                 "average_points": 13,
+                "full_points_percent": 62,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -16787,6 +17272,7 @@
             "2011-2012": {
                 "average_percent": 75.5,
                 "average_points": 11.38,
+                "full_points_percent": 12,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -16794,6 +17280,7 @@
             "2012-2013": {
                 "average_percent": 64,
                 "average_points": 8.94,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 16,
                 "students_full_points": 6
@@ -16801,6 +17288,7 @@
             "2013-2014": {
                 "average_percent": 86.25,
                 "average_points": 10.38,
+                "full_points_percent": 50,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -16808,6 +17296,7 @@
             "2014-2015": {
                 "average_percent": 70.75,
                 "average_points": 8.5,
+                "full_points_percent": 37,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -17476,6 +17965,7 @@
             "2013-2014": {
                 "average_percent": 82.12,
                 "average_points": 9.88,
+                "full_points_percent": 37,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -17483,6 +17973,7 @@
             "2014-2015": {
                 "average_percent": 82,
                 "average_points": 9.88,
+                "full_points_percent": 37,
                 "max": 12,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -17685,6 +18176,7 @@
             "2013-2014": {
                 "average_percent": 61.67,
                 "average_points": 12.33,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -17692,6 +18184,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 20,
+                "full_points_percent": 100,
                 "max": 20,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -17763,6 +18256,7 @@
             "2009-2010": {
                 "average_percent": 68.67,
                 "average_points": 10.33,
+                "full_points_percent": 44,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 4
@@ -17770,6 +18264,7 @@
             "2010-2011": {
                 "average_percent": 85.78,
                 "average_points": 12.89,
+                "full_points_percent": 66,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 6
@@ -17777,6 +18272,7 @@
             "2011-2012": {
                 "average_percent": 68.62,
                 "average_points": 10.38,
+                "full_points_percent": 0,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 0
@@ -17784,6 +18280,7 @@
             "2012-2013": {
                 "average_percent": 77.42,
                 "average_points": 11.67,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 12,
                 "students_full_points": 3
@@ -17791,6 +18288,7 @@
             "2013-2014": {
                 "average_percent": 81.38,
                 "average_points": 12.25,
+                "full_points_percent": 37,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -17798,6 +18296,7 @@
             "2014-2015": {
                 "average_percent": 70.5,
                 "average_points": 10.62,
+                "full_points_percent": 25,
                 "max": 15,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -18422,6 +18921,7 @@
             "2013-2014": {
                 "average_percent": 65,
                 "average_points": 11.12,
+                "full_points_percent": 12,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -18429,6 +18929,7 @@
             "2014-2015": {
                 "average_percent": 51,
                 "average_points": 8.75,
+                "full_points_percent": 25,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -18631,6 +19132,7 @@
             "2013-2014": {
                 "average_percent": 39.5,
                 "average_points": 6,
+                "full_points_percent": 0,
                 "max": 15,
                 "students_amount": 2,
                 "students_full_points": 0
@@ -18679,6 +19181,7 @@
             "2013-2014": {
                 "average_percent": 87.38,
                 "average_points": 7,
+                "full_points_percent": 50,
                 "max": 8,
                 "students_amount": 8,
                 "students_full_points": 4
@@ -18686,6 +19189,7 @@
             "2014-2015": {
                 "average_percent": 90.5,
                 "average_points": 7.25,
+                "full_points_percent": 62,
                 "max": 8,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -18888,6 +19392,7 @@
             "2009-2010": {
                 "average_percent": 81.33,
                 "average_points": 13.89,
+                "full_points_percent": 33,
                 "max": 17,
                 "students_amount": 9,
                 "students_full_points": 3
@@ -18895,6 +19400,7 @@
             "2010-2011": {
                 "average_percent": 66.33,
                 "average_points": 11.33,
+                "full_points_percent": 33,
                 "max": 17,
                 "students_amount": 3,
                 "students_full_points": 1
@@ -18902,6 +19408,7 @@
             "2011-2012": {
                 "average_percent": 79,
                 "average_points": 13.5,
+                "full_points_percent": 50,
                 "max": 17,
                 "students_amount": 2,
                 "students_full_points": 1
@@ -18909,6 +19416,7 @@
             "2012-2013": {
                 "average_percent": 58,
                 "average_points": 10,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -18916,6 +19424,7 @@
             "2013-2014": {
                 "average_percent": 76,
                 "average_points": 13,
+                "full_points_percent": 12,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -18923,6 +19432,7 @@
             "2014-2015": {
                 "average_percent": 41,
                 "average_points": 7,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 1,
                 "students_full_points": 0
@@ -19217,6 +19727,7 @@
             "2013-2014": {
                 "average_percent": 62.25,
                 "average_points": 7.5,
+                "full_points_percent": 0,
                 "max": 12,
                 "students_amount": 4,
                 "students_full_points": 0
@@ -19224,6 +19735,7 @@
             "2014-2015": {
                 "average_percent": 48.33,
                 "average_points": 6.33,
+                "full_points_percent": 0,
                 "max": 13,
                 "students_amount": 3,
                 "students_full_points": 0
@@ -19327,6 +19839,7 @@
             "2009-2010": {
                 "average_percent": 65.3,
                 "average_points": 11.2,
+                "full_points_percent": 0,
                 "max": 17,
                 "students_amount": 10,
                 "students_full_points": 0
@@ -19334,6 +19847,7 @@
             "2010-2011": {
                 "average_percent": 61.67,
                 "average_points": 10.5,
+                "full_points_percent": 16,
                 "max": 17,
                 "students_amount": 6,
                 "students_full_points": 1
@@ -19341,6 +19855,7 @@
             "2011-2012": {
                 "average_percent": 72.38,
                 "average_points": 12.38,
+                "full_points_percent": 25,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 2
@@ -19348,6 +19863,7 @@
             "2012-2013": {
                 "average_percent": 73.67,
                 "average_points": 12.58,
+                "full_points_percent": 41,
                 "max": 17,
                 "students_amount": 12,
                 "students_full_points": 5
@@ -19355,6 +19871,7 @@
             "2013-2014": {
                 "average_percent": 88,
                 "average_points": 15,
+                "full_points_percent": 37,
                 "max": 17,
                 "students_amount": 8,
                 "students_full_points": 3
@@ -19362,6 +19879,7 @@
             "2014-2015": {
                 "average_percent": 71.14,
                 "average_points": 10.71,
+                "full_points_percent": 14,
                 "max": 15,
                 "students_amount": 7,
                 "students_full_points": 1
@@ -19953,6 +20471,7 @@
             "2009-2010": {
                 "average_percent": 70.62,
                 "average_points": 14.12,
+                "full_points_percent": 62,
                 "max": 20,
                 "students_amount": 8,
                 "students_full_points": 5
@@ -19960,6 +20479,7 @@
             "2010-2011": {
                 "average_percent": 83.89,
                 "average_points": 16.78,
+                "full_points_percent": 55,
                 "max": 20,
                 "students_amount": 9,
                 "students_full_points": 5
@@ -19967,6 +20487,7 @@
             "2011-2012": {
                 "average_percent": 70,
                 "average_points": 14,
+                "full_points_percent": 40,
                 "max": 20,
                 "students_amount": 5,
                 "students_full_points": 2
@@ -19974,9 +20495,18 @@
             "2013-2014": {
                 "average_percent": 37.5,
                 "average_points": 7.5,
+                "full_points_percent": 0,
                 "max": 20,
                 "students_amount": 2,
                 "students_full_points": 0
+            },
+            "2014-2015": {
+                "average_percent": 70,
+                "average_points": 14,
+                "full_points_percent": 33,
+                "max": 20,
+                "students_amount": 3,
+                "students_full_points": 1
             }
         },
         "average_percent": 72,
@@ -20258,6 +20788,39 @@
                 "second_date": "12.01.2015",
                 "student": "Патрушева Галина",
                 "year": "2013-2014"
+            },
+            {
+                "comment": "",
+                "days": 3,
+                "first_date": "04.01.2016",
+                "max": 20,
+                "percent": 100,
+                "points": 20,
+                "second_date": "07.01.2016",
+                "student": "Sivukhin Nikita",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 4,
+                "first_date": "07.01.2016",
+                "max": 20,
+                "percent": 50,
+                "points": 10,
+                "second_date": "11.01.2016",
+                "student": "Данилюк Алексей",
+                "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "days": 1,
+                "first_date": "09.01.2016",
+                "max": 20,
+                "percent": 60,
+                "points": 12,
+                "second_date": "10.01.2016",
+                "student": "Пивко Максим",
+                "year": "2014-2015"
             }
         ],
         "students_amount": 27,
@@ -20268,6 +20831,7 @@
             "2009-2010": {
                 "average_percent": 34.17,
                 "average_points": 5.17,
+                "full_points_percent": 0,
                 "max": 15,
                 "students_amount": 6,
                 "students_full_points": 0
@@ -20275,6 +20839,7 @@
             "2011-2012": {
                 "average_percent": 85,
                 "average_points": 12.8,
+                "full_points_percent": 40,
                 "max": 15,
                 "students_amount": 5,
                 "students_full_points": 2
@@ -20282,6 +20847,7 @@
             "2012-2013": {
                 "average_percent": 62.56,
                 "average_points": 9.44,
+                "full_points_percent": 11,
                 "max": 15,
                 "students_amount": 9,
                 "students_full_points": 1
@@ -20289,6 +20855,7 @@
             "2013-2014": {
                 "average_percent": 83.25,
                 "average_points": 12.5,
+                "full_points_percent": 50,
                 "max": 15,
                 "students_amount": 4,
                 "students_full_points": 2
@@ -20296,6 +20863,7 @@
             "2014-2015": {
                 "average_percent": 100,
                 "average_points": 15,
+                "full_points_percent": 100,
                 "max": 15,
                 "students_amount": 1,
                 "students_full_points": 1
@@ -20601,6 +21169,7 @@
             "2009-2010": {
                 "average_percent": 78,
                 "average_points": 16.44,
+                "full_points_percent": 44,
                 "max": 21,
                 "students_amount": 9,
                 "students_full_points": 4
@@ -20608,6 +21177,7 @@
             "2010-2011": {
                 "average_percent": 64.14,
                 "average_points": 13.57,
+                "full_points_percent": 0,
                 "max": 21,
                 "students_amount": 7,
                 "students_full_points": 0
@@ -20615,6 +21185,7 @@
             "2011-2012": {
                 "average_percent": 74.75,
                 "average_points": 15.75,
+                "full_points_percent": 25,
                 "max": 21,
                 "students_amount": 4,
                 "students_full_points": 1
@@ -20622,6 +21193,7 @@
             "2012-2013": {
                 "average_percent": 74.17,
                 "average_points": 15.67,
+                "full_points_percent": 16,
                 "max": 21,
                 "students_amount": 12,
                 "students_full_points": 2
@@ -20629,6 +21201,7 @@
             "2013-2014": {
                 "average_percent": 81.12,
                 "average_points": 17.12,
+                "full_points_percent": 12,
                 "max": 21,
                 "students_amount": 8,
                 "students_full_points": 1
@@ -20636,6 +21209,7 @@
             "2014-2015": {
                 "average_percent": 68.75,
                 "average_points": 14.5,
+                "full_points_percent": 37,
                 "max": 21,
                 "students_amount": 8,
                 "students_full_points": 3

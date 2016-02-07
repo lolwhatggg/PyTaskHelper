@@ -38,6 +38,9 @@ def update_files():
     big_db = build_task_database(files, database.EntryAnnualFullInfo)
     write_json(big_db, '../database/db_full.json')
 
+    cat_db = build_task_database(files, database.EntryAnnualShortInfo)
+    write_json(cat_db, '../database/db_cat.json')
+
 
 if __name__ == '__main__':
     update_files()

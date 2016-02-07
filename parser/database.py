@@ -135,10 +135,8 @@ class EntryFullInfo(EntryWithPercentage):
 
     def update(self, data):
         super().update(data)
-        new_students = data['students']
+        new_students = [student for student in data['students'] if student['points']]
         for student in new_students:
-            if not student['points']:
-                return
             student['max'] = data['max']
             student['days'] = self.get_days(student)
             student['percent'] = int(student['points'] / data['max'] * 100)
@@ -173,6 +171,16 @@ class EntryAnnualFullInfo(EntryFullInfo):
                 self.get_average(results[year]['percents'], 2)
             results[year]['average_points'] = \
                 self.get_average(results[year]['points'], 2)
+            if self.students_amount:
+                results[year]['full_points_percent'] = \
+                    int(results[year]['students_full_points'] /
+                         results[year]['students_amount'] * 100)
             del results[year]['points']
             del results[year]['percents']
         self.annual_averages = results
+
+
+class EntryAnnualShortInfo(EntryAnnualFullInfo):
+    def finalize(self):
+        super().finalize()
+        del self.students

@@ -1,0 +1,918 @@
+{
+    "all_years": {
+        "Realtime-игры": {
+            "max_full_points": {
+                "name": "pentix",
+                "percent": 45,
+                "students_amount": 20,
+                "students_full_points": 9
+            },
+            "max_percent": [
+                82,
+                "pacman"
+            ],
+            "max_points": [
+                17.94,
+                "tower defense"
+            ],
+            "max_students": [
+                23,
+                "arkanoid"
+            ],
+            "min_full_points": {
+                "name": "teeworlds",
+                "percent": 50,
+                "students_amount": 2,
+                "students_full_points": 1
+            },
+            "min_percent": [
+                52,
+                "teeworlds"
+            ],
+            "min_points": [
+                8.8,
+                "pentix"
+            ],
+            "min_students": [
+                2,
+                "teeworlds"
+            ]
+        },
+        "Графический редактор": {
+            "max_full_points": {
+                "name": "растровый",
+                "percent": 0,
+                "students_amount": 7,
+                "students_full_points": 0
+            },
+            "max_percent": [
+                57,
+                "растровый"
+            ],
+            "max_points": [
+                7.41,
+                "растровый"
+            ],
+            "max_students": [
+                7,
+                "растровый"
+            ],
+            "min_full_points": {
+                "name": "векторный",
+                "percent": 0,
+                "students_amount": 2,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                40,
+                "векторный"
+            ],
+            "min_points": [
+                6.0,
+                "векторный"
+            ],
+            "min_students": [
+                2,
+                "векторный"
+            ]
+        },
+        "Медиаальбом": {
+            "max_full_points": {
+                "name": "Фотоальбом",
+                "percent": 25,
+                "students_amount": 4,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                71,
+                "Фотоальбом"
+            ],
+            "max_points": [
+                14.2,
+                "Фотоальбом"
+            ],
+            "max_students": [
+                5,
+                "Аудиоальбом"
+            ],
+            "min_full_points": {
+                "name": "Аудиоальбом",
+                "percent": 0,
+                "students_amount": 5,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                58,
+                "Аудиоальбом"
+            ],
+            "min_points": [
+                11.6,
+                "Аудиоальбом"
+            ],
+            "min_students": [
+                4,
+                "Фотоальбом"
+            ]
+        },
+        "Обработка текстов программ": {
+            "max_full_points": {
+                "name": "транслятор",
+                "percent": 48,
+                "students_amount": 27,
+                "students_full_points": 13
+            },
+            "max_percent": [
+                78,
+                "PEP8 валидатор"
+            ],
+            "max_points": [
+                14.4,
+                "транслятор"
+            ],
+            "max_students": [
+                27,
+                "транслятор"
+            ],
+            "min_full_points": {
+                "name": "PEP8 валидатор",
+                "percent": 37,
+                "students_amount": 8,
+                "students_full_points": 3
+            },
+            "min_percent": [
+                65,
+                "форматтер"
+            ],
+            "min_points": [
+                7.02,
+                "PEP8 валидатор"
+            ],
+            "min_students": [
+                8,
+                "PEP8 валидатор"
+            ]
+        },
+        "Перевод документации в другой формат": {
+            "max_full_points": {
+                "name": "man2html",
+                "percent": 42,
+                "students_amount": 26,
+                "students_full_points": 11
+            },
+            "max_percent": [
+                76,
+                "man2html"
+            ],
+            "max_points": [
+                12.0,
+                "man2pdf"
+            ],
+            "max_students": [
+                26,
+                "man2html"
+            ],
+            "min_full_points": {
+                "name": "docstrings2pdf",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                50,
+                "docstrings2pdf"
+            ],
+            "min_points": [
+                8.52,
+                "docstrings2html"
+            ],
+            "min_students": [
+                1,
+                "docstrings2pdf"
+            ]
+        },
+        "Пошаговые игры": {
+            "max_full_points": {
+                "name": "реверси",
+                "percent": 23,
+                "students_amount": 51,
+                "students_full_points": 12
+            },
+            "max_percent": [
+                89,
+                "кубики"
+            ],
+            "max_points": [
+                15.54,
+                "шахматы"
+            ],
+            "max_students": [
+                51,
+                "реверси"
+            ],
+            "min_full_points": {
+                "name": "100-клеточные шашки",
+                "percent": 8,
+                "students_amount": 45,
+                "students_full_points": 4
+            },
+            "min_percent": [
+                61,
+                "100-клеточные шашки"
+            ],
+            "min_points": [
+                7.12,
+                "кубики"
+            ],
+            "min_students": [
+                16,
+                "lines"
+            ]
+        },
+        "Разбор аудиоформатов": {
+            "max_full_points": {
+                "name": "mp3",
+                "percent": 10,
+                "students_amount": 10,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                71,
+                "mp3"
+            ],
+            "max_points": [
+                10.72,
+                "flac"
+            ],
+            "max_students": [
+                10,
+                "mp3"
+            ],
+            "min_full_points": {
+                "name": "ogg",
+                "percent": 0,
+                "students_amount": 2,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                32,
+                "ogg"
+            ],
+            "min_points": [
+                4.48,
+                "ogg"
+            ],
+            "min_students": [
+                2,
+                "ogg"
+            ]
+        },
+        "Разбор графических файлов": {
+            "max_full_points": {
+                "name": "BMP",
+                "percent": 38,
+                "students_amount": 50,
+                "students_full_points": 19
+            },
+            "max_percent": [
+                74,
+                "BMP"
+            ],
+            "max_points": [
+                11.1,
+                "BMP"
+            ],
+            "max_students": [
+                50,
+                "BMP"
+            ],
+            "min_full_points": {
+                "name": "JPEG",
+                "percent": 16,
+                "students_amount": 6,
+                "students_full_points": 1
+            },
+            "min_percent": [
+                49,
+                "JPEG"
+            ],
+            "min_points": [
+                8.33,
+                "JPEG"
+            ],
+            "min_students": [
+                6,
+                "JPEG"
+            ]
+        },
+        "Сетевые сервисы": {
+            "max_full_points": {
+                "name": "DNS",
+                "percent": 76,
+                "students_amount": 25,
+                "students_full_points": 19
+            },
+            "max_percent": [
+                90,
+                "DNS"
+            ],
+            "max_points": [
+                19.5,
+                "BitTorrent"
+            ],
+            "max_students": [
+                48,
+                "POP3"
+            ],
+            "min_full_points": {
+                "name": "FTP",
+                "percent": 16,
+                "students_amount": 36,
+                "students_full_points": 6
+            },
+            "min_percent": [
+                68,
+                "FTP"
+            ],
+            "min_points": [
+                6.64,
+                "NTP"
+            ],
+            "min_students": [
+                12,
+                "BitTorrent"
+            ]
+        },
+        "Стеганография": {
+            "max_full_points": {
+                "name": "wav",
+                "percent": 21,
+                "students_amount": 14,
+                "students_full_points": 3
+            },
+            "max_percent": [
+                71,
+                "wav"
+            ],
+            "max_points": [
+                9.94,
+                "wav"
+            ],
+            "max_students": [
+                19,
+                "bmp"
+            ],
+            "min_full_points": {
+                "name": "bmp",
+                "percent": 15,
+                "students_amount": 19,
+                "students_full_points": 3
+            },
+            "min_percent": [
+                69,
+                "bmp"
+            ],
+            "min_points": [
+                9.66,
+                "bmp"
+            ],
+            "min_students": [
+                14,
+                "wav"
+            ]
+        },
+        "Транспорт": {
+            "max_full_points": {
+                "name": "Где трамвай",
+                "percent": 11,
+                "students_amount": 9,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                78,
+                "Flightradar"
+            ],
+            "max_points": [
+                17.16,
+                "Flightradar"
+            ],
+            "max_students": [
+                9,
+                "Где трамвай"
+            ],
+            "min_full_points": {
+                "name": "Flightradar",
+                "percent": 0,
+                "students_amount": 4,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                64,
+                "Где трамвай"
+            ],
+            "min_points": [
+                12.8,
+                "Где трамвай"
+            ],
+            "min_students": [
+                4,
+                "Flightradar"
+            ]
+        },
+        "Файловые системы": {
+            "max_full_points": {
+                "name": "Дефрагментация",
+                "percent": 41,
+                "students_amount": 12,
+                "students_full_points": 5
+            },
+            "max_percent": [
+                100,
+                "Разбор ext4"
+            ],
+            "max_points": [
+                21.0,
+                "Разбор ext4"
+            ],
+            "max_students": [
+                12,
+                "Дефрагментация"
+            ],
+            "min_full_points": {
+                "name": "Разбор FAT32",
+                "percent": 25,
+                "students_amount": 4,
+                "students_full_points": 1
+            },
+            "min_percent": [
+                67,
+                "Дефрагментация"
+            ],
+            "min_points": [
+                13.77,
+                "Разбор FAT32"
+            ],
+            "min_students": [
+                1,
+                "Разбор ext4"
+            ]
+        }
+    },
+    "this_year": {
+        "Realtime-игры": {
+            "max_full_points": {
+                "name": "tower defense",
+                "percent": 62,
+                "students_amount": 8,
+                "students_full_points": 5
+            },
+            "max_percent": [
+                100,
+                "teeworlds"
+            ],
+            "max_points": [
+                25,
+                "teeworlds"
+            ],
+            "max_students": [
+                8,
+                "бомбермен"
+            ],
+            "min_full_points": {
+                "name": "teeworlds",
+                "percent": 100,
+                "students_amount": 1,
+                "students_full_points": 1
+            },
+            "min_percent": [
+                51,
+                "бомбермен"
+            ],
+            "min_points": [
+                8.75,
+                "pentix"
+            ],
+            "min_students": [
+                1,
+                "teeworlds"
+            ]
+        },
+        "Графический редактор": {
+            "max_full_points": {
+                "name": "растровый",
+                "percent": 0,
+                "students_amount": 3,
+                "students_full_points": 0
+            },
+            "max_percent": [
+                48.33,
+                "растровый"
+            ],
+            "max_points": [
+                6.33,
+                "растровый"
+            ],
+            "max_students": [
+                3,
+                "растровый"
+            ],
+            "min_full_points": {
+                "name": "растровый",
+                "percent": 0,
+                "students_amount": 3,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                48.33,
+                "растровый"
+            ],
+            "min_points": [
+                6.33,
+                "растровый"
+            ],
+            "min_students": [
+                3,
+                "растровый"
+            ]
+        },
+        "Медиаальбом": {
+            "max_full_points": {
+                "name": "Фотоальбом",
+                "percent": 100,
+                "students_amount": 1,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                100,
+                "Фотоальбом"
+            ],
+            "max_points": [
+                20,
+                "Фотоальбом"
+            ],
+            "max_students": [
+                2,
+                "Аудиоальбом"
+            ],
+            "min_full_points": {
+                "name": "Аудиоальбом",
+                "percent": 0,
+                "students_amount": 2,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                27.5,
+                "Аудиоальбом"
+            ],
+            "min_points": [
+                5.5,
+                "Аудиоальбом"
+            ],
+            "min_students": [
+                1,
+                "Фотоальбом"
+            ]
+        },
+        "Обработка текстов программ": {
+            "max_full_points": {
+                "name": "форматтер",
+                "percent": 100,
+                "students_amount": 1,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                100,
+                "форматтер"
+            ],
+            "max_points": [
+                15,
+                "форматтер"
+            ],
+            "max_students": [
+                3,
+                "транслятор"
+            ],
+            "min_full_points": {
+                "name": "PEP8 валидатор",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                11,
+                "PEP8 валидатор"
+            ],
+            "min_points": [
+                1,
+                "PEP8 валидатор"
+            ],
+            "min_students": [
+                1,
+                "PEP8 валидатор"
+            ]
+        },
+        "Перевод документации в другой формат": {
+            "max_full_points": {
+                "name": "man2html",
+                "percent": 100,
+                "students_amount": 4,
+                "students_full_points": 4
+            },
+            "max_percent": [
+                100,
+                "man2html"
+            ],
+            "max_points": [
+                12,
+                "man2html"
+            ],
+            "max_students": [
+                7,
+                "docstrings2html"
+            ],
+            "min_full_points": {
+                "name": "docstrings2html",
+                "percent": 28,
+                "students_amount": 7,
+                "students_full_points": 2
+            },
+            "min_percent": [
+                72.57,
+                "docstrings2html"
+            ],
+            "min_points": [
+                8.71,
+                "docstrings2html"
+            ],
+            "min_students": [
+                4,
+                "man2html"
+            ]
+        },
+        "Пошаговые игры": {
+            "max_full_points": {
+                "name": "кубики",
+                "percent": 62,
+                "students_amount": 8,
+                "students_full_points": 5
+            },
+            "max_percent": [
+                90.5,
+                "кубики"
+            ],
+            "max_points": [
+                14.5,
+                "шахматы"
+            ],
+            "max_students": [
+                8,
+                "шахматы"
+            ],
+            "min_full_points": {
+                "name": "поддавки",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                41,
+                "поддавки"
+            ],
+            "min_points": [
+                7,
+                "поддавки"
+            ],
+            "min_students": [
+                1,
+                "поддавки"
+            ]
+        },
+        "Разбор аудиоформатов": {
+            "max_full_points": {
+                "name": "mp3",
+                "percent": 33,
+                "students_amount": 3,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                71,
+                "mp3"
+            ],
+            "max_points": [
+                10,
+                "mp3"
+            ],
+            "max_students": [
+                3,
+                "mp3"
+            ],
+            "min_full_points": {
+                "name": "flac",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                31.5,
+                "ogg"
+            ],
+            "min_points": [
+                4.5,
+                "ogg"
+            ],
+            "min_students": [
+                1,
+                "flac"
+            ]
+        },
+        "Разбор графических файлов": {
+            "max_full_points": {
+                "name": "BMP",
+                "percent": 50,
+                "students_amount": 8,
+                "students_full_points": 4
+            },
+            "max_percent": [
+                77.25,
+                "BMP"
+            ],
+            "max_points": [
+                11.62,
+                "BMP"
+            ],
+            "max_students": [
+                8,
+                "PNG"
+            ],
+            "min_full_points": {
+                "name": "GIF",
+                "percent": 0,
+                "students_amount": 3,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                17,
+                "JPEG"
+            ],
+            "min_points": [
+                3,
+                "JPEG"
+            ],
+            "min_students": [
+                1,
+                "JPEG"
+            ]
+        },
+        "Сетевые сервисы": {
+            "max_full_points": {
+                "name": "POP3",
+                "percent": 28,
+                "students_amount": 7,
+                "students_full_points": 2
+            },
+            "max_percent": [
+                73.67,
+                "DNS"
+            ],
+            "max_points": [
+                18,
+                "BitTorrent"
+            ],
+            "max_students": [
+                7,
+                "POP3"
+            ],
+            "min_full_points": {
+                "name": "FTP",
+                "percent": 0,
+                "students_amount": 3,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                38.67,
+                "FTP"
+            ],
+            "min_points": [
+                4.67,
+                "FTP"
+            ],
+            "min_students": [
+                1,
+                "SMTP"
+            ]
+        },
+        "Стеганография": {
+            "max_full_points": {
+                "name": "wav",
+                "percent": 33,
+                "students_amount": 6,
+                "students_full_points": 2
+            },
+            "max_percent": [
+                67.5,
+                "bmp"
+            ],
+            "max_points": [
+                9.5,
+                "bmp"
+            ],
+            "max_students": [
+                8,
+                "bmp"
+            ],
+            "min_full_points": {
+                "name": "bmp",
+                "percent": 25,
+                "students_amount": 8,
+                "students_full_points": 2
+            },
+            "min_percent": [
+                59.33,
+                "wav"
+            ],
+            "min_points": [
+                8.33,
+                "wav"
+            ],
+            "min_students": [
+                6,
+                "wav"
+            ]
+        },
+        "Транспорт": {
+            "max_full_points": {
+                "name": "Где трамвай",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "max_percent": [
+                63,
+                "Flightradar"
+            ],
+            "max_points": [
+                14,
+                "Flightradar"
+            ],
+            "max_students": [
+                1,
+                "Где трамвай"
+            ],
+            "min_full_points": {
+                "name": "Flightradar",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                40,
+                "Где трамвай"
+            ],
+            "min_points": [
+                8,
+                "Где трамвай"
+            ],
+            "min_students": [
+                1,
+                "Flightradar"
+            ]
+        },
+        "Файловые системы": {
+            "max_full_points": {
+                "name": "Разбор ext4",
+                "percent": 100,
+                "students_amount": 1,
+                "students_full_points": 1
+            },
+            "max_percent": [
+                100,
+                "Разбор ext4"
+            ],
+            "max_points": [
+                21,
+                "Разбор ext4"
+            ],
+            "max_students": [
+                1,
+                "Разбор ext4"
+            ],
+            "min_full_points": {
+                "name": "Дефрагментация",
+                "percent": 0,
+                "students_amount": 1,
+                "students_full_points": 0
+            },
+            "min_percent": [
+                4,
+                "Дефрагментация"
+            ],
+            "min_points": [
+                1,
+                "Дефрагментация"
+            ],
+            "min_students": [
+                1,
+                "Дефрагментация"
+            ]
+        }
+    }
+}

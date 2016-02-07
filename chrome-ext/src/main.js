@@ -16,6 +16,7 @@ $(document).ready(function () {
     xhr_cat.onload = function () {
         var json = xhr_cat.responseText;
         fill_cat_info(JSON.parse(json));
+
         setCSS();
     };
 
@@ -30,7 +31,7 @@ $(document).ready(function () {
 function fill_task_info(data) {
     $('strong, font').each(function () {
 
-        var name = $(this).text();
+        var name = $(this).text().trim();
         if (!(name in data)) {
             return;
         }
@@ -61,20 +62,30 @@ function fill_task_info(data) {
 }
 function fill_cat_info(data) {
     $('strong').each(function () {
-
-        var name = $(this).text();
-        if (!(name in data))
+        var name = $(this).text().trim();
+        if (!(name in data['this_year']))
             return;
-        var max_students = data[name]['max_students'];
-        var min_students = data[name]['min_students'];
-        var max_percent = data[name]['max_percent'];
-        var min_percent = data[name]['min_percent'];
-        var max_points = data[name]['max_points'];
-        var min_points = data[name]['min_points'];
-        var max_full_points = data[name]['max_full_points'];
-        var min_full_points = data[name]['min_full_points'];
+        var text_all_years = create_cat_text(data, name, true);
+        var text_this_years = create_cat_text(data, name, false);
+        var text = text_all_years+text_this_years;
+        $(this).before(text);
+        $(this).remove();
+    });
+}
+function create_cat_text(data,name, all_years)
+{       
+        var scope = all_years?'all_years':'this_year'
+        var max_students = data[scope][name]['max_students'];
+        var min_students = data[scope][name]['min_students'];
+        var max_percent = data[scope][name]['max_percent'];
+        var min_percent = data[scope][name]['min_percent'];
+        var max_points = data[scope][name]['max_points'];
+        var min_points = data[scope][name]['min_points'];
+        var max_full_points = data[scope][name]['max_full_points'];
+        var min_full_points = data[scope][name]['min_full_points'];
         var text =
             '<div class="task_info">'+
+            '<hr>' +
             '<h4>'+name+'</h4>'+
             '<p>Задача, которую взяло наибольшее количество людей: <b>'+max_students[1] + '</b> <span>('+max_students[0]+')' + '</span></p>'+
             '<p>Задача, которую взяло наименьшее количество людей: <b>'+min_students[1] + '</b> <span>('+min_students[0]+')' + '</span></p>'+
@@ -85,10 +96,9 @@ function fill_cat_info(data) {
              ' ('+max_full_points['percent']+'%))' + '</span></p>'+
             '<p>Задача, которую наименьшее количество людей решили на полный балл: <b>' +
             min_full_points['name'] + '</b> <span>('+min_full_points['students_full_points']+ '/'+min_full_points['students_amount']+
-             ' ('+min_full_points['percent']+'%))' + '</span></p>';
-        $(this).before(text);
-        $(this).remove();
-    });
+             ' ('+min_full_points['percent']+'%))' + '</span></p>'+
+            '</div>';
+        return text;
 }
 
 function setCSS() {
