@@ -13,11 +13,15 @@ def parse_results(table, year):
         fields = a.findAll('td')
         data = {
             'student': fields[0].text.strip(),
+            'first_date': fields[1].text.strip(),
             'points': get_points(fields[2]),
             'comment': get_comment(fields[2]),
-            'date': fields[1].text.strip(),
             'year': year
         }
+        if '.' in fields[2].text.strip():
+            data['second_date'] = fields[2].text.strip()
+        else:
+            data['second_date'] = fields[3].text.strip()
         results.append(data)
     return results
 

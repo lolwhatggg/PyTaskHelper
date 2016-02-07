@@ -1,6 +1,7 @@
 from abc import ABCMeta, abstractmethod
 from pprint import pformat
 from statistics import mean
+import datetime
 
 KNOWN_NAME_ALIASES = {'FAT32': 'Разбор FAT32',
                       'ext4': 'Разбор ext4'}
@@ -111,6 +112,18 @@ class EntryFullInfo(EntryWithPercentage):
         super().__init__(data)
         self.students = []
 
+    @staticmethod
+    def create_dt(student_data, field):
+        return datetime.datetime.strptime(student_data[field],
+                                          '%d.%m.%Y')
+
+    def get_days(self, student_data):
+        if student_data['points'] == 0:
+            return 0
+        first_dt = self.create_dt(student_data, 'first_date')
+        second_dt = self.create_dt(student_data, 'second_date')
+        return (second_dt-first_dt).days
+
     def update(self, data):
         super().update(data)
         new_students = data['students']
@@ -118,6 +131,7 @@ class EntryFullInfo(EntryWithPercentage):
             if not student['points']:
                 return
             student['max'] = data['max']
+            student['days'] = self.get_days(student)
             student['percent'] = int(student['points'] / data['max'] * 100)
         self.students += new_students
 
