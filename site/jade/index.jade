@@ -7,7 +7,9 @@ block content
     .task.panel.panel-default.searchable
       a(href="tasks/#{task.filename}"): h2.name #{task.name}
       ul
-        li Категория: #{task.category}
+        li
+          | Категория
+          span.searchable #{task.category}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average_points}
         li Средний процент: #{task.average_percent}

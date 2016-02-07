@@ -30,7 +30,6 @@ gulp.task 'jade', ->
   tasks = require full_db_dir
   task_names = Object.keys tasks
   for name in task_names
-
     gulp.src 'jade/task.jade'
       .pipe jade
         locals:
