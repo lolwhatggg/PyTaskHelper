@@ -6,57 +6,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "10.05.2013",
+                "first_date": "10.05.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Камалова Алма",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "04.06.2013",
+                "first_date": "04.06.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Буньков Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.06.2013",
+                "first_date": "05.06.2013",
                 "points": 10,
+                "second_date": "27.06.2013",
                 "student": "Стешенко Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "23.06.2013",
+                "first_date": "23.06.2013",
                 "points": 11,
+                "second_date": "25.04.2014",
                 "student": "Васильева Вероника",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "31.08.2013",
+                "first_date": "31.08.2013",
                 "points": 14,
+                "second_date": "27.01.2014",
                 "student": "Гусева Зинаида",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.09.2013",
+                "first_date": "28.09.2013",
                 "points": 14,
+                "second_date": "22.12.2013",
                 "student": "Злобин Сергей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.01.2014",
+                "first_date": "18.01.2014",
                 "points": 10,
+                "second_date": "20.01.2014",
                 "student": "Усков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.05.2014",
+                "first_date": "25.05.2014",
                 "points": 8,
+                "second_date": "26.05.2014",
                 "student": "Копнин Андрей",
                 "year": "2012-2013"
             }
@@ -70,57 +78,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "21.10.2013",
+                "first_date": "21.10.2013",
                 "points": 10,
+                "second_date": "29.01.2014",
                 "student": "Гусева Зинаида",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.11.2013",
+                "first_date": "12.11.2013",
                 "points": 12,
+                "second_date": "06.12.2013",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.11.2013",
+                "first_date": "12.11.2013",
                 "points": 15,
+                "second_date": "12.12.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.11.2013",
+                "first_date": "13.11.2013",
                 "points": 8,
+                "second_date": "16.12.2013",
                 "student": "Трифонова Анастисия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.11.2013",
+                "first_date": "18.11.2013",
                 "points": 8,
+                "second_date": "11.12.2013",
                 "student": "Бабкина Евгения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "17.12.2013",
+                "first_date": "17.12.2013",
                 "points": 5,
+                "second_date": "02.04.2014",
                 "student": "Муфлихонова Алина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "30.03.2014",
+                "first_date": "30.03.2014",
                 "points": 13,
+                "second_date": "25.04.2014",
                 "student": "Камалова Алма",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "31.03.2014",
+                "first_date": "31.03.2014",
                 "points": 13,
+                "second_date": "25.04.2014",
                 "student": "Каргапольцева Екатерина",
                 "year": "2012-2013"
             }
@@ -141,57 +157,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 11,
+                "second_date": "28.04.2013",
                 "student": "Былинина Юлия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.03.2013",
+                "first_date": "13.03.2013",
                 "points": 11,
+                "second_date": "25.05.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.03.2013",
+                "first_date": "13.03.2013",
                 "points": 11,
+                "second_date": "13.05.2013",
                 "student": "чухарев александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.03.2013",
+                "first_date": "13.03.2013",
                 "points": 11,
+                "second_date": "13.05.2013",
                 "student": "Карпова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.03.2013",
+                "first_date": "15.03.2013",
                 "points": 11,
+                "second_date": "20.04.2013",
                 "student": "Телятникова Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.03.2013",
+                "first_date": "15.03.2013",
                 "points": 11,
+                "second_date": "16.04.2013",
                 "student": "Левенских Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "29.04.2013",
+                "first_date": "29.04.2013",
                 "points": 11,
+                "second_date": "17.05.2013",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "07.05.2013",
+                "first_date": "07.05.2013",
                 "points": 11,
+                "second_date": "28.05.2013",
                 "student": "Аксёнова Наталья",
                 "year": "2012-2013"
             }
@@ -205,43 +229,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "23.05.2013",
+                "first_date": "23.05.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Копнин Андрей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 12,
+                "second_date": "12.12.2013",
                 "student": "Бабкина Евгения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 12,
+                "second_date": "06.11.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 1,
+                "second_date": "26.09.2013",
                 "student": "Карпова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 15,
+                "second_date": "03.12.2013",
                 "student": "Надежда Иванова",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "01.12.2013",
+                "first_date": "01.12.2013",
                 "points": 5,
+                "second_date": "26.12.2013",
                 "student": "Истомин Антон",
                 "year": "2012-2013"
             }
@@ -255,15 +285,17 @@
         "students": [
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 12,
+                "second_date": "25.05.2013",
                 "student": "Промах Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "20.12.2013",
+                "first_date": "20.12.2013",
                 "points": 12,
+                "second_date": "25.01.2014",
                 "student": "Прокофьев Михаил",
                 "year": "2012-2013"
             }
@@ -298,43 +330,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "28.09.2013",
+                "first_date": "28.09.2013",
                 "points": 6,
+                "second_date": "16.10.2013",
                 "student": "Вахитов Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "31.10.2013",
+                "first_date": "31.10.2013",
                 "points": 12,
+                "second_date": "05.12.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.12.2013",
+                "first_date": "05.12.2013",
                 "points": 12,
+                "second_date": "26.01.2014",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.01.2014",
+                "first_date": "28.01.2014",
                 "points": 5,
+                "second_date": "28.01.2014",
                 "student": "Нагайцев Дмитрий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.03.2014",
+                "first_date": "05.03.2014",
                 "points": 7,
+                "second_date": "13.03.2014",
                 "student": "Кондрашин Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "07.04.2014",
+                "first_date": "07.04.2014",
                 "points": 5,
+                "second_date": "07.04.2014",
                 "student": "Каргапольцева Екатерина",
                 "year": "2012-2013"
             }
@@ -348,8 +386,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "19.12.2013",
+                "first_date": "19.12.2013",
                 "points": 7,
+                "second_date": "17.01.2014",
                 "student": "Усков Михаил",
                 "year": "2012-2013"
             }
@@ -377,57 +416,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "10.05.2013",
+                "first_date": "10.05.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Злобин Сергей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 14,
+                "second_date": "21.10.2013",
                 "student": "Бабкина Евгения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 14,
+                "second_date": "03.12.2013",
                 "student": "Надежда Иванова",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 13,
+                "second_date": "26.09.2013",
                 "student": "чухарев александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 14,
+                "second_date": "14.10.2013",
                 "student": "Руднев Владимир",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 14,
+                "second_date": "14.10.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "03.12.2013",
+                "first_date": "03.12.2013",
                 "points": 10,
+                "second_date": "26.12.2013",
                 "student": "Былинина Юлия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.01.2014",
+                "first_date": "12.01.2014",
                 "points": 14,
+                "second_date": "28.01.2014",
                 "student": "Нагайцев Дмитрий",
                 "year": "2012-2013"
             }
@@ -441,8 +488,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "10.05.2013",
+                "first_date": "10.05.2013",
                 "points": 20,
+                "second_date": "12.12.2013",
                 "student": "Вяцков Михаил",
                 "year": "2012-2013"
             }
@@ -456,57 +504,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "19.02.2013",
+                "first_date": "19.02.2013",
                 "points": 9,
+                "second_date": "05.06.2013",
                 "student": "Зайков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "21.02.2013",
+                "first_date": "21.02.2013",
                 "points": 9,
+                "second_date": "02.04.2013",
                 "student": "Телятникова Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 9,
+                "second_date": "13.05.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 9,
+                "second_date": "18.05.2013",
                 "student": "Ефанов Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 9,
+                "second_date": "01.05.2013",
                 "student": "Руднев Владимир",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 9,
+                "second_date": "18.05.2013",
                 "student": "Надежда Иванова",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.10.2013",
+                "first_date": "13.10.2013",
                 "points": 9,
+                "second_date": "26.01.2014",
                 "student": "Былинина Юлия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.12.2013",
+                "first_date": "28.12.2013",
                 "points": 9,
+                "second_date": "18.01.2014",
                 "student": "Левенских Александр",
                 "year": "2012-2013"
             }
@@ -520,57 +576,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "19.03.2013",
+                "first_date": "19.03.2013",
                 "points": 12,
+                "second_date": "26.04.2013",
                 "student": "Пилюгина Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "10.04.2013",
+                "first_date": "10.04.2013",
                 "points": 12,
+                "second_date": "13.05.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.05.2013",
+                "first_date": "09.05.2013",
                 "points": 10,
+                "second_date": "05.06.2013",
                 "student": "Петрова Ксения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.05.2013",
+                "first_date": "13.05.2013",
                 "points": 12,
+                "second_date": "10.06.2013",
                 "student": "Истомин Антон",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "31.05.2013",
+                "first_date": "31.05.2013",
                 "points": 2,
+                "second_date": "01.06.2013",
                 "student": "Виноградова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "08.06.2013",
+                "first_date": "08.06.2013",
                 "points": 10,
+                "second_date": "08.06.2013",
                 "student": "Гусева Зинаида",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "03.07.2013",
+                "first_date": "03.07.2013",
                 "points": 10,
+                "second_date": "12.11.2013",
                 "student": "Деньгина Елена",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "19.12.2013",
+                "first_date": "19.12.2013",
                 "points": 10,
+                "second_date": "20.01.2014",
                 "student": "Максим Кузнецов",
                 "year": "2012-2013"
             }
@@ -584,57 +648,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "19.03.2013",
+                "first_date": "19.03.2013",
                 "points": 6,
+                "second_date": "25.05.2013",
                 "student": "Бабкина Евгения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "21.03.2013",
+                "first_date": "21.03.2013",
                 "points": 8,
+                "second_date": "29.04.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.04.2013",
+                "first_date": "18.04.2013",
                 "points": 8,
+                "second_date": "18.05.2013",
                 "student": "Былинина Юлия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "02.05.2013",
+                "first_date": "02.05.2013",
                 "points": 6,
+                "second_date": "01.06.2013",
                 "student": "Перевощиков Павел",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "02.05.2013",
+                "first_date": "02.05.2013",
                 "points": 8,
+                "second_date": "06.10.2013",
                 "student": "Деньгина Елена",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "02.05.2013",
+                "first_date": "02.05.2013",
                 "points": 7,
+                "second_date": "14.10.2013",
                 "student": "Руднев Владимир",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.05.2013",
+                "first_date": "25.05.2013",
                 "points": 8,
+                "second_date": "09.02.2014",
                 "student": "Муфлихонова Алина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.10.2013",
+                "first_date": "13.10.2013",
                 "points": 7,
+                "second_date": "28.10.2013",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             }
@@ -648,50 +720,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "29.04.2013",
+                "first_date": "29.04.2013",
                 "points": 15,
+                "second_date": "08.05.2013",
                 "student": "Максим Кузнецов",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "20.05.2013",
+                "first_date": "20.05.2013",
                 "points": 10,
+                "second_date": "05.06.2013",
                 "student": "Сбоев Андрей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.05.2013",
+                "first_date": "25.05.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Трифонова Анастисия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.08.2013",
+                "first_date": "25.08.2013",
                 "points": 15,
+                "second_date": "14.11.2013",
                 "student": "Телятникова Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "01.10.2013",
+                "first_date": "01.10.2013",
                 "points": 15,
+                "second_date": "21.10.2013",
                 "student": "Надежда Иванова",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "14.10.2013",
+                "first_date": "14.10.2013",
                 "points": 10,
+                "second_date": "30.10.2013",
                 "student": "Пастухова Даша",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.11.2013",
+                "first_date": "12.11.2013",
                 "points": 15,
+                "second_date": "18.01.2014",
                 "student": "Вахитов Александр",
                 "year": "2012-2013"
             }
@@ -705,15 +784,17 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.01.2014",
+                "first_date": "25.01.2014",
                 "points": 7,
+                "second_date": "26.01.2014",
                 "student": "Ефанов Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "26.01.2014",
+                "first_date": "26.01.2014",
                 "points": 12,
+                "second_date": "26.01.2014",
                 "student": "Старцев Константин",
                 "year": "2012-2013"
             }
@@ -727,8 +808,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "12.09.2013",
+                "first_date": "12.09.2013",
                 "points": 10,
+                "second_date": "28.01.2014",
                 "student": "Нагайцев Дмитрий",
                 "year": "2012-2013"
             }
@@ -742,50 +824,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "29.03.2013",
+                "first_date": "29.03.2013",
                 "points": 12,
+                "second_date": "18.05.2013",
                 "student": "Зайнуллина Алсу",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.09.2013",
+                "first_date": "05.09.2013",
                 "points": 17,
+                "second_date": "25.04.2014",
                 "student": "Камалова Алма",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "07.09.2013",
+                "first_date": "07.09.2013",
                 "points": 17,
+                "second_date": "25.04.2014",
                 "student": "Васильева Вероника",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 12,
+                "second_date": "30.09.2013",
                 "student": "Карпова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "06.11.2013",
+                "first_date": "06.11.2013",
                 "points": 17,
+                "second_date": "04.12.2013",
                 "student": "Пилюгина Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.12.2013",
+                "first_date": "05.12.2013",
                 "points": 10,
+                "second_date": "19.12.2013",
                 "student": "Мазаева Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "04.03.2014",
+                "first_date": "04.03.2014",
                 "points": 17,
+                "second_date": "25.04.2014",
                 "student": "Петрова Наталья",
                 "year": "2012-2013"
             }
@@ -799,36 +888,41 @@
         "students": [
             {
                 "comment": "",
-                "date": "21.05.2013",
+                "first_date": "21.05.2013",
                 "points": 1,
+                "second_date": "05.06.2013",
                 "student": "Зайков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.05.2013",
+                "first_date": "25.05.2013",
                 "points": 10,
+                "second_date": "26.01.2014",
                 "student": "Перевощиков Павел",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 12,
+                "second_date": "28.10.2013",
                 "student": "Старцев Константин",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "17.10.2013",
+                "first_date": "17.10.2013",
                 "points": 10,
+                "second_date": "27.01.2014",
                 "student": "Каргапольцева Екатерина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "22.01.2014",
+                "first_date": "22.01.2014",
                 "points": 6,
+                "second_date": "27.01.2014",
                 "student": "Трифонова Анастисия",
                 "year": "2012-2013"
             }
@@ -842,43 +936,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "28.04.2013",
+                "first_date": "28.04.2013",
                 "points": 14,
+                "second_date": "25.05.2013",
                 "student": "Промах Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "19.09.2013",
+                "first_date": "19.09.2013",
                 "points": 14,
+                "second_date": "14.10.2013",
                 "student": "Чаплыгин Антон",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.10.2013",
+                "first_date": "15.10.2013",
                 "points": 21,
+                "second_date": "12.12.2013",
                 "student": "Жиров Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "24.11.2013",
+                "first_date": "24.11.2013",
                 "points": 21,
+                "second_date": "09.01.2014",
                 "student": "Кузнецов Василий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "02.01.2014",
+                "first_date": "02.01.2014",
                 "points": 18,
+                "second_date": "28.01.2014",
                 "student": "Елькин Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "27.02.2014",
+                "first_date": "27.02.2014",
                 "points": 18,
+                "second_date": "13.03.2014",
                 "student": "Кондрашин Никита",
                 "year": "2012-2013"
             }
@@ -892,43 +992,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "28.04.2013",
+                "first_date": "28.04.2013",
                 "points": 10,
+                "second_date": "21.05.2013",
                 "student": "Вахитов Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "01.05.2013",
+                "first_date": "01.05.2013",
                 "points": 10,
+                "second_date": "05.06.2013",
                 "student": "Телятникова Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "02.05.2013",
+                "first_date": "02.05.2013",
                 "points": 10,
+                "second_date": "25.05.2013",
                 "student": "Кунгурцев Алексей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "06.09.2013",
+                "first_date": "06.09.2013",
                 "points": 10,
+                "second_date": "25.09.2013",
                 "student": "Пастухова Даша",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "14.10.2013",
+                "first_date": "14.10.2013",
                 "points": 10,
+                "second_date": "31.10.2013",
                 "student": "Мазаева Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "20.03.2014",
+                "first_date": "20.03.2014",
                 "points": 10,
+                "second_date": "04.04.2014",
                 "student": "Карпенко Алеся",
                 "year": "2012-2013"
             }
@@ -942,15 +1048,17 @@
         "students": [
             {
                 "comment": "",
-                "date": "04.01.2014",
+                "first_date": "04.01.2014",
                 "points": 10,
+                "second_date": "21.01.2014",
                 "student": "Вахитов Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "22.01.2014",
+                "first_date": "22.01.2014",
                 "points": 15,
+                "second_date": "13.02.2014",
                 "student": "Аксёнова Наталья",
                 "year": "2012-2013"
             }
@@ -964,57 +1072,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "19.02.2013",
+                "first_date": "19.02.2013",
                 "points": 15,
+                "second_date": "02.04.2013",
                 "student": "Телятникова Мария",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 15,
+                "second_date": "18.05.2013",
                 "student": "Ефанов Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "21.03.2013",
+                "first_date": "21.03.2013",
                 "points": 15,
+                "second_date": "21.10.2013",
                 "student": "Надежда Иванова",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "11.04.2013",
+                "first_date": "11.04.2013",
                 "points": 15,
+                "second_date": "02.04.2014",
                 "student": "Муфлихонова Алина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "06.05.2013",
+                "first_date": "06.05.2013",
                 "points": 1,
+                "second_date": "31.05.2013",
                 "student": "Карпенко Алеся",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.07.2013",
+                "first_date": "18.07.2013",
                 "points": 15,
+                "second_date": "17.08.2013",
                 "student": "Семенова Елена",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.08.2013",
+                "first_date": "28.08.2013",
                 "points": 15,
+                "second_date": "18.09.2013",
                 "student": "Левенских Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.10.2013",
+                "first_date": "05.10.2013",
                 "points": 9,
+                "second_date": "26.01.2014",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             }
@@ -1028,50 +1144,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "15.04.2013",
+                "first_date": "15.04.2013",
                 "points": 14,
+                "second_date": "27.01.2014",
                 "student": "Прокофьев Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "19.04.2013",
+                "first_date": "19.04.2013",
                 "points": 15,
+                "second_date": "08.05.2013",
                 "student": "Кузнецов Василий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "23.04.2013",
+                "first_date": "23.04.2013",
                 "points": 11,
+                "second_date": "26.05.2013",
                 "student": "Нагайцев Дмитрий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.05.2013",
+                "first_date": "12.05.2013",
                 "points": 15,
+                "second_date": "31.05.2013",
                 "student": "Сакрюкин Леонид",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "27.09.2013",
+                "first_date": "27.09.2013",
                 "points": 5,
+                "second_date": "21.10.2013",
                 "student": "чухарев александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "23.10.2013",
+                "first_date": "23.10.2013",
                 "points": 15,
+                "second_date": "04.12.2013",
                 "student": "Усков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "21.11.2013",
+                "first_date": "21.11.2013",
                 "points": 15,
+                "second_date": "09.01.2014",
                 "student": "Максим Кузнецов",
                 "year": "2012-2013"
             }
@@ -1085,43 +1208,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "22.08.2013",
+                "first_date": "22.08.2013",
                 "points": 16,
+                "second_date": "14.10.2013",
                 "student": "Жиров Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "29.08.2013",
+                "first_date": "29.08.2013",
                 "points": 12,
+                "second_date": "26.12.2013",
                 "student": "Ефанов Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "31.08.2013",
+                "first_date": "31.08.2013",
                 "points": 10,
+                "second_date": "26.12.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.10.2013",
+                "first_date": "15.10.2013",
                 "points": 16,
+                "second_date": "31.12.2013",
                 "student": "Трифонова Анастисия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "26.11.2013",
+                "first_date": "26.11.2013",
                 "points": 13,
+                "second_date": "26.12.2013",
                 "student": "Карпова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "30.12.2013",
+                "first_date": "30.12.2013",
                 "points": 16,
+                "second_date": "18.01.2014",
                 "student": "Пилюгина Мария",
                 "year": "2012-2013"
             }
@@ -1135,57 +1264,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "18.05.2013",
+                "first_date": "18.05.2013",
                 "points": 10,
+                "second_date": "06.06.2013",
                 "student": "Елькин Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "19.05.2013",
+                "first_date": "19.05.2013",
                 "points": 3,
+                "second_date": "01.06.2013",
                 "student": "Былинина Юлия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "11.10.2013",
+                "first_date": "11.10.2013",
                 "points": 4,
+                "second_date": "21.10.2013",
                 "student": "Карпова Ольга",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "14.10.2013",
+                "first_date": "14.10.2013",
                 "points": 10,
+                "second_date": "03.12.2013",
                 "student": "Зайнуллина Алсу",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "14.10.2013",
+                "first_date": "14.10.2013",
                 "points": 1,
+                "second_date": "06.11.2013",
                 "student": "Семенова Елена",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "14.10.2013",
+                "first_date": "14.10.2013",
                 "points": 12,
+                "second_date": "26.01.2014",
                 "student": "Смеловская Татьяна",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "24.10.2013",
+                "first_date": "24.10.2013",
                 "points": 10,
+                "second_date": "26.01.2014",
                 "student": "Перевощиков Павел",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "26.03.2014",
+                "first_date": "26.03.2014",
                 "points": 12,
+                "second_date": "25.04.2014",
                 "student": "Васильева Вероника",
                 "year": "2012-2013"
             }
@@ -1199,43 +1336,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "06.05.2013",
+                "first_date": "06.05.2013",
                 "points": 12,
+                "second_date": "23.05.2013",
                 "student": "Усков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "23.10.2013",
+                "first_date": "23.10.2013",
                 "points": 3,
+                "second_date": "11.11.2013",
                 "student": "Руднев Владимир",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "06.11.2013",
+                "first_date": "06.11.2013",
                 "points": 5,
+                "second_date": "04.12.2013",
                 "student": "Аксёнова Наталья",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "11.11.2013",
+                "first_date": "11.11.2013",
                 "points": 12,
+                "second_date": "12.12.2013",
                 "student": "Чаплыгин Антон",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "22.01.2014",
+                "first_date": "22.01.2014",
                 "points": 12,
+                "second_date": "02.04.2014",
                 "student": "Муфлихонова Алина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.04.2014",
+                "first_date": "18.04.2014",
                 "points": 11,
+                "second_date": "16.05.2014",
                 "student": "Петрова Наталья",
                 "year": "2012-2013"
             }
@@ -1249,22 +1392,25 @@
         "students": [
             {
                 "comment": "",
-                "date": "24.09.2013",
+                "first_date": "24.09.2013",
                 "points": 1,
+                "second_date": "23.10.2013",
                 "student": "Задворных Роман",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "05.12.2013",
+                "first_date": "05.12.2013",
                 "points": 12,
+                "second_date": "27.01.2014",
                 "student": "Дворецкий Виктор",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "04.01.2014",
+                "first_date": "04.01.2014",
                 "points": 6,
+                "second_date": "27.01.2014",
                 "student": "Каргапольцева Екатерина",
                 "year": "2012-2013"
             }
@@ -1278,43 +1424,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "13.05.2013",
+                "first_date": "13.05.2013",
                 "points": 6,
+                "second_date": "03.12.2013",
                 "student": "Бабкина Евгения",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "24.11.2013",
+                "first_date": "24.11.2013",
                 "points": 7,
+                "second_date": "22.12.2013",
                 "student": "Злобин Сергей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "19.12.2013",
+                "first_date": "19.12.2013",
                 "points": 4,
+                "second_date": "26.12.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.01.2014",
+                "first_date": "15.01.2014",
                 "points": 7,
+                "second_date": "19.01.2014",
                 "student": "Кузнецов Василий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "24.01.2014",
+                "first_date": "24.01.2014",
                 "points": 7,
+                "second_date": "28.01.2014",
                 "student": "Гусева Зинаида",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.01.2014",
+                "first_date": "25.01.2014",
                 "points": 7,
+                "second_date": "12.02.2014",
                 "student": "Лебедев Никита",
                 "year": "2012-2013"
             }
@@ -1328,29 +1480,33 @@
         "students": [
             {
                 "comment": "",
-                "date": "08.11.2013",
+                "first_date": "08.11.2013",
                 "points": 14,
+                "second_date": "16.12.2013",
                 "student": "Прокофьев Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "11.11.2013",
+                "first_date": "11.11.2013",
                 "points": 14,
+                "second_date": "26.01.2014",
                 "student": "Промах Александр",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "26.01.2014",
+                "first_date": "26.01.2014",
                 "points": 14,
+                "second_date": "27.01.2014",
                 "student": "Вяцков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "26.01.2014",
+                "first_date": "26.01.2014",
                 "points": 14,
+                "second_date": "28.01.2014",
                 "student": "Копнин Андрей",
                 "year": "2012-2013"
             }
@@ -1364,8 +1520,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "09.09.2013",
+                "first_date": "09.09.2013",
                 "points": 25,
+                "second_date": "28.10.2013",
                 "student": "Жиров Евгений",
                 "year": "2012-2013"
             }
@@ -1379,43 +1536,49 @@
         "students": [
             {
                 "comment": "29.05.2013 Оценка: 10 Денис Дублённых:\nНету тестов",
-                "date": "21.05.2013",
+                "first_date": "21.05.2013",
                 "points": 10,
+                "second_date": "29.05.2013",
                 "student": "Антропов Дмитрий",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.05.2013",
+                "first_date": "28.05.2013",
                 "points": 10,
+                "second_date": "05.06.2013",
                 "student": "Бердышев Станислав",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "30.05.2013",
+                "first_date": "30.05.2013",
                 "points": 12,
+                "second_date": "16.05.2014",
                 "student": "Петрова Наталья",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "08.11.2013",
+                "first_date": "08.11.2013",
                 "points": 15,
+                "second_date": "01.03.2014",
                 "student": "Кондрашин Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "08.12.2013",
+                "first_date": "08.12.2013",
                 "points": 13,
+                "second_date": "28.01.2014",
                 "student": "Елькин Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "28.12.2013",
+                "first_date": "28.12.2013",
                 "points": 14,
+                "second_date": "29.01.2014",
                 "student": "Дворецкий Виктор",
                 "year": "2012-2013"
             }
@@ -1429,50 +1592,57 @@
         "students": [
             {
                 "comment": "27.03.2013 Оценка: 10 Максим Паначёв:\nНеобходим ReadMe с описанием возможностей и тестов.",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 15,
+                "second_date": "08.05.2013",
                 "student": "Вяцков Михаил",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "29.04.2013",
+                "first_date": "29.04.2013",
                 "points": 15,
+                "second_date": "29.05.2013",
                 "student": "Старцев Константин",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "11.11.2013",
+                "first_date": "11.11.2013",
                 "points": 15,
+                "second_date": "26.12.2013",
                 "student": "Истомин Антон",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "01.01.2014",
+                "first_date": "01.01.2014",
                 "points": 15,
+                "second_date": "27.01.2014",
                 "student": "Злобин Сергей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "07.01.2014",
+                "first_date": "07.01.2014",
                 "points": 15,
+                "second_date": "19.01.2014",
                 "student": "Аксёнова Наталья",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "15.01.2014",
+                "first_date": "15.01.2014",
                 "points": 15,
+                "second_date": "18.01.2014",
                 "student": "Сбоев Андрей",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "13.05.2014",
+                "first_date": "13.05.2014",
                 "points": 8,
+                "second_date": "26.05.2014",
                 "student": "Копнин Андрей",
                 "year": "2012-2013"
             }
@@ -1486,29 +1656,33 @@
         "students": [
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 14,
+                "second_date": "09.05.2013",
                 "student": "Жиров Евгений",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 14,
+                "second_date": "26.09.2013",
                 "student": "Чаплыгин Антон",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "17.05.2013",
+                "first_date": "17.05.2013",
                 "points": 11,
+                "second_date": "12.12.2013",
                 "student": "Бадьина Анастасия",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "18.12.2013",
+                "first_date": "18.12.2013",
                 "points": 7,
+                "second_date": "16.01.2014",
                 "student": "Задворных Роман",
                 "year": "2012-2013"
             }
@@ -1529,29 +1703,33 @@
         "students": [
             {
                 "comment": "",
-                "date": "12.03.2013",
+                "first_date": "12.03.2013",
                 "points": 14,
+                "second_date": "09.05.2013",
                 "student": "Дворецкий Виктор",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "25.09.2013",
+                "first_date": "25.09.2013",
                 "points": 6,
+                "second_date": "14.10.2013",
                 "student": "Каргапольцева Екатерина",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "22.11.2013",
+                "first_date": "22.11.2013",
                 "points": 6,
+                "second_date": "12.12.2013",
                 "student": "Лебедев Никита",
                 "year": "2012-2013"
             },
             {
                 "comment": "",
-                "date": "24.02.2014",
+                "first_date": "24.02.2014",
                 "points": 14,
+                "second_date": "19.03.2014",
                 "student": "Шиварев Евгений",
                 "year": "2012-2013"
             }

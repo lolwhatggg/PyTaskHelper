@@ -6,64 +6,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 12,
+                "second_date": "22.05.2011",
                 "student": "Кутдусов Руслан",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 12,
+                "second_date": "24.05.2011",
                 "student": "Патрушев Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "11.05.2011",
+                "first_date": "11.05.2011",
                 "points": 14,
+                "second_date": "19.10.2011",
                 "student": "Кириллов Ростислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "11.05.2011",
+                "first_date": "11.05.2011",
                 "points": 14,
+                "second_date": "24.10.2011",
                 "student": "Петрова Валентина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.05.2011",
+                "first_date": "12.05.2011",
                 "points": 14,
+                "second_date": "24.05.2011",
                 "student": "Бедин Илья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.05.2011",
+                "first_date": "16.05.2011",
                 "points": 7,
+                "second_date": "09.09.2011",
                 "student": "Жаров Леонид",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.05.2011",
+                "first_date": "18.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Назаров Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "17.10.2011",
+                "first_date": "17.10.2011",
                 "points": 14,
+                "second_date": "22.01.2012",
                 "student": "Лызлов Ярослав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.11.2011",
+                "first_date": "14.11.2011",
                 "points": 14,
+                "second_date": "16.11.2011",
                 "student": "Лавруков Александр",
                 "year": "2010-2011"
             }
@@ -84,64 +93,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "17.09.2011",
+                "first_date": "17.09.2011",
                 "points": 10,
+                "second_date": "04.10.2011",
                 "student": "Павлов Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "13.11.2011",
+                "first_date": "13.11.2011",
                 "points": 20,
+                "second_date": "25.12.2011",
                 "student": "Надымова Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.11.2011",
+                "first_date": "16.11.2011",
                 "points": 20,
+                "second_date": "25.12.2011",
                 "student": "Смирнов Алексей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "07.12.2011",
+                "first_date": "07.12.2011",
                 "points": 20,
+                "second_date": "05.01.2012",
                 "student": "Анненкова Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.12.2011",
+                "first_date": "09.12.2011",
                 "points": 18,
+                "second_date": "29.01.2012",
                 "student": "Назаров Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 20,
+                "second_date": "24.01.2012",
                 "student": "Кириллов Ростислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.01.2012",
+                "first_date": "12.01.2012",
                 "points": 10,
+                "second_date": "14.01.2012",
                 "student": "Добров Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.01.2012",
+                "first_date": "18.01.2012",
                 "points": 13,
+                "second_date": "23.01.2012",
                 "student": "Петрова Валентина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.01.2012",
+                "first_date": "20.01.2012",
                 "points": 20,
+                "second_date": "21.01.2012",
                 "student": "Лызлов Ярослав",
                 "year": "2010-2011"
             }
@@ -155,71 +173,81 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 11,
+                "second_date": "18.05.2011",
                 "student": "Черных Анна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 11,
+                "second_date": "20.05.2011",
                 "student": "Собянин Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 11,
+                "second_date": "23.01.2012",
                 "student": "Пестова Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 11,
+                "second_date": "19.05.2011",
                 "student": "Свалова Дарья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "22.01.2012",
                 "student": "Дубин Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 11,
+                "second_date": "06.10.2011",
                 "student": "Демин Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.05.2011",
+                "first_date": "18.05.2011",
                 "points": 6,
+                "second_date": "09.09.2011",
                 "student": "Свалова Анна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.10.2011",
+                "first_date": "12.10.2011",
                 "points": 11,
+                "second_date": "02.12.2011",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.10.2011",
+                "first_date": "12.10.2011",
                 "points": 11,
+                "second_date": "02.12.2011",
                 "student": "Безуглая Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.11.2011",
+                "first_date": "02.11.2011",
                 "points": 11,
+                "second_date": "20.01.2012",
                 "student": "Петрова Валентина",
                 "year": "2010-2011"
             }
@@ -233,64 +261,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 18,
+                "second_date": "02.12.2011",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Косовских Владислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "22.05.2011",
+                "first_date": "22.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Меленцов Иван",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "22.05.2011",
+                "first_date": "22.05.2011",
                 "points": 6,
+                "second_date": "09.09.2011",
                 "student": "Блиничева Анна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.10.2011",
+                "first_date": "02.10.2011",
                 "points": 10,
+                "second_date": "02.11.2011",
                 "student": "Лутков Владислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.10.2011",
+                "first_date": "18.10.2011",
                 "points": 18,
+                "second_date": "06.12.2011",
                 "student": "Свалова Дарья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.11.2011",
+                "first_date": "26.11.2011",
                 "points": 15,
+                "second_date": "21.01.2012",
                 "student": "Аверин Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.12.2011",
+                "first_date": "16.12.2011",
                 "points": 18,
+                "second_date": "21.01.2012",
                 "student": "Агеев Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "28.01.2012",
+                "first_date": "28.01.2012",
                 "points": 10,
+                "second_date": "01.02.2012",
                 "student": "Бобылев Алексей",
                 "year": "2010-2011"
             }
@@ -304,43 +341,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 6,
+                "second_date": "09.09.2011",
                 "student": "Белов Денис",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 12,
+                "second_date": "16.09.2011",
                 "student": "Кузнецов Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "11.05.2011",
+                "first_date": "11.05.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Щетинкина Анастасия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "13.05.2011",
+                "first_date": "13.05.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Гуков Константин",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.11.2011",
+                "first_date": "06.11.2011",
                 "points": 12,
+                "second_date": "25.12.2011",
                 "student": "Найданов Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "11.02.2012",
+                "first_date": "11.02.2012",
                 "points": 6,
+                "second_date": "05.03.2012",
                 "student": "Свалова Анна",
                 "year": "2010-2011"
             }
@@ -354,8 +397,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "22.01.2012",
+                "first_date": "22.01.2012",
                 "points": 5,
+                "second_date": "23.01.2012",
                 "student": "Стебнев Даниил",
                 "year": "2010-2011"
             }
@@ -369,8 +413,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "22.01.2012",
+                "first_date": "22.01.2012",
                 "points": 8,
+                "second_date": "23.01.2012",
                 "student": "Дубин Павел",
                 "year": "2010-2011"
             }
@@ -391,50 +436,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "28.04.2011",
+                "first_date": "28.04.2011",
                 "points": 10,
+                "second_date": "23.05.2011",
                 "student": "Анненкова Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "08.05.2011",
+                "first_date": "08.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Надымова Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 10,
+                "second_date": "20.01.2012",
                 "student": "Карпенко Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 12,
+                "second_date": "17.01.2012",
                 "student": "Пестерев Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.01.2012",
+                "first_date": "10.01.2012",
                 "points": 10,
+                "second_date": "11.01.2012",
                 "student": "Шалакин Родион",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.01.2012",
+                "first_date": "18.01.2012",
                 "points": 12,
+                "second_date": "24.01.2012",
                 "student": "Кириллов Ростислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "23.01.2012",
+                "first_date": "23.01.2012",
                 "points": 10,
+                "second_date": "23.01.2012",
                 "student": "Петрова Валентина",
                 "year": "2010-2011"
             }
@@ -448,22 +500,25 @@
         "students": [
             {
                 "comment": "",
-                "date": "02.11.2011",
+                "first_date": "02.11.2011",
                 "points": 14,
+                "second_date": "24.11.2011",
                 "student": "Собянин Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 14,
+                "second_date": "31.01.2012",
                 "student": "Зозулина Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.01.2012",
+                "first_date": "26.01.2012",
                 "points": 7,
+                "second_date": "31.01.2012",
                 "student": "Патрушев Сергей",
                 "year": "2010-2011"
             }
@@ -484,8 +539,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "03.01.2012",
+                "first_date": "03.01.2012",
                 "points": 14,
+                "second_date": "29.01.2012",
                 "student": "Сазонов Максим",
                 "year": "2010-2011"
             }
@@ -499,64 +555,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "02.11.2011",
+                "first_date": "02.11.2011",
                 "points": 14,
+                "second_date": "12.12.2011",
                 "student": "Лутков Владислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "22.11.2011",
+                "first_date": "22.11.2011",
                 "points": 14,
+                "second_date": "13.01.2012",
                 "student": "Лавруков Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.11.2011",
+                "first_date": "24.11.2011",
                 "points": 14,
+                "second_date": "24.11.2011",
                 "student": "Плюснин Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "05.12.2011",
+                "first_date": "05.12.2011",
                 "points": 14,
+                "second_date": "05.01.2012",
                 "student": "Свалова Дарья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "05.12.2011",
+                "first_date": "05.12.2011",
                 "points": 10,
+                "second_date": "19.01.2012",
                 "student": "Безуглая Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 14,
+                "second_date": "19.01.2012",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 9,
+                "second_date": "18.01.2012",
                 "student": "Лапенок Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.01.2012",
+                "first_date": "09.01.2012",
                 "points": 8,
+                "second_date": "23.01.2012",
                 "student": "Патрушев Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.01.2012",
+                "first_date": "19.01.2012",
                 "points": 12,
+                "second_date": "19.01.2012",
                 "student": "Щетинкина Анастасия",
                 "year": "2010-2011"
             }
@@ -570,57 +635,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "11.11.2011",
+                "first_date": "11.11.2011",
                 "points": 20,
+                "second_date": "23.01.2012",
                 "student": "Зайнуллин Булат",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "07.01.2012",
+                "first_date": "07.01.2012",
                 "points": 20,
+                "second_date": "20.01.2012",
                 "student": "Белов Денис",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "13.01.2012",
+                "first_date": "13.01.2012",
                 "points": 20,
+                "second_date": "20.01.2012",
                 "student": "Кузнецов Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.01.2012",
+                "first_date": "18.01.2012",
                 "points": 20,
+                "second_date": "20.01.2012",
                 "student": "Самойленко Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.01.2012",
+                "first_date": "20.01.2012",
                 "points": 10,
+                "second_date": "21.01.2012",
                 "student": "Аверин Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "21.01.2012",
+                "first_date": "21.01.2012",
                 "points": 15,
+                "second_date": "21.01.2012",
                 "student": "Агеев Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "23.01.2012",
+                "first_date": "23.01.2012",
                 "points": 15,
+                "second_date": "24.01.2012",
                 "student": "Свалова Дарья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.03.2012",
+                "first_date": "14.03.2012",
                 "points": 14,
+                "second_date": "21.03.2012",
                 "student": "Дубин Павел",
                 "year": "2010-2011"
             }
@@ -634,64 +707,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 9,
+                "second_date": "09.09.2011",
                 "student": "Кискачи Мария",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 9,
+                "second_date": "09.11.2011",
                 "student": "Гвоздарев Илья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 9,
+                "second_date": "09.09.2011",
                 "student": "Баранов Игорь",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 9,
+                "second_date": "23.01.2012",
                 "student": "Стебнев Даниил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 9,
+                "second_date": "18.01.2012",
                 "student": "Боронина Екатерина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 9,
+                "second_date": "25.05.2011",
                 "student": "Зайнуллин Булат",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.05.2011",
+                "first_date": "02.05.2011",
                 "points": 9,
+                "second_date": "29.09.2011",
                 "student": "Агеев Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.11.2011",
+                "first_date": "24.11.2011",
                 "points": 9,
+                "second_date": "24.11.2011",
                 "student": "Фоминых Полина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.12.2011",
+                "first_date": "06.12.2011",
                 "points": 9,
+                "second_date": "25.12.2011",
                 "student": "Демин Сергей",
                 "year": "2010-2011"
             }
@@ -705,64 +787,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 6,
+                "second_date": "21.05.2011",
                 "student": "Лапенок Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 6,
+                "second_date": "23.05.2011",
                 "student": "Боронина Екатерина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "15.05.2011",
+                "first_date": "15.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Волочнев Константин",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.05.2011",
+                "first_date": "25.05.2011",
                 "points": 6,
+                "second_date": "28.05.2011",
                 "student": "Карпенко Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.10.2011",
+                "first_date": "19.10.2011",
                 "points": 12,
+                "second_date": "16.12.2011",
                 "student": "Добров Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.12.2011",
+                "first_date": "09.12.2011",
                 "points": 12,
+                "second_date": "29.01.2012",
                 "student": "Назаров Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.01.2012",
+                "first_date": "10.01.2012",
                 "points": 12,
+                "second_date": "20.01.2012",
                 "student": "Фоминых Полина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.01.2012",
+                "first_date": "12.01.2012",
                 "points": 12,
+                "second_date": "19.01.2012",
                 "student": "Гуков Константин",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "15.01.2012",
+                "first_date": "15.01.2012",
                 "points": 6,
+                "second_date": "19.01.2012",
                 "student": "Шалакин Родион",
                 "year": "2010-2011"
             }
@@ -776,64 +867,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 8,
+                "second_date": "18.05.2011",
                 "student": "Фоминых Полина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 7,
+                "second_date": "18.05.2011",
                 "student": "Лапенок Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 7,
+                "second_date": "21.05.2011",
                 "student": "Карпенко Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 8,
+                "second_date": "03.12.2011",
                 "student": "Безуглая Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 7,
+                "second_date": "09.09.2011",
                 "student": "Баранов Игорь",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 8,
+                "second_date": "24.05.2011",
                 "student": "Стебнев Даниил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.09.2011",
+                "first_date": "14.09.2011",
                 "points": 8,
+                "second_date": "17.01.2012",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.11.2011",
+                "first_date": "02.11.2011",
                 "points": 8,
+                "second_date": "18.01.2012",
                 "student": "Надымова Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.12.2011",
+                "first_date": "14.12.2011",
                 "points": 8,
+                "second_date": "29.12.2011",
                 "student": "Гвоздарев Илья",
                 "year": "2010-2011"
             }
@@ -847,64 +947,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 12,
+                "second_date": "09.11.2011",
                 "student": "Пестерев Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.05.2011",
+                "first_date": "10.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Бобылев Алексей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.10.2011",
+                "first_date": "06.10.2011",
                 "points": 15,
+                "second_date": "20.01.2012",
                 "student": "Демин Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.10.2011",
+                "first_date": "09.10.2011",
                 "points": 9,
+                "second_date": "09.11.2011",
                 "student": "Карпенко Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.10.2011",
+                "first_date": "10.10.2011",
                 "points": 9,
+                "second_date": "09.11.2011",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.10.2011",
+                "first_date": "19.10.2011",
                 "points": 7,
+                "second_date": "18.11.2011",
                 "student": "Шалакин Родион",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.11.2011",
+                "first_date": "12.11.2011",
                 "points": 7,
+                "second_date": "10.12.2011",
                 "student": "Боронина Екатерина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.01.2012",
+                "first_date": "12.01.2012",
                 "points": 8,
+                "second_date": "19.01.2012",
                 "student": "Гуков Константин",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.01.2012",
+                "first_date": "24.01.2012",
                 "points": 12,
+                "second_date": "28.01.2012",
                 "student": "Уваров Олег",
                 "year": "2010-2011"
             }
@@ -925,22 +1034,25 @@
         "students": [
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 17,
+                "second_date": "06.02.2012",
                 "student": "Меленцов Иван",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.01.2012",
+                "first_date": "14.01.2012",
                 "points": 8,
+                "second_date": "20.01.2012",
                 "student": "Баранов Игорь",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "27.01.2012",
+                "first_date": "27.01.2012",
                 "points": 9,
+                "second_date": "28.01.2012",
                 "student": "Найданов Александр",
                 "year": "2010-2011"
             }
@@ -954,43 +1066,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "11.10.2011",
+                "first_date": "11.10.2011",
                 "points": 14,
+                "second_date": "12.12.2011",
                 "student": "Федоров Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.11.2011",
+                "first_date": "24.11.2011",
                 "points": 17,
+                "second_date": "21.01.2012",
                 "student": "Никонова Юлия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.12.2011",
+                "first_date": "14.12.2011",
                 "points": 8,
+                "second_date": "17.12.2011",
                 "student": "Моргун Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.12.2011",
+                "first_date": "16.12.2011",
                 "points": 8,
+                "second_date": "20.12.2011",
                 "student": "Уваров Олег",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 8,
+                "second_date": "24.12.2011",
                 "student": "Демин Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.03.2012",
+                "first_date": "04.03.2012",
                 "points": 8,
+                "second_date": "05.03.2012",
                 "student": "Кискачи Мария",
                 "year": "2010-2011"
             }
@@ -1004,50 +1122,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "27.04.2011",
+                "first_date": "27.04.2011",
                 "points": 10,
+                "second_date": "13.06.2011",
                 "student": "Евсеев Леонид",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.09.2011",
+                "first_date": "16.09.2011",
                 "points": 9,
+                "second_date": "14.10.2011",
                 "student": "Ковба Андрей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.11.2011",
+                "first_date": "20.11.2011",
                 "points": 17,
+                "second_date": "20.01.2012",
                 "student": "Пестова Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.12.2011",
+                "first_date": "20.12.2011",
                 "points": 10,
+                "second_date": "22.01.2012",
                 "student": "Стебнев Даниил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.01.2012",
+                "first_date": "04.01.2012",
                 "points": 15,
+                "second_date": "24.01.2012",
                 "student": "Плюснин Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "12.01.2012",
+                "first_date": "12.01.2012",
                 "points": 15,
+                "second_date": "17.01.2012",
                 "student": "Пестерев Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.01.2012",
+                "first_date": "18.01.2012",
                 "points": 15,
+                "second_date": "24.01.2012",
                 "student": "Смирнов Алексей",
                 "year": "2010-2011"
             }
@@ -1061,50 +1186,57 @@
         "students": [
             {
                 "comment": "",
-                "date": "05.09.2011",
+                "first_date": "05.09.2011",
                 "points": 10,
+                "second_date": "04.10.2011",
                 "student": "Меркурьев Олег",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.11.2011",
+                "first_date": "09.11.2011",
                 "points": 16,
+                "second_date": "22.12.2011",
                 "student": "Черных Анна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.11.2011",
+                "first_date": "16.11.2011",
                 "points": 10,
+                "second_date": "13.12.2011",
                 "student": "Петрова Валентина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.11.2011",
+                "first_date": "20.11.2011",
                 "points": 17,
+                "second_date": "24.01.2012",
                 "student": "Боронина Екатерина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "22.11.2011",
+                "first_date": "22.11.2011",
                 "points": 12,
+                "second_date": "08.12.2011",
                 "student": "Темлякова Анастасия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.12.2011",
+                "first_date": "02.12.2011",
                 "points": 19,
+                "second_date": "17.01.2012",
                 "student": "Овчинников Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "13.12.2011",
+                "first_date": "13.12.2011",
                 "points": 11,
+                "second_date": "14.01.2012",
                 "student": "Свалова Анна",
                 "year": "2010-2011"
             }
@@ -1118,64 +1250,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "13.11.2011",
                 "student": "Самойленко Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "09.09.2011",
                 "student": "Кискачи Мария",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "06.10.2011",
                 "student": "Демин Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "27.04.2011",
+                "first_date": "27.04.2011",
                 "points": 8,
+                "second_date": "25.05.2011",
                 "student": "Зайнуллин Булат",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "03.10.2011",
+                "first_date": "03.10.2011",
                 "points": 10,
+                "second_date": "07.11.2011",
                 "student": "Лавруков Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.10.2011",
+                "first_date": "04.10.2011",
                 "points": 5,
+                "second_date": "01.11.2011",
                 "student": "Меркурьев Олег",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "07.10.2011",
+                "first_date": "07.10.2011",
                 "points": 10,
+                "second_date": "23.12.2011",
                 "student": "Агеев Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.11.2011",
+                "first_date": "18.11.2011",
                 "points": 6,
+                "second_date": "15.12.2011",
                 "student": "Бобылев Алексей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.11.2011",
+                "first_date": "18.11.2011",
                 "points": 10,
+                "second_date": "12.12.2011",
                 "student": "Лутков Владислав",
                 "year": "2010-2011"
             }
@@ -1189,15 +1330,17 @@
         "students": [
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 19,
+                "second_date": "21.01.2012",
                 "student": "Лутков Владислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "21.01.2012",
+                "first_date": "21.01.2012",
                 "points": 19,
+                "second_date": "24.01.2012",
                 "student": "Артемьев Артем",
                 "year": "2010-2011"
             }
@@ -1211,57 +1354,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 9,
+                "second_date": "19.01.2012",
                 "student": "Безуглая Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 15,
+                "second_date": "05.01.2012",
                 "student": "Фоминых Полина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Турыгин Ярослав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 15,
+                "second_date": "21.01.2012",
                 "student": "Никонова Юлия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 15,
+                "second_date": "12.12.2011",
                 "student": "Уваров Олег",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 15,
+                "second_date": "23.01.2012",
                 "student": "Аверин Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Моргун Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.10.2011",
+                "first_date": "26.10.2011",
                 "points": 15,
+                "second_date": "22.01.2012",
                 "student": "Галоян Лёва",
                 "year": "2010-2011"
             }
@@ -1275,57 +1426,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 12,
+                "second_date": "21.05.2011",
                 "student": "Сазонов Максим",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 15,
+                "second_date": "19.09.2011",
                 "student": "Лавруков Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "29.04.2011",
+                "first_date": "29.04.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Ковба Андрей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.05.2011",
+                "first_date": "10.05.2011",
                 "points": 10,
+                "second_date": "24.05.2011",
                 "student": "Алексеев Георгий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "10.05.2011",
+                "first_date": "10.05.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Овчинников Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.10.2011",
+                "first_date": "04.10.2011",
                 "points": 11,
+                "second_date": "18.01.2012",
                 "student": "Найданов Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.10.2011",
+                "first_date": "16.10.2011",
                 "points": 15,
+                "second_date": "02.11.2011",
                 "student": "Боронина Екатерина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "31.10.2011",
+                "first_date": "31.10.2011",
                 "points": 15,
+                "second_date": "17.01.2012",
                 "student": "Меркурьев Олег",
                 "year": "2010-2011"
             }
@@ -1339,43 +1498,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Меркурьев Олег",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "17.11.2011",
+                "first_date": "17.11.2011",
                 "points": 16,
+                "second_date": "23.01.2012",
                 "student": "Никонова Юлия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 13,
+                "second_date": "23.01.2012",
                 "student": "Плюснин Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 13,
+                "second_date": "03.02.2012",
                 "student": "Меленцов Иван",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "08.01.2012",
+                "first_date": "08.01.2012",
                 "points": 12,
+                "second_date": "23.01.2012",
                 "student": "Пестова Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.01.2012",
+                "first_date": "09.01.2012",
                 "points": 16,
+                "second_date": "18.01.2012",
                 "student": "Черных Анна",
                 "year": "2010-2011"
             }
@@ -1389,57 +1554,65 @@
         "students": [
             {
                 "comment": "",
-                "date": "25.04.2011",
+                "first_date": "25.04.2011",
                 "points": 12,
+                "second_date": "05.05.2011",
                 "student": "Лызлов Ярослав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.05.2011",
+                "first_date": "16.05.2011",
                 "points": 6,
+                "second_date": "09.09.2011",
                 "student": "Ходыкин Всеволод",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "28.10.2011",
+                "first_date": "28.10.2011",
                 "points": 10,
+                "second_date": "23.01.2012",
                 "student": "Стебнев Даниил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "03.11.2011",
+                "first_date": "03.11.2011",
                 "points": 7,
+                "second_date": "21.11.2011",
                 "student": "Федоткин Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.11.2011",
+                "first_date": "09.11.2011",
                 "points": 11,
+                "second_date": "23.12.2011",
                 "student": "Карпенко Дмитрий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "11.11.2011",
+                "first_date": "11.11.2011",
                 "points": 8,
+                "second_date": "10.12.2011",
                 "student": "Гвоздарев Илья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 6,
+                "second_date": "27.12.2011",
                 "student": "Павлов Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "21.01.2012",
+                "first_date": "21.01.2012",
                 "points": 12,
+                "second_date": "22.01.2012",
                 "student": "Дубин Павел",
                 "year": "2010-2011"
             }
@@ -1453,71 +1626,81 @@
         "students": [
             {
                 "comment": "",
-                "date": "28.04.2011",
+                "first_date": "28.04.2011",
                 "points": 12,
+                "second_date": "14.05.2011",
                 "student": "Федоров Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "22.05.2011",
+                "first_date": "22.05.2011",
                 "points": 10,
+                "second_date": "23.05.2011",
                 "student": "Смирнов Алексей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.09.2011",
+                "first_date": "19.09.2011",
                 "points": 12,
+                "second_date": "06.12.2011",
                 "student": "Фоминых Полина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.09.2011",
+                "first_date": "19.09.2011",
                 "points": 6,
+                "second_date": "19.10.2011",
                 "student": "Лапенок Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.09.2011",
+                "first_date": "20.09.2011",
                 "points": 12,
+                "second_date": "15.12.2011",
                 "student": "Безуглая Марина",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "07.11.2011",
+                "first_date": "07.11.2011",
                 "points": 12,
+                "second_date": "19.01.2012",
                 "student": "Шалакин Родион",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "08.11.2011",
+                "first_date": "08.11.2011",
                 "points": 12,
+                "second_date": "18.01.2012",
                 "student": "Макаров Евгений",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "30.11.2011",
+                "first_date": "30.11.2011",
                 "points": 12,
+                "second_date": "29.12.2011",
                 "student": "Галоян Лёва",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "05.01.2012",
+                "first_date": "05.01.2012",
                 "points": 12,
+                "second_date": "20.01.2012",
                 "student": "Лавруков Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.01.2012",
+                "first_date": "19.01.2012",
                 "points": 6,
+                "second_date": "19.01.2012",
                 "student": "Пестерев Дмитрий",
                 "year": "2010-2011"
             }
@@ -1531,43 +1714,49 @@
         "students": [
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 11,
+                "second_date": "31.01.2012",
                 "student": "Зозулина Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "09.01.2012",
+                "first_date": "09.01.2012",
                 "points": 12,
+                "second_date": "22.01.2012",
                 "student": "Анненкова Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.01.2012",
+                "first_date": "14.01.2012",
                 "points": 12,
+                "second_date": "19.01.2012",
                 "student": "Кириллов Ростислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "14.01.2012",
+                "first_date": "14.01.2012",
                 "points": 8,
+                "second_date": "20.01.2012",
                 "student": "Баранов Игорь",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "23.01.2012",
+                "first_date": "23.01.2012",
                 "points": 9,
+                "second_date": "28.01.2012",
                 "student": "Найданов Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "29.01.2012",
+                "first_date": "29.01.2012",
                 "points": 6,
+                "second_date": "29.02.2012",
                 "student": "Алексеев Георгий",
                 "year": "2010-2011"
             }
@@ -1581,22 +1770,25 @@
         "students": [
             {
                 "comment": "",
-                "date": "24.12.2011",
+                "first_date": "24.12.2011",
                 "points": 7,
+                "second_date": "21.01.2012",
                 "student": "Лутков Владислав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.12.2011",
+                "first_date": "26.12.2011",
                 "points": 7,
+                "second_date": "21.01.2012",
                 "student": "Свалова Дарья",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "29.12.2011",
+                "first_date": "29.12.2011",
                 "points": 7,
+                "second_date": "18.01.2012",
                 "student": "Надымова Татьяна",
                 "year": "2010-2011"
             }
@@ -1610,64 +1802,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "17.09.2011",
+                "first_date": "17.09.2011",
                 "points": 14,
+                "second_date": "20.09.2011",
                 "student": "Собянин Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.10.2011",
+                "first_date": "20.10.2011",
                 "points": 14,
+                "second_date": "09.12.2011",
                 "student": "Щетинкина Анастасия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.11.2011",
+                "first_date": "16.11.2011",
                 "points": 14,
+                "second_date": "23.12.2011",
                 "student": "Овчинников Григорий",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.11.2011",
+                "first_date": "16.11.2011",
                 "points": 14,
+                "second_date": "20.01.2012",
                 "student": "Моргун Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.11.2011",
+                "first_date": "18.11.2011",
                 "points": 8,
+                "second_date": "19.12.2011",
                 "student": "Ковба Андрей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "23.11.2011",
+                "first_date": "23.11.2011",
                 "points": 14,
+                "second_date": "24.01.2012",
                 "student": "Патрушев Сергей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.12.2011",
+                "first_date": "02.12.2011",
                 "points": 14,
+                "second_date": "17.01.2012",
                 "student": "Гуков Константин",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.12.2011",
+                "first_date": "02.12.2011",
                 "points": 14,
+                "second_date": "29.01.2012",
                 "student": "Сазонов Максим",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "17.01.2012",
+                "first_date": "17.01.2012",
                 "points": 14,
+                "second_date": "19.01.2012",
                 "student": "Бобылев Алексей",
                 "year": "2010-2011"
             }
@@ -1681,15 +1882,17 @@
         "students": [
             {
                 "comment": "",
-                "date": "11.09.2011",
+                "first_date": "11.09.2011",
                 "points": 25,
+                "second_date": "24.10.2011",
                 "student": "Кутдусов Руслан",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "21.12.2011",
+                "first_date": "21.12.2011",
                 "points": 25,
+                "second_date": "25.12.2011",
                 "student": "Артемьев Артем",
                 "year": "2010-2011"
             }
@@ -1703,64 +1906,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "26.04.2011",
+                "first_date": "26.04.2011",
                 "points": 15,
+                "second_date": "17.05.2011",
                 "student": "Артемьев Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "21.09.2011",
+                "first_date": "21.09.2011",
                 "points": 7,
+                "second_date": "21.10.2011",
                 "student": "Моргун Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "17.10.2011",
+                "first_date": "17.10.2011",
                 "points": 7,
+                "second_date": "17.11.2011",
                 "student": "Ковба Андрей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.10.2011",
+                "first_date": "18.10.2011",
                 "points": 15,
+                "second_date": "24.11.2011",
                 "student": "Кутдусов Руслан",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "20.10.2011",
+                "first_date": "20.10.2011",
                 "points": 15,
+                "second_date": "21.01.2012",
                 "student": "Никонова Юлия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "25.10.2011",
+                "first_date": "25.10.2011",
                 "points": 15,
+                "second_date": "22.01.2012",
                 "student": "Лызлов Ярослав",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.11.2011",
+                "first_date": "19.11.2011",
                 "points": 12,
+                "second_date": "11.01.2012",
                 "student": "Лапенок Ольга",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.12.2011",
+                "first_date": "16.12.2011",
                 "points": 15,
+                "second_date": "14.01.2012",
                 "student": "Самойленко Михаил",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "26.12.2011",
+                "first_date": "26.12.2011",
                 "points": 15,
+                "second_date": "22.01.2012",
                 "student": "Галоян Лёва",
                 "year": "2010-2011"
             }
@@ -1774,64 +1986,73 @@
         "students": [
             {
                 "comment": "",
-                "date": "27.04.2011",
+                "first_date": "27.04.2011",
                 "points": 10,
+                "second_date": "21.05.2011",
                 "student": "Шалакин Родион",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "02.11.2011",
+                "first_date": "02.11.2011",
                 "points": 7,
+                "second_date": "02.12.2011",
                 "student": "Ковба Андрей",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "18.11.2011",
+                "first_date": "18.11.2011",
                 "points": 8,
+                "second_date": "17.12.2011",
                 "student": "Щетинкина Анастасия",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.11.2011",
+                "first_date": "19.11.2011",
                 "points": 14,
+                "second_date": "20.01.2012",
                 "student": "Белов Денис",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.12.2011",
+                "first_date": "04.12.2011",
                 "points": 8,
+                "second_date": "09.12.2011",
                 "student": "Моргун Александр",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "04.12.2011",
+                "first_date": "04.12.2011",
                 "points": 15,
+                "second_date": "14.01.2012",
                 "student": "Кузнецов Артем",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "16.12.2011",
+                "first_date": "16.12.2011",
                 "points": 8,
+                "second_date": "19.12.2011",
                 "student": "Агеев Павел",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "06.01.2012",
+                "first_date": "06.01.2012",
                 "points": 15,
+                "second_date": "31.01.2012",
                 "student": "Зозулина Татьяна",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.01.2012",
+                "first_date": "19.01.2012",
                 "points": 8,
+                "second_date": "19.01.2012",
                 "student": "Гуков Константин",
                 "year": "2010-2011"
             }
@@ -1845,8 +2066,9 @@
         "students": [
             {
                 "comment": "",
-                "date": "04.12.2011",
+                "first_date": "04.12.2011",
                 "points": 10,
+                "second_date": "09.12.2011",
                 "student": "Меркурьев Олег",
                 "year": "2010-2011"
             }
@@ -1867,22 +2089,25 @@
         "students": [
             {
                 "comment": "",
-                "date": "04.11.2011",
+                "first_date": "04.11.2011",
                 "points": 14,
+                "second_date": "24.11.2011",
                 "student": "Федоров Антон",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "19.11.2011",
+                "first_date": "19.11.2011",
                 "points": 10,
+                "second_date": "12.12.2011",
                 "student": "Кутдусов Руслан",
                 "year": "2010-2011"
             },
             {
                 "comment": "",
-                "date": "03.01.2012",
+                "first_date": "03.01.2012",
                 "points": 14,
+                "second_date": "22.01.2012",
                 "student": "Собянин Павел",
                 "year": "2010-2011"
             }
