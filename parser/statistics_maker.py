@@ -23,7 +23,7 @@ def jdefault(o):
 
 
 def write_json(db, filename):
-    dumped = json.dumps(db, ensure_ascii=False,
+    dumped = json.dumps(db, ensure_ascii=False, indent=4,
                         sort_keys=True, default=jdefault)
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(dumped)
