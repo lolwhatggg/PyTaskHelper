@@ -3,26 +3,19 @@ $(document).ready(function() {
         overlay = $('.overlay'),
         isClosed = false;
 
-    trigger.click(function() {
-        hamburger_cross();
-    });
-
-    function hamburger_cross() {
-
-        if (isClosed == true) {
+    function toggle() {
+        if (isClosed) {
+            $('body').css('overflow', 'auto');
             overlay.hide();
-            trigger.removeClass('is-open');
-            trigger.addClass('is-closed');
-            isClosed = false;
         } else {
+            $('body').css('overflow', 'hidden');
             overlay.show();
-            trigger.removeClass('is-closed');
-            trigger.addClass('is-open');
-            isClosed = true;
         }
+        isClosed = !isClosed;
+        $('#wrapper').toggleClass('toggled');
     }
 
-    $('[data-toggle="offcanvas"]').click(function() {
-        $('#wrapper').toggleClass('toggled');
-    });
+    trigger.click(toggle);
+    $('#page-content-wrapper').on('swipe', toggle);
+    $('.overlay').on('click', toggle);
 });

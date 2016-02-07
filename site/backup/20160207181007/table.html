@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Py.task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/sortable-theme-bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" href="/icons/16.ico">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="overlay"></div>
+      <div id="sidebar-wrapper" role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+        <ul class="nav sidebar-nav">
+          <li class="sidebar-brand"><a href="/">Py.task Helper</a></li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Все задачи<span class="caret"></span></a>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="/tasks/100-клеточные шашки.html">100-клеточные шашки</a></li>
+              <li><a href="/tasks/BMP.html">BMP</a></li>
+              <li><a href="/tasks/BitTorrent.html">BitTorrent</a></li>
+              <li><a href="/tasks/DNS.html">DNS</a></li>
+              <li><a href="/tasks/FTP.html">FTP</a></li>
+              <li><a href="/tasks/Flightradar.html">Flightradar</a></li>
+              <li><a href="/tasks/GIF.html">GIF</a></li>
+              <li><a href="/tasks/JPEG.html">JPEG</a></li>
+              <li><a href="/tasks/NTP.html">NTP</a></li>
+              <li><a href="/tasks/PEP8 валидатор.html">PEP8 валидатор</a></li>
+              <li><a href="/tasks/PNG.html">PNG</a></li>
+              <li><a href="/tasks/POP3.html">POP3</a></li>
+              <li><a href="/tasks/SMTP.html">SMTP</a></li>
+              <li><a href="/tasks/arkanoid.html">arkanoid</a></li>
+              <li><a href="/tasks/bmp_stegano.html">bmp</a></li>
+              <li><a href="/tasks/docstrings2html.html">docstrings2html</a></li>
+              <li><a href="/tasks/docstrings2pdf.html">docstrings2pdf</a></li>
+              <li><a href="/tasks/docstrings2rtf.html">docstrings2rtf</a></li>
+              <li><a href="/tasks/docstrings2xml.html">docstrings2xml</a></li>
+              <li><a href="/tasks/flac.html">flac</a></li>
+              <li><a href="/tasks/lines.html">lines</a></li>
+              <li><a href="/tasks/man2html.html">man2html</a></li>
+              <li><a href="/tasks/man2pdf.html">man2pdf</a></li>
+              <li><a href="/tasks/man2rtf.html">man2rtf</a></li>
+              <li><a href="/tasks/man2xml.html">man2xml</a></li>
+              <li><a href="/tasks/mp3.html">mp3</a></li>
+              <li><a href="/tasks/ogg.html">ogg</a></li>
+              <li><a href="/tasks/pacman.html">pacman</a></li>
+              <li><a href="/tasks/pentix.html">pentix</a></li>
+              <li><a href="/tasks/pod2html.html">pod2html</a></li>
+              <li><a href="/tasks/pod2pdf.html">pod2pdf</a></li>
+              <li><a href="/tasks/pod2rtf.html">pod2rtf</a></li>
+              <li><a href="/tasks/pod2xml.html">pod2xml</a></li>
+              <li><a href="/tasks/teeworlds.html">teeworlds</a></li>
+              <li><a href="/tasks/tower defense.html">tower defense</a></li>
+              <li><a href="/tasks/wav.html">wav</a></li>
+              <li><a href="/tasks/Адресная книга.html">Адресная книга</a></li>
+              <li><a href="/tasks/Аудиоальбом.html">Аудиоальбом</a></li>
+              <li><a href="/tasks/Аудиоредактор.html">Аудиоредактор</a></li>
+              <li><a href="/tasks/Биллинг.html">Биллинг</a></li>
+              <li><a href="/tasks/Бредогенератор.html">Бредогенератор</a></li>
+              <li><a href="/tasks/Взлом шифра.html">Взлом шифра</a></li>
+              <li><a href="/tasks/Где трамвай.html">Где трамвай</a></li>
+              <li><a href="/tasks/Генератор отчетов.html">Генератор отчетов</a></li>
+              <li><a href="/tasks/Дефрагментация.html">Дефрагментация</a></li>
+              <li><a href="/tasks/Жизнь.html">Жизнь</a></li>
+              <li><a href="/tasks/Кроссворд.html">Кроссворд</a></li>
+              <li><a href="/tasks/Лабиринт.html">Лабиринт</a></li>
+              <li><a href="/tasks/Лесенка.html">Лесенка</a></li>
+              <li><a href="/tasks/Многочлены.html">Многочлены</a></li>
+              <li><a href="/tasks/Небо.html">Небо</a></li>
+              <li><a href="/tasks/Отладчик.html">Отладчик</a></li>
+              <li><a href="/tasks/Палиндромы.html">Палиндромы</a></li>
+              <li><a href="/tasks/Пары слов.html">Пары слов</a></li>
+              <li><a href="/tasks/Разбор FAT32.html">Разбор FAT32</a></li>
+              <li><a href="/tasks/Разбор ext4.html">Разбор ext4</a></li>
+              <li><a href="/tasks/Раскраска карты.html">Раскраска карты</a></li>
+              <li><a href="/tasks/Словари.html">Словари</a></li>
+              <li><a href="/tasks/Сортировки.html">Сортировки</a></li>
+              <li><a href="/tasks/Судоку.html">Судоку</a></li>
+              <li><a href="/tasks/Фотоальбом.html">Фотоальбом</a></li>
+              <li><a href="/tasks/Чат.html">Чат</a></li>
+              <li><a href="/tasks/бомбермен.html">бомбермен</a></li>
+              <li><a href="/tasks/векторный.html">векторный</a></li>
+              <li><a href="/tasks/кубики.html">кубики</a></li>
+              <li><a href="/tasks/поддавки.html">поддавки</a></li>
+              <li><a href="/tasks/растровый.html">растровый</a></li>
+              <li><a href="/tasks/реверси.html">реверси</a></li>
+              <li><a href="/tasks/транслятор.html">транслятор</a></li>
+              <li><a href="/tasks/форматтер.html">форматтер</a></li>
+              <li><a href="/tasks/шахматы.html">шахматы</a></li>
+            </ul>
+          </li>
+          <li><a href="/table.html">Таблица задач</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="http://anytask.urgu.org">AnyTask</a></li>
+        </ul>
+        <p class="copyright">&copy; Py.task 2016</p>
+      </div>
+      <button type="button" data-toggle="offcanvas" class="hamburger"><span class="hamb-top"></span><span class="hamb-middle"></span><span class="hamb-bottom"></span></button>
+      <div id="page-content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1>Таблица задач</h1>
+              <table data-sortable data-sortable-initialized="false" class="table table-stripped sortable-theme-bootstrap">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th data-sorted="true" data-sorted-direction="ascending">Название задачи</th>
+                    <th data-sorted="false">Максимальный балл</th>
+                    <th data-sorted="false">Средний балл за все года</th>
+                    <th data-sorted="false">Средний процент</th>
+                    <th data-sorted="false">Количество сдавших</th>
+                    <th data-sorted="false">Количество сдавших на полный балл</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td><a href="/tasks/100-клеточные шашки.html">100-клеточные шашки</a></td>
+                    <td>17</td>
+                    <td>10.37</td>
+                    <td>61</td>
+                    <td>45</td>
+                    <td>4 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td><a href="/tasks/BMP.html">BMP</a></td>
+                    <td>15</td>
+                    <td>11.1</td>
+                    <td>74</td>
+                    <td>50</td>
+                    <td>19 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td><a href="/tasks/BitTorrent.html">BitTorrent</a></td>
+                    <td>25</td>
+                    <td>19.5</td>
+                    <td>78</td>
+                    <td>12</td>
+                    <td>7 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td><a href="/tasks/DNS.html">DNS</a></td>
+                    <td>14</td>
+                    <td>12.6</td>
+                    <td>90</td>
+                    <td>25</td>
+                    <td>19 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td><a href="/tasks/FTP.html">FTP</a></td>
+                    <td>12</td>
+                    <td>8.16</td>
+                    <td>68</td>
+                    <td>36</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td><a href="/tasks/Flightradar.html">Flightradar</a></td>
+                    <td>22</td>
+                    <td>17.16</td>
+                    <td>78</td>
+                    <td>4</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td><a href="/tasks/GIF.html">GIF</a></td>
+                    <td>16</td>
+                    <td>10.56</td>
+                    <td>66</td>
+                    <td>14</td>
+                    <td>2 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td><a href="/tasks/JPEG.html">JPEG</a></td>
+                    <td>17</td>
+                    <td>8.33</td>
+                    <td>49</td>
+                    <td>6</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td><a href="/tasks/NTP.html">NTP</a></td>
+                    <td>8</td>
+                    <td>6.64</td>
+                    <td>83</td>
+                    <td>32</td>
+                    <td>17 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td><a href="/tasks/PEP8 валидатор.html">PEP8 валидатор</a></td>
+                    <td>9</td>
+                    <td>7.02</td>
+                    <td>78</td>
+                    <td>8</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td><a href="/tasks/PNG.html">PNG</a></td>
+                    <td>16</td>
+                    <td>10.4</td>
+                    <td>65</td>
+                    <td>29</td>
+                    <td>7 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td><a href="/tasks/POP3.html">POP3</a></td>
+                    <td>12</td>
+                    <td>8.4</td>
+                    <td>70</td>
+                    <td>48</td>
+                    <td>9 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td><a href="/tasks/SMTP.html">SMTP</a></td>
+                    <td>12</td>
+                    <td>9</td>
+                    <td>75</td>
+                    <td>44</td>
+                    <td>14 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td><a href="/tasks/arkanoid.html">arkanoid</a></td>
+                    <td>13</td>
+                    <td>10.01</td>
+                    <td>77</td>
+                    <td>23</td>
+                    <td>7 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td><a href="/tasks/bmp.html">bmp</a></td>
+                    <td>14</td>
+                    <td>9.66</td>
+                    <td>69</td>
+                    <td>19</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td><a href="/tasks/docstrings2html.html">docstrings2html</a></td>
+                    <td>12</td>
+                    <td>8.52</td>
+                    <td>71</td>
+                    <td>18</td>
+                    <td>4 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td><a href="/tasks/docstrings2pdf.html">docstrings2pdf</a></td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>1</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td><a href="/tasks/docstrings2rtf.html">docstrings2rtf</a></td>
+                    <td>14</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td><a href="/tasks/docstrings2xml.html">docstrings2xml</a></td>
+                    <td>14</td>
+                    <td>5.04</td>
+                    <td>36</td>
+                    <td>1</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td><a href="/tasks/flac.html">flac</a></td>
+                    <td>16</td>
+                    <td>10.72</td>
+                    <td>67</td>
+                    <td>9</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td><a href="/tasks/lines.html">lines</a></td>
+                    <td>12</td>
+                    <td>9.6</td>
+                    <td>80</td>
+                    <td>16</td>
+                    <td>5 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td><a href="/tasks/man2html.html">man2html</a></td>
+                    <td>12</td>
+                    <td>9.12</td>
+                    <td>76</td>
+                    <td>26</td>
+                    <td>11 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td><a href="/tasks/man2pdf.html">man2pdf</a></td>
+                    <td>20</td>
+                    <td>12</td>
+                    <td>60</td>
+                    <td>2</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td><a href="/tasks/man2rtf.html">man2rtf</a></td>
+                    <td>14</td>
+                    <td>6.44</td>
+                    <td>46</td>
+                    <td>2</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td><a href="/tasks/man2xml.html">man2xml</a></td>
+                    <td>14</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">26</th>
+                    <td><a href="/tasks/mp3.html">mp3</a></td>
+                    <td>14</td>
+                    <td>9.94</td>
+                    <td>71</td>
+                    <td>10</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">27</th>
+                    <td><a href="/tasks/ogg.html">ogg</a></td>
+                    <td>14</td>
+                    <td>4.48</td>
+                    <td>32</td>
+                    <td>2</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">28</th>
+                    <td><a href="/tasks/pacman.html">pacman</a></td>
+                    <td>15</td>
+                    <td>12.3</td>
+                    <td>82</td>
+                    <td>20</td>
+                    <td>9 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">29</th>
+                    <td><a href="/tasks/pentix.html">pentix</a></td>
+                    <td>11</td>
+                    <td>8.8</td>
+                    <td>80</td>
+                    <td>20</td>
+                    <td>9 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">30</th>
+                    <td><a href="/tasks/pod2html.html">pod2html</a></td>
+                    <td>12</td>
+                    <td>9.12</td>
+                    <td>76</td>
+                    <td>23</td>
+                    <td>7 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">31</th>
+                    <td><a href="/tasks/pod2pdf.html">pod2pdf</a></td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>75</td>
+                    <td>1</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">32</th>
+                    <td><a href="/tasks/pod2rtf.html">pod2rtf</a></td>
+                    <td>14</td>
+                    <td>9.38</td>
+                    <td>67</td>
+                    <td>8</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">33</th>
+                    <td><a href="/tasks/pod2xml.html">pod2xml</a></td>
+                    <td>14</td>
+                    <td>14</td>
+                    <td>100</td>
+                    <td>3</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">34</th>
+                    <td><a href="/tasks/teeworlds.html">teeworlds</a></td>
+                    <td>25</td>
+                    <td>13</td>
+                    <td>52</td>
+                    <td>2</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">35</th>
+                    <td><a href="/tasks/tower defense.html">tower defense</a></td>
+                    <td>23</td>
+                    <td>17.94</td>
+                    <td>78</td>
+                    <td>16</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">36</th>
+                    <td><a href="/tasks/wav.html">wav</a></td>
+                    <td>14</td>
+                    <td>9.94</td>
+                    <td>71</td>
+                    <td>14</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">37</th>
+                    <td><a href="/tasks/Адресная книга.html">Адресная книга</a></td>
+                    <td>15</td>
+                    <td>8.4</td>
+                    <td>56</td>
+                    <td>17</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">38</th>
+                    <td><a href="/tasks/Аудиоальбом.html">Аудиоальбом</a></td>
+                    <td>20</td>
+                    <td>11.6</td>
+                    <td>58</td>
+                    <td>5</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">39</th>
+                    <td><a href="/tasks/Аудиоредактор.html">Аудиоредактор</a></td>
+                    <td>18</td>
+                    <td>11.16</td>
+                    <td>62</td>
+                    <td>6</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">40</th>
+                    <td><a href="/tasks/Биллинг.html">Биллинг</a></td>
+                    <td>14</td>
+                    <td>10.64</td>
+                    <td>76</td>
+                    <td>50</td>
+                    <td>16 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">41</th>
+                    <td><a href="/tasks/Бредогенератор.html">Бредогенератор</a></td>
+                    <td>11</td>
+                    <td>8.69</td>
+                    <td>79</td>
+                    <td>21</td>
+                    <td>11 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">42</th>
+                    <td><a href="/tasks/Взлом шифра.html">Взлом шифра</a></td>
+                    <td>20</td>
+                    <td>12.8</td>
+                    <td>64</td>
+                    <td>48</td>
+                    <td>13 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">43</th>
+                    <td><a href="/tasks/Где трамвай.html">Где трамвай</a></td>
+                    <td>20</td>
+                    <td>12.8</td>
+                    <td>64</td>
+                    <td>9</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">44</th>
+                    <td><a href="/tasks/Генератор отчетов.html">Генератор отчетов</a></td>
+                    <td>14</td>
+                    <td>10.08</td>
+                    <td>72</td>
+                    <td>40</td>
+                    <td>13 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">45</th>
+                    <td><a href="/tasks/Дефрагментация.html">Дефрагментация</a></td>
+                    <td>25</td>
+                    <td>16.75</td>
+                    <td>67</td>
+                    <td>12</td>
+                    <td>5 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">46</th>
+                    <td><a href="/tasks/Жизнь.html">Жизнь</a></td>
+                    <td>13</td>
+                    <td>10.92</td>
+                    <td>84</td>
+                    <td>56</td>
+                    <td>31 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">47</th>
+                    <td><a href="/tasks/Кроссворд.html">Кроссворд</a></td>
+                    <td>15</td>
+                    <td>11.55</td>
+                    <td>77</td>
+                    <td>54</td>
+                    <td>18 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">48</th>
+                    <td><a href="/tasks/Лабиринт.html">Лабиринт</a></td>
+                    <td>11</td>
+                    <td>9.24</td>
+                    <td>84</td>
+                    <td>53</td>
+                    <td>32 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">49</th>
+                    <td><a href="/tasks/Лесенка.html">Лесенка</a></td>
+                    <td>8</td>
+                    <td>7.12</td>
+                    <td>89</td>
+                    <td>60</td>
+                    <td>39 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">50</th>
+                    <td><a href="/tasks/Многочлены.html">Многочлены</a></td>
+                    <td>12</td>
+                    <td>9.24</td>
+                    <td>77</td>
+                    <td>54</td>
+                    <td>19 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">51</th>
+                    <td><a href="/tasks/Небо.html">Небо</a></td>
+                    <td>20</td>
+                    <td>15.2</td>
+                    <td>76</td>
+                    <td>27</td>
+                    <td>10 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">52</th>
+                    <td><a href="/tasks/Отладчик.html">Отладчик</a></td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>60</td>
+                    <td>8</td>
+                    <td>2 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">53</th>
+                    <td><a href="/tasks/Палиндромы.html">Палиндромы</a></td>
+                    <td>8</td>
+                    <td>6.48</td>
+                    <td>81</td>
+                    <td>58</td>
+                    <td>28 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">54</th>
+                    <td><a href="/tasks/Пары слов.html">Пары слов</a></td>
+                    <td>7</td>
+                    <td>6.51</td>
+                    <td>93</td>
+                    <td>60</td>
+                    <td>43 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">55</th>
+                    <td><a href="/tasks/Разбор FAT32.html">Разбор FAT32</a></td>
+                    <td>17</td>
+                    <td>13.77</td>
+                    <td>81</td>
+                    <td>4</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">56</th>
+                    <td><a href="/tasks/Разбор ext4.html">Разбор ext4</a></td>
+                    <td>21</td>
+                    <td>21</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">57</th>
+                    <td><a href="/tasks/Раскраска карты.html">Раскраска карты</a></td>
+                    <td>16</td>
+                    <td>12</td>
+                    <td>75</td>
+                    <td>46</td>
+                    <td>16 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">58</th>
+                    <td><a href="/tasks/Словари.html">Словари</a></td>
+                    <td>15</td>
+                    <td>10.05</td>
+                    <td>67</td>
+                    <td>20</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">59</th>
+                    <td><a href="/tasks/Сортировки.html">Сортировки</a></td>
+                    <td>12</td>
+                    <td>8.76</td>
+                    <td>73</td>
+                    <td>58</td>
+                    <td>20 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">60</th>
+                    <td><a href="/tasks/Судоку.html">Судоку</a></td>
+                    <td>12</td>
+                    <td>9.84</td>
+                    <td>82</td>
+                    <td>16</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">61</th>
+                    <td><a href="/tasks/Фотоальбом.html">Фотоальбом</a></td>
+                    <td>20</td>
+                    <td>14.2</td>
+                    <td>71</td>
+                    <td>4</td>
+                    <td>1 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">62</th>
+                    <td><a href="/tasks/Чат.html">Чат</a></td>
+                    <td>15</td>
+                    <td>11.4</td>
+                    <td>76</td>
+                    <td>54</td>
+                    <td>18 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">63</th>
+                    <td><a href="/tasks/бомбермен.html">бомбермен</a></td>
+                    <td>17</td>
+                    <td>9.86</td>
+                    <td>58</td>
+                    <td>16</td>
+                    <td>3 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">64</th>
+                    <td><a href="/tasks/векторный.html">векторный</a></td>
+                    <td>15</td>
+                    <td>6</td>
+                    <td>40</td>
+                    <td>2</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">65</th>
+                    <td><a href="/tasks/кубики.html">кубики</a></td>
+                    <td>8</td>
+                    <td>7.12</td>
+                    <td>89</td>
+                    <td>16</td>
+                    <td>9 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">66</th>
+                    <td><a href="/tasks/поддавки.html">поддавки</a></td>
+                    <td>17</td>
+                    <td>12.75</td>
+                    <td>75</td>
+                    <td>24</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">67</th>
+                    <td><a href="/tasks/растровый.html">растровый</a></td>
+                    <td>13</td>
+                    <td>7.41</td>
+                    <td>57</td>
+                    <td>7</td>
+                    <td>0 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">68</th>
+                    <td><a href="/tasks/реверси.html">реверси</a></td>
+                    <td>15</td>
+                    <td>10.95</td>
+                    <td>73</td>
+                    <td>51</td>
+                    <td>12 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">69</th>
+                    <td><a href="/tasks/транслятор.html">транслятор</a></td>
+                    <td>20</td>
+                    <td>14.4</td>
+                    <td>72</td>
+                    <td>27</td>
+                    <td>13 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">70</th>
+                    <td><a href="/tasks/форматтер.html">форматтер</a></td>
+                    <td>15</td>
+                    <td>9.75</td>
+                    <td>65</td>
+                    <td>25</td>
+                    <td>6 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">71</th>
+                    <td><a href="/tasks/шахматы.html">шахматы</a></td>
+                    <td>21</td>
+                    <td>15.54</td>
+                    <td>74</td>
+                    <td>48</td>
+                    <td>11 </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p><i>Дисклеймер</i></p>
+              <p>Так как максимальный балл может меняться в зависимости от года, в данной таблице средний балл рассчитан как средний процент выполнения задачи, умноженный на максимальный балл текущего года</p>
+              <p>Средний процент рассчитывается как балл студента разделенный на максимальный балл года сдачи</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery-2.2.0.min.js"></script>
+    <script src="/js/jquery.detect_swipe.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/sortable.min.js"></script>
+    <script src="/js/all.js"></script>
+  </body>
+</html>
