@@ -5,12 +5,12 @@ block content
   include search
   each task in locals
     .task.panel.panel-default
-      a(href="tasks/#{task.filename}"): h2.name #{task.name}
+      a(href="tasks/#{task.filename}"): h2.searchable #{task.name}
       ul
         -if(task.category!='common')
           li
             | Категория:
-            span.category #{task.category}
+            span.searchable #{task.category}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average_points}
         li Средний процент: #{task.average_percent}
