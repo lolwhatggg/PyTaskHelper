@@ -4,12 +4,13 @@ block content
   h1.index-header Py.task Helper
   include search
   each task in locals
-    .task.panel.panel-default.searchable
+    .task.panel.panel-default
       a(href="tasks/#{task.filename}"): h2.name #{task.name}
       ul
-        li
-          | Категория
-          span.searchable #{task.category}
+        -if(task.category!='common')
+          li
+            | Категория:
+            span.category #{task.category}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average_points}
         li Средний процент: #{task.average_percent}
