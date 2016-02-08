@@ -20,7 +20,7 @@ gulp.task 'connect', ->
     root: './' + dist
 
 gulp.task 'jade', ->
-  gulp.src ['jade/index.jade', 'jade/table.jade']
+  gulp.src ['jade/index.jade', 'jade/table.jade', 'jade/about.jade']
     .pipe jade
       locals: require db_dir
       pretty: true
