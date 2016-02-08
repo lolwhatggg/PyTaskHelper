@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,70 +112,78 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>ogg</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Разбор аудиоформатов</li>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 4.48</li>
-                <li>Средний процент: 32</li>
-                <li>Количество сдавших: 2</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>ogg</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Разбор аудиоформатов</li>
+                    <li>Максимальный балл: 14</li>
+                    <li>Средний балл: 4.48 (32%)</li>
+                    <li>Сдавшие: 2 чел.</li>
+                    <li>Полный балл: 0 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 4.5</li>
-                <li>Средний процент: 31.5</li>
-                <li>Количество сдавших: 2</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 4.5 (31.5%)</li>
+                      <li>Сдавшие: 2 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">42</span></td>
-                    <td>30.05.2015 Оценка: 6 Сергей Азовсков:
-* стиль
-* тесты
-* картинка
-* вывод произвольных полей из хедеров
-*</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">3</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">21</span></td>
-                    <td>06.06.2015 Оценка: 3 Сергей Азовсков:
-* куча всего ещё
-* парсинг всех метаданных и технических данных
-* играть
-* парсить произвольные хедеры
-* ...</td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 14</span><span class="label label-danger">42%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>30.05.2015 Оценка: 6 Сергей Азовсков:<br>* стиль<br>* тесты<br>* картинка<br>* вывод произвольных полей из хедеров<br>*</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">3 / 14</span><span class="label label-danger">21%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>06.06.2015 Оценка: 3 Сергей Азовсков:<br>* куча всего ещё<br>* парсинг всех метаданных и технических данных<br>* играть<br>* парсить произвольные хедеры<br>* ...</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

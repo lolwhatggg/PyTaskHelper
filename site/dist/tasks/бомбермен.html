@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,197 +112,103 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>бомбермен</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Realtime-игры</li>
-                <li>Максимальный балл: 17</li>
-                <li>Средний балл: 9.86</li>
-                <li>Средний процент: 58</li>
-                <li>Количество сдавших: 16</li>
-                <li>Количество сдавших на полный балл: 3</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>бомбермен</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Realtime-игры</li>
+                    <li>Максимальный балл: 17</li>
+                    <li>Средний балл: 9.86 (58%)</li>
+                    <li>Сдавшие: 16 чел.</li>
+                    <li>Полный балл: 3 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 17</li>
-                <li>Средний балл: 11.12</li>
-                <li>Средний процент: 65</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 17</li>
+                      <li>Средний балл: 11.12 (65%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 17</li>
+                      <li>Средний балл: 8.75 (51%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 2 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 17</li>
-                <li>Средний балл: 8.75</li>
-                <li>Средний процент: 51</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 2</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">9 / 17</span><span class="label label-danger">52%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>10.01.2015 Оценка: 9 Сергей Азовсков:<br>* документация<br>* тесты<br>* избавиться от дублирования, вспомнить ООП<br>* hotseat<br>* поверапы<br>* три уровня с возможностью выбирать<br>* починить рандом, что бы не делал заведомо мёртвые<br>* настройки: выбирать количество врагов, размер, заполненность в блоках и поверапах</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 17</span><span class="label label-danger">47%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>10.01.2015 Оценка: 8 Сергей Азовсков:<br>* интерфейс - новая игра, загрузить уровень, выход, about<br>* настройки: количество жизней, размер взрыва<br>* управление, что бы автодоведение<br>* документация<br>* тесты<br>* рефакторинг<br><br>* случайные уровни или поверапы<br>* сетевая игра</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">17 / 17</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>08.04.2015 Оценка: 2 Павел Блинов:<br>+ документация (как запускать)<br>+ декомпозиция<br>+ тесты<br>+ пакетный режим (?)<br>+ игровая логика<br>+ стиль<br>29.10.2015 Оценка: 8 Павел Блинов:<br>+ пакетный режим с флагами<br>+ бомбы<br>+ разные виды врагов</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">5 / 17</span><span class="label label-danger">29%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>24.09.2015 Оценка: 2 Павел Блинов:<br>- основные требования <br>- возможность играть<br>- замораживающие бомбы</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">16</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">94</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">76</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">52</span></td>
-                    <td>10.01.2015 Оценка: 9 Сергей Азовсков:
-* документация
-* тесты
-* избавиться от дублирования, вспомнить ООП
-* hotseat
-* поверапы
-* три уровня с возможностью выбирать
-* починить рандом, что бы не делал заведомо мёртвые
-* настройки: выбирать количество врагов, размер, заполненность в блоках и поверапах</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">76</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">5</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">47</span></td>
-                    <td>10.01.2015 Оценка: 8 Сергей Азовсков:
-* интерфейс - новая игра, загрузить уровень, выход, about
-* настройки: количество жизней, размер взрыва
-* управление, что бы автодоведение
-* документация
-* тесты
-* рефакторинг
-
-* случайные уровни или поверапы
-* сетевая игра</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">70</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">17</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">17</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>08.04.2015 Оценка: 2 Павел Блинов:
-+ документация (как запускать)
-+ декомпозиция
-+ тесты
-+ пакетный режим (?)
-+ игровая логика
-+ стиль
-29.10.2015 Оценка: 8 Павел Блинов:
-+ пакетный режим с флагами
-+ бомбы
-+ разные виды врагов</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">29</span></td>
-                    <td>24.09.2015 Оценка: 2 Павел Блинов:
-- основные требования 
-- возможность играть
-- замораживающие бомбы</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">64</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">58</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">2</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">11</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">17</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">2</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">11</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">17</span></td>
-                    <td><span class="label label-danger">35</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

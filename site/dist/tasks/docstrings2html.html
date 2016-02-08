@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,193 +112,95 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>docstrings2html</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Перевод документации в другой формат</li>
-                <li>Максимальный балл: 12</li>
-                <li>Средний балл: 8.52</li>
-                <li>Средний процент: 71</li>
-                <li>Количество сдавших: 18</li>
-                <li>Количество сдавших на полный балл: 4</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>docstrings2html</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Перевод документации в другой формат</li>
+                    <li>Максимальный балл: 12</li>
+                    <li>Средний балл: 8.52 (71%)</li>
+                    <li>Сдавшие: 18 чел.</li>
+                    <li>Полный балл: 4 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2012-2013</h6>
-                <li>Максимальный балл: 12</li>
-                <li>Средний балл: 8</li>
-                <li>Средний процент: 66.67</li>
-                <li>Количество сдавших: 3</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2012-2013" data-toggle="tab">2012-2013</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2012-2013" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 12</li>
+                      <li>Средний балл: 8 (66.67%)</li>
+                      <li>Сдавшие: 3 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 12</li>
+                      <li>Средний балл: 8.62 (71.5%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 12</li>
-                <li>Средний балл: 8.62</li>
-                <li>Средний процент: 71.5</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 12</span><span class="label label-danger">83%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>25.09.2014 Оценка: 1 Павел Блинов:<br>Правки.<br><br>+ Починить<br>+ Проблемы с кодировками<br>+ Нет тестов<br>+ Примеров нету<br>+ Корректная информация об ошибках<br>+ Шаблон вывода??<br>+ Поправить якоря (убрать пробелы)<br>+ pep8, pylint<br>+ имена переменных<br>03.10.2014 Оценка: 5 Павел Блинов:<br>+ получение сигнатуры функций и методов<br>+ имена функций в библиотеке tools<br>+ использовать os.path<br>+ os.listdir<br>+ поправить кодировки<br>+ убрать двойное открытие файла<br>+ закрывать файл<br>+ coverage<br>+ тесты кодировок<br>+ тесты, тесты …<br>+ # -*- coding: xxx -*-<br>+ хорошие тесты (директория с тестовыми модулями)<br>13.10.2014 Оценка: 7 Павел Блинов:<br>+ поправить кодировки<br>+ coverage<br>+ тесты кодировок<br>+ тесты tools<br>+ # -*- coding: xxx -*-<br><br>+ добавить index.html с общим содержанием.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 12</span><span class="label label-danger">83%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>13.01.2015 Оценка: 10 Сергей Азовсков:<br>* Падают тесты<br>Traceback (most recent call last)<br>File "/usr/lib/python3.4/unittest/case.py", line 57, in testPartExecutor<br>yield<br>File "/usr/lib/python3.4/unittest/case.py", line 574, in run<br>testMethod()<br>File "/home/last-g/Workspace/teaching/L0dom/trunk/doc2html/test_module2ast.py", line 61, in test_create_links<br>self.assertEqual(links, test_links)<br>File "/usr/lib/python3.4/unittest/case.py", line 794, in assertEqual<br>assertion_func(first, second, msg=msg)<br>File "/usr/lib/python3.4/unittest/case.py", line 1046, in assertSetEqual<br>self.fail(self._formatMessage(msg, standardMsg))<br>File "/usr/lib/python3.4/unittest/case.py", line 639, in fail<br>raise self.failureException(msg)<br>AssertionError: Items in the first set but not the second:<br>'<a href="module2ast_help.html">module2ast</a>'<br>'<a href="ast2html_help.html">ast2html</a>'<br>Items in the second set but not the first:<br>'ast2html'<br>'module2ast'<br><br>* не работает с папками<br>* зачем указывать слеш обязательно?<br>* имя модуля поменялось<br>* опции для указания своего шаблона<br>* не ловите ошибки<br>* utf8<br>* нормальный хелп</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 12</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>13.03.2015 Оценка: 1 Павел Блинов:<br>случайно ...</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td>25.09.2014 Оценка: 1 Павел Блинов:
-Правки.
-
-+ Починить
-+ Проблемы с кодировками
-+ Нет тестов
-+ Примеров нету
-+ Корректная информация об ошибках
-+ Шаблон вывода??
-+ Поправить якоря (убрать пробелы)
-+ pep8, pylint
-+ имена переменных
-03.10.2014 Оценка: 5 Павел Блинов:
-+ получение сигнатуры функций и методов
-+ имена функций в библиотеке tools
-+ использовать os.path
-+ os.listdir
-+ поправить кодировки
-+ убрать двойное открытие файла
-+ закрывать файл
-+ coverage
-+ тесты кодировок
-+ тесты, тесты …
-+ # -*- coding: xxx -*-
-+ хорошие тесты (директория с тестовыми модулями)
-13.10.2014 Оценка: 7 Павел Блинов:
-+ поправить кодировки
-+ coverage
-+ тесты кодировок
-+ тесты tools
-+ # -*- coding: xxx -*-
-
-+ добавить index.html с общим содержанием.</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">41</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td>13.01.2015 Оценка: 10 Сергей Азовсков:
-* Падают тесты
-Traceback (most recent call last)
-File &quot;/usr/lib/python3.4/unittest/case.py&quot;, line 57, in testPartExecutor
-yield
-File &quot;/usr/lib/python3.4/unittest/case.py&quot;, line 574, in run
-testMethod()
-File &quot;/home/last-g/Workspace/teaching/L0dom/trunk/doc2html/test_module2ast.py&quot;, line 61, in test_create_links
-self.assertEqual(links, test_links)
-File &quot;/usr/lib/python3.4/unittest/case.py&quot;, line 794, in assertEqual
-assertion_func(first, second, msg=msg)
-File &quot;/usr/lib/python3.4/unittest/case.py&quot;, line 1046, in assertSetEqual
-self.fail(self._formatMessage(msg, standardMsg))
-File &quot;/usr/lib/python3.4/unittest/case.py&quot;, line 639, in fail
-raise self.failureException(msg)
-AssertionError: Items in the first set but not the second:
-'&lt;a href=&quot;module2ast_help.html&quot;&gt;module2ast&lt;/a&gt;'
-'&lt;a href=&quot;ast2html_help.html&quot;&gt;ast2html&lt;/a&gt;'
-Items in the second set but not the first:
-'ast2html'
-'module2ast'
-
-* не работает с папками
-* зачем указывать слеш обязательно?
-* имя модуля поменялось
-* опции для указания своего шаблона
-* не ловите ошибки
-* utf8
-* нормальный хелп</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">41</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">91</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>13.03.2015 Оценка: 1 Павел Блинов:
-случайно ...</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

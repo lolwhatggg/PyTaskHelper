@@ -4,7 +4,7 @@
         enabled: 'ontouchstart' in document.documentElement,
         preventDefault: true,
         threshold: 20,
-        zone: 50
+        zone: 100
     };
 
     var startX;

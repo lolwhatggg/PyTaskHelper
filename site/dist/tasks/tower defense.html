@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,215 +112,103 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>tower defense</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Realtime-игры</li>
-                <li>Максимальный балл: 23</li>
-                <li>Средний балл: 17.94</li>
-                <li>Средний процент: 78</li>
-                <li>Количество сдавших: 16</li>
-                <li>Количество сдавших на полный балл: 6</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>tower defense</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Realtime-игры</li>
+                    <li>Максимальный балл: 23</li>
+                    <li>Средний балл: 17.94 (78%)</li>
+                    <li>Сдавшие: 16 чел.</li>
+                    <li>Полный балл: 6 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 15.25</li>
-                <li>Средний процент: 76.25</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 20</li>
+                      <li>Средний балл: 15.25 (76.25%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 23</li>
+                      <li>Средний балл: 18.12 (78.62%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 5 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 23</li>
-                <li>Средний балл: 18.12</li>
-                <li>Средний процент: 78.62</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 5</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 20</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>23.10.2014 Оценка: 6 Сергей Азовсков:<br>* условие проигрыша<br>* survival mode<br>* тесты<br>* pylint<br>* документация<br>* игровые механики<br>07.03.2015 Оценка: 10 Сергей Азовсков:<br>* разделить игровую логику от логики отрисовки<br>* тесты<br>* разные башни и врагов вынести их в конфиг<br>* документация<br>* Survive<br>* разноцветность</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 23</span><span class="label label-danger">26%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>26.05.2015 Оценка: 1 Павел Блинов:<br>+ Починить<br>+ написать README<br>+ написать тесты<br>+ разделить логику<br>03.10.2015 Оценка: 5 Павел Блинов:<br>До зачета:<br>- разделить игровую логику и логику отображения<br>- написать тесты<br>- пеп8<br>- возможность играть</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">23 / 23</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>12.05.2015 Оценка: 7 Павел Блинов:<br>+ декомпозиция, отделить логику игры<br>+ тесты логики<br><br>+ уровни<br>+ несколько путей на одном уровне<br>+ разные типы монстров и башен<br>+ выбирать куда ставить башню<br>19.05.2015 Оценка: 9 Павел Блинов:<br>+ правильная декомпозиция<br>+ тест<br>+ починить баги<br>03.12.2015 Оценка: 15 Павел Блинов:<br>+ добавить уровень (с двумя путями)<br>+ хилящий моб<br>+ возможность покупать и ставить мины<br>+ починить баги<br>+ написать тесты<br>+ написать тест на баг!</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 23</span><span class="label label-danger">43%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>19.11.2015 Оценка: 10 Павел Блинов:<br>+ PEP8<br>+ ТЕСТЫ<br>+ README<br>+ ARGPARSE<br>+ выводить health<br>+ добавить хилящего монстра<br>+ замораживающие башенки</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">18</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">90</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">5</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">19</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">95</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>23.10.2014 Оценка: 6 Сергей Азовсков:
-* условие проигрыша
-* survival mode
-* тесты
-* pylint
-* документация
-* игровые механики
-07.03.2015 Оценка: 10 Сергей Азовсков:
-* разделить игровую логику от логики отрисовки
-* тесты
-* разные башни и врагов вынести их в конфиг
-* документация
-* Survive
-* разноцветность</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">16</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">80</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">19</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">95</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">19</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">95</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">60</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">26</span></td>
-                    <td>26.05.2015 Оценка: 1 Павел Блинов:
-+ Починить
-+ написать README
-+ написать тесты
-+ разделить логику
-03.10.2015 Оценка: 5 Павел Блинов:
-До зачета:
-- разделить игровую логику и логику отображения
-- написать тесты
-- пеп8
-- возможность играть</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">23</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>12.05.2015 Оценка: 7 Павел Блинов:
-+ декомпозиция, отделить логику игры
-+ тесты логики
-
-+ уровни
-+ несколько путей на одном уровне
-+ разные типы монстров и башен
-+ выбирать куда ставить башню
-19.05.2015 Оценка: 9 Павел Блинов:
-+ правильная декомпозиция
-+ тест
-+ починить баги
-03.12.2015 Оценка: 15 Павел Блинов:
-+ добавить уровень (с двумя путями)
-+ хилящий моб
-+ возможность покупать и ставить мины
-+ починить баги
-+ написать тесты
-+ написать тест на баг!</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">23</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">23</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">23</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">43</span></td>
-                    <td>19.11.2015 Оценка: 10 Павел Блинов:
-+ PEP8
-+ ТЕСТЫ
-+ README
-+ ARGPARSE
-+ выводить health
-+ добавить хилящего монстра
-+ замораживающие башенки</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">23</span></td>
-                    <td><span class="label label-success">23</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

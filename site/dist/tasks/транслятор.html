@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,245 +112,97 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>транслятор</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Обработка текстов программ</li>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 14.4</li>
-                <li>Средний процент: 72</li>
-                <li>Количество сдавших: 27</li>
-                <li>Количество сдавших на полный балл: 13</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>транслятор</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Обработка текстов программ</li>
+                    <li>Максимальный балл: 20</li>
+                    <li>Средний балл: 14.4 (72%)</li>
+                    <li>Сдавшие: 27 чел.</li>
+                    <li>Полный балл: 13 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2009-2010</h6>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 14.12</li>
-                <li>Средний процент: 70.62</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 5</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2009-2010" data-toggle="tab">2009-2010</a></li>
+                    <li role="presentation"><a href="#year2010-2011" data-toggle="tab">2010-2011</a></li>
+                    <li role="presentation"><a href="#year2011-2012" data-toggle="tab">2011-2012</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2009-2010" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 20</li>
+                      <li>Средний балл: 14.12 (70.62%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 5 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2010-2011" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 20</li>
+                      <li>Средний балл: 16.78 (83.89%)</li>
+                      <li>Сдавшие: 9 чел.</li>
+                      <li>Полный балл: 5 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2011-2012" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 20</li>
+                      <li>Средний балл: 14 (70%)</li>
+                      <li>Сдавшие: 5 чел.</li>
+                      <li>Полный балл: 2 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 20</li>
+                      <li>Средний балл: 7.5 (37.5%)</li>
+                      <li>Сдавшие: 2 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2010-2011</h6>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 16.78</li>
-                <li>Средний процент: 83.89</li>
-                <li>Количество сдавших: 9</li>
-                <li>Количество сдавших на полный балл: 5</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 20</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>04.04.2014 Оценка: 10 Сергей Азовсков:<br>- тесты<br>- шаблон html<br>- документация<br>- SVN</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2011-2012</h6>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 14</li>
-                <li>Средний процент: 70</li>
-                <li>Количество сдавших: 5</li>
-                <li>Количество сдавших на полный балл: 2</li>
-              </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 20</li>
-                <li>Средний балл: 7.5</li>
-                <li>Средний процент: 37.5</li>
-                <li>Количество сдавших: 2</li>
-                <li>Количество сдавших на полный балл: 0</li>
-              </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">35</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">3</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">15</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">3</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">15</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">18</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">90</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">65</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">25</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">75</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">20</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>04.04.2014 Оценка: 10 Сергей Азовсков:
-- тесты
-- шаблон html
-- документация
-- SVN</td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">55</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">4</span></td>
-                    <td><span class="label label-success">20</span></td>
-                    <td><span class="label label-danger">20</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

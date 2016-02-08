@@ -5,10 +5,8 @@ $(document).ready(function() {
 
     function toggle() {
         if (isClosed) {
-            $('body').css('overflow', 'auto');
             overlay.hide();
         } else {
-            $('body').css('overflow', 'hidden');
             overlay.show();
         }
         isClosed = !isClosed;

@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,301 +112,144 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>pacman</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Realtime-игры</li>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 12.3</li>
-                <li>Средний процент: 82</li>
-                <li>Количество сдавших: 20</li>
-                <li>Количество сдавших на полный балл: 9</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>pacman</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Realtime-игры</li>
+                    <li>Максимальный балл: 15</li>
+                    <li>Средний балл: 12.3 (82%)</li>
+                    <li>Сдавшие: 20 чел.</li>
+                    <li>Полный балл: 9 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2012-2013</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 13.5</li>
-                <li>Средний процент: 89.75</li>
-                <li>Количество сдавших: 4</li>
-                <li>Количество сдавших на полный балл: 2</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2012-2013" data-toggle="tab">2012-2013</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2012-2013" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 13.5 (89.75%)</li>
+                      <li>Сдавшие: 4 чел.</li>
+                      <li>Полный балл: 2 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 10.75 (71.5%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 3 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 13.12 (87.25%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 4 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 10.75</li>
-                <li>Средний процент: 71.5</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 3</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">12 / 15</span><span class="label label-danger">80%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>04.04.2014 Оценка: 8 Сергей Азовсков:<br>- Тороидальные уровни<br>- вака-вака!<br>- help<br>- таймаут вишенки<br>Клёвая фича:<br>(- сохранения<br>и<br>( - множество уровней и секретные коды<br>или<br>- сетевая игра<br>))<br>11.04.2014 Оценка: 10 Сергей Азовсков:<br>Ждём клёвые фичи<br>Не многовенно исчезающие призраки<br>Жизни<br>01.10.2014 Оценка: 12 Сергей Азовсков:<br>* баги в сетевом режиме, не отлажено<br>* невозможно выбрать сервер и как следствие играть с 2х компов<br>* звук сломался<br>* невозможно выйти меню<br>* жизни, исчезание призраков<br>* реализация сетевая игра - не айс и неполная (не решены проблемы рассинхронизации)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">15 / 15</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>08.05.2014 Оценка: 1 Александр Берсенев:<br>ожидает проверки</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">15 / 15</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>04.04.2015 Оценка: 8 Сергей Азовсков:<br>* pylint <br>* качество и стиль кода<br>* анимацию и вака-вака<br>11.04.2015 Оценка: 13 Сергей Азовсков:<br>* меню - обобщить код label<br>* воспользоваться модулем abc,, если у вас есть классс, который нельзя инстанциировать<br><br>* обобщить работу с движением и направлениями<br>* общий класс игры объединяющий все объекты<br>18.04.2015 Оценка: 15 Сергей Азовсков:<br>* метаклассы неправильно</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">15 / 15</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>04.04.2015 Оценка: 8 Сергей Азовсков:<br>* завершение игры<br>* звук вака-вака<br>* несколько карт / уровней<br>* таблетки<br>* всякие с поедание<br>* прибраться в коде (фунции возвращают значения, обобщённые функции, читаемость)<br>* тесты<br>* константы<br>30.05.2015 Оценка: 12 Сергей Азовсков:<br>* прибрать код, избавиться от дублирования и boilerplate<br>* DRY<br>* pylint<br>03.10.2015 Оценка: 13 Сергей Азовсков:<br>* pylint<br>* поворачивать в центре клетки<br>* DRY<br>21.11.2015 Оценка: 15 Сергей Азовсков:<br>* нормальные стрингдоки</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 15</span><span class="label label-danger">66%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>26.05.2015 Оценка: 5 Павел Блинов:<br>+ тесты<br>+ разделение логики<br>+ возможность играть<br>+ призрак<br>02.06.2015 Оценка: 7 Павел Блинов:<br>До 10б:<br>+ PEP8<br>+ разделение логики (внести логику в игровые сущности)<br>+ тесты<br>+ 2 уровня<br>24.09.2015 Оценка: 10 Павел Блинов:<br>1. Документация, декомпозиция, help.<br>2. Тестирование, coverage.py логики >80%.<br>3. PEP-8.<br>4. Пакетные режимы.<br>- изменять настройки игры в процессе<br>- "клик" на призрака</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">13 / 15</span><span class="label label-danger">86%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>26.09.2015 Оценка: 7 Сергей Азовсков:<br>* повороты<br>* звук<br>* вишенки<br>* вынести из логики куски анимации<br>* имена переменных<br>* константы в коде<br>* тесты<br>* Убрать зависимость от Qt в логике<br>* игра вдвоём hotseat<br>19.12.2015 Оценка: 10 Сергей Азовсков:<br>* игра вдвоём<br>* бегать по сетке<br>* баг: пропадает пэкман<br>* ошибка вылетает<br>* может только pygame или PyQt, а не одновременно<br>* ТЕСТЫ<br>* довыносить логику из интерфейса<br>08.01.2016 Оценка: 13 Сергей Азовсков:<br>* остатки логики в интерфейсе<br>* класс Data<br>* возвращение кучи bool не очень хорошая практика</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">15 / 15</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>10.12.2015 Оценка: 8 Павел Блинов:<br>+ несколько уровней<br>+ добавить читы<br>+ возможность пройти игру<br>+ чит который призывает поедателя призраков<br>+ чит для построения перегородки<br>+ посмотреть на декомпозицию, возможно убрать direction</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">12 / 15</span><span class="label label-danger">80%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>16.12.2015 Оценка: 1 Александр Бочаров:<br>бонусы-ускорители</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 13.12</li>
-                <li>Средний процент: 87.25</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 4</li>
-              </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">93</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">66</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">80</span></td>
-                    <td>04.04.2014 Оценка: 8 Сергей Азовсков:
-- Тороидальные уровни
-- вака-вака!
-- help
-- таймаут вишенки
-Клёвая фича:
-(- сохранения
-и
-( - множество уровней и секретные коды
-или
-- сетевая игра
-))
-11.04.2014 Оценка: 10 Сергей Азовсков:
-Ждём клёвые фичи
-Не многовенно исчезающие призраки
-Жизни
-01.10.2014 Оценка: 12 Сергей Азовсков:
-* баги в сетевом режиме, не отлажено
-* невозможно выбрать сервер и как следствие играть с 2х компов
-* звук сломался
-* невозможно выйти меню
-* жизни, исчезание призраков
-* реализация сетевая игра - не айс и неполная (не решены проблемы рассинхронизации)</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">53</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">6</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">40</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">93</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>08.05.2014 Оценка: 1 Александр Берсенев:
-ожидает проверки</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>04.04.2015 Оценка: 8 Сергей Азовсков:
-* pylint 
-* качество и стиль кода
-* анимацию и вака-вака
-11.04.2015 Оценка: 13 Сергей Азовсков:
-* меню - обобщить код label
-* воспользоваться модулем abc,, если у вас есть классс, который нельзя инстанциировать
-
-* обобщить работу с движением и направлениями
-* общий класс игры объединяющий все объекты
-18.04.2015 Оценка: 15 Сергей Азовсков:
-* метаклассы неправильно</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>04.04.2015 Оценка: 8 Сергей Азовсков:
-* завершение игры
-* звук вака-вака
-* несколько карт / уровней
-* таблетки
-* всякие с поедание
-* прибраться в коде (фунции возвращают значения, обобщённые функции, читаемость)
-* тесты
-* константы
-30.05.2015 Оценка: 12 Сергей Азовсков:
-* прибрать код, избавиться от дублирования и boilerplate
-* DRY
-* pylint
-03.10.2015 Оценка: 13 Сергей Азовсков:
-* pylint
-* поворачивать в центре клетки
-* DRY
-21.11.2015 Оценка: 15 Сергей Азовсков:
-* нормальные стрингдоки</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">66</span></td>
-                    <td>26.05.2015 Оценка: 5 Павел Блинов:
-+ тесты
-+ разделение логики
-+ возможность играть
-+ призрак
-02.06.2015 Оценка: 7 Павел Блинов:
-До 10б:
-+ PEP8
-+ разделение логики (внести логику в игровые сущности)
-+ тесты
-+ 2 уровня
-24.09.2015 Оценка: 10 Павел Блинов:
-1. Документация, декомпозиция, help.
-2. Тестирование, coverage.py логики &gt;80%.
-3. PEP-8.
-4. Пакетные режимы.
-- изменять настройки игры в процессе
-- &quot;клик&quot; на призрака</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">86</span></td>
-                    <td>26.09.2015 Оценка: 7 Сергей Азовсков:
-* повороты
-* звук
-* вишенки
-* вынести из логики куски анимации
-* имена переменных
-* константы в коде
-* тесты
-* Убрать зависимость от Qt в логике
-* игра вдвоём hotseat
-19.12.2015 Оценка: 10 Сергей Азовсков:
-* игра вдвоём
-* бегать по сетке
-* баг: пропадает пэкман
-* ошибка вылетает
-* может только pygame или PyQt, а не одновременно
-* ТЕСТЫ
-* довыносить логику из интерфейса
-08.01.2016 Оценка: 13 Сергей Азовсков:
-* остатки логики в интерфейсе
-* класс Data
-* возвращение кучи bool не очень хорошая практика</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">66</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>10.12.2015 Оценка: 8 Павел Блинов:
-+ несколько уровней
-+ добавить читы
-+ возможность пройти игру
-+ чит который призывает поедателя призраков
-+ чит для построения перегородки
-+ посмотреть на декомпозицию, возможно убрать direction</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">80</span></td>
-                    <td>16.12.2015 Оценка: 1 Александр Бочаров:
-бонусы-ускорители</td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>
