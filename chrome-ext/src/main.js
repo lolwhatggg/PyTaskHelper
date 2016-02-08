@@ -50,7 +50,7 @@ function fill_task_info(data) {
     var students = task['students_amount'];
     var stud_full = task['students_full_points'];
     var perc_full = task['full_points_percent'];
-    var link = 'http://pytask.info/tasks/' + task['filetask_name'];
+    var link = 'http://pytask.info/tasks/' + task['filename'];
 
     var html = [
       '<div class="task_info">',
@@ -90,10 +90,10 @@ function fill_cat_info(data) {
       '<h4>{0}</h4>'.format(task_name),
       '<ul class="nav nav-tabs">',
       '<li role="presentation" class="active">',
-      '<a href="#this_year" data-toggle="tab">Этот год</a>',
+      '<a href="#{0}_this_year" data-toggle="tab">Этот год</a>'.format(task_name.replace(' ', '_')),
       '</li>',
       '<li role="presentation">',
-      '<a href="#all_years" data-toggle="tab">Все года</a>',
+      '<a href="#{0}_all_years" data-toggle="tab">Все года</a>'.format(task_name.replace(' ', '_')),
       '</li>',
       '</ul>',
       '<div class="tab-content">',
@@ -106,7 +106,7 @@ function fill_cat_info(data) {
     context.before(html);
     context.remove();
 
-    $('#this_year').addClass('active');
+    $('#{0}_this_year'.format(task_name.replace(' ', '_'))).addClass('active');
   });
 }
 
@@ -121,7 +121,7 @@ function make_statistics_html(data, task_name, scope) {
   var min_full_points = task['min_full_points'];
 
   var html = [
-    '<div id="{0}" class="tab-plane">'.format(scope),
+    '<div id="{0}_{1}" class="tab-plane">'.format(task_name.replace(' ', '_'), scope),
     '<p>Количество людей:</p>',
     '<p>max: ',
     '<b>{0}</b> '.format(max_students[1]),
@@ -160,6 +160,7 @@ function setCSS() {
 
   var rules = [
     ['.tab-content > .tab-plane {display: none;}'],
+    ['.tab-content > .active {display: block;}'],
     ['.task_info {background-color: #eee; padding: 5px 10px; margin-bottom: 5px; border-radius: 5px;}'],
     ['.task_info hr {margin: 2px 0px;}'],
     ['.task_info p {margin: 3px 0px;}'],
@@ -172,3 +173,4 @@ function setCSS() {
     stylesheet.insertRule(rule, stylesheet.cssRules.length);
   });
 }
+

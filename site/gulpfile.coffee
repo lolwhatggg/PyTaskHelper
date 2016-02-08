@@ -84,6 +84,9 @@ gulp.task 'ext', ->
     .pipe gulp.dest dist + 'icons'
   gulp.src '../database/*.json'
     .pipe gulp.dest dist + 'db'
+  gulp.src '../database/categories/*.json'
+  .pipe gulp.dest dist + 'db/categories'
+
 
 gulp.task 'watch', ->
   gulp.watch 'jade/*.jade', ['jade']
