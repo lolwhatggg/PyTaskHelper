@@ -168,7 +168,7 @@ class EntryAnnualFullInfo(EntryFullInfo):
 
         for year in results:
             results[year]['average_percent'] = \
-                self.get_average(results[year]['percents'], 2)
+                self.get_average(results[year]['percents'])
             results[year]['average_points'] = \
                 self.get_average(results[year]['points'], 2)
             if self.students_amount:

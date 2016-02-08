@@ -107,6 +107,6 @@ class CategoryDB:
 if __name__ == '__main__':
     files = glob.glob(os.path.join('../courses', '*.json'))
     for file in files:
-        year = file.split(' ')[-1].strip()
+        year = file.split('/')[-1]
         year = re.sub('.json', '', year)
         CategoryDB('../database/db_cat.json', year)
