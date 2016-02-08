@@ -23,7 +23,7 @@ def jdefault(o):
 
 
 def write_json(db, filename):
-    dumped = json.dumps(db, ensure_ascii=False,
+    dumped = json.dumps(db, ensure_ascii=False, indent=4,
                         sort_keys=True, default=jdefault)
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(dumped)
@@ -37,6 +37,9 @@ def update_files():
 
     big_db = build_task_database(files, database.EntryAnnualFullInfo)
     write_json(big_db, '../database/db_full.json')
+
+    cat_db = build_task_database(files, database.EntryAnnualShortInfo)
+    write_json(cat_db, '../database/db_cat.json')
 
 
 if __name__ == '__main__':
