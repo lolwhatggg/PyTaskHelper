@@ -21,12 +21,12 @@ block content
     .panel-heading История:
     .panel-body
       ul.nav.nav-pills
-        each data, year in annual
+        each data in annual
           li(role="presentation")
-            a(href="#year#{year}", data-toggle="tab") #{year}
+            a(href="#year#{data.year}", data-toggle="tab") #{data.year}
     .tab-content
-      each data, year in annual
-        .tab-pane(id="year#{year}")
+      each data in annual
+        .tab-pane(id="year#{data.year}")
           ul
             +base_stat(data)
   .panel.panel-info
@@ -47,3 +47,12 @@ block content
                     span.label.label-success #{student.points} / #{student.max}
                     span.label.label-danger #{student.percent}%
                 td.comment-cell: p !{comment}
+
+  h4 Баллы
+  ul
+    each student in students
+      li.points
+        p
+          span.label.label-success.points !{student.points} / #{student.max}
+          span.label.label-danger.percent !{student.percent}%
+          |&nbsp;Дней:&nbsp;#{student.days}

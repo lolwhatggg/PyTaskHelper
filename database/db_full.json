@@ -1219,9 +1219,6 @@
                 "year": "2010-2011"
             },
             {
-                "year": "2011-2012"
-            },
-            {
                 "average_percent": 100,
                 "average_points": 25,
                 "full_points_percent": 100,
@@ -2541,12 +2538,6 @@
     "JPEG": {
         "annual_averages": [
             {
-                "year": "2009-2010"
-            },
-            {
-                "year": "2010-2011"
-            },
-            {
                 "average_percent": 58,
                 "average_points": 10,
                 "full_points_percent": 0,
@@ -2554,9 +2545,6 @@
                 "students_amount": 1,
                 "students_full_points": 0,
                 "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
             },
             {
                 "average_percent": 54,
@@ -3094,9 +3082,6 @@
     },
     "PEP8 валидатор": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 87,
                 "average_points": 7,
@@ -5587,9 +5572,6 @@
     "docstrings2pdf": {
         "annual_averages": [
             {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 50,
                 "average_points": 10,
                 "full_points_percent": 0,
@@ -5597,9 +5579,6 @@
                 "students_amount": 1,
                 "students_full_points": 0,
                 "year": "2013-2014"
-            },
-            {
-                "year": "2014-2015"
             }
         ],
         "average_percent": 50,
@@ -5631,14 +5610,7 @@
         "students_full_points": 0
     },
     "docstrings2rtf": {
-        "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
-            {
-                "year": "2013-2014"
-            }
-        ],
+        "annual_averages": [],
         "average_percent": 0,
         "average_points": 0.0,
         "category": "Перевод документации в другой формат",
@@ -5656,9 +5628,6 @@
     },
     "docstrings2xml": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 35,
                 "average_points": 5,
@@ -5698,9 +5667,6 @@
     },
     "flac": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 68,
                 "average_points": 9.62,
@@ -6415,9 +6381,6 @@
     "man2pdf": {
         "annual_averages": [
             {
-                "year": "2009-2010"
-            },
-            {
                 "average_percent": 40,
                 "average_points": 8,
                 "full_points_percent": 0,
@@ -6427,12 +6390,6 @@
                 "year": "2010-2011"
             },
             {
-                "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 80,
                 "average_points": 16,
                 "full_points_percent": 0,
@@ -6440,9 +6397,6 @@
                 "students_amount": 1,
                 "students_full_points": 0,
                 "year": "2013-2014"
-            },
-            {
-                "year": "2014-2015"
             }
         ],
         "average_percent": 60,
@@ -6490,9 +6444,6 @@
     "man2rtf": {
         "annual_averages": [
             {
-                "year": "2009-2010"
-            },
-            {
                 "average_percent": 35,
                 "average_points": 5,
                 "full_points_percent": 0,
@@ -6509,12 +6460,6 @@
                 "students_amount": 1,
                 "students_full_points": 0,
                 "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
-            },
-            {
-                "year": "2013-2014"
             }
         ],
         "average_percent": 46,
@@ -6559,23 +6504,7 @@
         "students_full_points": 0
     },
     "man2xml": {
-        "annual_averages": [
-            {
-                "year": "2009-2010"
-            },
-            {
-                "year": "2010-2011"
-            },
-            {
-                "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
-            },
-            {
-                "year": "2013-2014"
-            }
-        ],
+        "annual_averages": [],
         "average_percent": 0,
         "average_points": 0.0,
         "category": "Перевод документации в другой формат",
@@ -6596,9 +6525,6 @@
     },
     "mp3": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 71,
                 "average_points": 10,
@@ -6747,12 +6673,6 @@
     },
     "ogg": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
-            {
-                "year": "2013-2014"
-            },
             {
                 "average_percent": 32,
                 "average_points": 4.5,
@@ -7656,15 +7576,6 @@
                 "students_amount": 1,
                 "students_full_points": 0,
                 "year": "2009-2010"
-            },
-            {
-                "year": "2010-2011"
-            },
-            {
-                "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
             }
         ],
         "average_percent": 75,
@@ -7860,12 +7771,6 @@
                 "students_amount": 1,
                 "students_full_points": 1,
                 "year": "2010-2011"
-            },
-            {
-                "year": "2011-2012"
-            },
-            {
-                "year": "2012-2013"
             }
         ],
         "average_percent": 100,
@@ -8193,9 +8098,6 @@
     },
     "wav": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 80,
                 "average_points": 11.25,
@@ -8715,9 +8617,6 @@
     "Аудиоредактор": {
         "annual_averages": [
             {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 62,
                 "average_points": 11.17,
                 "full_points_percent": 0,
@@ -8725,9 +8624,6 @@
                 "students_amount": 6,
                 "students_full_points": 0,
                 "year": "2013-2014"
-            },
-            {
-                "year": "2014-2015"
             }
         ],
         "average_percent": 62,
@@ -10325,9 +10221,6 @@
     },
     "Где трамвай": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
             {
                 "average_percent": 67,
                 "average_points": 13.38,
@@ -15007,9 +14900,6 @@
                 "year": "2009-2010"
             },
             {
-                "year": "2010-2011"
-            },
-            {
                 "average_percent": 100,
                 "average_points": 25,
                 "full_points_percent": 100,
@@ -16609,9 +16499,6 @@
     "Разбор FAT32": {
         "annual_averages": [
             {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 74,
                 "average_points": 12.67,
                 "full_points_percent": 0,
@@ -16693,12 +16580,6 @@
     },
     "Разбор ext4": {
         "annual_averages": [
-            {
-                "year": "2012-2013"
-            },
-            {
-                "year": "2013-2014"
-            },
             {
                 "average_percent": 100,
                 "average_points": 21,
@@ -18518,9 +18399,6 @@
     "Фотоальбом": {
         "annual_averages": [
             {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 62,
                 "average_points": 12.33,
                 "full_points_percent": 0,
@@ -19494,9 +19372,6 @@
                 "students_amount": 2,
                 "students_full_points": 0,
                 "year": "2013-2014"
-            },
-            {
-                "year": "2014-2015"
             }
         ],
         "average_percent": 40,
@@ -20873,9 +20748,6 @@
                 "year": "2011-2012"
             },
             {
-                "year": "2012-2013"
-            },
-            {
                 "average_percent": 38,
                 "average_points": 7.5,
                 "full_points_percent": 0,
@@ -21221,9 +21093,6 @@
                 "students_amount": 6,
                 "students_full_points": 0,
                 "year": "2009-2010"
-            },
-            {
-                "year": "2010-2011"
             },
             {
                 "average_percent": 85,

@@ -184,8 +184,8 @@ class EntryAnnualFullInfo(EntryFullInfo):
             del results[year]['points']
             del results[year]['percents']
 
-        for year in sorted(self.history):
-            self.annual_averages.append(results.get(year, {}))
+        for year in sorted(results):
+            self.annual_averages.append(results[year])
             self.annual_averages[-1]['year'] = year
 
 class EntryAnnualShortInfo(EntryAnnualFullInfo):
