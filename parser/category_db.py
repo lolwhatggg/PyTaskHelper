@@ -35,7 +35,7 @@ class CategoryDB:
         result = {}
         for task in self.tasks:
             this_year = [t for t in self.tasks[task]['annual_averages']
-                             if t['year'] == self.year]
+                         if t['year'] == self.year]
             if this_year:
                 this_year = this_year[0]
                 result[task] = self.tasks[task]
@@ -59,20 +59,13 @@ class CategoryDB:
             'max_percent': self.get_max_value(data, 'average_percent'),
             'min_percent': self.get_min_value(data, 'average_percent'),
             'max_points': self.get_max_value(data, 'average_points'),
-            'min_points': self.get_min_value(data, 'average_points')
+            'min_points': self.get_min_value(data, 'average_points'),
+            'max_full_points': self.get_max_value(data,
+                                                  'students_full_points'),
+            'min_full_points': self.get_min_value(data,
+                                                  'students_full_points'),
+
         }
-        max_full_points, name = self.get_max_value(data,
-                                                   'students_full_points')
-        percent, students = self.get_info_about_task(name)
-        entry['max_full_points'] = {'students_full_points': max_full_points,
-                                    'name': name, 'percent': percent,
-                                    'students_amount': students}
-        min_full_points, name = self.get_min_value(data,
-                                                   'students_full_points')
-        percent, students = self.get_info_about_task(name)
-        entry['min_full_points'] = {'students_full_points': min_full_points,
-                                    'name': name, 'percent': percent,
-                                    'students_amount': students}
         return entry
 
     def get_info_about_task(self, name):

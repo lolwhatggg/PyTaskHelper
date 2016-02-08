@@ -19,7 +19,8 @@ block content
     .panel-heading: h4 #{task.name}
     .panel-body
       ul
-        li Категория: #{task.category}
+        -if (task.category !== 'common')
+          li Категория: #{task.category}
         +base_stat(task)
   .panel.panel-info
     .panel-heading История:

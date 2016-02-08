@@ -4,6 +4,10 @@ String.prototype.format = function() {
     return typeof args[number] != 'undefined' ? args[number] : match;
   });
 };
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.split(search).join(replacement);
+};
 
 $(document).ready(function() {
 
@@ -90,10 +94,10 @@ function fill_cat_info(data) {
       '<h4>{0}</h4>'.format(task_name),
       '<ul class="nav nav-tabs">',
       '<li role="presentation" class="active">',
-      '<a href="#{0}_this_year" data-toggle="tab">Этот год</a>'.format(task_name.replace(' ', '_')),
+      '<a href="#{0}_this_year" data-toggle="tab">Этот год</a>'.format(task_name.replaceAll(' ', '_')),
       '</li>',
       '<li role="presentation">',
-      '<a href="#{0}_all_years" data-toggle="tab">Все года</a>'.format(task_name.replace(' ', '_')),
+      '<a href="#{0}_all_years" data-toggle="tab">Все года</a>'.format(task_name.replaceAll(' ', '_')),
       '</li>',
       '</ul>',
       '<div class="tab-content">',
@@ -106,7 +110,7 @@ function fill_cat_info(data) {
     context.before(html);
     context.remove();
 
-    $('#{0}_this_year'.format(task_name.replace(' ', '_'))).addClass('active');
+    $('#{0}_this_year'.format(task_name.replaceAll(' ', '_'))).addClass('active');
   });
 }
 
@@ -115,13 +119,15 @@ function make_statistics_html(data, task_name, scope) {
 
   var max_students = task['max_students'];
   var min_students = task['min_students'];
+  var max_percent = task['max_percent']
+  var min_percent = task['min_percent']
   var max_points = task['max_points'];
   var min_points = task['min_points'];
   var max_full_points = task['max_full_points'];
   var min_full_points = task['min_full_points'];
 
   var html = [
-    '<div id="{0}_{1}" class="tab-plane">'.format(task_name.replace(' ', '_'), scope),
+    '<div id="{0}_{1}" class="tab-plane">'.format(task_name.replaceAll(' ', '_'), scope),
     '<p>Количество людей:</p>',
     '<p>max: ',
     '<b>{0}</b> '.format(max_students[1]),
@@ -131,7 +137,7 @@ function make_statistics_html(data, task_name, scope) {
     '<b>{0}</b> '.format(min_students[1]),
     '<span>({0})</span>'.format(min_students[0]),
     '</p>',
-    '<p>Средний балл</p>',
+    '<p>Средний балл:</p>',
     '<p>max: ',
     '<b>{0}</b> '.format(max_points[1]),
     '<span>({0})</span>'.format(max_points[0]),
@@ -140,14 +146,23 @@ function make_statistics_html(data, task_name, scope) {
     '<b>{0}</b> '.format(min_points[1]),
     '<span>({0})</span>'.format(min_points[0]),
     '</p>',
-    '<p>Количество полных баллов</p>',
+    '<p>Средний процент выполнения:</p>',
     '<p>max: ',
-    '<b>{0}</b> '.format(max_full_points['name']),
-    '<span>({0})</span>'.format(max_full_points['students_amount']),
+    '<b>{0}</b> '.format(max_percent[1]),
+    '<span>({0}%)</span>'.format(max_percent[0]),
     '</p>',
     '<p>min: ',
-    '<b>{0}</b> '.format(min_full_points['name']),
-    '<span>({0})</span>'.format(min_full_points['students_amount']),
+    '<b>{0}</b> '.format(min_percent[1]),
+    '<span>({0}%)</span>'.format(min_percent[0]),
+    '</p>',
+    '<p>На полный балл:</p>',
+    '<p>max: ',
+    '<b>{0}</b> '.format(max_full_points[1]),
+    '<span>({0})</span>'.format(max_full_points[0]),
+    '</p>',
+    '<p>min: ',
+    '<b>{0}</b> '.format(min_full_points[1]),
+    '<span>({0})</span>'.format(min_full_points[0]),
     '</p>',
     '</div>'
   ].join('');

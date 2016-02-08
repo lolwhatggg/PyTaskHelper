@@ -5,14 +5,65 @@ block title
 
 block content
   h1.index-header About
-  h3 Pytask.info
-  h5 Анализатор python.task с сайта anytask.urgu.org
+  h2 Pytask.info
+  h3 Анализатор python.task с сайта anytask.urgu.org
   div
-    p.
-      Проект начат 31 января 2016 года и предназначен для сбора статистики о сданных задачах на AnyTask
-      и вычисления средних значений.
+    p
+      | Проект начат 31 января 2016 года и задуман, как анализатор курсов python.task (и архивных Perltask) с
+      a(href="http://anytask.urgu.org") &nbsp;Anytask&nbsp;
+
+    h4 Сейчас проект можно рассматривать как три взаимосвязанных части:
+    ul
+      li Парсер информации о курсах
+      li Дополнение для браузера Chrome
+      li Сайт Pytask.info
+  div
+    h3 Главные фичи:
+    ul
+      li Подробная информация о каждой задаче:
+        ul
+          li Баллы студентов
+          li Замечания преподавателей
+          li Средние показатели баллов/процентов/студентов
+          li Погодовая статистика
+      li Информация о категориях задач (доступна в дополнении Chrome)
+        ul
+          li Задача из категории с max/min:
+            ul
+              li средним баллом
+              li средним процентом выполнения
+              li количеством студентов, решивших ее
+              li количеством студентов, решивших ее на полный балл
+      li Tаблица задач, которую можно отсортировать по желаемому параметру
+      li Парсер сайта, который парсит данные с Anytask и преобразует их в json-файлы, которые мы используем для составления статистики
+  div
+    h3 Ссылки
+    li
+      p
+      |Исходный код доступен на:&nbsp;
+      a(href="https://github.com/avefablo/AnyTaskAnalyzer") GitHub
+    li
+      p
+        |Группа проекта ВКонтакте:&nbsp;
+        a(href="http://vk.com/py.task") Link
+
+    h3 Разработчики
+    div
+      p Антон Зырянов
+      ul
+        li: a(href="http://vk.com/avefablo") ВКонтакте
+        li: a(href="http://twitter.com/avefablo") Twitter
+    div
+      p Вихарев Слава
+      ul
+        li: a(href="http://vk.com/id66971841") ВКонтакте
+  div
+    h3 Donate
+    p
+      | Yandex.Money&nbsp;
+      a(href="https://money.yandex.ru/to/410012901386715") Donate
+  div
     h3 Технологии
-    p В рамках проекта существуют:
     dl
       dt Парсер сайта:
       dd
@@ -31,11 +82,12 @@ block content
         ul
           li: a(href="https://nodejs.org/en/") Node.js
             ul
-              li: a(href="http://jade-lang.com/") Jade
-              li: a(href="http://gulpjs.com/") Gulp
-              li: a(href="http://coffeescript.org/") CoffeeScript
+              li: a(href="https://gulpjs.com/") Gulp
+              li: a(href="https://jade-lang.com/") Jade
+              li: a(href="https://coffeescript.org/") CoffeeScript
+              li: a(href="https://stylus-lang.com/") Stylus
           li: a(href="https://jquery.com/") jQuery
-          li: a(href="http://getbootstrap.com/") Bootstrap
+          li: a(href="https://getbootstrap.com/") Bootstrap
           li: a(href="https://github.com/HubSpot/sortable") Sortable tables
 
       dt Серверная часть
@@ -44,26 +96,10 @@ block content
           li: a(href="https://www.raspberrypi.org/") Raspberry Pi
           li: a(href="https://www.linux.com/") GNU/Linux
           li: a(href="https://www.gnu.org/software/bash/") Bash
-  div
-    p
-      | Исходный код доступен на:&nbsp;
-      a(href="https://github.com/avefablo/AnyTaskAnalyzer") GitHub
-    p
-      |Группа проекта:&nbsp;
-      a(href="http://vk.com/py.task") ВКонтакте
-  div
-    h3 Разработчики
-    div
-      p Зырянов Антон
-      ul
-        li: a(href="http://vk.com/avefablo") ВКонтакте
-        li: a(href="http://twitter.com/avefablo") Twitter
-    div
-      p Вихарев Слава
-      ul
-        li: a(href="http://vk.com/id66971841") ВКонтакте
-  div
-    h3 Donate
-    p
-      | Yandex.Money
-      a(href="https://money.yandex.ru/to/410012901386715") Donate
+
+      dt Написание кода:
+      dd
+        ul
+          li: a(href="https://sublimetext.com/") Sublime Text 3
+          li: a(href="https://www.jetbrains.com/pycharm/") JetBrains PyCharm
+          li: a(href="https://www.jetbrains.com/webstorm/") JetBrains WebStorm
