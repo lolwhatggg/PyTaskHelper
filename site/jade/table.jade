@@ -12,11 +12,11 @@ block content
     table#task-table.table.table-hover.sortable-theme-finder(data-sortable)
       thead
         tr
-          th(data-sorted="true", data-sorted-direction="ascending", data-sortable-type="alpha") Задача
-          th(data-sorted="false", data-sortable-type="numeric") Max
-          th(data-sorted="false", data-sortable-type="numeric") Средний балл
-          th(data-sorted="false", data-sortable-type="numeric") Сдавшие
-          th(data-sorted="false", data-sortable-type="numeric") Полный балл
+          th(data-sorted="true", data-sorted-direction="ascending") Задача
+          th(data-sortable-type="numeric") Max
+          th(data-sortable-type="numeric") Средний балл
+          th(data-sortable-type="numeric") Сдавшие
+          th(data-sortable-type="numeric") Полный балл
       tbody
         each task in locals
           tr

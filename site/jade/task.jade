@@ -9,8 +9,12 @@ mixin base_stat(data)
   li Сдавшие: #{data.students_amount} чел.
   li Полный балл: #{data.students_full_points} чел.
 
+block add_links
+  link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
+
 block content
   p.text-right Время обновления базы #{date}
+
   .panel.panel-primary
     .panel-heading: h4 #{task.name}
     .panel-body
@@ -43,16 +47,25 @@ block content
             - if (comment)
               tr
                 td
-                  p
-                    span.label.label-success #{student.points} / #{student.max}
-                    span.label.label-danger #{student.percent}%
-                td.comment-cell: p !{comment}
+                  span.label.label-success #{student.points} / #{student.max}
+                  span.label.label-danger #{student.percent}%
+                td !{comment}
+  .panel.panel-info
+    .panel-heading Баллы:
+    table.table.table-condensed.table-hover(data-sortable)
+      thead
+        tr
+          th(data-sorted="true", data-sorted-direction="numeric") Балл
+          th(data-sortable-type="numeric") Max
+          th(data-sortable-type="numeric") Процент
+          th(data-sortable-type="numeric") Дни
+      tbody
+        each student in students
+          tr
+            td #{student.points}
+            td #{student.max}
+            td #{student.percent}%
+            td #{student.days}
 
-  h4 Баллы
-  ul
-    each student in students
-      li.points
-        p
-          span.label.label-success.points !{student.points} / #{student.max}
-          span.label.label-danger.percent !{student.percent}%
-          |&nbsp;Дней:&nbsp;#{student.days}
+block add_scripts
+  script(src='/js/sortable.min.js')
