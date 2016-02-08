@@ -1,5 +1,8 @@
 extends page
 
+block title
+  title #{task.name} | Py.task
+
 mixin base_stat(data)
   li Максимальный балл: #{data.max}
   li Средний балл: #{data.average_points} (#{data.average_percent}%)
