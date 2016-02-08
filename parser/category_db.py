@@ -34,9 +34,12 @@ class CategoryDB:
     def get_annual_tasks(self):
         result = {}
         for task in self.tasks:
-            if self.year in self.tasks[task]['annual_averages']:
+            this_year = [t for t in self.tasks[task]['annual_averages']
+                             if t['year'] == self.year]
+            if this_year:
+                this_year = this_year[0]
                 result[task] = self.tasks[task]
-                result[task].update(self.tasks[task]['annual_averages'][self.year])
+                result[task].update(this_year)
                 del result[task]['annual_averages']
         return result
 

@@ -54,13 +54,12 @@ class EntryWithoutAnnotations(Entry):
                                            data['name'])
         self.filename = self.get_filename()
         self.points = []
-        self.history = {}
+
         self.students_amount = 0
         self.students_full_points = 0
 
     def update(self, data):
         year = data['year']
-        self.history[year] = data['category']
         if not self.category or self.category[1] < year:
             self.category = (data['category'], year)
         if not self.max or self.max[1] < year:
@@ -146,7 +145,14 @@ class EntryFullInfo(EntryWithPercentage):
 class EntryAnnualFullInfo(EntryFullInfo):
     def __init__(self, data):
         super().__init__(data)
-        self.annual_averages = {}
+        self.annual_averages = []
+        self.history = {}
+
+    def update(self, data):
+        super().update(data)
+        year = data['year']
+        self.history[year] = data['category']
+
 
     def finalize(self):
         super().finalize()
@@ -174,11 +180,13 @@ class EntryAnnualFullInfo(EntryFullInfo):
             if self.students_amount:
                 results[year]['full_points_percent'] = \
                     int(results[year]['students_full_points'] /
-                         results[year]['students_amount'] * 100)
+                        results[year]['students_amount'] * 100)
             del results[year]['points']
             del results[year]['percents']
-        self.annual_averages = results
 
+        for year in sorted(self.history):
+            self.annual_averages.append(results.get(year, {}))
+            self.annual_averages[-1]['year'] = year
 
 class EntryAnnualShortInfo(EntryAnnualFullInfo):
     def finalize(self):
