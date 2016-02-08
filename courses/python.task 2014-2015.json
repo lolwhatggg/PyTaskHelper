@@ -1705,6 +1705,14 @@
                 "second_date": "03.03.2016",
                 "student": "Бондаренко Владислав",
                 "year": "2014-2015"
+            },
+            {
+                "comment": "",
+                "first_date": "08.02.2016",
+                "points": 0,
+                "second_date": "09.03.2016",
+                "student": "Nuykin Nikita",
+                "year": "2014-2015"
             }
         ],
         "year": "2014-2015"
