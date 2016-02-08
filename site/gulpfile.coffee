@@ -70,11 +70,15 @@ gulp.task 'coffee', ->
     .pipe gulp.dest 'js'
 
 gulp.task 'ext', ->
-  gulp.src 'external/*.js'
-    .pipe gulp.dest dist + 'js'
+  gulp.src 'external/**/*.js'
+    .pipe rename
+      dirname: 'js'
+    .pipe gulp.dest dist
     .pipe do connect.reload
-  gulp.src 'external/*.css'
-    .pipe gulp.dest dist + 'css'
+  gulp.src 'external/**/*.css'
+    .pipe rename
+      dirname: 'css'
+    .pipe gulp.dest dist
     .pipe do connect.reload
   gulp.src '../icons/*'
     .pipe gulp.dest dist + 'icons'
