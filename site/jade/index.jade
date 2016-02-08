@@ -4,20 +4,20 @@ block title
   title Py.task
 
 block content
-  h1.index-header Py.task Helper
+  h1#top.index-header Py.task Helper
   include search
   each task in locals
     .task.panel.panel-default
       a(href="/tasks/#{task.filename}"): h2.searchable #{task.name}
       ul
-        -if(task.category!='common')
+        -if (task.category !== 'common')
           li
             | Категория:&nbsp;
             span.searchable #{task.category}
         li Максимальный балл: #{task.max}
         li Средний балл: #{task.average_points} (#{task.average_percent}%)
       hr
-      a(href="#") Наверх...
+      a(href="#top") Наверх...
 
 block add_scripts
   script(src="/js/task_search.js")
