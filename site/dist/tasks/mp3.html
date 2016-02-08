@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,191 +112,111 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>mp3</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Разбор аудиоформатов</li>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 9.94</li>
-                <li>Средний процент: 71</li>
-                <li>Количество сдавших: 10</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>mp3</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Разбор аудиоформатов</li>
+                    <li>Максимальный балл: 14</li>
+                    <li>Средний балл: 9.94 (71%)</li>
+                    <li>Сдавшие: 10 чел.</li>
+                    <li>Полный балл: 1 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 10</li>
-                <li>Средний процент: 71</li>
-                <li>Количество сдавших: 7</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 10 (71%)</li>
+                      <li>Сдавшие: 7 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 10 (71%)</li>
+                      <li>Сдавшие: 3 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 10</li>
-                <li>Средний процент: 71</li>
-                <li>Количество сдавших: 3</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">11 / 14</span><span class="label label-danger">78%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>08.11.2014 Оценка: 7 Сергей Азовсков:<br>* сделать работающий плеер<br>* падает на некоторых файлах https://yadi.sk/d/M10g9826cZxRB<br>* определять кодировку<br>* не терять папку, в которой был открыт последний файл<br>* показывать hexdump и когда тыкаешь на поле, подсвечиваются байты в hexdump<br>10.01.2015 Оценка: 11 Сергей Азовсков:<br>* плеер и парсер всё ещё падают<br>* хексдамп, показывать все данные, их смещения. Показывать все данные из MP3.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 14</span><span class="label label-danger">71%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>17.11.2014 Оценка: 6 Сергей Азовсков:<br>* падает на некоторых файлах<br>* падает, если файл не указан<br>* парсить Mp3, а не ID3<br>* запоминать выбранную папку<br>* правильно отображать Meds<br>* угадывать кодировку для русских песен<br>* работа плеера<br>* документация<br>* тесты<br>* закрывать файлы<br>* pylint<br>* работа на некорректных файлах<br>19.11.2014 Оценка: 10 Сергей Азовсков:<br>* показывать длинну дорожки<br>* плеер не работает<br>* кодировки не корретно<br>* теги показывает не всегда (свежая АлоеВера падает)<br>* тесты - Nope<br>* закрывать файлы ХОРОШО</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 14</span><span class="label label-danger">71%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>15.11.2014 Оценка: 5 Сергей Азовсков:<br>* тесты<br>* документация<br>* pylint<br>* стиль именования модулей<br>* работающий плеер<br>* ошибки кодировки<br>* ошибки парсинга<br>* корректный парсинг<br>* лишние None<br>* вменяемый интерфейс (+ CLI интерфейс)<br>* разбор MP3, а не ID3<br>19.11.2014 Оценка: 10 Сергей Азовсков:<br>* больше из MP3 <br>* pylint<br>* работающий плеер<br>* проблемы с некоторыми файлами<br><br>* клёвую фичу</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">7 / 14</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>29.11.2014 Оценка: 7 Сергей Азовсков:<br>* не отображает метаинформацию на некоторых файлов<br>* не правильно считает длинну<br>* сохранять папку выбора<br>* копирайт<br>* больше информации о MP3<br>* pylint<br>*  выводить хексдамп и когда кликаю на поле, подсвечивать его там.<br>* отображать картинку альбома</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">12 / 14</span><span class="label label-danger">85%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>17.01.2015 Оценка: 7 Сергей Азовсков:<br>* недостающие данные<br>* работа с отсутствующим idv1<br>* тесты падают<br>* длинна в секундах и ещё какие-то данные не из IDv3?<br>28.03.2015 Оценка: 10 Сергей Азовсков:<br>* кодировки <br>* длинна<br>* сделать ровное отображение тегов<br>* вывести что-то про фреймы(по кнопке)<br>* хексдамп (по кнопке)<br>02.04.2015 Оценка: 12 Сергей Азовсков:<br>хексдамп<br>кодировки</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">78</span></td>
-                    <td>08.11.2014 Оценка: 7 Сергей Азовсков:
-* сделать работающий плеер
-* падает на некоторых файлах https://yadi.sk/d/M10g9826cZxRB
-* определять кодировку
-* не терять папку, в которой был открыт последний файл
-* показывать hexdump и когда тыкаешь на поле, подсвечиваются байты в hexdump
-10.01.2015 Оценка: 11 Сергей Азовсков:
-* плеер и парсер всё ещё падают
-* хексдамп, показывать все данные, их смещения. Показывать все данные из MP3.</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td>17.11.2014 Оценка: 6 Сергей Азовсков:
-* падает на некоторых файлах
-* падает, если файл не указан
-* парсить Mp3, а не ID3
-* запоминать выбранную папку
-* правильно отображать Meds
-* угадывать кодировку для русских песен
-* работа плеера
-* документация
-* тесты
-* закрывать файлы
-* pylint
-* работа на некорректных файлах
-19.11.2014 Оценка: 10 Сергей Азовсков:
-* показывать длинну дорожки
-* плеер не работает
-* кодировки не корретно
-* теги показывает не всегда (свежая АлоеВера падает)
-* тесты - Nope
-* закрывать файлы ХОРОШО</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td>15.11.2014 Оценка: 5 Сергей Азовсков:
-* тесты
-* документация
-* pylint
-* стиль именования модулей
-* работающий плеер
-* ошибки кодировки
-* ошибки парсинга
-* корректный парсинг
-* лишние None
-* вменяемый интерфейс (+ CLI интерфейс)
-* разбор MP3, а не ID3
-19.11.2014 Оценка: 10 Сергей Азовсков:
-* больше из MP3 
-* pylint
-* работающий плеер
-* проблемы с некоторыми файлами
-
-* клёвую фичу</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">78</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>29.11.2014 Оценка: 7 Сергей Азовсков:
-* не отображает метаинформацию на некоторых файлов
-* не правильно считает длинну
-* сохранять папку выбора
-* копирайт
-* больше информации о MP3
-* pylint
-*  выводить хексдамп и когда кликаю на поле, подсвечивать его там.
-* отображать картинку альбома</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">64</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td>17.01.2015 Оценка: 7 Сергей Азовсков:
-* недостающие данные
-* работа с отсутствующим idv1
-* тесты падают
-* длинна в секундах и ещё какие-то данные не из IDv3?
-28.03.2015 Оценка: 10 Сергей Азовсков:
-* кодировки 
-* длинна
-* сделать ровное отображение тегов
-* вывести что-то про фреймы(по кнопке)
-* хексдамп (по кнопке)
-02.04.2015 Оценка: 12 Сергей Азовсков:
-хексдамп
-кодировки</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">42</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

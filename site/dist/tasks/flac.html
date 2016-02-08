@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,131 +112,87 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>flac</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Разбор аудиоформатов</li>
-                <li>Максимальный балл: 16</li>
-                <li>Средний балл: 10.72</li>
-                <li>Средний процент: 67</li>
-                <li>Количество сдавших: 9</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>flac</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Разбор аудиоформатов</li>
+                    <li>Максимальный балл: 16</li>
+                    <li>Средний балл: 10.72 (67%)</li>
+                    <li>Сдавшие: 9 чел.</li>
+                    <li>Полный балл: 1 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 9.62</li>
-                <li>Средний процент: 68.25</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 9.62 (68.25%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 16</li>
+                      <li>Средний балл: 8 (50%)</li>
+                      <li>Сдавшие: 1 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 16</li>
-                <li>Средний балл: 8</li>
-                <li>Средний процент: 50</li>
-                <li>Количество сдавших: 1</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">5 / 14</span><span class="label label-danger">35%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.12.2014 Оценка: 1 Сергей Азовсков:<br>* начало положено<br>10.01.2015 Оценка: 5 Сергей Азовсков:<br>* больше данных<br>* отображать общую структуру файла<br>* ctypes вместо struct можно попробовать</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 16</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>19.12.2015 Оценка: 8 Павел Блинов:<br>+ выводить инфу в виде близком к hexdump<br>+ использовать logging и добавить ключи -v -vv -vvv<br>+ проверять md5<br>+ получить изображения из flack файла (добавить ключик)<br>+ кроссплатформенное воспроизведение файлов (показ изображений) <br>+ нормальные тесты<br>+ стиль кода<br>+ декомпозиция</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">7</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">92</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">35</span></td>
-                    <td>27.12.2014 Оценка: 1 Сергей Азовсков:
-* начало положено
-10.01.2015 Оценка: 5 Сергей Азовсков:
-* больше данных
-* отображать общую структуру файла
-* ctypes вместо struct можно попробовать</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">92</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">78</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">16</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>19.12.2015 Оценка: 8 Павел Блинов:
-+ выводить инфу в виде близком к hexdump
-+ использовать logging и добавить ключи -v -vv -vvv
-+ проверять md5
-+ получить изображения из flack файла (добавить ключик)
-+ кроссплатформенное воспроизведение файлов (показ изображений) 
-+ нормальные тесты
-+ стиль кода
-+ декомпозиция</td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

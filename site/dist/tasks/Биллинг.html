@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,534 +112,195 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>Биллинг</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: common</li>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 10.64</li>
-                <li>Средний процент: 76</li>
-                <li>Количество сдавших: 50</li>
-                <li>Количество сдавших на полный балл: 16</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>Биллинг</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: common</li>
+                    <li>Максимальный балл: 14</li>
+                    <li>Средний балл: 10.64 (76%)</li>
+                    <li>Сдавшие: 50 чел.</li>
+                    <li>Полный балл: 16 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2009-2010</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 11</li>
-                <li>Средний процент: 78.44</li>
-                <li>Количество сдавших: 9</li>
-                <li>Количество сдавших на полный балл: 4</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2009-2010" data-toggle="tab">2009-2010</a></li>
+                    <li role="presentation"><a href="#year2010-2011" data-toggle="tab">2010-2011</a></li>
+                    <li role="presentation"><a href="#year2011-2012" data-toggle="tab">2011-2012</a></li>
+                    <li role="presentation"><a href="#year2012-2013" data-toggle="tab">2012-2013</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2009-2010" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 11 (78.44%)</li>
+                      <li>Сдавшие: 9 чел.</li>
+                      <li>Полный балл: 4 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2010-2011" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 12.33 (87.89%)</li>
+                      <li>Сдавшие: 9 чел.</li>
+                      <li>Полный балл: 5 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2011-2012" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 11.5 (81.75%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 2 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2012-2013" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 10.44 (74.33%)</li>
+                      <li>Сдавшие: 9 чел.</li>
+                      <li>Полный балл: 2 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 9.88 (70.38%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 3 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 14</li>
+                      <li>Средний балл: 8.29 (58.86%)</li>
+                      <li>Сдавшие: 7 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2010-2011</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 12.33</li>
-                <li>Средний процент: 87.89</li>
-                <li>Количество сдавших: 9</li>
-                <li>Количество сдавших на полный балл: 5</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">7 / 14</span><span class="label label-danger">50%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>24.04.2013 Оценка: 1 Александр Берсенев:<br>1) Не запускается:<br>$ python3.2 billing.py <br>File "billing.py", line 11<br>and l[0] == \'RESOURCE\'<br>^<br>SyntaxError: invalid syntax<br><br>2) описание ресурсов не походит на реальные ресурсы, реальные выглядят так:<br>http://www.open-mpi.org/faq/?category=tuning#setting-mca-params<br>http://docs.oracle.com/cd/E19932-01/820-3523-10/ea_chpt3_software_overview.html<br>https://www.google.com/search?q=cat&oq;=cat&aqs;=chrome.0.57j60j65j61j60j0.2952j0&sourceid;=chrome&ie;=UTF-8<br><br>В описании ресурсов должно быть можно не писать каждый(их много), а писать сразу группу, например:<br>- запросы на ya.ru стоят 50<br>- но запросы на ya.ru/test/ стоят 100<br>- запросы на ya.ru/test/free.html стоят 0<br><br>Краткая детализация - только группа ресурсов и сколько запросов на него сделано, подробная детализация: сколько стоил каждый запрос.<br><br>3) нет тестов<br>4) нет документации(хотя комментарии очень подробные)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">14 / 14</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>02.05.2014 Оценка: 8 Сергей Азовсков:<br>* добавить аргументы для сохранения последнего байта<br>* баг с пересчётом после изменения цены<br>* возможность делать детальный отчёт по общий или по ip за произвольный период времени с гранулярностью в день.<br>* возможность стоимости за факт показа или за показанные байты<br>* больше тестов :)<br>16.05.2014 Оценка: 12 Сергей Азовсков:<br>* вывод ошибок, чуть лучших интерактивный режим<br>* тесты на некорректные данные</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">14 / 14</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>30.05.2014 Оценка: 10 Александр Бочаров:<br>Не залился дифф с исправлениями.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">4 / 14</span><span class="label label-danger">28%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 4 Сергей Азовсков:<br>* конфиги<br>* нормальные сообщения об ошибках<br>* интерфейс поудобней - use curses<br>* пакетный ражим<br>* возможность указания масок IP и масок страниц<br>* сохранение состояние - инкрементальные данные<br>* устойчивость к внезапному выключению<br>* тесты</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 14</span><span class="label label-danger">57%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 2 Сергей Азовсков:<br>* не работает<br>* агрегация<br>* прибраться в gui<br>* дублирование классов<br>* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)<br>22.11.2014 Оценка: 8 Сергей Азовсков:<br>* pylint<br>* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)<br>* добавить группировки<br>* добавить batch режим<br>* в интерфейсе обрабатывать enter<br>* тесты<br>* доп файл со скидками: файл в котором написано, что в такой-то период на такой-то товар была такая-то скидка.<br><br>Возможность строить отчёты:<br>-- сколько каждый пользователель потратил за указанный период, всё время<br>-- сколько пользователь потратил за каждый день в указанном периоде</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 14</span><span class="label label-danger">57%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>25.10.2014 Оценка: 8 Сергей Азовсков:<br>* поправить документацию и help<br>* нормальные сообщения об ошибках формата<br>* работа на больших дописывающихся файлах<br>* batch interface<br>* тесты<br>* from datetime import datetime</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 14</span><span class="label label-danger">57%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>15.10.2014 Оценка: 8 Сергей Азовсков:<br>* шаблоны в rules<br>* REAME!<br>* Тесты<br>* работы с большими файлами<br>* работа с инкрементальным файлом</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 14</span><span class="label label-danger">71%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>30.05.2015 Оценка: 10 Сергей Азовсков:<br>* выборка по времени<br>* работа с большими файлами<br>* стабильность ()<br>* обрабатывать ошибки в логах<br>* запуск с разными конфигами <br>* избавиться от дублирования, обобщить</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 14</span><span class="label label-danger">71%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>25.06.2015 Оценка: 10 Павел Блинов:<br>+ Гибкое описание стоимости ресурсов<br>+ Посмотреть на mmap<br>+ cat ats2.txt | grep "22.02.2004" | python billing.py<br>+ значения по умолчанию для аргументов<br>+ стиль</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 14</span><span class="label label-danger">71%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>21.11.2015 Оценка: 8 Сергей Азовсков:<br>* namedtuple и прибраться<br>* почитать про логгирование в питоне<br>* работа с большими данными, уметь восстанавливаться после сбоев и прерываний<br>* отвечать отдельно запросы сколько денег потратил X, детализация счёта за период Y<br>* категории траффика (по префиксам телефонов)<br>05.12.2015 Оценка: 10 Сергей Азовсков:<br>* избавиться от magic констант<br>* покрытие тестов<br>* обработка ошибок<br>* потестить скорость re с жадностью и без (use timeit)<br>* сохранять состояние синхорнно<br>* picke<br>* улучшить состояние и работу с ним. Что будет, если копьютер перезагрузить во время сохранения состояния<br>* детализация по пользователям <br>* ускорить генератор логов (должен упираться в диск)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">1 / 14</span><span class="label label-danger">7%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>16.12.2015 Оценка: 1 Александр Бочаров:<br>Графика</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2011-2012</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 11.5</li>
-                <li>Средний процент: 81.75</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 2</li>
-              </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2012-2013</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 10.44</li>
-                <li>Средний процент: 74.33</li>
-                <li>Количество сдавших: 9</li>
-                <li>Количество сдавших на полный балл: 2</li>
-              </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 9.88</li>
-                <li>Средний процент: 70.38</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 3</li>
-              </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 14</li>
-                <li>Средний балл: 8.29</li>
-                <li>Средний процент: 58.86</li>
-                <li>Количество сдавших: 7</li>
-                <li>Количество сдавших на полный балл: 0</li>
-              </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">64</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2009-2010</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2010-2011</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2011-2012</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">78</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td>24.04.2013 Оценка: 1 Александр Берсенев:
-1) Не запускается:
-$ python3.2 billing.py 
-File &quot;billing.py&quot;, line 11
-and l[0] == \'RESOURCE\'
-^
-SyntaxError: invalid syntax
-
-2) описание ресурсов не походит на реальные ресурсы, реальные выглядят так:
-http://www.open-mpi.org/faq/?category=tuning#setting-mca-params
-http://docs.oracle.com/cd/E19932-01/820-3523-10/ea_chpt3_software_overview.html
-https://www.google.com/search?q=cat&amp;oq;=cat&amp;aqs;=chrome.0.57j60j65j61j60j0.2952j0&amp;sourceid;=chrome&amp;ie;=UTF-8
-
-В описании ресурсов должно быть можно не писать каждый(их много), а писать сразу группу, например:
-- запросы на ya.ru стоят 50
-- но запросы на ya.ru/test/ стоят 100
-- запросы на ya.ru/test/free.html стоят 0
-
-Краткая детализация - только группа ресурсов и сколько запросов на него сделано, подробная детализация: сколько стоил каждый запрос.
-
-3) нет тестов
-4) нет документации(хотя комментарии очень подробные)</td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>02.05.2014 Оценка: 8 Сергей Азовсков:
-* добавить аргументы для сохранения последнего байта
-* баг с пересчётом после изменения цены
-* возможность делать детальный отчёт по общий или по ip за произвольный период времени с гранулярностью в день.
-* возможность стоимости за факт показа или за показанные байты
-* больше тестов :)
-16.05.2014 Оценка: 12 Сергей Азовсков:
-* вывод ошибок, чуть лучших интерактивный режим
-* тесты на некорректные данные</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>30.05.2014 Оценка: 10 Александр Бочаров:
-Не залился дифф с исправлениями.</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">4</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">28</span></td>
-                    <td>27.09.2014 Оценка: 4 Сергей Азовсков:
-* конфиги
-* нормальные сообщения об ошибках
-* интерфейс поудобней - use curses
-* пакетный ражим
-* возможность указания масок IP и масок страниц
-* сохранение состояние - инкрементальные данные
-* устойчивость к внезапному выключению
-* тесты</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td>27.09.2014 Оценка: 2 Сергей Азовсков:
-* не работает
-* агрегация
-* прибраться в gui
-* дублирование классов
-* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)
-22.11.2014 Оценка: 8 Сергей Азовсков:
-* pylint
-* сделаем поддержку дозаписи в файл (и быстрого пересчёта на основе изменений)
-* добавить группировки
-* добавить batch режим
-* в интерфейсе обрабатывать enter
-* тесты
-* доп файл со скидками: файл в котором написано, что в такой-то период на такой-то товар была такая-то скидка.
-
-Возможность строить отчёты:
--- сколько каждый пользователель потратил за указанный период, всё время
--- сколько пользователь потратил за каждый день в указанном периоде</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td>25.10.2014 Оценка: 8 Сергей Азовсков:
-* поправить документацию и help
-* нормальные сообщения об ошибках формата
-* работа на больших дописывающихся файлах
-* batch interface
-* тесты
-* from datetime import datetime</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td>15.10.2014 Оценка: 8 Сергей Азовсков:
-* шаблоны в rules
-* REAME!
-* Тесты
-* работы с большими файлами
-* работа с инкрементальным файлом</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">64</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td>30.05.2015 Оценка: 10 Сергей Азовсков:
-* выборка по времени
-* работа с большими файлами
-* стабильность ()
-* обрабатывать ошибки в логах
-* запуск с разными конфигами 
-* избавиться от дублирования, обобщить</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td>25.06.2015 Оценка: 10 Павел Блинов:
-+ Гибкое описание стоимости ресурсов
-+ Посмотреть на mmap
-+ cat ats2.txt | grep &quot;22.02.2004&quot; | python billing.py
-+ значения по умолчанию для аргументов
-+ стиль</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">71</span></td>
-                    <td>21.11.2015 Оценка: 8 Сергей Азовсков:
-* namedtuple и прибраться
-* почитать про логгирование в питоне
-* работа с большими данными, уметь восстанавливаться после сбоев и прерываний
-* отвечать отдельно запросы сколько денег потратил X, детализация счёта за период Y
-* категории траффика (по префиксам телефонов)
-05.12.2015 Оценка: 10 Сергей Азовсков:
-* избавиться от magic констант
-* покрытие тестов
-* обработка ошибок
-* потестить скорость re с жадностью и без (use timeit)
-* сохранять состояние синхорнно
-* picke
-* улучшить состояние и работу с ним. Что будет, если копьютер перезагрузить во время сохранения состояния
-* детализация по пользователям 
-* ускорить генератор логов (должен упираться в диск)</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">85</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">7</span></td>
-                    <td>16.12.2015 Оценка: 1 Александр Бочаров:
-Графика</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">57</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">14</span></td>
-                    <td><span class="label label-danger">50</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

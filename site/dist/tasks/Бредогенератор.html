@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,366 +112,120 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>Бредогенератор</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: common</li>
-                <li>Максимальный балл: 11</li>
-                <li>Средний балл: 8.69</li>
-                <li>Средний процент: 79</li>
-                <li>Количество сдавших: 21</li>
-                <li>Количество сдавших на полный балл: 11</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>Бредогенератор</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: common</li>
+                    <li>Максимальный балл: 11</li>
+                    <li>Средний балл: 8.69 (79%)</li>
+                    <li>Сдавшие: 21 чел.</li>
+                    <li>Полный балл: 11 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2012-2013</h6>
-                <li>Максимальный балл: 11</li>
-                <li>Средний балл: 9</li>
-                <li>Средний процент: 81.6</li>
-                <li>Количество сдавших: 5</li>
-                <li>Количество сдавших на полный балл: 3</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2012-2013" data-toggle="tab">2012-2013</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2012-2013" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 11</li>
+                      <li>Средний балл: 9 (81.6%)</li>
+                      <li>Сдавшие: 5 чел.</li>
+                      <li>Полный балл: 3 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 11</li>
+                      <li>Средний балл: 10 (90.62%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 5 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 11</li>
+                      <li>Средний балл: 7.12 (64.5%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 3 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 11</li>
-                <li>Средний балл: 10</li>
-                <li>Средний процент: 90.62</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 5</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 11</span><span class="label label-danger">54%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>16.12.2013 Оценка: 6 Сергей Азовсков:<br>- поправить хелп<br>- добавить документацию по алгоритму<br>- поправить алгоритм выбора следующего слова (можно оставить старый как опцию)<br>- в качестве параметра возможность указывать длинну N-граммы для построения вероятности<br>- возможность через ключ -f указать несколько файлов<br>- закрывать за собой файлы<br>- минимальные тесты, например, сегментация предложений</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">10 / 11</span><span class="label label-danger">90%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>13.01.2015 Оценка: 10 Сергей Азовсков:<br>* K-gramm<br>* склейка предложений.Как-то помечать границы сгенерированных ВАМИ предложений<br>* запуск без параметров</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 11</span><span class="label label-danger">54%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 6 Сергей Азовсков:<br>* параметр истории (от 0 до N)<br>* параметр для управления разрывами<br>* строить предложения - параметр: средняя длина предложения, либо количество предложений, либо длина текста<br>* тесты</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">9 / 11</span><span class="label label-danger">81%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 6 Сергей Азовсков:<br>всё говорил устно<br>15.11.2014 Оценка: 9 Сергей Азовсков:<br>* добавить запятые<br>* тесты падают<br>* сделать запятую как слово и конец предложения<br><br><br>FAIL: test_build_dict0 (test.Test)<br>----------------------------------------------------------------------<br>Traceback (most recent call last)<br>File "C:\Python34\lib\unittest\case.py", line 58, in testPartExecutor<br>yield<br>File "C:\Python34\lib\unittest\case.py", line 577, in run<br>testMethod()<br>File "D:\Workspace\teaching\python\sdp\branches\bredogen\test.py", line 33, i<br>test_build_dict0<br>self.assertEqual(actual, expected)<br>File "C:\Python34\lib\unittest\case.py", line 797, in assertEqual<br>assertion_func(first, second, msg=msg)<br>File "C:\Python34\lib\unittest\case.py", line 790, in _baseAssertEqual<br>raise self.failureException(msg)<br>AssertionError: defaultdict(, {(): ['р', 'р[181 chars]р']}) != {(<br>: ['1', '2', '3', 'a', 'a', 'abacab', [81 chars]'в']}<br><br>no stdout<br>no stderr<br>======================================================================<br>FAIL: test_build_dict1 (test.Test)<br>----------------------------------------------------------------------<br>Traceback (most recent call last)<br>File "C:\Python34\lib\unittest\case.py", line 58, in testPartExecutor<br>yield<br>File "C:\Python34\lib\unittest\case.py", line 577, in run<br>testMethod()<br>File "D:\Workspace\teaching\python\sdp\branches\bredogen\test.py", line 40, i<br>test_build_dict1<br>self.assertEqual(actual, expected)<br>File "C:\Python34\lib\unittest\case.py", line 797, in assertEqual<br>assertion_func(first, second, msg=msg)<br>File "C:\Python34\lib\unittest\case.py", line 790, in _baseAssertEqual<br>raise self.failureException(msg)<br>AssertionError: defaultdict(, {('р\xb5',): ['р[215 chars]\u0455']<br>) != {('б',): ['в'], ('y',): ['z'], ('а',): ['[135 chars]'c']}<br><br>no stdout<br>no stderr<br>======================================================================<br>FAIL: test_parsing_files (test.Test)<br>----------------------------------------------------------------------<br>Traceback (most recent call last)<br>File "C:\Python34\lib\unittest\case.py", line 58, in testPartExecutor<br>yield<br>File "C:\Python34\lib\unittest\case.py", line 577, in run<br>testMethod()<br>File "D:\Workspace\teaching\python\sdp\branches\bredogen\test.py", line 26, i<br>test_parsing_files<br>self.assertEqual(actual, expected)<br>File "C:\Python34\lib\unittest\case.py", line 797, in assertEqual<br>assertion_func(first, second, msg=msg)<br>File "C:\Python34\lib\unittest\case.py", line 995, in assertListEqual<br>self.assertSequenceEqual(list1, list2, msg, seq_type=list)<br>File "C:\Python34\lib\unittest\case.py", line 977, in assertSequenceEqual<br>self.fail(msg)<br>File "C:\Python34\lib\unittest\case.py", line 642, in fail<br>raise self.failureException(msg)<br>AssertionError: Lists differ: [['р', 'р', 'р\u0456'], ['р\xb5', 'р\u0455', 'р']<br>['р', [161 chars]р\u0455']] != [['1', '2', '3'], ['a', 'b', 'c'], ['а', 'б'[90<br>chars]jn']]<br><br>First differing element 0:<br>['р', 'р', 'р\u0456']<br>['1', '2', '3']<br><br>- [['р', 'р', 'р\u0456'],<br>?    ^    ^    ^^<br><br>+ [['1', '2', '3'],<br>?    ^    ^    ^<br><br>-  ['р\xb5', 'р\u0455', 'р'],<br>-  ['р', 'р', 'р\u0456'],<br>?    ^    ^    ^^<br><br>+  ['a', 'b', 'c'],<br>?    ^    ^    ^<br><br>-  ['р\u0456', 'р\u0456', 'р\u0456'],<br>-  ['р', 'р\u0456', 'с'],<br>?    ^    ^^    ^<br><br>+  ['а', 'б', 'в'],<br>?    ^    ^    ^<br><br>-  ['с\u0453р', 'р\u0456'],<br>-  ['р', 'р', 'р\u0456р', 'р', 'р\u0456', 'р', 'р', 'р\u0456', 'р', 'р', 'р\u04<br>6'],<br>-  ['с', 'р\u0455с', 'р\u0455'],<br>?    ^    ^^^    ^^<br><br>+  ['x', 'y', 'z'],<br>?    ^    ^    ^<br><br>-  ['с', 'р\u0455с', 'р\u0455']]<br>+  ['a', 's', 'd'],<br>+  ['efd'],<br>+  ['abacab', 'bac', 'bac'],<br>+  ['edf'],<br>+  ['jnjn']]<br><br>no stdout<br>no stderr<br>*******************************************************************************<br>Ran 4 test cases in 0.05s (0.05s CPU), 3 failures</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">11 / 11</span><span class="label label-danger">100%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>24.11.2014 Оценка: 10 Александр Берсенев:<br>- иногда косячит с регистром:<br>Упаковала куклу Да ты смыслишь в этих делах Роберт.<br>Раз там живет секретарь канцелярии Это конечно.<br>Немного вздремнула Да но при этом почти не изменилось только посветлело озарилось изнутри.<br><br><br>Вместо:<br>temp_str = temp_str.lstrip()<br>temp_str = temp_str.rstrip()<br><br>Можно<br>temp_str = temp_str.strip()<br><br>Вместо:<br>znaki = [":", ";", ",", '"', "'", "(", ")", "\n", "[", "]", "–", "…", "*", "«", "»"]<br>Можно<br>znaki = list(":;, ...")<br><br>Код:<br>phrase.lstrip()<br>phrase.rstrip()<br>Ничего не делает, эти функции не меняют объект.<br><br>Код:<br>if after - now >= 1:<br>break<br><br>Зависит от быстродействия машины, т.е. если я запущу его на очень медленной машине(например, она ушла в своп), то мне ничего не выдадут.</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 11</li>
-                <li>Средний балл: 7.12</li>
-                <li>Средний процент: 64.5</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 3</li>
-              </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">54</span></td>
-                    <td>16.12.2013 Оценка: 6 Сергей Азовсков:
-- поправить хелп
-- добавить документацию по алгоритму
-- поправить алгоритм выбора следующего слова (можно оставить старый как опцию)
-- в качестве параметра возможность указывать длинну N-граммы для построения вероятности
-- возможность через ключ -f указать несколько файлов
-- закрывать за собой файлы
-- минимальные тесты, например, сегментация предложений</td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">54</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">90</span></td>
-                    <td>13.01.2015 Оценка: 10 Сергей Азовсков:
-* K-gramm
-* склейка предложений.Как-то помечать границы сгенерированных ВАМИ предложений
-* запуск без параметров</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">54</span></td>
-                    <td>27.09.2014 Оценка: 6 Сергей Азовсков:
-* параметр истории (от 0 до N)
-* параметр для управления разрывами
-* строить предложения - параметр: средняя длина предложения, либо количество предложений, либо длина текста
-* тесты</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">81</span></td>
-                    <td>27.09.2014 Оценка: 6 Сергей Азовсков:
-всё говорил устно
-15.11.2014 Оценка: 9 Сергей Азовсков:
-* добавить запятые
-* тесты падают
-* сделать запятую как слово и конец предложения
-
-
-FAIL: test_build_dict0 (test.Test)
-----------------------------------------------------------------------
-Traceback (most recent call last)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 58, in testPartExecutor
-yield
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 577, in run
-testMethod()
-File &quot;D:\Workspace\teaching\python\sdp\branches\bredogen\test.py&quot;, line 33, i
-test_build_dict0
-self.assertEqual(actual, expected)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 797, in assertEqual
-assertion_func(first, second, msg=msg)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 790, in _baseAssertEqual
-raise self.failureException(msg)
-AssertionError: defaultdict(, {(): ['р', 'р[181 chars]р']}) != {(
-: ['1', '2', '3', 'a', 'a', 'abacab', [81 chars]'в']}
-
-no stdout
-no stderr
-======================================================================
-FAIL: test_build_dict1 (test.Test)
-----------------------------------------------------------------------
-Traceback (most recent call last)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 58, in testPartExecutor
-yield
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 577, in run
-testMethod()
-File &quot;D:\Workspace\teaching\python\sdp\branches\bredogen\test.py&quot;, line 40, i
-test_build_dict1
-self.assertEqual(actual, expected)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 797, in assertEqual
-assertion_func(first, second, msg=msg)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 790, in _baseAssertEqual
-raise self.failureException(msg)
-AssertionError: defaultdict(, {('р\xb5',): ['р[215 chars]\u0455']
-) != {('б',): ['в'], ('y',): ['z'], ('а',): ['[135 chars]'c']}
-
-no stdout
-no stderr
-======================================================================
-FAIL: test_parsing_files (test.Test)
-----------------------------------------------------------------------
-Traceback (most recent call last)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 58, in testPartExecutor
-yield
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 577, in run
-testMethod()
-File &quot;D:\Workspace\teaching\python\sdp\branches\bredogen\test.py&quot;, line 26, i
-test_parsing_files
-self.assertEqual(actual, expected)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 797, in assertEqual
-assertion_func(first, second, msg=msg)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 995, in assertListEqual
-self.assertSequenceEqual(list1, list2, msg, seq_type=list)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 977, in assertSequenceEqual
-self.fail(msg)
-File &quot;C:\Python34\lib\unittest\case.py&quot;, line 642, in fail
-raise self.failureException(msg)
-AssertionError: Lists differ: [['р', 'р', 'р\u0456'], ['р\xb5', 'р\u0455', 'р']
-['р', [161 chars]р\u0455']] != [['1', '2', '3'], ['a', 'b', 'c'], ['а', 'б'[90
-chars]jn']]
-
-First differing element 0:
-['р', 'р', 'р\u0456']
-['1', '2', '3']
-
-- [['р', 'р', 'р\u0456'],
-?    ^    ^    ^^
-
-+ [['1', '2', '3'],
-?    ^    ^    ^
-
--  ['р\xb5', 'р\u0455', 'р'],
--  ['р', 'р', 'р\u0456'],
-?    ^    ^    ^^
-
-+  ['a', 'b', 'c'],
-?    ^    ^    ^
-
--  ['р\u0456', 'р\u0456', 'р\u0456'],
--  ['р', 'р\u0456', 'с'],
-?    ^    ^^    ^
-
-+  ['а', 'б', 'в'],
-?    ^    ^    ^
-
--  ['с\u0453р', 'р\u0456'],
--  ['р', 'р', 'р\u0456р', 'р', 'р\u0456', 'р', 'р', 'р\u0456', 'р', 'р', 'р\u04
-6'],
--  ['с', 'р\u0455с', 'р\u0455'],
-?    ^    ^^^    ^^
-
-+  ['x', 'y', 'z'],
-?    ^    ^    ^
-
--  ['с', 'р\u0455с', 'р\u0455']]
-+  ['a', 's', 'd'],
-+  ['efd'],
-+  ['abacab', 'bac', 'bac'],
-+  ['edf'],
-+  ['jnjn']]
-
-no stdout
-no stderr
-*******************************************************************************
-Ran 4 test cases in 0.05s (0.05s CPU), 3 failures</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td>24.11.2014 Оценка: 10 Александр Берсенев:
-- иногда косячит с регистром:
-Упаковала куклу Да ты смыслишь в этих делах Роберт.
-Раз там живет секретарь канцелярии Это конечно.
-Немного вздремнула Да но при этом почти не изменилось только посветлело озарилось изнутри.
-
-
-Вместо:
-temp_str = temp_str.lstrip()
-temp_str = temp_str.rstrip()
-
-Можно
-temp_str = temp_str.strip()
-
-Вместо:
-znaki = [&quot;:&quot;, &quot;;&quot;, &quot;,&quot;, '&quot;', &quot;'&quot;, &quot;(&quot;, &quot;)&quot;, &quot;\n&quot;, &quot;[&quot;, &quot;]&quot;, &quot;–&quot;, &quot;…&quot;, &quot;*&quot;, &quot;«&quot;, &quot;»&quot;]
-Можно
-znaki = list(&quot;:;, ...&quot;)
-
-Код:
-phrase.lstrip()
-phrase.rstrip()
-Ничего не делает, эти функции не меняют объект.
-
-Код:
-if after - now &gt;= 1:
-break
-
-Зависит от быстродействия машины, т.е. если я запущу его на очень медленной машине(например, она ушла в своп), то мне ничего не выдадут.</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">11</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">4</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">36</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">9</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">54</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">5</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">45</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">11</span></td>
-                    <td><span class="label label-danger">72</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

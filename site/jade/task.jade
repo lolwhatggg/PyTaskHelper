@@ -1,39 +1,46 @@
 extends page
 
-block content
-  h1 #{task.name}
-  p.text-right Время обновления базы #{date}
-  div.thumbnail
-    ul
-    li Категория: #{task.category}
-    li Максимальный балл: #{task.max}
-    li Средний балл: #{task.average_points}
-    li Средний процент: #{task.average_percent}
-    li Количество сдавших: #{task.students_amount}
-    li Количество сдавших на полный балл: #{task.students_full_points}
+mixin base_stat(data)
+  li Максимальный балл: #{data.max}
+  li Средний балл: #{data.average_points} (#{data.average_percent}%)
+  li Сдавшие: #{data.students_amount} чел.
+  li Полный балл: #{data.students_full_points} чел.
 
-  each year_data, year in annual
-    div.thumbnail.col-md-4
+block content
+  p.text-right Время обновления базы #{date}
+  .panel.panel-primary
+    .panel-heading: h4 #{task.name}
+    .panel-body
       ul
-      h6 #{year}
-      li Максимальный балл: #{year_data.max}
-      li Средний балл: #{year_data.average_points}
-      li Средний процент: #{year_data.average_percent}
-      li Количество сдавших: #{year_data.students_amount}
-      li Количество сдавших на полный балл: #{year_data.students_full_points}
-  table.table.table-stripped.table-condensed
-    thead
-      tr
-        th Балл
-        th Максимальный балл
-        th Процент выполнения
-        th Аннотация
-        th Уч.год
-    tbody
-      each student in students
-        tr
-          td: span.label.label-warning #{student.points}
-          td: span.label.label-success #{student.max}
-          td: span.label.label-danger #{student.percent}
-          td #{student.comment}
-          td #{student.year}
+        li Категория: #{task.category}
+        +base_stat(task)
+  .panel.panel-info
+    .panel-heading История:
+    .panel-body
+      ul.nav.nav-pills
+        each data, year in annual
+          li(role="presentation")
+            a(href="#year#{year}", data-toggle="tab") #{year}
+    .tab-content
+      each data, year in annual
+        .tab-pane(id="year#{year}")
+          ul
+            +base_stat(data)
+  .panel.panel-info
+    .panel-heading Комментарии:
+    .table-responsive
+      table.table.table-condensed.table-striped
+        thead
+          tr
+            th Балл
+            th Комментарий
+        tbody
+          each student in students
+            - var comment = student.comment.replace(/\n/g, '<br>')
+            - if (comment)
+              tr
+                td
+                  p
+                    span.label.label-success #{student.points} / #{student.max}
+                    span.label.label-danger #{student.percent}%
+                td.comment-cell: p !{comment}

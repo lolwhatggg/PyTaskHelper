@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,118 +112,78 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>Аудиоредактор</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: common</li>
-                <li>Максимальный балл: 18</li>
-                <li>Средний балл: 11.16</li>
-                <li>Средний процент: 62</li>
-                <li>Количество сдавших: 6</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>Аудиоредактор</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: common</li>
+                    <li>Максимальный балл: 18</li>
+                    <li>Средний балл: 11.16 (62%)</li>
+                    <li>Сдавшие: 6 чел.</li>
+                    <li>Полный балл: 0 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 18</li>
-                <li>Средний балл: 11.17</li>
-                <li>Средний процент: 61.5</li>
-                <li>Количество сдавших: 6</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 18</li>
+                      <li>Средний балл: 11.17 (61.5%)</li>
+                      <li>Сдавшие: 6 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td>27.09.2014 Оценка: 10 Сергей Азовсков:
-* argparse содержит баги
-* сделать через subparsers
-* прогресс выполнения
-* batch-режим, а-ля скрипт
-* Дополнительные команды: reverse, воспроизведении
-* выведение метаинформации о файле
-* проверка входных параметров на корректность
-30.10.2014 Оценка: 15 Сергей Азовсков:
-* выправить баги с pitch, merge и разбором аргментов</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">2</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">11</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">77</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">16</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">88</span></td>
-                    <td>15.11.2014 Оценка: 7 Сергей Азовсков:
-* noise и compress делают что-то не то
-* не package, а batch
-* stretch не работает
-* выводить длинну и что-то нибудь ещё
-* валиться с понятными ошибками
-* сплит в секундах
-* всё глючит
-* сплит даёт странные  разрывы
-
-* сделать наложение 
-* примеры batch файлы
-19.11.2014 Оценка: 11 Сергей Азовсков:
-* наложение не работет
-* тестов нет
-* примеров батчей нет
-* под линуксом не играет плеер
-* питг
-20.12.2014 Оценка: 16 Сергей Азовсков:
-* чуть больше тестов
-* проигрывание на linux
-*</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">55</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">18</span></td>
-                    <td><span class="label label-danger">55</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">15 / 18</span><span class="label label-danger">83%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 10 Сергей Азовсков:<br>* argparse содержит баги<br>* сделать через subparsers<br>* прогресс выполнения<br>* batch-режим, а-ля скрипт<br>* Дополнительные команды: reverse, воспроизведении<br>* выведение метаинформации о файле<br>* проверка входных параметров на корректность<br>30.10.2014 Оценка: 15 Сергей Азовсков:<br>* выправить баги с pitch, merge и разбором аргментов</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">16 / 18</span><span class="label label-danger">88%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>15.11.2014 Оценка: 7 Сергей Азовсков:<br>* noise и compress делают что-то не то<br>* не package, а batch<br>* stretch не работает<br>* выводить длинну и что-то нибудь ещё<br>* валиться с понятными ошибками<br>* сплит в секундах<br>* всё глючит<br>* сплит даёт странные  разрывы<br><br>* сделать наложение <br>* примеры batch файлы<br>19.11.2014 Оценка: 11 Сергей Азовсков:<br>* наложение не работет<br>* тестов нет<br>* примеров батчей нет<br>* под линуксом не играет плеер<br>* питг<br>20.12.2014 Оценка: 16 Сергей Азовсков:<br>* чуть больше тестов<br>* проигрывание на linux<br>*</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

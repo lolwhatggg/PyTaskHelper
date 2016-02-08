@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,154 +112,95 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>растровый</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: Графический редактор</li>
-                <li>Максимальный балл: 13</li>
-                <li>Средний балл: 7.41</li>
-                <li>Средний процент: 57</li>
-                <li>Количество сдавших: 7</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>растровый</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: Графический редактор</li>
+                    <li>Максимальный балл: 13</li>
+                    <li>Средний балл: 7.41 (57%)</li>
+                    <li>Сдавшие: 7 чел.</li>
+                    <li>Полный балл: 0 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 12</li>
-                <li>Средний балл: 7.5</li>
-                <li>Средний процент: 62.25</li>
-                <li>Количество сдавших: 4</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 12</li>
+                      <li>Средний балл: 7.5 (62.25%)</li>
+                      <li>Сдавшие: 4 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 13</li>
+                      <li>Средний балл: 6.33 (48.33%)</li>
+                      <li>Сдавшие: 3 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 13</li>
-                <li>Средний балл: 6.33</li>
-                <li>Средний процент: 48.33</li>
-                <li>Количество сдавших: 3</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 13</span><span class="label label-danger">46%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>05.12.2015 Оценка: 3 Сергей Азовсков:<br>* загрузка-сохранение<br>* ужасно тормозит<br>* больше инструментов (перо с размеров, палитра, линия, круг. прямоугольник, овал, заливка)<br>* резинка<br>* интерфейс<br>* canvas<br>* выделение произвольных несвязных областей и работа с ними. Блокировка всего в области, вне области. Вынесение в отдельное изображение. Перенос, копирование.<br>26.12.2015 Оценка: 6 Сергей Азовсков:<br>* адово тормозит<br>* выделить абстракции и разделить их (перо. канвас, доделать инструмент)<br>* тесты<br>* доделать фичи</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">7 / 13</span><span class="label label-danger">53%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>05.12.2015 Оценка: 5 Сергей Азовсков:<br>* загружать и сохранять картинку<br>* размер пера<br>* нормальный  выбор цвета<br>* не тормозить от количества нарисованного<br>* можно ли избавиться от аппроксимации<br>* базовый набор инструментов: линия, прямоугольник, круг, овал, заливка , очистить, резинка<br>* стиль<br>* canvas?<br>* слои и альфаканал<br>19.12.2015 Оценка: 6 Сергей Азовсков:<br>* адово тормозит<br>* слои<br>* адсике if<br>* декомпозиция<br>26.12.2015 Оценка: 7 Сергей Азовсков:<br>* адово тормозит<br>* слои<br>* декомпозиция (инстументы, перья, канвас(оба два))<br>* функция работы с мышкой простая, в ней не должно быть логики<br>* нет магическим константам<br>*</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">6 / 13</span><span class="label label-danger">46%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>19.12.2015 Оценка: 2 Сергей Азовсков:<br>* не тормози<br>* не зависай<br>* толщена линии, рисовать как будет выглядеть элипс etc<br>* тесты<br>* открытие  и сохранение<br>* слои и альфа канал<br>08.01.2016 Оценка: 6 Сергей Азовсков:<br>* не тормози<br>* показывать как РЕАЛЬНО будет выглядеть<br>* не рисовать прямоугольники вместо эллипса<br>* тесты<br>* Брезенхем<br>* выделить интструменты в логику<br>* убрать констынты из кода<br>* убрать логику из mouseMoveEvent<br>* инстументы: правильные треугольник. пятиугольник, 12-угольник, 17 угольник<br>*</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">8</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">75</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">12</span></td>
-                    <td><span class="label label-danger">83</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">13</span></td>
-                    <td><span class="label label-danger">46</span></td>
-                    <td>05.12.2015 Оценка: 3 Сергей Азовсков:
-* загрузка-сохранение
-* ужасно тормозит
-* больше инструментов (перо с размеров, палитра, линия, круг. прямоугольник, овал, заливка)
-* резинка
-* интерфейс
-* canvas
-* выделение произвольных несвязных областей и работа с ними. Блокировка всего в области, вне области. Вынесение в отдельное изображение. Перенос, копирование.
-26.12.2015 Оценка: 6 Сергей Азовсков:
-* адово тормозит
-* выделить абстракции и разделить их (перо. канвас, доделать инструмент)
-* тесты
-* доделать фичи</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">13</span></td>
-                    <td><span class="label label-danger">53</span></td>
-                    <td>05.12.2015 Оценка: 5 Сергей Азовсков:
-* загружать и сохранять картинку
-* размер пера
-* нормальный  выбор цвета
-* не тормозить от количества нарисованного
-* можно ли избавиться от аппроксимации
-* базовый набор инструментов: линия, прямоугольник, круг, овал, заливка , очистить, резинка
-* стиль
-* canvas?
-* слои и альфаканал
-19.12.2015 Оценка: 6 Сергей Азовсков:
-* адово тормозит
-* слои
-* адсике if
-* декомпозиция
-26.12.2015 Оценка: 7 Сергей Азовсков:
-* адово тормозит
-* слои
-* декомпозиция (инстументы, перья, канвас(оба два))
-* функция работы с мышкой простая, в ней не должно быть логики
-* нет магическим константам
-*</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">6</span></td>
-                    <td><span class="label label-success">13</span></td>
-                    <td><span class="label label-danger">46</span></td>
-                    <td>19.12.2015 Оценка: 2 Сергей Азовсков:
-* не тормози
-* не зависай
-* толщена линии, рисовать как будет выглядеть элипс etc
-* тесты
-* открытие  и сохранение
-* слои и альфа канал
-08.01.2016 Оценка: 6 Сергей Азовсков:
-* не тормози
-* показывать как РЕАЛЬНО будет выглядеть
-* не рисовать прямоугольники вместо эллипса
-* тесты
-* Брезенхем
-* выделить интструменты в логику
-* убрать констынты из кода
-* убрать логику из mouseMoveEvent
-* инстументы: правильные треугольник. пятиугольник, 12-угольник, 17 угольник
-*</td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>

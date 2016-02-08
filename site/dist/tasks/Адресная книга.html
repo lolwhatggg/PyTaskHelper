@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Статистика python.task с сайта anytask.urgu.org">
+    <meta property="og:title" content="Py.task Helper">
+    <meta property="og:image" content="http://pytask.info/icons/img.jpg">
+    <meta property="og:description" content="Статистика python.task">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://pytask.info">
+    <link rel="apple-touch-icon" href="/icons/128.ico">
+    <link rel="apple-touch-icon-precomposed" href="/icons/128.ico">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -102,251 +112,112 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1>Адресная книга</h1>
               <p class="text-right">Время обновления базы 06.02.2016 02:19:59 YEKT</p>
-              <div class="thumbnail">
-                <ul></ul>
-                <li>Категория: common</li>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 8.4</li>
-                <li>Средний процент: 56</li>
-                <li>Количество сдавших: 17</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4>Адресная книга</h4>
+                </div>
+                <div class="panel-body">
+                  <ul>
+                    <li>Категория: common</li>
+                    <li>Максимальный балл: 15</li>
+                    <li>Средний балл: 8.4 (56%)</li>
+                    <li>Сдавшие: 17 чел.</li>
+                    <li>Полный балл: 1 чел.</li>
+                  </ul>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2012-2013</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 6</li>
-                <li>Средний процент: 39.5</li>
-                <li>Количество сдавших: 2</li>
-                <li>Количество сдавших на полный балл: 0</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">История:</div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#year2012-2013" data-toggle="tab">2012-2013</a></li>
+                    <li role="presentation"><a href="#year2013-2014" data-toggle="tab">2013-2014</a></li>
+                    <li role="presentation"><a href="#year2014-2015" data-toggle="tab">2014-2015</a></li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div id="year2012-2013" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 6 (39.5%)</li>
+                      <li>Сдавшие: 2 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2013-2014" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 10.88 (72.12%)</li>
+                      <li>Сдавшие: 8 чел.</li>
+                      <li>Полный балл: 1 чел.</li>
+                    </ul>
+                  </div>
+                  <div id="year2014-2015" class="tab-pane">
+                    <ul>
+                      <li>Максимальный балл: 15</li>
+                      <li>Средний балл: 6.43 (42.43%)</li>
+                      <li>Сдавшие: 7 чел.</li>
+                      <li>Полный балл: 0 чел.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2013-2014</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 10.88</li>
-                <li>Средний процент: 72.12</li>
-                <li>Количество сдавших: 8</li>
-                <li>Количество сдавших на полный балл: 1</li>
+              <div class="panel panel-info">
+                <div class="panel-heading">Комментарии:</div>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-striped">
+                    <thead>
+                      <tr>
+                        <th>Балл</th>
+                        <th>Комментарий</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">7 / 15</span><span class="label label-danger">46%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>27.09.2014 Оценка: 1 Сергей Азовсков:<br>* есть ВК и всё<br>27.12.2014 Оценка: 1 Сергей Азовсков:<br>* документация<br>* тесты<br>* хелп<br>* интерфейс<br>* конфигурационных файл<br>* экспорт всех возможных данных <br>* 2 другие соцсети<br>* отдельный конфиг, что бы форсить склейку<br>10.01.2015 Оценка: 6 Сергей Азовсков:<br>* у меня не работает тви :(<br>* сделать возможным запуск только на некоторых соцсетях<br>* тесты<br>* не выполнять код при импорте<br>* выборочный запуск соцсетей<br>* сделать склейку<br>* маппинг всех форматов один<br>* +1 соцсеть<br>12.03.2015 Оценка: 6 Сергей Азовсков:<br>* твиттер не работает<br>* lastfm прибит гвоздями <br>* тесты<br>* не выполнять код при импорте<br>* мёртвый код (twitter_auth.py, csv_twitter.py, csv_lastfm.py)<br>* SRSLY?<br>if item == 99:<br>time.sleep(1)<br>* плохое именование функций (было бы хорошо, что бы функции описывали действие "twitter_csv" не очень понятное действие)<br>* плохая декомпозиция: get_twitter_data, наверное. не имеет отношение к авторизации<br>* pylast не указан в requirements<br>* обработка ошибок, постоянно используется "except:", что ловит все эксепешны, так писать не стоит. Как минимум указывать "except Exception:". Неверно интерпретируются ошибки. При возникновении любой ошибки, например, в LastFM мне скажут, что я неправильно ввёл пароль, реальная же проблема будет скрыта.<br>* Не имеет смысла if:<br>"""<br>if list_of_dicts == []:<br>return list_of_dicts<br>else:<br>result = []<br>for line in list_of_dicts:<br>...<br>return result<br>"""<br>* Не самое понятное название для модуля get_data в вашем контексте<br>* Вся реализация функции get_list_of_dicts делается с помощью map<br>* Безумная лапша if как в функции create_csv. Это можно заменить на один константный dict в котором записано, какой внутреннего формата в какой ключ гуглового формата отображается. + пара исключений. как с типом.<br>* Функция merge. Вас не пугает, что может потребоваться добавить 4ю соцсеть?<br><br><br>В большинстве случаев, я привёл только один пример проблемы, но надеюсь, что вы исправите все аналогичные проблемы. DRY.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">7 / 15</span><span class="label label-danger">46%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>23.05.2014 Оценка: 7 Сергей Азовсков:<br>* мержинг контактов, модуль и функициональность<br>* pep8 & pylint<br>* отделить логику отдельных соц сетей</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">1 / 15</span><span class="label label-danger">6%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>30.05.2015 Оценка: 1 Сергей Азовсков:<br>* декомпозиция<br>* ещё соцсеть <br>* обоработка ошибок<br>* тесты <br>* мержинг</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p><span class="label label-success">8 / 15</span><span class="label label-danger">53%</span></p>
+                        </td>
+                        <td class="comment-cell">
+                          <p>17.12.2015 Оценка: 7 Павел Блинов:<br>+ больше тестов<br>+ расширенное логирование (logging, -v -vv -vvv, --log-file)<br>+ расширяемая возможность слияния контактов<br>+ объединять контакты<br>+ работать с авторизацией<br>30.12.2015 Оценка: 8 Павел Блинов:<br>+ -r vk<br>+ расширяемая возможность слияния контактов<br>+ обработка ошибок<br>+ по графу друзей и друзей друзей находить группы друзей (пытаться понять общие интересы)<br>* по графу друзей зрузей искать потенциально новых друзей</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
-              <div class="thumbnail col-md-4">
-                <ul></ul>
-                <h6>2014-2015</h6>
-                <li>Максимальный балл: 15</li>
-                <li>Средний балл: 6.43</li>
-                <li>Средний процент: 42.43</li>
-                <li>Количество сдавших: 7</li>
-                <li>Количество сдавших на полный балл: 0</li>
-              </div>
-              <table class="table table-stripped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Балл</th>
-                    <th>Максимальный балл</th>
-                    <th>Процент выполнения</th>
-                    <th>Аннотация</th>
-                    <th>Уч.год</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">53</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">4</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">26</span></td>
-                    <td></td>
-                    <td>2012-2013</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">13</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">86</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">46</span></td>
-                    <td>27.09.2014 Оценка: 1 Сергей Азовсков:
-* есть ВК и всё
-27.12.2014 Оценка: 1 Сергей Азовсков:
-* документация
-* тесты
-* хелп
-* интерфейс
-* конфигурационных файл
-* экспорт всех возможных данных 
-* 2 другие соцсети
-* отдельный конфиг, что бы форсить склейку
-10.01.2015 Оценка: 6 Сергей Азовсков:
-* у меня не работает тви :(
-* сделать возможным запуск только на некоторых соцсетях
-* тесты
-* не выполнять код при импорте
-* выборочный запуск соцсетей
-* сделать склейку
-* маппинг всех форматов один
-* +1 соцсеть
-12.03.2015 Оценка: 6 Сергей Азовсков:
-* твиттер не работает
-* lastfm прибит гвоздями 
-* тесты
-* не выполнять код при импорте
-* мёртвый код (twitter_auth.py, csv_twitter.py, csv_lastfm.py)
-* SRSLY?
-if item == 99:
-time.sleep(1)
-* плохое именование функций (было бы хорошо, что бы функции описывали действие &quot;twitter_csv&quot; не очень понятное действие)
-* плохая декомпозиция: get_twitter_data, наверное. не имеет отношение к авторизации
-* pylast не указан в requirements
-* обработка ошибок, постоянно используется &quot;except:&quot;, что ловит все эксепешны, так писать не стоит. Как минимум указывать &quot;except Exception:&quot;. Неверно интерпретируются ошибки. При возникновении любой ошибки, например, в LastFM мне скажут, что я неправильно ввёл пароль, реальная же проблема будет скрыта.
-* Не имеет смысла if:
-&quot;&quot;&quot;
-if list_of_dicts == []:
-return list_of_dicts
-else:
-result = []
-for line in list_of_dicts:
-...
-return result
-&quot;&quot;&quot;
-* Не самое понятное название для модуля get_data в вашем контексте
-* Вся реализация функции get_list_of_dicts делается с помощью map
-* Безумная лапша if как в функции create_csv. Это можно заменить на один константный dict в котором записано, какой внутреннего формата в какой ключ гуглового формата отображается. + пара исключений. как с типом.
-* Функция merge. Вас не пугает, что может потребоваться добавить 4ю соцсеть?
-
-
-В большинстве случаев, я привёл только один пример проблемы, но надеюсь, что вы исправите все аналогичные проблемы. DRY.</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">14</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">93</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">46</span></td>
-                    <td>23.05.2014 Оценка: 7 Сергей Азовсков:
-* мержинг контактов, модуль и функициональность
-* pep8 &amp; pylint
-* отделить логику отдельных соц сетей</td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">15</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">100</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">9</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">60</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">66</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">80</span></td>
-                    <td></td>
-                    <td>2013-2014</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">12</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">80</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">3</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">20</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">1</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">6</span></td>
-                    <td>30.05.2015 Оценка: 1 Сергей Азовсков:
-* декомпозиция
-* ещё соцсеть 
-* обоработка ошибок
-* тесты 
-* мержинг</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">8</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">53</span></td>
-                    <td>17.12.2015 Оценка: 7 Павел Блинов:
-+ больше тестов
-+ расширенное логирование (logging, -v -vv -vvv, --log-file)
-+ расширяемая возможность слияния контактов
-+ объединять контакты
-+ работать с авторизацией
-30.12.2015 Оценка: 8 Павел Блинов:
-+ -r vk
-+ расширяемая возможность слияния контактов
-+ обработка ошибок
-+ по графу друзей и друзей друзей находить группы друзей (пытаться понять общие интересы)
-* по графу друзей зрузей искать потенциально новых друзей</td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">4</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">26</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">10</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">66</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                  <tr>
-                    <td><span class="label label-warning">7</span></td>
-                    <td><span class="label label-success">15</span></td>
-                    <td><span class="label label-danger">46</span></td>
-                    <td></td>
-                    <td>2014-2015</td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="/js/auto-scroll.js"></script>
     <script src="/js/jquery-2.2.0.min.js"></script>
-    <script src="/js/jquery.edge_swipe.js"></script>
+    <script src="/js/edge_swipe.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/sidebar.js"></script>
     <script src="/js/all.js"></script>
