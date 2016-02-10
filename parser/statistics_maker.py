@@ -33,13 +33,13 @@ def update_files():
     files = glob.glob(os.path.join('../courses', '*.json'))
 
     small_db = build_task_database(files, database.EntryWithPercentage)
-    write_json(small_db, '../database/db.json')
+    write_json(small_db, '../database/tasks_base.json')
 
     big_db = build_task_database(files, database.EntryAnnualFullInfo)
-    write_json(big_db, '../database/db_full.json')
+    write_json(big_db, '../database/tasks_full.json')
 
     cat_db = build_task_database(files, database.EntryAnnualShortInfo)
-    write_json(cat_db, '../database/db_cat.json')
+    write_json(cat_db, '../database/categories.json')
 
 
 if __name__ == '__main__':

@@ -122,8 +122,7 @@ class EntryFullInfo(EntryWithPercentage):
 
     @staticmethod
     def create_dt(student_data, field):
-        return datetime.datetime.strptime(student_data[field],
-                                          '%d.%m.%Y')
+        return datetime.datetime.strptime(student_data[field], '%d.%m.%Y')
 
     def get_days(self, student_data):
         if student_data['points'] == 0:
@@ -134,7 +133,8 @@ class EntryFullInfo(EntryWithPercentage):
 
     def update(self, data):
         super().update(data)
-        new_students = [student for student in data['students'] if student['points']]
+        new_students = [student for student in
+                        data['students'] if student['points']]
         for student in new_students:
             student['max'] = data['max']
             student['days'] = self.get_days(student)
@@ -159,30 +159,28 @@ class EntryAnnualFullInfo(EntryFullInfo):
         results = {}
         for student in self.students:
             year = student['year']
-            if year not in results:
-                results[year] = {'points': [],
-                                 'percents': [],
-                                 'max': student['max'],
-                                 'students_amount': 0,
-                                 'students_full_points': 0
-                                 }
+            results.setdefault(year, {
+                'points': [],
+                'percents': [],
+                'max': student['max'],
+                'students_amount': 0,
+                'students_full_points': 0
+            })
             results[year]['points'].append(student['points']),
             results[year]['percents'].append(student['percent'])
             results[year]['students_amount'] += 1
             if student['points'] == student['max']:
                 results[year]['students_full_points'] += 1
 
-        for year in results:
-            results[year]['average_percent'] = \
-                self.get_average(results[year]['percents'])
-            results[year]['average_points'] = \
-                self.get_average(results[year]['points'], 2)
+        for year, result in results.items():
+            result['average_percent'] = self.get_average(result['percents'])
+            result['average_points'] = self.get_average(result['points'], 2)
             if self.students_amount:
-                results[year]['full_points_percent'] = \
-                    int(results[year]['students_full_points'] /
-                        results[year]['students_amount'] * 100)
-            del results[year]['points']
-            del results[year]['percents']
+                full_points = result['students_full_points']
+                total = result['students_amount']
+                result['full_points_percent'] = full_points * 100 // total
+            del result['points']
+            del result['percents']
 
         for year in sorted(results):
             self.annual_averages.append(results[year])

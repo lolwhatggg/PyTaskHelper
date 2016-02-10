@@ -9,8 +9,8 @@ rjs = require 'gulp-requirejs'
 rename = require 'gulp-rename'
 
 dist = 'dist/'
-db_dir = '../database/db.json'
-full_db_dir = '../database/db_full.json'
+db_dir = '../database/tasks_base.json'
+full_db_dir = '../database/tasks_full.json'
 update_time = '../database/date.json'
 
 gulp.task 'connect', ->
@@ -86,7 +86,6 @@ gulp.task 'ext', ->
     .pipe gulp.dest dist + 'db'
   gulp.src '../database/categories/*.json'
   .pipe gulp.dest dist + 'db/categories'
-
 
 gulp.task 'watch', ->
   gulp.watch 'jade/*.jade', ['jade']
