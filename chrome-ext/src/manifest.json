@@ -1,6 +1,10 @@
 {
-  "name": "PyTask Helper",
-  "version": "0.4.2",
+  "name": "Py.Task Helper",
+  "short_name": "Py.task",
+  "author": "Sinasey & Avefablo",
+  "homepage_url": "http://94.190.1.203/",
+  "description": "Cтатистика python.task и Perltask",
+  "version": "0.4.3",
   "content_scripts": [
     {
       "matches": [

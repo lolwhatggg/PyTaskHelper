@@ -60,7 +60,7 @@ gulp.task 'build', ['coffee'], ->
   .pipe do uglify
   .pipe gulp.dest dist + 'js'
   .pipe do connect.reload
-  
+
   gulp.src 'js/', read: no
     .pipe do clean
 
