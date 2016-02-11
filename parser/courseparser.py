@@ -35,7 +35,7 @@ def parse_tasks(tasks, year):
             name = base_name
             maximum = task.span.text.strip()
             results = parse_results(task.table, year)
-            db.append({'category': 'common', 'name': name,
+            db.append({'category': None, 'name': name,
                        'max': int(maximum), 'students': results,
                        'year': year})
         else:

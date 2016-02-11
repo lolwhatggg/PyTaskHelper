@@ -1,6 +1,0 @@
-if tasks
-  each task in tasks
-    li: a(href="/tasks/#{task}.html") #{task}
-else
-  each task in locals
-    li: a(href="/tasks/#{task.filename}") #{task.name}

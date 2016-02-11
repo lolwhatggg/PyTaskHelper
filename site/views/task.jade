@@ -1,17 +1,17 @@
-extends page
-
-block title
-  title #{task.name} | Py.task
-
 mixin base_stat(data)
   li Максимальный балл: #{data.max}
   li Средний балл: #{data.average_points} (#{data.average_percent}%)
   li Сдавшие: #{data.students_amount} чел.
   li Полный балл: #{data.students_full_points} чел.
 
+extends templates/page
+
+block title
+  title #{task.name} | Py.task
+
 block add_links
   link(rel="stylesheet", href="/css/sortable-theme-bootstrap.css")
-
+      
 block content
   p.text-right Время обновления базы #{date}
 
@@ -19,21 +19,23 @@ block content
     .panel-heading: h4 #{task.name}
     .panel-body
       ul
-        -if (task.category !== 'common')
+        if task.category
           li Категория: #{task.category}
         +base_stat(task)
+
   .panel.panel-info
     .panel-heading История:
     .panel-body
       ul.nav.nav-pills
-        each data in annual
+        each data in task.annual_averages
           li(role="presentation")
             a(href="#year#{data.year}", data-toggle="tab") #{data.year}
     .tab-content
-      each data in annual
+      each data in task.annual_averages
         .tab-pane(id="year#{data.year}")
           ul
             +base_stat(data)
+
   .panel.panel-info
     .panel-heading Комментарии:
     .table-responsive
@@ -43,14 +45,15 @@ block content
             th Балл
             th Комментарий
         tbody
-          each student in students
+          each student in task.students
             - var comment = student.comment.replace(/\n/g, '<br>')
-            - if (comment)
+            if comment
               tr
                 td
                   span.label.label-success #{student.points} / #{student.max}
                   span.label.label-danger #{student.percent}%
                 td !{comment}
+
   .panel.panel-info
     .panel-heading Баллы:
     table.table.table-condensed.table-hover(data-sortable)
@@ -61,12 +64,12 @@ block content
           th(data-sortable-type="numeric") Процент
           th(data-sortable-type="numeric") Дни
       tbody
-        each student in students
+        each student in task.students
           tr
             td #{student.points}
             td #{student.max}
             td #{student.percent}%
             td #{student.days}
-
+            
 block add_scripts
   script(src='/js/sortable.min.js')

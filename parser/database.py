@@ -48,13 +48,10 @@ class Entry(metaclass=ABCMeta):
 
 class EntryWithoutAnnotations(Entry):
     def __init__(self, data):
-        self.max = tuple()
-        self.category = tuple()
-        self.name = KNOWN_NAME_ALIASES.get(data['name'],
-                                           data['name'])
-        self.filename = self.get_filename()
+        self.max = ()
+        self.category = ()
+        self.name = KNOWN_NAME_ALIASES.get(data['name'], data['name'])
         self.points = []
-
         self.students_amount = 0
         self.students_full_points = 0
 
@@ -76,10 +73,6 @@ class EntryWithoutAnnotations(Entry):
         self.category = self.category[0]
         self.max = self.max[0]
         del self.points
-
-    def get_filename(self):
-        specific_names = {'bmp': 'bmp_stegano'}
-        return specific_names.get(self.name, self.name) + '.html'
 
     @staticmethod
     def get_average(iterable, precision=0):
@@ -152,7 +145,6 @@ class EntryAnnualFullInfo(EntryFullInfo):
         super().update(data)
         year = data['year']
         self.history[year] = data['category']
-
 
     def finalize(self):
         super().finalize()

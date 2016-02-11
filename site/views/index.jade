@@ -1,16 +1,18 @@
-extends page
+extends templates/page
 
 block title
   title Py.task
 
 block content
   h1#top.index-header Py.task Helper
-  include search
-  each task in locals
+  form(id="live-search", method="post")
+    fieldset
+      input#filter.form-control(type="text", placeholder="search")
+  each task in tasks
     .task.panel.panel-default
-      a(href="/tasks/#{task.filename}"): h2.searchable #{task.name}
+      h2: a.searchable(href="/tasks/#{task.name}") #{task.name}
       ul
-        -if (task.category !== 'common')
+        if task.category
           li
             | Категория:&nbsp;
             span.searchable #{task.category}

@@ -2,6 +2,7 @@ import json
 import glob
 import os.path
 import database
+import datetime
 
 
 def build_task_database(files, entry_class):
@@ -36,6 +37,10 @@ def update_files():
     write_json(small_db, '../database/tasks_base.json')
 
     big_db = build_task_database(files, database.EntryAnnualFullInfo)
+    big_db = {
+        'date': datetime.datetime.now().strftime('%Y-%m-%d %H:%M YEKT'),
+        'tasks': big_db
+    }
     write_json(big_db, '../database/tasks_full.json')
 
     cat_db = build_task_database(files, database.EntryAnnualShortInfo)

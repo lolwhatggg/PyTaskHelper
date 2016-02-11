@@ -1,6 +1,6 @@
 [
     {
-        "category": "common",
+        "category": null,
         "max": 14,
         "name": "Биллинг",
         "students": [
@@ -167,7 +167,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 11,
         "name": "Пары слов",
         "students": [
@@ -255,7 +255,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 18,
         "name": "Взлом шифра",
         "students": [
@@ -549,7 +549,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 14,
         "name": "Генератор отчетов",
         "students": [
@@ -629,7 +629,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 20,
         "name": "Небо",
         "students": [
@@ -701,7 +701,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 9,
         "name": "Лесенка",
         "students": [
@@ -781,7 +781,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 12,
         "name": "Многочлены",
         "students": [
@@ -861,7 +861,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 8,
         "name": "Палиндромы",
         "students": [
@@ -941,7 +941,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 15,
         "name": "Кроссворд",
         "students": [
@@ -1021,7 +1021,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 25,
         "name": "Отладчик",
         "students": [],
@@ -1244,7 +1244,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 10,
         "name": "Лабиринт",
         "students": [
@@ -1324,7 +1324,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 19,
         "name": "Дефрагментация",
         "students": [
@@ -1348,7 +1348,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 15,
         "name": "Сортировки",
         "students": [
@@ -1420,7 +1420,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 15,
         "name": "Жизнь",
         "students": [
@@ -1492,7 +1492,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 16,
         "name": "Раскраска карты",
         "students": [
@@ -1900,7 +1900,7 @@
         "year": "2010-2011"
     },
     {
-        "category": "common",
+        "category": null,
         "max": 15,
         "name": "Чат",
         "students": [

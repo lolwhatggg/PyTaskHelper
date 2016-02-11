@@ -7,9 +7,11 @@
         | Все задачи
         span.caret
       ul.dropdown-menu(role="menu")
-        include tasklist
-    li: a(href="/table.html") Таблица задач
-    li: a(href="/about.html") About
+        each task in tasks
+          li: a(href="/tasks/#{task.name}") #{task.name}
+    li: a(href="/tasks") Таблица задач
+    li: a(href="/about") About
     li: a(href="http://anytask.urgu.org") AnyTask
   p.copyright
     | &copy; Py.task 2016
+include hamburger
